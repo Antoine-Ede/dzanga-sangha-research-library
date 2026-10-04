@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bibliothèque scientifique publique des Aires Protégées de Dzanga-Sangha.">
+  <title>Dzanga-Sangha Research Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Aires Protégées de Dzanga-Sangha · Central African Republic</div>
+      <h1>Dzanga-Sangha Research Library</h1>
+      <p class="lead">Bibliothèque centralisée des publications, thèses, rapports et jeux de données issus des recherches menées à Dzanga-Sangha ou directement utiles à sa gestion.</p>
+      <div class="hero-links">
+        <a href="https://www.zotero.org/groups/6701789/dzanga-sangha_research_library/library" target="_blank" rel="noopener">Voir la bibliothèque Zotero</a>
+        <button id="exportCsv" type="button" disabled>Exporter les résultats en CSV</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="stats" aria-label="Statistiques">
+      <div class="stat"><strong id="statTotal">—</strong><span>références</span></div>
+      <div class="stat"><strong id="statCore">—</strong><span>DSPA-Core</span></div>
+      <div class="stat"><strong id="statOpen">—</strong><span>accès ouvert</span></div>
+      <div class="stat"><strong id="statYears">—</strong><span>années couvertes</span></div>
+    </section>
+
+    <section class="panel search-panel">
+      <label class="search-label" for="search">Rechercher</label>
+      <input id="search" type="search" placeholder="Titre, auteur, espèce, site, DOI…" autocomplete="off">
+      <div class="filters">
+        <label>Thème
+          <select id="collectionFilter"><option value="">Tous</option></select>
+        </label>
+        <label>Portée
+          <select id="scopeFilter"><option value="">Toutes</option></select>
+        </label>
+        <label>Site
+          <select id="siteFilter"><option value="">Tous</option></select>
+        </label>
+        <label>Taxon
+          <select id="taxonFilter"><option value="">Tous</option></select>
+        </label>
+        <label>Méthode
+          <select id="methodFilter"><option value="">Toutes</option></select>
+        </label>
+        <label>Accès
+          <select id="accessFilter"><option value="">Tous</option></select>
+        </label>
+        <label>Année
+          <select id="yearFilter"><option value="">Toutes</option></select>
+        </label>
+      </div>
+      <div class="filter-actions">
+        <button id="resetFilters" type="button">Réinitialiser</button>
+        <span id="resultCount" aria-live="polite"></span>
+      </div>
+    </section>
+
+    <div id="status" class="status" role="status">Chargement de la bibliothèque Zotero…</div>
+    <section id="results" class="results" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Source bibliographique : Zotero Group <strong>6701789</strong>. Les références classées <strong>DSPA-Core</strong> reposent sur des données, échantillons, observations ou travaux de terrain provenant des APDS.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

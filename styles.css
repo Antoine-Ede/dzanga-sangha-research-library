@@ -1,0 +1,66 @@
+:root {
+  --bg: #f4f1e9;
+  --surface: #fffdf8;
+  --ink: #183126;
+  --muted: #66726b;
+  --line: #d9ded8;
+  --accent: #296447;
+  --accent-2: #e6efe9;
+  --shadow: 0 10px 30px rgba(24,49,38,.08);
+}
+* { box-sizing: border-box; }
+button:disabled { opacity:.55; cursor:wait; }
+:focus-visible { outline:3px solid #b57b16; outline-offset:3px; }
+.card { overflow-wrap:anywhere; }
+.filters select { min-height:44px; font:inherit; }
+body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+a { color:var(--accent); }
+.wrap { width:min(1180px, calc(100% - 32px)); margin:0 auto; }
+.hero { padding:64px 0 48px; background:linear-gradient(135deg,#173c2b,#2d664a); color:white; }
+.eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:.78rem; opacity:.78; font-weight:700; }
+h1 { font-size:clamp(2.2rem,6vw,4.7rem); line-height:.97; max-width:900px; margin:.45rem 0 1rem; letter-spacing:-.04em; }
+.lead { max-width:790px; font-size:1.1rem; line-height:1.6; color:#e6efe9; }
+.hero-links { display:flex; gap:10px; flex-wrap:wrap; margin-top:24px; }
+.hero-links a,.hero-links button,.filter-actions button { border:1px solid rgba(255,255,255,.35); background:transparent; color:inherit; border-radius:999px; padding:10px 15px; font:inherit; text-decoration:none; cursor:pointer; }
+.hero-links button:hover,.hero-links a:hover { background:rgba(255,255,255,.12); }
+.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:-24px; position:relative; }
+.stat { background:var(--surface); border:1px solid var(--line); border-radius:18px; padding:20px; box-shadow:var(--shadow); }
+.stat strong { display:block; font-size:2rem; letter-spacing:-.03em; }
+.stat span { color:var(--muted); font-size:.9rem; }
+.panel { background:var(--surface); border:1px solid var(--line); border-radius:20px; padding:22px; box-shadow:var(--shadow); }
+.search-panel { margin:28px 0 18px; }
+.search-label { display:block; font-weight:800; margin-bottom:8px; }
+#search { width:100%; padding:15px 16px; border:1px solid var(--line); border-radius:12px; font:inherit; font-size:1.04rem; background:white; color:var(--ink); }
+.filters { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-top:14px; }
+.filters label { font-size:.82rem; font-weight:700; color:var(--muted); }
+.filters select { width:100%; margin-top:5px; padding:10px; border:1px solid var(--line); border-radius:10px; background:white; color:var(--ink); }
+.filter-actions { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top:16px; }
+.filter-actions button { color:var(--ink); border-color:var(--line); }
+#resultCount { color:var(--muted); font-size:.9rem; }
+.status { padding:26px 4px; color:var(--muted); }
+.results { display:grid; gap:14px; padding-bottom:46px; }
+.card { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:20px; box-shadow:0 5px 18px rgba(24,49,38,.04); }
+.card-top { display:flex; justify-content:space-between; gap:20px; align-items:start; }
+.card h2 { font-size:1.15rem; line-height:1.35; margin:0; letter-spacing:-.01em; }
+.year { flex:0 0 auto; font-weight:800; color:var(--accent); }
+.authors,.source { color:var(--muted); margin:.55rem 0 0; line-height:1.45; font-size:.94rem; }
+.badges { display:flex; flex-wrap:wrap; gap:6px; margin-top:13px; }
+.badge { padding:5px 8px; border-radius:999px; background:var(--accent-2); color:#28503d; font-size:.74rem; font-weight:700; }
+.badge.scope { background:#dceadd; }
+.badge.open { background:#e8f2df; }
+.links { display:flex; gap:14px; flex-wrap:wrap; margin-top:14px; font-size:.9rem; }
+.empty { text-align:center; padding:50px 20px; color:var(--muted); }
+footer { border-top:1px solid var(--line); padding:28px 0 50px; color:var(--muted); font-size:.88rem; }
+@media (max-width: 850px) {
+  .stats { grid-template-columns:repeat(2,1fr); }
+  .filters { grid-template-columns:repeat(2,1fr); }
+}
+@media (max-width: 520px) {
+  .wrap { width:min(100% - 20px,1180px); }
+  .hero { padding:45px 0 38px; }
+  .stats { gap:8px; }
+  .stat { padding:15px; border-radius:14px; }
+  .filters { grid-template-columns:1fr; }
+  .card-top { display:block; }
+  .year { margin-top:8px; }
+}
