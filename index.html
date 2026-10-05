@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Bibliothèque scientifique publique des Aires Protégées de Dzanga-Sangha.">
   <title>Dzanga-Sangha Research Library</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261005-filters">
 </head>
 <body>
   <header class="hero">
@@ -31,21 +31,22 @@
     <section class="panel search-panel">
       <label class="search-label" for="search">Rechercher</label>
       <input id="search" type="search" placeholder="Titre, auteur, espèce, site, DOI…" autocomplete="off">
+      <p class="filter-help" id="filterHelp">Ajoutez plusieurs choix dans un même filtre pour élargir la recherche. Les filtres différents se combinent. Les nombres indiquent les références compatibles avec les autres filtres.</p>
       <div class="filters">
-        <label>Thème
-          <select id="collectionFilter"><option value="">Tous</option></select>
+        <label>Thèmes · plusieurs choix
+          <select id="collectionFilter" aria-describedby="filterHelp"><option value="">Ajouter un thème…</option></select>
         </label>
         <label>Portée
           <select id="scopeFilter"><option value="">Toutes</option></select>
         </label>
-        <label>Site
-          <select id="siteFilter"><option value="">Tous</option></select>
+        <label>Sites · plusieurs choix
+          <select id="siteFilter" aria-describedby="filterHelp"><option value="">Ajouter un site…</option></select>
         </label>
-        <label>Taxon
-          <select id="taxonFilter"><option value="">Tous</option></select>
+        <label>Taxons · plusieurs choix
+          <select id="taxonFilter" aria-describedby="filterHelp"><option value="">Ajouter un taxon…</option></select>
         </label>
-        <label>Méthode
-          <select id="methodFilter"><option value="">Toutes</option></select>
+        <label>Méthodes · plusieurs choix
+          <select id="methodFilter" aria-describedby="filterHelp"><option value="">Ajouter une méthode…</option></select>
         </label>
         <label>Accès
           <select id="accessFilter"><option value="">Tous</option></select>
@@ -53,11 +54,29 @@
         <label>Année
           <select id="yearFilter"><option value="">Toutes</option></select>
         </label>
+        <label>Nom d’auteur
+          <select id="authorFilter"><option value="">Tous les auteurs</option></select>
+        </label>
+        <label>Type de document
+          <select id="typeFilter"><option value="">Tous les types</option></select>
+        </label>
       </div>
+      <div class="period-sort">
+        <fieldset class="period"><legend>Période de publication</legend>
+          <label>De <input id="yearFrom" type="number" min="1800" max="2100" step="1" inputmode="numeric" placeholder="Début"></label>
+          <label>À <input id="yearTo" type="number" min="1800" max="2100" step="1" inputmode="numeric" placeholder="Fin"></label>
+        </fieldset>
+        <label class="sort-label">Trier par
+          <select id="sortOrder"><option value="newest">Plus récentes</option><option value="oldest">Plus anciennes</option><option value="title">Titre A–Z</option><option value="author">Auteur A–Z</option></select>
+        </label>
+      </div>
+      <p id="filterWarning" class="filter-warning" role="status"></p>
+      <div id="activeFilters" class="active-filters" aria-label="Filtres actifs"></div>
       <div class="filter-actions">
-        <button id="resetFilters" type="button">Réinitialiser</button>
+        <div class="action-buttons"><button id="resetFilters" type="button">Tout effacer</button><button id="copySearch" type="button">Copier le lien</button><a id="searchLink" href="#">Lien de cette recherche</a></div>
         <span id="resultCount" aria-live="polite"></span>
       </div>
+      <span id="shareStatus" class="share-status" role="status"></span>
     </section>
 
     <div id="status" class="status" role="status">Chargement de la bibliothèque Zotero…</div>
@@ -70,6 +89,6 @@
     </div>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=20261005-filters"></script>
 </body>
 </html>
