@@ -178,7 +178,7 @@ function restoreSearch() {
   $('sortOrder').value=['newest','oldest','title','author'].includes(params.get('sort'))?params.get('sort'):'newest';
   $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'table';
   $('groupYears').checked=params.get('group')==='year';
-  setSection(['analysis','network'].includes(params.get('section'))?params.get('section'):'library');
+  setSection(params.get('section')==='analysis'?'analysis':'library');
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -223,12 +223,11 @@ function applyFilters() {
   $('exportCsv').textContent=state.section==='library'?'Exporter les résultats en CSV':'Exporter la bibliothèque en CSV';
   render();
   if(typeof renderAnalytics==='function')renderAnalytics(state.items);
-  if(state.section==='network'&&typeof loadPublicationNetwork==='function')loadPublicationNetwork();
 }
 
 function setSection(section) {
   state.section=section;
-  for(const name of ['library','analysis','network']){
+  for(const name of ['library','analysis']){
     $(name+'Panel').hidden=name!==section;
     $(name+'Tab').setAttribute('aria-pressed',String(name===section));
   }
@@ -313,7 +312,7 @@ async function init() {
     state.items=raw.filter(i=>!["note","attachment","annotation"].includes(i.data.itemType));
 
     updateStats(); populateFilters();restoreSearch();state.ready=true;
-    for(const section of ['library','analysis','network'])$(section+'Tab').disabled=false;
+    for(const section of ['library','analysis'])$(section+'Tab').disabled=false;
     applyFilters();
     $("status").style.display="none";
   } catch (e) {
@@ -338,12 +337,11 @@ window.addEventListener('popstate',()=>{if(state.ready){restoreSearch();applyFil
 $("exportCsv").addEventListener("click",exportCsv);
 $('libraryTab').addEventListener('click',()=>{setSection('library');applyFilters();});
 $('analysisTab').addEventListener('click',()=>{setSection('analysis');applyFilters();});
-$('networkTab').addEventListener('click',()=>{setSection('network');applyFilters();});
 $('browseDatasets').addEventListener('click',()=>{
   $('resetFilters').click();$('typeFilter').value='dataset';setSection('library');applyFilters();
   $('results').scrollIntoView({behavior:'smooth',block:'start'});
 });
-for(const section of ['library','analysis','network'])$(section+'Tab').disabled=true;
+for(const section of ['library','analysis'])$(section+'Tab').disabled=true;
 const initialSection=new URL(location.href).searchParams.get('section');
-setSection(['analysis','network'].includes(initialSection)?initialSection:'library');
+setSection(initialSection==='analysis'?'analysis':'library');
 init();

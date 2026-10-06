@@ -129,29 +129,6 @@ h1 { font-size:clamp(2rem,5vw,3.6rem); line-height:1.1; max-width:900px; margin:
 .reference-table tbody th { width:36%; font-weight:600; }
 .reference-table tbody tr:last-child>* { border-bottom:0; }
 .table-zotero { display:block; width:fit-content; font-size:.8rem; font-weight:400; margin-top:6px; }
-.network-controls { display:flex; flex-wrap:wrap; gap:16px; align-items:end; margin:24px 0; }
-.network-controls label { display:grid; gap:8px; font-size:.85rem; max-width:100%; }
-.network-controls label:nth-child(2) { flex:1 1 330px; min-width:0; }
-.network-controls select { min-height:44px; width:100%; max-width:100%; font:inherit; color:var(--ink); background:var(--surface); padding:10px; border:1px solid var(--line); border-radius:8px; }
-.network-layout { display:grid; grid-template-columns:minmax(0,2fr) minmax(260px,1fr); gap:24px; align-items:start; margin-top:20px; }
-.network-graph { background:var(--surface); border:1px solid var(--line); border-radius:12px; overflow-x:auto; }
-.network-graph svg { display:block; width:100%; min-width:480px; }
-.network-edges line { stroke:#7e9988; stroke-width:1; opacity:.5; }
-.network-graph marker path { fill:#536b5c; }
-.network-nodes circle { fill:#2d593d; stroke:var(--surface); stroke-width:2; }
-.network-nodes .selected-node { fill:#b27916; }
-.network-nodes g { cursor:pointer; }
-.network-nodes g:hover circle,.network-nodes g:focus circle { stroke:#b27916; stroke-width:4; }
-.network-details { max-height:620px; overflow-y:auto; padding-right:8px; }
-.network-details h3 { font-size:1.1rem; line-height:1.5; margin-top:0; }
-.network-details p,.network-legend { color:var(--muted); font-size:.85rem; line-height:1.6; }
-.network-details ul { list-style:none; padding:0; }
-.network-details li { padding:12px 0; border-bottom:1px solid var(--line); }
-.network-details li button { border:0; background:none; padding:0; text-align:left; min-height:44px; border-radius:0; line-height:1.5; font-size:.85rem; color:var(--accent); text-decoration:underline; text-underline-offset:3px; }
-.network-details small { display:block; margin-top:4px; color:var(--muted); }
-.network-coverage { margin:24px 0 40px; padding:16px 0; border-top:1px solid var(--line); font-size:.85rem; line-height:1.7; }
-.network-coverage summary { cursor:pointer; min-height:44px; font-weight:600; }
-@media (max-width:850px) { .network-layout { grid-template-columns:minmax(0,1fr); } .network-details { max-height:none; overflow:visible; } }
 .card { background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:20px; }
 .card-top { display:flex; justify-content:space-between; gap:20px; align-items:start; }
 .card h2 { font-size:1.15rem; line-height:1.35; margin:0; letter-spacing:-.01em; }
