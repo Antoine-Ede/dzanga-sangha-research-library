@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Bibliothèque scientifique publique des Aires Protégées de Dzanga-Sangha.">
   <title>Dzanga-Sangha Research Library</title>
-  <link rel="stylesheet" href="styles.css?v=20261006-views">
+  <link rel="stylesheet" href="styles.css?v=20261006-analysis">
 </head>
 <body>
+  <div class="brand-header"><div class="wrap"><a class="brand-name" href="https://dzanga-sangha.org/" target="_blank" rel="noopener">Dzanga-Sangha <span>Aires protégées</span></a><span class="brand-context">Recherche & connaissances</span></div></div>
   <header class="hero">
     <div class="wrap">
-      <div class="eyebrow">Aires Protégées de Dzanga-Sangha · Central African Republic</div>
       <h1>Dzanga-Sangha Research Library</h1>
       <p class="lead">Bibliothèque centralisée des publications, thèses, rapports et jeux de données issus des recherches menées à Dzanga-Sangha ou directement utiles à sa gestion.</p>
       <div class="hero-links">
@@ -28,6 +28,10 @@
       <div class="stat"><strong id="statYears">—</strong><span>années couvertes</span></div>
     </section>
 
+    <nav class="section-nav" aria-label="Sections de la bibliothèque">
+      <button id="libraryTab" type="button" aria-controls="libraryPanel" aria-pressed="true">Bibliothèque</button>
+      <button id="analysisTab" type="button" aria-controls="analysisPanel" aria-pressed="false">Analyse de la recherche</button>
+    </nav>
     <section class="panel search-panel">
       <label class="search-label" for="search">Rechercher</label>
       <input id="search" type="search" placeholder="Titre, auteur, espèce, site, DOI…" autocomplete="off">
@@ -80,6 +84,7 @@
     </section>
 
     <div id="status" class="status" role="status">Chargement de la bibliothèque Zotero…</div>
+    <div id="libraryPanel">
     <div class="display-controls" aria-label="Présentation des résultats">
       <label>Présentation
         <select id="resultView"><option value="cards">Cartes</option><option value="list">Liste compacte</option><option value="table">Tableau comparatif</option></select>
@@ -87,6 +92,21 @@
       <label class="group-control"><input id="groupYears" type="checkbox"> Regrouper par année</label>
     </div>
     <section id="results" class="results" aria-live="polite"></section>
+    </div>
+    <section id="analysisPanel" hidden aria-labelledby="analysisHeading">
+      <div class="analysis-intro"><div><h2 id="analysisHeading">La recherche en perspective</h2><p id="analysisCount" role="status"></p></div><button id="browseDatasets" type="button">Voir les jeux de données référencés</button></div>
+      <p class="analysis-note">Ces indicateurs décrivent les références recensées dans Zotero, pas l'ensemble des recherches réalisées à Dzanga-Sangha. Les filtres ci-dessus s'appliquent à tous les graphiques.</p>
+      <div id="analysisSummary" class="analysis-summary"></div>
+      <div class="analysis-grid">
+        <section class="analysis-card analysis-wide"><h3>Documents au fil du temps</h3><p>Année bibliographique des notices, jeux de données exclus. Cliquez sur une année pour la filtrer.</p><div id="publicationTimeline"></div></section>
+        <section class="analysis-card"><h3>Répartition par thème</h3><p>Part des documents rattachés à chaque thème. Une notice peut relever de plusieurs thèmes : les proportions ne s'additionnent pas nécessairement à 100 %.</p><div id="themeAnalysis"></div></section>
+        <section class="analysis-card"><h3>Auteurs les plus représentés</h3><p>Les dix noms d'auteur les plus fréquents dans les notices filtrées, toutes positions de signature confondues. Ce décompte ne mesure pas l'impact scientifique.</p><div id="authorAnalysis"></div></section>
+        <section class="analysis-card"><h3>Types de documents</h3><div id="typeAnalysis"></div></section>
+        <section class="analysis-card"><h3>Portée et accès</h3><div id="scopeAnalysis"></div><div id="accessAnalysis"></div></section>
+        <section class="analysis-card"><h3>Sites documentés</h3><p>Sites renseignés dans les tags Zotero ; plusieurs sites peuvent figurer sur une notice.</p><div id="siteAnalysis"></div></section>
+        <section class="analysis-card"><h3>Couverture des métadonnées</h3><p>Champs renseignés dans le corpus filtré. Un champ présent ne garantit pas à lui seul sa qualité.</p><div id="metadataAnalysis"></div></section>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -95,6 +115,7 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20261006-views"></script>
+  <script src="analytics.js?v=20261006-analysis"></script>
+  <script src="app.js?v=20261006-analysis"></script>
 </body>
 </html>

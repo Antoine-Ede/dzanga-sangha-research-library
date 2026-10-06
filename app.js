@@ -155,6 +155,7 @@ function searchUrl() {
   if($('sortOrder').value!=='newest')url.searchParams.set('sort',$('sortOrder').value);
   if($('resultView').value!=='cards')url.searchParams.set('view',$('resultView').value);
   if($('groupYears').checked)url.searchParams.set('group','year');
+  if($('analysisTab').getAttribute('aria-pressed')==='true')url.searchParams.set('section','analysis');
   return url.href;
 }
 function restoreSearch() {
@@ -169,6 +170,7 @@ function restoreSearch() {
   $('sortOrder').value=['newest','oldest','title','author'].includes(params.get('sort'))?params.get('sort'):'newest';
   $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'cards';
   $('groupYears').checked=params.get('group')==='year';
+  setSection(params.get('section')==='analysis'?'analysis':'library');
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -211,6 +213,14 @@ function applyFilters() {
   $('shareStatus').textContent='';
   $('exportCsv').disabled=!state.filtered.length;
   render();
+  if(typeof renderAnalytics==='function')renderAnalytics(state.filtered);
+}
+
+function setSection(section) {
+  const analysis=section==='analysis';
+  $('analysisPanel').hidden=!analysis;$('libraryPanel').hidden=analysis;
+  $('analysisTab').setAttribute('aria-pressed',String(analysis));
+  $('libraryTab').setAttribute('aria-pressed',String(!analysis));
 }
 
 function render() {
@@ -313,4 +323,10 @@ $('copySearch').addEventListener('click',async()=>{
 });
 window.addEventListener('popstate',()=>{if(state.ready){restoreSearch();applyFilters();}});
 $("exportCsv").addEventListener("click",exportCsv);
+$('libraryTab').addEventListener('click',()=>{setSection('library');applyFilters();});
+$('analysisTab').addEventListener('click',()=>{setSection('analysis');applyFilters();});
+$('browseDatasets').addEventListener('click',()=>{
+  $('resetFilters').click();$('typeFilter').value='dataset';setSection('library');applyFilters();
+  $('results').scrollIntoView({behavior:'smooth',block:'start'});
+});
 init();
