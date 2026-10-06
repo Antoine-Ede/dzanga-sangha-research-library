@@ -80,6 +80,12 @@
     </section>
 
     <div id="status" class="status" role="status">Chargement de la bibliothèque Zotero…</div>
+    <div class="display-controls" aria-label="Présentation des résultats">
+      <label>Présentation
+        <select id="resultView"><option value="cards">Cartes</option><option value="list">Liste compacte</option><option value="table">Tableau comparatif</option></select>
+      </label>
+      <label class="group-control"><input id="groupYears" type="checkbox"> Regrouper par année</label>
+    </div>
     <section id="results" class="results" aria-live="polite"></section>
   </main>
 
@@ -89,6 +95,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20261005-filters"></script>
+  <script src="app.js?v=20261006-views"></script>
 </body>
 </html>

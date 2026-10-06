@@ -153,6 +153,8 @@ function searchUrl() {
   if($('yearFrom').value)url.searchParams.set('from',$('yearFrom').value);
   if($('yearTo').value)url.searchParams.set('to',$('yearTo').value);
   if($('sortOrder').value!=='newest')url.searchParams.set('sort',$('sortOrder').value);
+  if($('resultView').value!=='cards')url.searchParams.set('view',$('resultView').value);
+  if($('groupYears').checked)url.searchParams.set('group','year');
   return url.href;
 }
 function restoreSearch() {
@@ -165,6 +167,8 @@ function restoreSearch() {
   }
   for(const [id,param] of [['yearFrom','from'],['yearTo','to']])$(''+id).value=/^\d{4}$/.test(params.get(param)||'')?params.get(param):'';
   $('sortOrder').value=['newest','oldest','title','author'].includes(params.get('sort'))?params.get('sort'):'newest';
+  $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'cards';
+  $('groupYears').checked=params.get('group')==='year';
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -212,15 +216,17 @@ function applyFilters() {
 function render() {
   $("resultCount").textContent = `${state.filtered.length} résultat${state.filtered.length!==1?"s":""} sur ${state.items.length}`;
   const el=$("results");
+  const view=$('resultView').value;
+  el.className=`results view-${view}`;
   if (!state.filtered.length) {
     el.innerHTML='<div class="empty panel"><h2>Aucune référence ne correspond à ces critères.</h2><p>Retirez un filtre actif ci-dessus ou élargissez la période.</p></div>';
     return;
   }
-  el.innerHTML = state.filtered.map(item => {
+  function card(item) {
     const tags=tagsOf(item);
     const doi=doiOf(item);
     const url=safeUrl(item.data.url);
-    const displayTags = tags.filter(t => !t.startsWith("STATUS:") && !t.startsWith("SYSTEM:"));
+    const displayTags = tags.filter(t => view==='list'?t.startsWith('SCOPE:')||t.startsWith('ACCESS:'):!t.startsWith("STATUS:") && !t.startsWith("SYSTEM:"));
     const badges = displayTags.map(t => {
       const cls=t.startsWith("SCOPE:")?"scope":t==="ACCESS:Open"?"open":"";
       return `<span class="badge ${cls}">${esc(t)}</span>`;
@@ -240,7 +246,20 @@ function render() {
         ${url && !url.includes("doi.org") ? `<a href="${esc(url)}" target="_blank" rel="noopener">Lien</a>` : ""}
       </div>
     </article>`;
-  }).join("");
+  }
+  function table(items) {
+    const rows=items.map(item=>{
+      const tags=tagsOf(item),doi=doiOf(item);
+      return `<tr><th scope="row"><a href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">${esc(item.data.title)}</a>${doi?`<a class="table-doi" href="https://doi.org/${encodeURIComponent(doi)}" target="_blank" rel="noopener">DOI</a>`:''}</th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item))}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
+    }).join('');
+    return `<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau des références, défilement horizontal"><table class="reference-table"><caption>Comparaison des références</caption><thead><tr><th scope="col">Titre · lien Zotero</th><th scope="col">Année</th><th scope="col">Auteurs</th><th scope="col">Type</th><th scope="col">Portée</th><th scope="col">Accès</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }
+  const content=items=>view==='table'?table(items):items.map(card).join('');
+  if(!$('groupYears').checked){el.innerHTML=content(state.filtered);return;}
+  const groups=new Map();
+  for(const item of state.filtered){const year=yearOf(item)||'Non renseignée';if(!groups.has(year))groups.set(year,[]);groups.get(year).push(item);}
+  const years=[...groups.keys()].sort((a,b)=>a==='Non renseignée'?1:b==='Non renseignée'?-1:$('sortOrder').value==='oldest'?Number(a)-Number(b):Number(b)-Number(a));
+  el.innerHTML=years.map(year=>`<section class="year-group" aria-label="${esc('Année '+year)}"><h2 class="year-heading">${esc(year)} <span>${groups.get(year).length} référence${groups.get(year).length>1?'s':''}</span></h2><div class="year-results">${content(groups.get(year))}</div></section>`).join('');
 }
 
 function csvCell(v) {
@@ -279,7 +298,7 @@ async function init() {
     $("status").innerHTML=`Impossible de charger la bibliothèque publique Zotero. L'administrateur doit autoriser la lecture publique du groupe dans Zotero. <small>${esc(e.message)}</small>`;
   }
 }
-["search",...Object.keys(FILTERS),"yearFrom","yearTo","sortOrder"]
+["search",...Object.keys(FILTERS),"yearFrom","yearTo","sortOrder","resultView","groupYears"]
   .forEach(id=>$(id).addEventListener(["search","yearFrom","yearTo"].includes(id)?"input":"change",applyFilters));
 $("resetFilters").addEventListener("click",()=>{
   $("search").value="";
