@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Bibliothèque scientifique publique des Aires Protégées de Dzanga-Sangha.">
   <title>Dzanga-Sangha Research Library</title>
-  <link rel="stylesheet" href="styles.css?v=20261006-table-logo">
+  <link rel="stylesheet" href="styles.css?v=20261006-network">
 </head>
 <body>
   <div class="brand-header"><div class="wrap"><a class="brand-name" href="https://dzanga-sangha.org/" target="_blank" rel="noopener"><img class="brand-logo" src="assets/ds-logo-transp-schwarz.png" alt="" width="147" height="157"><span class="brand-wordmark">Dzanga-Sangha <span>Aires protégées</span></span></a><span class="brand-context">Recherche & connaissances</span></div></div>
@@ -31,8 +31,9 @@
     <nav class="section-nav" aria-label="Sections de la bibliothèque">
       <button id="libraryTab" type="button" aria-controls="libraryPanel" aria-pressed="true">Bibliothèque</button>
       <button id="analysisTab" type="button" aria-controls="analysisPanel" aria-pressed="false">Analyse de la recherche</button>
+      <button id="networkTab" type="button" aria-controls="networkPanel" aria-pressed="false">Réseau des publications</button>
     </nav>
-    <section class="panel search-panel">
+    <section id="searchPanel" class="panel search-panel">
       <label class="search-label" for="search">Rechercher</label>
       <input id="search" type="search" placeholder="Titre, auteur, espèce, site, DOI…" autocomplete="off">
       <p class="filter-help" id="filterHelp">Ajoutez plusieurs choix dans un même filtre pour élargir la recherche. Les filtres différents se combinent. Les nombres indiquent les références compatibles avec les autres filtres.</p>
@@ -95,7 +96,7 @@
     </div>
     <section id="analysisPanel" hidden aria-labelledby="analysisHeading">
       <div class="analysis-intro"><div><h2 id="analysisHeading">La recherche en perspective</h2><p id="analysisCount" role="status"></p></div><button id="browseDatasets" type="button">Voir les jeux de données référencés</button></div>
-      <p class="analysis-note">Ces indicateurs décrivent les références recensées dans Zotero, pas l'ensemble des recherches réalisées à Dzanga-Sangha. Les filtres ci-dessus s'appliquent à tous les graphiques.</p>
+      <p class="analysis-note">Ces indicateurs décrivent toute la bibliothèque Zotero, pas l'ensemble des recherches réalisées à Dzanga-Sangha. Cliquez sur une année pour retrouver ses documents dans la bibliothèque.</p>
       <div id="analysisSummary" class="analysis-summary"></div>
       <div class="analysis-grid">
         <section class="analysis-card analysis-wide"><h3>Documents au fil du temps</h3><p>Année bibliographique des notices, jeux de données exclus. Cliquez sur une année pour la filtrer.</p><div id="publicationTimeline"></div></section>
@@ -107,6 +108,20 @@
         <section class="analysis-card"><h3>Couverture des métadonnées</h3><p>Champs renseignés dans le corpus filtré. Un champ présent ne garantit pas à lui seul sa qualité.</p><div id="metadataAnalysis"></div></section>
       </div>
     </section>
+    <section id="networkPanel" hidden aria-labelledby="networkHeading">
+      <div class="analysis-intro"><div><h2 id="networkHeading">Réseau des publications</h2><p>Explorer les liens bibliographiques entre les documents de Dzanga-Sangha.</p></div></div>
+      <p id="networkStatus" role="status">Les données de citation seront chargées à l'ouverture de cet onglet.</p>
+      <div id="networkControls" class="network-controls" hidden>
+        <label>Nature des liens<select id="networkMode"><option value="direct">Citations directes</option><option value="coupled">Références communes</option></select></label>
+        <label>Document à explorer<select id="networkFocus"><option value="">Vue d'ensemble</option></select></label>
+        <label id="networkThresholdLabel" hidden>Minimum de références communes<select id="networkThreshold"><option value="2">2</option><option value="5">5</option><option value="10">10</option></select></label>
+        <button id="networkReset" type="button">Revenir à l'ensemble du réseau</button>
+      </div>
+      <p id="networkExplanation" class="analysis-note"></p>
+      <p id="networkCount" role="status"></p>
+      <div class="network-layout"><div><div id="networkGraph" class="network-graph"></div><p class="network-legend">Chaque point représente un document ; le point doré est le document sélectionné. La disposition et la taille des points ne mesurent pas l'impact scientifique.</p></div><aside id="networkDetails" class="network-details" aria-label="Document sélectionné"></aside></div>
+      <details class="network-coverage"><summary>Documents hors du réseau et limites de couverture</summary><div id="networkMissing"></div><p>Une absence de lien ne prouve pas une absence de citation. Les thèses, rapports et bibliographies anciennes sont parfois mal indexés. Les jeux de données restent dans la bibliothèque et sont exclus de ce réseau de documents. Les citations proviennent d'OpenAlex ; les titres et classifications restent ceux de Zotero.</p></details>
+    </section>
   </main>
 
   <footer>
@@ -115,8 +130,9 @@
     </div>
   </footer>
 
-  <script src="analytics.js?v=20261006-analysis"></script>
-  <script src="app.js?v=20261006-table-logo"></script>
+  <script src="analytics.js?v=20261006-network"></script>
+  <script src="network.js?v=20261006-network"></script>
+  <script src="app.js?v=20261006-network"></script>
 </body>
 </html>
 

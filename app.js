@@ -1,6 +1,6 @@
 const GROUP_ID = "6701789";
 const API = `https://api.zotero.org/groups/${GROUP_ID}`;
-const state = { items: [], collections: new Map(), filtered: [], selected: {}, optionValues: {}, authorLabels: new Map(), ready: false };
+const state = { items: [], collections: new Map(), filtered: [], selected: {}, optionValues: {}, authorLabels: new Map(), ready: false, section:'library' };
 const FILTERS = {
   collectionFilter: {param:'theme',label:'Thème',multi:true},
   scopeFilter: {param:'scope',label:'Portée'},
@@ -163,7 +163,7 @@ function searchUrl() {
   if($('sortOrder').value!=='newest')url.searchParams.set('sort',$('sortOrder').value);
   if($('resultView').value!=='table')url.searchParams.set('view',$('resultView').value);
   if($('groupYears').checked)url.searchParams.set('group','year');
-  if($('analysisTab').getAttribute('aria-pressed')==='true')url.searchParams.set('section','analysis');
+  if(state.section!=='library')url.searchParams.set('section',state.section);
   return url.href;
 }
 function restoreSearch() {
@@ -178,7 +178,7 @@ function restoreSearch() {
   $('sortOrder').value=['newest','oldest','title','author'].includes(params.get('sort'))?params.get('sort'):'newest';
   $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'table';
   $('groupYears').checked=params.get('group')==='year';
-  setSection(params.get('section')==='analysis'?'analysis':'library');
+  setSection(['analysis','network'].includes(params.get('section'))?params.get('section'):'library');
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -219,16 +219,20 @@ function applyFilters() {
   updateFacets(criteria);renderActiveFilters();
   const url=searchUrl();$('searchLink').href=url;history.replaceState(null,'',url);
   $('shareStatus').textContent='';
-  $('exportCsv').disabled=!state.filtered.length;
+  $('exportCsv').disabled=!(state.section==='library'?state.filtered:state.items).length;
+  $('exportCsv').textContent=state.section==='library'?'Exporter les résultats en CSV':'Exporter la bibliothèque en CSV';
   render();
-  if(typeof renderAnalytics==='function')renderAnalytics(state.filtered);
+  if(typeof renderAnalytics==='function')renderAnalytics(state.items);
+  if(state.section==='network'&&typeof loadPublicationNetwork==='function')loadPublicationNetwork();
 }
 
 function setSection(section) {
-  const analysis=section==='analysis';
-  $('analysisPanel').hidden=!analysis;$('libraryPanel').hidden=analysis;
-  $('analysisTab').setAttribute('aria-pressed',String(analysis));
-  $('libraryTab').setAttribute('aria-pressed',String(!analysis));
+  state.section=section;
+  for(const name of ['library','analysis','network']){
+    $(name+'Panel').hidden=name!==section;
+    $(name+'Tab').setAttribute('aria-pressed',String(name===section));
+  }
+  $('searchPanel').hidden=section!=='library';
 }
 
 function render() {
@@ -287,7 +291,7 @@ function csvCell(v) {
 }
 function exportCsv() {
   const rows=[["Title","Authors","Year","Document type","Source","DOI","Collections","Tags","Zotero URL"]];
-  for (const i of state.filtered) rows.push([
+  for (const i of state.section==='library'?state.filtered:state.items) rows.push([
     i.data.title,authorNames(i).join('; '),yearOf(i),TYPE_LABELS[i.data.itemType]||i.data.itemType,sourceOf(i),doiOf(i),
     collectionNames(i).join("; "),tagsOf(i).join("; "),canonicalUrl(i)
   ]);
@@ -309,6 +313,7 @@ async function init() {
     state.items=raw.filter(i=>!["note","attachment","annotation"].includes(i.data.itemType));
 
     updateStats(); populateFilters();restoreSearch();state.ready=true;
+    for(const section of ['library','analysis','network'])$(section+'Tab').disabled=false;
     applyFilters();
     $("status").style.display="none";
   } catch (e) {
@@ -333,8 +338,12 @@ window.addEventListener('popstate',()=>{if(state.ready){restoreSearch();applyFil
 $("exportCsv").addEventListener("click",exportCsv);
 $('libraryTab').addEventListener('click',()=>{setSection('library');applyFilters();});
 $('analysisTab').addEventListener('click',()=>{setSection('analysis');applyFilters();});
+$('networkTab').addEventListener('click',()=>{setSection('network');applyFilters();});
 $('browseDatasets').addEventListener('click',()=>{
   $('resetFilters').click();$('typeFilter').value='dataset';setSection('library');applyFilters();
   $('results').scrollIntoView({behavior:'smooth',block:'start'});
 });
+for(const section of ['library','analysis','network'])$(section+'Tab').disabled=true;
+const initialSection=new URL(location.href).searchParams.get('section');
+setSection(['analysis','network'].includes(initialSection)?initialSection:'library');
 init();

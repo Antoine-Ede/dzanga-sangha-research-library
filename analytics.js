@@ -40,6 +40,7 @@ function renderAnalytics(items) {
 }
 document.getElementById('publicationTimeline').addEventListener('click',event=>{
   const button=event.target.closest('button[data-analysis-year]');if(!button)return;
+  setSection('library');document.getElementById('resetFilters').click();
   document.getElementById('yearFilter').value='';
   document.getElementById('yearFrom').value=button.dataset.analysisYear;
   document.getElementById('yearTo').value=button.dataset.analysisYear;applyFilters();
