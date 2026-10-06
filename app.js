@@ -75,6 +75,14 @@ function tagValues(tags,prefix) {
 function canonicalUrl(item) {
   return safeUrl(item.links?.alternate?.href) || `https://www.zotero.org/groups/${GROUP_ID}/items/${encodeURIComponent(item.key)}`;
 }
+function articleUrl(item) {
+  const doi=doiOf(item);
+  return doi ? `https://doi.org/${encodeURIComponent(doi)}` : safeUrl(item.data.url);
+}
+function titleLink(item) {
+  const title=esc(item.data.title || '(Sans titre)'),url=articleUrl(item);
+  return url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>` : title;
+}
 
 function valuesOf(item, id) {
   let values;
@@ -153,7 +161,7 @@ function searchUrl() {
   if($('yearFrom').value)url.searchParams.set('from',$('yearFrom').value);
   if($('yearTo').value)url.searchParams.set('to',$('yearTo').value);
   if($('sortOrder').value!=='newest')url.searchParams.set('sort',$('sortOrder').value);
-  if($('resultView').value!=='cards')url.searchParams.set('view',$('resultView').value);
+  if($('resultView').value!=='table')url.searchParams.set('view',$('resultView').value);
   if($('groupYears').checked)url.searchParams.set('group','year');
   if($('analysisTab').getAttribute('aria-pressed')==='true')url.searchParams.set('section','analysis');
   return url.href;
@@ -168,7 +176,7 @@ function restoreSearch() {
   }
   for(const [id,param] of [['yearFrom','from'],['yearTo','to']])$(''+id).value=/^\d{4}$/.test(params.get(param)||'')?params.get(param):'';
   $('sortOrder').value=['newest','oldest','title','author'].includes(params.get('sort'))?params.get('sort'):'newest';
-  $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'cards';
+  $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'table';
   $('groupYears').checked=params.get('group')==='year';
   setSection(params.get('section')==='analysis'?'analysis':'library');
 }
@@ -243,7 +251,7 @@ function render() {
     }).join("");
     return `<article class="card">
       <div class="card-top">
-        <h2>${esc(item.data.title || "(Sans titre)")}</h2>
+        <h2>${titleLink(item)}</h2>
         <div class="year">${esc(yearOf(item))}</div>
       </div>
       <p class="authors">${esc(authorsOf(item))}</p>
@@ -260,9 +268,9 @@ function render() {
   function table(items) {
     const rows=items.map(item=>{
       const tags=tagsOf(item),doi=doiOf(item);
-      return `<tr><th scope="row"><a href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">${esc(item.data.title)}</a>${doi?`<a class="table-doi" href="https://doi.org/${encodeURIComponent(doi)}" target="_blank" rel="noopener">DOI</a>`:''}</th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item))}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
+      return `<tr><th scope="row">${titleLink(item)}<a class="table-zotero" href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a></th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item))}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
     }).join('');
-    return `<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau des références, défilement horizontal"><table class="reference-table"><caption>Comparaison des références</caption><thead><tr><th scope="col">Titre · lien Zotero</th><th scope="col">Année</th><th scope="col">Auteurs</th><th scope="col">Type</th><th scope="col">Portée</th><th scope="col">Accès</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    return `<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau des références, défilement horizontal"><table class="reference-table"><caption>Comparaison des références · le titre ouvre la publication lorsqu'un DOI ou un lien est disponible.</caption><thead><tr><th scope="col">Titre · publication</th><th scope="col">Année</th><th scope="col">Auteurs</th><th scope="col">Type</th><th scope="col">Portée</th><th scope="col">Accès</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }
   const content=items=>view==='table'?table(items):items.map(card).join('');
   if(!$('groupYears').checked){el.innerHTML=content(state.filtered);return;}
