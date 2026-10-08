@@ -1,0 +1,140 @@
+[
+  {
+    "archive_id": "APDS-067",
+    "title": "Plan de développement villageois de Yandoumbé",
+    "filename": "apds-067-yandoumbe-2001-public.pdf",
+    "pages": 10,
+    "source_pages": 9,
+    "redacted_source_pages": [
+      5,
+      7,
+      9
+    ],
+    "replaced_source_pages": [
+      5,
+      9
+    ],
+    "sha256": "29dc92f32f8d4d804ad5c582ca020a2bb0a1e09e245f270e816f71a9c9318264",
+    "bytes": 3178765,
+    "original_retained_at": "Bibliothèque des APDS",
+    "original_consultation": "Encadrée : éléments sensibles",
+    "public_version": "Expurgée ; sans OCR source, signatures, pièces jointes ni annotations"
+  },
+  {
+    "archive_id": "APDS-068",
+    "title": "Plan de développement villageois de Babongo, y compris les campements Yondo et Yobé",
+    "filename": "apds-068-babongo-2001-public.pdf",
+    "pages": 15,
+    "source_pages": 14,
+    "redacted_source_pages": [
+      6,
+      7,
+      8,
+      11,
+      12,
+      13,
+      14
+    ],
+    "replaced_source_pages": [
+      6,
+      7,
+      8,
+      14
+    ],
+    "sha256": "f6b72973c75f5208bb11fb54af57ba1282d3a9592cd64293d97808cb63c3b580",
+    "bytes": 3947693,
+    "original_retained_at": "Bibliothèque des APDS",
+    "original_consultation": "Encadrée : éléments sensibles",
+    "public_version": "Expurgée ; sans OCR source, signatures, pièces jointes ni annotations"
+  },
+  {
+    "archive_id": "APDS-069",
+    "title": "Plan de développement villageois de Bayanga",
+    "filename": "apds-069-bayanga-2002-public.pdf",
+    "pages": 27,
+    "source_pages": 26,
+    "redacted_source_pages": [
+      8,
+      17,
+      21,
+      22,
+      26
+    ],
+    "replaced_source_pages": [
+      21,
+      22,
+      26
+    ],
+    "sha256": "f2822980398e42d628cf736e79a6fdaea84cd0b00520e0d0d30f596086cff448",
+    "bytes": 8049498,
+    "original_retained_at": "Bibliothèque des APDS",
+    "original_consultation": "Encadrée : éléments sensibles",
+    "public_version": "Expurgée ; sans OCR source, signatures, pièces jointes ni annotations"
+  },
+  {
+    "archive_id": "APDS-070",
+    "title": "Plan de développement villageois de Bomandjokou",
+    "filename": "apds-070-bomandjokou-2001-public.pdf",
+    "pages": 10,
+    "source_pages": 9,
+    "redacted_source_pages": [
+      5,
+      8,
+      9
+    ],
+    "replaced_source_pages": [
+      5
+    ],
+    "sha256": "a3952dac0a40a08cffdeb1cd8a2a5eb6d9ebd1f13fc9dd100e0c1f4e22bb83a9",
+    "bytes": 3655425,
+    "original_retained_at": "Bibliothèque des APDS",
+    "original_consultation": "Encadrée : éléments sensibles",
+    "public_version": "Expurgée ; sans OCR source, signatures, pièces jointes ni annotations"
+  },
+  {
+    "archive_id": "APDS-112",
+    "title": "Plan de développement villageois de Lidjombo",
+    "filename": "apds-112-lidjombo-2000-public.pdf",
+    "pages": 12,
+    "source_pages": 11,
+    "redacted_source_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "replaced_source_pages": [
+      5,
+      6,
+      11
+    ],
+    "sha256": "f21944ba4054999cc34c9ad51ca3a45d34e3c4f0170da86bce6ef6f4bbde35cc",
+    "bytes": 3410082,
+    "original_retained_at": "Bibliothèque des APDS",
+    "original_consultation": "Encadrée : éléments sensibles",
+    "public_version": "Expurgée ; sans OCR source, signatures, pièces jointes ni annotations"
+  },
+  {
+    "archive_id": "APDS-113",
+    "title": "Plan de développement villageois de Babongo, y compris les campements Yondo et Yobé : deuxième version",
+    "filename": "apds-113-babongo-yondo-yobe-2005-public.pdf",
+    "pages": 9,
+    "source_pages": 8,
+    "redacted_source_pages": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "replaced_source_pages": [],
+    "sha256": "2d22a62fe92415f9a2266d0ce74e514830244ce0a4d588834200a71859712248",
+    "bytes": 3844766,
+    "original_retained_at": "Bibliothèque des APDS",
+    "original_consultation": "Encadrée : éléments sensibles",
+    "public_version": "Expurgée ; sans OCR source, signatures, pièces jointes ni annotations"
+  }
+]
