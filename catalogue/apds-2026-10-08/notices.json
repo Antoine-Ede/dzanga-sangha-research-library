@@ -1,0 +1,3477 @@
+[
+  {
+    "archive_id": "APDS-002",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Influence des acteurs externes sur les Baka dans la région Lobéké : étude de cas 1998",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Schmidt",
+        "firstName": "Julia"
+      }
+    ],
+    "date": "1998",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:TNS-Regional"
+      },
+      {
+        "tag": "METHOD:Interview"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: study in Lobéké; comparative human dimensions in the Sangha Trinational. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "MINEF / GTZ / PROFORNAT"
+  },
+  {
+    "archive_id": "APDS-004",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "'A Dead People'? Migrants, Land and History in the Rainforests of the Central African Republic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Giles-Vernick",
+        "firstName": "Tamara"
+      }
+    ],
+    "date": "1996",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: historical migration and land use among Mpiemu in southwestern CAR. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "university": "Johns Hopkins University"
+  },
+  {
+    "archive_id": "APDS-006",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "Analyse des actions de la conservation des aires protégées et le développement local : cas des Aires Protégées de Dzanga-Sangha dans la commune de Yobé-Sangha",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Kassara Soeï",
+        "firstName": "Jean Baptiste"
+      }
+    ],
+    "date": "2009-2010",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local study of conservation and development in Yobé-Sangha. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover gives academic year 2009-2010; no defence date inferred. Mémoire de maîtrise de géographie, option géographie rurale.",
+    "university": "Université de Bangui"
+  },
+  {
+    "archive_id": "APDS-010",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Commerce de la faune sauvage et biodiversité : rapport final du Projet GAB 92 G 31",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Projet GAB 92 G 31"
+      }
+    ],
+    "date": "1998-12",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "A3M242AQ",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: wildlife trade in Gabon; regional comparison for bushmeat management. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "PNUD / UNOPS / WWF"
+  },
+  {
+    "archive_id": "APDS-011",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Conserving biomass energy in Sub-Saharan Africa: An Assessment of Experience",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Swartzendruber",
+        "firstName": "J. F."
+      }
+    ],
+    "date": "1992-08",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Verified"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "WMAMAV2N",
+      "FGHTWX4J"
+    ],
+    "url": "https://agris.fao.org/search/en/providers/122535/records/65de12cd0f3e94b9e5ca6aba",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: biomass energy and forest resource management in sub-Saharan Africa. DOI not identified in the original document; no DOI inferred from bibliography. Public bibliographic/full-text source: https://agris.fao.org/search/en/providers/122535/records/65de12cd0f3e94b9e5ca6aba. Metadata only; archival scan not redistributed.",
+    "institution": "Center for International Development and Environment, World Resources Institute"
+  },
+  {
+    "archive_id": "APDS-012",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "Distribution of tropical tree species of Central African rainforest in relation to landscape and soil heterogeneity",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Medjibe",
+        "firstName": "Vincent"
+      }
+    ],
+    "date": "2005-02",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "METHOD:Vegetation-inventory"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "3C93VEPK",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: 100-ha forest plot research in southwestern CAR associated with the Dzanga-Sangha / Sapelli research programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Master of Forestry Science; original thesis cover.",
+    "university": "Yale University"
+  },
+  {
+    "archive_id": "APDS-013",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Dzanga Forest Elephant Study, Central African Republic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Turkalo",
+        "firstName": "Andrea K."
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Fay",
+        "firstName": "J. Michael"
+      }
+    ],
+    "date": "1993-06-30",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Bai"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "METHOD:Direct-observation"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XNQ4R7T2",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: observations of forest elephants at Dzanga clearing, PDF pages 1-2. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Dzanga-Sangha Project"
+  },
+  {
+    "archive_id": "APDS-014",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Dzanga Clearing Forest Elephant Study, Central African Republic: Quarterly Report, 1 July–30 September 1994",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Turkalo",
+        "firstName": "Andrea K."
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Fay",
+        "firstName": "J. Michael"
+      }
+    ],
+    "date": "1994-10-31",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Bai"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "METHOD:Direct-observation"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XNQ4R7T2",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: quarterly observations of elephants at Dzanga clearing. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Submission date 31 October 1994; field period differs from publication date.",
+    "institution": "Dzanga-Sangha Project"
+  },
+  {
+    "archive_id": "APDS-017",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Étude de l'éléphant de forêt : clairière Dzanga, République Centrafricaine — rapport d'intérim, 1 avril–30 juin 1995",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Turkalo",
+        "firstName": "Andrea K."
+      }
+    ],
+    "date": "1995-06-30",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Bai"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "METHOD:Direct-observation"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XNQ4R7T2",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: elephant observations at Dzanga clearing. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-019",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Herpetofauna Dzanga Sangha Protected Areas (APDS): Interim Report 2011",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Modrý",
+        "firstName": "David"
+      }
+    ],
+    "date": "2011",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SITE:Bai-Hokou"
+      },
+      {
+        "tag": "SITE:Mongambe"
+      },
+      {
+        "tag": "SITE:Dzanga-Bai"
+      },
+      {
+        "tag": "TAXON:Amphibians"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "JKPTFUEU",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: field collections September-October 2011 at Sangha Lodge, Bai Hokou, Mongambe and Dzanga Bai, PDF page 3. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover identifies David Modrý as project lead and Miloslav Jirků as collaborator; collaborator not inferred to be an author.",
+    "institution": "University of Veterinary and Pharmaceutical Sciences Brno / Biology Centre, Czech Academy of Sciences"
+  },
+  {
+    "archive_id": "APDS-020",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Interim check-list to the vascular plants of the Dzanga-Sangha Project Area, Central African Republic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Harris",
+        "firstName": "David"
+      }
+    ],
+    "date": "1994-11",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "METHOD:Botanical-inventory"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "3C93VEPK",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: vascular plant inventory of the Dzanga-Sangha project area. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Distinct from the published 2002 vascular plant checklist.",
+    "institution": "University of Oxford"
+  },
+  {
+    "archive_id": "APDS-021",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Inventaire et recensement des petits primates diurnes de la forêt de N'Gotto : première partie, terre ferme",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Gautier-Hion",
+        "firstName": "Annie"
+      }
+    ],
+    "date": "1994-08",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "TAXON:Primates"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "UEITCR29",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: field study at N'Gotto, outside DSPA; regional primate inventory comparison. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "AGRECO-CTFT / ECOFAC"
+  },
+  {
+    "archive_id": "APDS-022",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "L'étude des éléphants de forêt en République Centrafricaine : activités du 1 juillet au 31 décembre 2000",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Turkalo",
+        "firstName": "Andrea K."
+      }
+    ],
+    "date": "2000-12-31",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Bai"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "METHOD:Direct-observation"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XNQ4R7T2",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: elephant monitoring at Dzanga clearing. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-023",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Sommaire des activités : l'étude des éléphants de forêt à Dzanga, du 1 juillet au 31 décembre 1999",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Turkalo",
+        "firstName": "Andrea K."
+      }
+    ],
+    "date": "1999-12-31",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Bai"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "METHOD:Direct-observation"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XNQ4R7T2",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: elephant monitoring at Dzanga clearing. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-025",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Les impacts des activités exercées dans les villages de la Réserve spéciale de la forêt dense de Dzanga-Sangha sur la conservation",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Boloum",
+        "firstName": "David"
+      }
+    ],
+    "date": "2007-2008",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: internship observations in villages of the Dzanga-Sangha Reserve. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Academic year 2007-2008. Internship 3 April-30 May 2007, as printed on the cover; filename end date is inaccurate.",
+    "institution": "Collège technique de développement rural"
+  },
+  {
+    "archive_id": "APDS-026",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Nouabalé-Ndoki Forest Elephant Project: Research for Conservation, Phase I — Final Report, September 2000–30 November 2001",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Maisels",
+        "firstName": "Fiona"
+      }
+    ],
+    "date": "2002-01",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:TNS-Regional"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XNQ4R7T2",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: Nouabalé-Ndoki elephant monitoring and Trinational conservation; no primary DSPA data confirmed. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Wildlife Conservation Society"
+  },
+  {
+    "archive_id": "APDS-027",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Observation des espèces des singes de la forêt dense de Mossapoula et Yandoumbé",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Hounte",
+        "firstName": "Michel"
+      }
+    ],
+    "date": "1991-1992",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Mossapoula"
+      },
+      {
+        "tag": "SITE:Yandoumbe"
+      },
+      {
+        "tag": "TAXON:Primates"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "UEITCR29",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: internship primate observations at Mossapoula and Yandoumbé. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Academic year 1991-1992; internship 17 September-30 October 1991.",
+    "institution": "Collège technique de développement rural de Grimari"
+  },
+  {
+    "archive_id": "APDS-028",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "Pêcherie locale et gestion durable des ressources halieutiques de la rivière Sangha en République Centrafricaine : cas des pêcheurs de Bayanga dans les Aires Protégées de Dzanga-Sangha",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Gueldé Dionro Mianbo"
+      }
+    ],
+    "date": "2008-2009",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SITE:Sangha-River"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: study of Bayanga fishers in DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover gives academic year 2008-2009; author retained in original name order, without inferring family/given-name boundaries. Mémoire de maîtrise de sociologie, option développement rural.",
+    "university": "Université de Bangui"
+  },
+  {
+    "archive_id": "APDS-029",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Plan de conservation de l'éléphant en République Centrafricaine",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Ministère des Eaux, Forêts, Chasses, Pêches et Tourisme"
+      }
+    ],
+    "date": "1992-01",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XNQ4R7T2",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: national elephant conservation plan relevant to DSPA management. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "République Centrafricaine"
+  },
+  {
+    "archive_id": "APDS-031",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Projets intégrés de conservation et de développement : un cadre pour promouvoir la conservation et la gestion des ressources naturelles",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Ferraro",
+        "firstName": "Paul J."
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Tshombe",
+        "firstName": "Richard"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Mwinyihali",
+        "firstName": "Robert"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Hart",
+        "firstName": "John A."
+      }
+    ],
+    "date": "1997-06",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: framework for integrated conservation and development programmes. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. WCS Working Paper no. 6.",
+    "institution": "Wildlife Conservation Society"
+  },
+  {
+    "archive_id": "APDS-032",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Protection des cultures contre les éléphants : exemple de Bayanga",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Bembidé",
+        "firstName": "Célestine"
+      }
+    ],
+    "date": "1995",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XNQ4R7T2",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: crop protection internship carried out at Dzanga-Sangha, Bayanga. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. BTS pre-professional internship report, 15 September-15 December 1995; not classified as a doctorate.",
+    "institution": "Institut supérieur de développement rural de M'Baïki, Université de Bangui"
+  },
+  {
+    "archive_id": "APDS-034",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Projet Dzanga-Sangha : rapport technique année 2004",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Alafeï",
+        "firstName": "Abel"
+      }
+    ],
+    "date": "2005-06",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: annual activities of DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover publication date June 2005; reporting year 2004 is not the publication year.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-036",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Dzanga-Sangha Project: Technical Report — Ecological Monitoring",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Blom",
+        "firstName": "Allard"
+      }
+    ],
+    "date": "1999-06-27",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "RS5BMBWM",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: ecological monitoring in DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Dzanga-Sangha Project"
+  },
+  {
+    "archive_id": "APDS-037",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Status, distribution and density of the lowland gorilla, forest elephant and associated dense forest fauna in south-western Central African Republic: Research towards the establishment of a reserve",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Carroll",
+        "firstName": "Richard W."
+      }
+    ],
+    "date": "1986-03",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "TAXON:Gorilla"
+      },
+      {
+        "tag": "TAXON:Elephant"
+      },
+      {
+        "tag": "TAXON:Large-mammals"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "RS5BMBWM",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: field survey of the region subsequently protected as Dzanga-Sangha. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "World Wildlife Fund"
+  },
+  {
+    "archive_id": "APDS-038",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Transboundary commerce in the Sangha River Region: Implications for forests and peoples — Report of fieldwork missions by CIFOR and CEFAID",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "de Koning",
+        "firstName": "Ruben"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Tieguhong",
+        "firstName": "Julius"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Amougou",
+        "firstName": "Victor"
+      }
+    ],
+    "date": "2006-04",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:TNS-Regional"
+      },
+      {
+        "tag": "SITE:Sangha-River"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "T95RZH6T",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: cross-border trade and resource governance in the Trinational Sangha region. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "CIFOR / CEFAID"
+  },
+  {
+    "archive_id": "APDS-043",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Approche pour la promotion des élevages des petits ruminants domestiques (ovins et caprins)",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Yarisse",
+        "firstName": "Jean-Bernard"
+      }
+    ],
+    "date": "1998-10",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local livestock development programme in DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-044",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Atelier sur les perspectives de développement dans la commune de Yobé-Sangha, Bayanga les 6 et 7 mars 2006 : rapport des travaux",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Dangolho",
+        "firstName": "Sylvain"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Omozé",
+        "firstName": "Ferdinand"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Kamiss",
+        "firstName": "Ami"
+      }
+    ],
+    "date": "2006-04",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local development workshop held at Bayanga. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-046",
+    "identity_checked": true,
+    "itemType": "bookSection",
+    "title": "Écologie et évolution des produits secondaires du manioc et relations avec les systèmes traditionnels de culture",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "McKey",
+        "firstName": "Doyle"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Beckerman",
+        "firstName": "Stephen"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hladik",
+        "firstName": "Claude Marcel"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hladik",
+        "firstName": "Annette"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Pagezy",
+        "firstName": "Hélène"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Linares",
+        "firstName": "Olga F."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Koppert",
+        "firstName": "Georgius J. A."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Froment",
+        "firstName": "Alain"
+      }
+    ],
+    "date": "1996",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Verified"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "ACCESS:Open"
+      }
+    ],
+    "collections": [
+      "3C93VEPK"
+    ],
+    "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: forest food resources and traditional cassava cultivation useful to local development. DOI not identified in the original document; no DOI inferred from bibliography. Public bibliographic/full-text source: https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf. Metadata only; archival scan not redistributed.",
+    "publisher": "UNESCO",
+    "bookTitle": "L'alimentation en forêt tropicale : interactions bioculturelles et perspectives de développement. 1. Les ressources alimentaires : production et consommation",
+    "pages": "165-202",
+    "volume": "1",
+    "ISBN": "92-3-203381-X",
+    "place": "Paris"
+  },
+  {
+    "archive_id": "APDS-047",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Enquête socio-économique sur quelques productions de la ville de Bayanga",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Garreau",
+        "firstName": "Jean-Marc"
+      }
+    ],
+    "date": "1996-02",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "METHOD:Interview"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local socioeconomic survey in Bayanga. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-048",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Étude de la chasse villageoise en forêt de N'Gotto",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Dethier",
+        "firstName": "Marc"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Ghiurghi",
+        "firstName": "Andrea"
+      }
+    ],
+    "date": "1999-08",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "METHOD:Hunting-survey"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "A3M242AQ",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: hunting study in N'Gotto outside DSPA; regional bushmeat management comparison. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "ECOFAC II"
+  },
+  {
+    "archive_id": "APDS-049",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Guide d'intervention : basé sur le plan opérationnel de la phase 3/2000–2/2003",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Projet Dzanga-Sangha"
+      }
+    ],
+    "date": "2000-05",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: operational intervention programme for DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha, Volet Développement Durable"
+  },
+  {
+    "archive_id": "APDS-050",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Histoire agricole dans la Réserve spéciale de forêt dense de Dzanga-Sangha",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Bendjoni",
+        "firstName": "Marie"
+      }
+    ],
+    "date": "1994",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local agricultural history internship in the Dzanga-Sangha Reserve. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. BTS internship report; cover date 1994.",
+    "institution": "Institut supérieur de développement rural de M'Baïki, Université de Bangui"
+  },
+  {
+    "archive_id": "APDS-051",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Impacts de la migration sur les ressources forestières et aquatiques à la périphérie du Parc Dzanga-Ndoki à Bomandjoukou, République Centrafricaine",
+    "creators": [
+      {
+        "creatorType": "editor",
+        "lastName": "Zana",
+        "firstName": "Henri"
+      }
+    ],
+    "date": "1997-01",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SITE:Sangha-River"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: participatory local study at Bomandjoukou adjacent to DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover visually checked: January 1997, despite OCR misreading 1991. Henri Zana identified as director; recorded as editor below.",
+    "institution": "World Wildlife Fund"
+  },
+  {
+    "archive_id": "APDS-052",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Rapport de formation des éleveurs des petits ruminants domestiques dans la Réserve spéciale de Dzanga-Sangha, Bayanga, 22 mai–8 juin 1999",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Yadaï Abdourahamane",
+        "firstName": "Ousmane"
+      }
+    ],
+    "date": "1999",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: livestock training delivered in Bayanga and the reserve. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-053",
+    "identity_checked": true,
+    "itemType": "bookSection",
+    "title": "Intérêt nutritionnel et socio-économique du genre Gnetum en Afrique centrale",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Mialoundama",
+        "firstName": "Fidèle"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hladik",
+        "firstName": "Claude Marcel"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hladik",
+        "firstName": "Annette"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Pagezy",
+        "firstName": "Hélène"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Linares",
+        "firstName": "Olga F."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Koppert",
+        "firstName": "Georgius J. A."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Froment",
+        "firstName": "Alain"
+      }
+    ],
+    "date": "1996",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Verified"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "ACCESS:Open"
+      }
+    ],
+    "collections": [
+      "3C93VEPK"
+    ],
+    "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: forest food and non-timber plant resources in Central Africa. DOI not identified in the original document; no DOI inferred from bibliography. Public bibliographic/full-text source: https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf. Metadata only; archival scan not redistributed.",
+    "publisher": "UNESCO",
+    "bookTitle": "L'alimentation en forêt tropicale : interactions bioculturelles et perspectives de développement. 1. Les ressources alimentaires : production et consommation",
+    "pages": "295-300",
+    "volume": "1",
+    "ISBN": "92-3-203381-X",
+    "place": "Paris"
+  },
+  {
+    "archive_id": "APDS-055",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Situation en eau potable à Bayanga",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "de Beyer",
+        "firstName": "Thomas"
+      }
+    ],
+    "date": "1999",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: assessment of drinking water supply in Bayanga. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "GTZ / Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-057",
+    "identity_checked": true,
+    "itemType": "book",
+    "title": "Le Code forestier centrafricain",
+    "creators": [
+      {
+        "creatorType": "editor",
+        "lastName": "Teya",
+        "firstName": "Jean-Eudes"
+      }
+    ],
+    "date": "1991",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      }
+    ],
+    "collections": [
+      "WMAMAV2N"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: historical forest governance framework in CAR. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Historical 1991 edition, not a statement of current law. Jean-Eudes Teya is editor; Rolf Knieper collaborator. ISBN 3-926958-82-0.",
+    "publisher": "Éditions Temmen",
+    "ISBN": "3-926958-82-0"
+  },
+  {
+    "archive_id": "APDS-058",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Le comité de développement de Bayanga et la gestion participative des ressources naturelles dans la réserve de Dzanga-Sangha, République centrafricaine",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Gbenimet",
+        "firstName": "Gisèle"
+      }
+    ],
+    "date": "1997-09",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local research on Bayanga development committee and reserve management. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Université de Bangui"
+  },
+  {
+    "archive_id": "APDS-059",
+    "identity_checked": true,
+    "itemType": "bookSection",
+    "title": "Conséquences bioculturelles de la consommation de manioc (Manihot esculenta) sur le métabolisme et la microévolution de l'Homme",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Jackson",
+        "firstName": "Fatimah Linda Collier"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hladik",
+        "firstName": "Claude Marcel"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hladik",
+        "firstName": "Annette"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Pagezy",
+        "firstName": "Hélène"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Linares",
+        "firstName": "Olga F."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Koppert",
+        "firstName": "Georgius J. A."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Froment",
+        "firstName": "Alain"
+      }
+    ],
+    "date": "1996",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Verified"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "ACCESS:Open"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD"
+    ],
+    "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: comparative biocultural context of cassava-dependent forest populations. DOI not identified in the original document; no DOI inferred from bibliography. Public bibliographic/full-text source: https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf. Metadata only; archival scan not redistributed.",
+    "publisher": "UNESCO",
+    "bookTitle": "L'alimentation en forêt tropicale : interactions bioculturelles et perspectives de développement. 1. Les ressources alimentaires : production et consommation",
+    "pages": "511-536",
+    "volume": "1",
+    "ISBN": "92-3-203381-X",
+    "place": "Paris"
+  },
+  {
+    "archive_id": "APDS-062",
+    "identity_checked": true,
+    "itemType": "bookSection",
+    "title": "Les ignames spontanées des forêts denses africaines, plantes à tubercules comestibles",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Hladik",
+        "firstName": "Annette"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Dounias",
+        "firstName": "Edmond"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hladik",
+        "firstName": "Claude Marcel"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hladik",
+        "firstName": "Annette"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Pagezy",
+        "firstName": "Hélène"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Linares",
+        "firstName": "Olga F."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Koppert",
+        "firstName": "Georgius J. A."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Froment",
+        "firstName": "Alain"
+      }
+    ],
+    "date": "1996",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Verified"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "ACCESS:Open"
+      }
+    ],
+    "collections": [
+      "3C93VEPK"
+    ],
+    "url": "https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009725.pdf",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: African forest foods and wild yam management; primary DSPA data not established. DOI not identified in the original document; no DOI inferred from bibliography. Public bibliographic/full-text source: https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009725.pdf. Metadata only; archival scan not redistributed.",
+    "publisher": "UNESCO",
+    "bookTitle": "L'alimentation en forêt tropicale : interactions bioculturelles et perspectives de développement. 1. Les ressources alimentaires : production et consommation",
+    "pages": "275-294",
+    "volume": "1",
+    "ISBN": "92-3-203381-X",
+    "place": "Paris"
+  },
+  {
+    "archive_id": "APDS-063",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Les systèmes locaux de gestion dans le bassin congolais",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Karsenty",
+        "firstName": "Alain"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Joiris",
+        "firstName": "Daou V."
+      }
+    ],
+    "date": "1999-03",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "WMAMAV2N",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: regional community institutions and forest resource management. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "CARPE / IRI"
+  },
+  {
+    "archive_id": "APDS-066",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Ornithologie Ngotto-Bambio",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Christy",
+        "firstName": "Patrice"
+      }
+    ],
+    "date": "1995-07",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "TAXON:Birds"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "PPIK52H6",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: bird inventory at Ngotto-Bambio outside DSPA; regional biodiversity context. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "ECOFAC"
+  },
+  {
+    "archive_id": "APDS-067",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Plan de développement villageois de Yandoumbé",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Projet Dzanga-Sangha"
+      }
+    ],
+    "date": "2001-11",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: village planning within the Dzanga-Sangha development programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Corporate project authorship; individual signatories are not authors. No signatures, household data or detailed maps imported.",
+    "institution": "Projet Dzanga-Sangha, Volet Développement Durable"
+  },
+  {
+    "archive_id": "APDS-068",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Plan de développement villageois de Babongo, y compris les campements Yondo et Yobé",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Projet Dzanga-Sangha"
+      }
+    ],
+    "date": "2001-02",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: village planning within the Dzanga-Sangha development programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Corporate project authorship; individual signatories are not authors. No signatures, household data or detailed maps imported.",
+    "institution": "Projet Dzanga-Sangha, Volet Développement Durable"
+  },
+  {
+    "archive_id": "APDS-069",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Plan de développement villageois de Bayanga",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Projet Dzanga-Sangha"
+      }
+    ],
+    "date": "2002-02",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: village planning within the Dzanga-Sangha development programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Corporate project authorship; individual signatories are not authors. No signatures, household data or detailed maps imported.",
+    "institution": "Projet Dzanga-Sangha, Volet Développement Durable"
+  },
+  {
+    "archive_id": "APDS-070",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Plan de développement villageois de Bomandjokou",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Projet Dzanga-Sangha"
+      }
+    ],
+    "date": "2001-05",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: village planning within the Dzanga-Sangha development programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Corporate project authorship; individual signatories are not authors. No signatures, household data or detailed maps imported.",
+    "institution": "Projet Dzanga-Sangha, Volet Développement Durable"
+  },
+  {
+    "archive_id": "APDS-112",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Plan de développement villageois de Lidjombo",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Projet Dzanga-Sangha"
+      }
+    ],
+    "date": "2000-10",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: village planning within the Dzanga-Sangha development programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Corporate project authorship; individual signatories are not authors. No signatures, household data or detailed maps imported.",
+    "institution": "Projet Dzanga-Sangha, Volet Développement Durable"
+  },
+  {
+    "archive_id": "APDS-113",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Plan de développement villageois de Babongo, y compris les campements Yondo et Yobé : deuxième version",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "Projet Dzanga-Sangha"
+      }
+    ],
+    "date": "2005",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: village planning within the Dzanga-Sangha development programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Corporate project authorship; individual signatories are not authors. No signatures, household data or detailed maps imported. Cover gives February-March 2005; month range not converted to an exact publication day.",
+    "institution": "Projet Dzanga-Sangha, Volet Développement Durable"
+  },
+  {
+    "archive_id": "APDS-071",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Projet Protection de la Nature Bayanga : analyse de groupe-cible, rapport final",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Oswald",
+        "firstName": "Karin"
+      }
+    ],
+    "date": "1995-03",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local target-group assessment at Bayanga. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "GTZ / Projet Protection de la Nature Bayanga"
+  },
+  {
+    "archive_id": "APDS-073",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Rapport de formation pratique des planteurs de café, Bayanga, 14 août–9 septembre 2001",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Alloum",
+        "firstName": "Jérôme"
+      }
+    ],
+    "date": "2001",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local coffee grower training at Bayanga. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Training period verified on cover; no November publication date inferred solely from filename.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-074",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Rapport de voyage d'échange d'expérience en pisciculture à la station de Paya à Bouar, du 9 au 15 septembre 2001",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Mbaki",
+        "firstName": "François"
+      }
+    ],
+    "date": "2001",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: exchange visit of the DSPA rural development programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-079",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "A vegetation survey in the habitat of a group of Western Lowland Gorillas (Gorilla gorilla gorilla) and their habitat use",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Noor",
+        "firstName": "Liesbeth"
+      }
+    ],
+    "date": "2000-06",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bai-Hokou"
+      },
+      {
+        "tag": "TAXON:Gorilla"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "METHOD:Vegetation-inventory"
+      },
+      {
+        "tag": "ACCESS:Restricted"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "UEITCR29",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: field vegetation and gorilla habitat study at Bai Hokou. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Graduation subject 2000; explicit reproduction restriction on PDF page 2. No degree level inferred.",
+    "university": "Wageningen University"
+  },
+  {
+    "archive_id": "APDS-080",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "An eco-climatic classification of intertropical Africa",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Le Houérou",
+        "firstName": "H. N."
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Popov",
+        "firstName": "G. F."
+      }
+    ],
+    "date": "1981",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Verified"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "3C93VEPK",
+      "FGHTWX4J"
+    ],
+    "url": "https://catalogue.cefe.cnrs.fr/index.php?lvl=more_results&mode=keyword&tags=ok&user_query=CLASSIFICATION+CLIMAT",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: regional ecological and climatic classification for interpreting forest habitats. DOI not identified in the original document; no DOI inferred from bibliography. Public bibliographic/full-text source: https://catalogue.cefe.cnrs.fr/index.php?lvl=more_results&mode=keyword&tags=ok&user_query=CLASSIFICATION+CLIMAT. Metadata only; archival scan not redistributed. FAO Plant Production and Protection Paper 31. Date checked against FAO technical papers list and CNRS library catalogue.",
+    "institution": "FAO"
+  },
+  {
+    "archive_id": "APDS-081",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "L'expérience pilote de conservation communautaire du sanctuaire de gorilles de Lossi : habituation des gorilles",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Bermejo",
+        "firstName": "Magdalena"
+      }
+    ],
+    "date": "1997-07",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "TAXON:Gorilla"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XBHZ5IPW",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: gorilla habituation and community conservation at Lossi outside DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "ECOFAC-Congo"
+  },
+  {
+    "archive_id": "APDS-082",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "Uso del substrato arboreo in un gruppo di gorilla occidentali (Gorilla gorilla gorilla) nel Parco Nazionale Dzanga-Ndoki, Repubblica Centrafricana",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Masi",
+        "firstName": "Shelly"
+      }
+    ],
+    "date": "2002-2003",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "TAXON:Gorilla"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "UEITCR29",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: gorilla arboreal substrate use in Dzanga-Ndoki. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Tesi di laurea in Scienze Biologiche, academic year 2002-2003; student identifier excluded.",
+    "university": "Università degli Studi di Roma La Sapienza"
+  },
+  {
+    "archive_id": "APDS-085",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "La relation entre la stratégie de fouille et l'organisation sociale des gorilles de plaine de l'Ouest : rapport août 2000–novembre 2001",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Doran",
+        "firstName": "Diane"
+      }
+    ],
+    "date": "2001",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Ndoki"
+      },
+      {
+        "tag": "TAXON:Gorilla"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "UEITCR29",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: research at Mondika spanning the Ndoki sectors in CAR and Congo. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Centre de recherche de Mondika"
+  },
+  {
+    "archive_id": "APDS-086",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Ranging of a Western Lowland Gorilla group at Bai Hokou, Central African Republic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Vugteveen",
+        "firstName": "Pim"
+      }
+    ],
+    "date": "2000-02",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bai-Hokou"
+      },
+      {
+        "tag": "TAXON:Gorilla"
+      },
+      {
+        "tag": "METHOD:Direct-observation"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "UEITCR29",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: gorilla ranging observations at Bai Hokou. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Student research report; cover does not identify degree, so no degree type inferred. Distinct from the 2003 journal article.",
+    "institution": "Wageningen Agricultural University"
+  },
+  {
+    "archive_id": "APDS-087",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Responses of western lowland gorillas to habituation",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Kruitwagen",
+        "firstName": "Guus"
+      }
+    ],
+    "date": "1999-10",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bai-Hokou"
+      },
+      {
+        "tag": "TAXON:Gorilla"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "XBHZ5IPW",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: gorilla habituation study at Bai Hokou. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover recovered by local OCR; distinct from published habituation articles.",
+    "institution": "Wageningen Agricultural University"
+  },
+  {
+    "archive_id": "APDS-090",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "Western lowland gorillas in the Central African Republic: Reactions to human presence during the habituation process; Nest decay and nesting behaviour",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Dijkers",
+        "firstName": "Igor"
+      }
+    ],
+    "date": "1999-02",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SITE:Bai-Hokou"
+      },
+      {
+        "tag": "TAXON:Gorilla"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "UEITCR29",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: gorilla field study in DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover uses Doctoral thesis Animal Ecology; Dutch doctoraal qualification must not be inferred to mean PhD. Student identifier excluded.",
+    "university": "Wageningen Agricultural University"
+  },
+  {
+    "archive_id": "APDS-091",
+    "identity_checked": true,
+    "itemType": "book",
+    "title": "Wildlife Ecology and Management",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Caughley",
+        "firstName": "Graeme"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Sinclair",
+        "firstName": "Anthony R. E."
+      }
+    ],
+    "date": "1994",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: wildlife population and management methods applicable to DSPA; no primary DSPA data asserted. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "publisher": "Blackwell Scientific Publications"
+  },
+  {
+    "archive_id": "APDS-092",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Projets Pygmées en Centrafrique : atelier sur la communication, Carnot, 26–30 avril 1999",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "INADES-Formation Cameroun"
+      }
+    ],
+    "date": "1999",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: regional community communication approaches in CAR. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover identifies Maryvonne Bretin and Marie-Stéphanie Nnémé Abouna as moderators, not authors.",
+    "institution": "INADES-Formation Cameroun"
+  },
+  {
+    "archive_id": "APDS-095",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Valorisation des produits de la forêt dense autres que le bois d'œuvre : rapport de mission, 21 novembre–8 décembre 1994",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Hladik",
+        "firstName": "Annette"
+      }
+    ],
+    "date": "1994",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "3C93VEPK",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: non-timber forest resources in CAR outside DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "ECOFAC-RCA"
+  },
+  {
+    "archive_id": "APDS-096",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Appui à l'autopromotion : rapport de consultation",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Schwedersky",
+        "firstName": "Thomas"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Karangaze",
+        "firstName": "Marc"
+      }
+    ],
+    "date": "1998-09",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local development consultation in DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha / GTZ-LUSO Consult"
+  },
+  {
+    "archive_id": "APDS-100",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "Déterminants de l'offre des ressources alimentaires non conventionnelles en Centrafrique",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Missessé",
+        "firstName": "Armel"
+      }
+    ],
+    "date": "2010-2011",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: CAR forest food supply economics; primary DSPA field-data status not established. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Mémoire de maîtrise en sciences économiques, option économie rurale. Academic year 2010-2011, as printed on cover.",
+    "university": "Université de Bangui"
+  },
+  {
+    "archive_id": "APDS-102",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Enquête sur la chasse communautaire dans la Réserve spéciale de Dzanga-Sangha : cas des villages Lidjombo et Bomandjokou",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Moaza",
+        "firstName": "Aimé Mathurin"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Sindemo",
+        "firstName": "Gérard Carlos"
+      }
+    ],
+    "date": "2006-05",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "METHOD:Hunting-survey"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "A3M242AQ",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local hunting survey in DSPA villages. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-103",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Étude de faisabilité de mécanismes de financement pour la conservation et la gestion durable des forêts d'Afrique centrale",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Moye",
+        "firstName": "Melissa"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Carr-Dirick",
+        "firstName": "Brigitte"
+      }
+    ],
+    "date": "2002-01-31",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: regional forest conservation financing framework. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "COMIFAC / WWF / ADIE"
+  },
+  {
+    "archive_id": "APDS-105",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Gestion de terroir et appui à l'autopromotion : rapport de consultation",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Schwedersky",
+        "firstName": "Thomas"
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Karangaze",
+        "firstName": "Marc"
+      }
+    ],
+    "date": "1999-04",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Yandoumbe"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local consultation in Yandoumbé and Bayanga. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover visually checked: April 1999; filename incorrectly states 1990.",
+    "institution": "Projet Dzanga-Sangha / GTZ-LUSO Consult"
+  },
+  {
+    "archive_id": "APDS-110",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Migrations et enjeux d'une gestion durable des ressources naturelles dans la partie Ouest de la réserve de Dzanga-Sangha à Salo, République Centrafricaine",
+    "creators": [
+      {
+        "creatorType": "editor",
+        "lastName": "Mogba",
+        "firstName": "Zéphirin"
+      }
+    ],
+    "date": "1997-01",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: participatory local study in western DSPA and Salo. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover visually checked: January 1997; OCR read 1991. Zéphirin Mogba identified as director; recorded as editor below.",
+    "institution": "Biodiversity Support Program / World Wildlife Fund"
+  },
+  {
+    "archive_id": "APDS-115",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Raphia Exploitation Studies in the Lobéké-TNS Zone",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Makazi",
+        "firstName": "Chuenu L."
+      },
+      {
+        "creatorType": "author",
+        "lastName": "Ubeujum",
+        "firstName": "Christopher"
+      }
+    ],
+    "date": "2005-04",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:TNS-Regional"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "WMAMAV2N",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: raphia resource use in Lobéké, Sangha Trinational outside DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "WWF Jengi"
+  },
+  {
+    "archive_id": "APDS-117",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Rapport de formation pratique en technique d'élevage, tenue à Bayanga du 6 juillet au 2 août 2001",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Guioua",
+        "firstName": "Martin Thadée"
+      }
+    ],
+    "date": "2001",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local livestock training and village visits in DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover starts training on 6 July, not 16 July as in filename.",
+    "institution": "Projet Dzanga-Sangha, Volet Développement Durable"
+  },
+  {
+    "archive_id": "APDS-118",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Rapport de formation sur le recépage des caféiers, du 12 février au 3 mars 2000",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Alloum",
+        "firstName": "Jérôme"
+      }
+    ],
+    "date": "2000",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local coffee cultivation training in the DSPA development programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-120",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Rapport de mission exploratoire préalable à la formation des pêcheurs de la Réserve spéciale de Dzanga-Sangha",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Mbaki",
+        "firstName": "François"
+      }
+    ],
+    "date": "1999",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SITE:Sangha-River"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local fishing development mission, 17-30 August 1999. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-121",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Rapport sur le développement d'une stratégie d'utilisation d'un Système d'Information Géographique au Projet Dzanga-Sangha",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Diedrich",
+        "firstName": "Holger"
+      }
+    ],
+    "date": "2000-05",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: GIS implementation strategy for the DSPA project. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Author name and title visually checked on original cover.",
+    "institution": "LUSO Consult / Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-122",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Rapport de formation pratique des pêcheurs et pisciculteurs de la sous-préfecture de Bayanga, janvier–février 2000",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Mbaki",
+        "firstName": "François"
+      }
+    ],
+    "date": "2000",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SITE:Sangha-River"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "VCM4TTMD",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: local fishing and aquaculture training in Bayanga. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-125",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Suivi des activités de la production des grumes de la SEFCA Mambélé",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Godobo",
+        "firstName": "Pladèle"
+      }
+    ],
+    "date": "2000-2001",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Relevant"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "WMAMAV2N",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: logging internship in Sangha-Mbaéré; regional forest production context. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Cover academic year 2000-2001; internship 20 November 2000-12 January 2001. Production data not redistributed.",
+    "institution": "Collège technique de développement rural"
+  },
+  {
+    "archive_id": "APDS-131",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Écologie et dynamique du Megaphrynium macrostachyum dans le Parc de Ndoki, République Centrafricaine : rapport semestriel juin–décembre 1999",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Brncic",
+        "firstName": "Terry"
+      }
+    ],
+    "date": "1999",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Ndoki"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "3C93VEPK",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: plant ecology research in Ndoki sector of DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "University of Oxford"
+  },
+  {
+    "archive_id": "APDS-141",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Résumé des activités de recherche sur les rongeurs de la Réserve spéciale de forêt dense de Dzanga-Sangha : rapport préliminaire",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Malcolm",
+        "firstName": "Jay R."
+      }
+    ],
+    "date": "1994-05",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "IPMCDRZJ",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: rodent research at Kongana and Ouonga in DSPA from September 1993 to May 1994. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Wildlife Conservation Society / National Geographic Society"
+  },
+  {
+    "archive_id": "APDS-165",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Résumé des activités de recherche sur les petits carnivores dans la Réserve spéciale de Dzanga-Sangha : rapport final",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Ray",
+        "firstName": "Justina C."
+      }
+    ],
+    "date": "1994-05",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "IPMCDRZJ",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: small carnivore research at Kongana in DSPA. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Actual title concerns carnivores; filename incorrectly says ruminants.",
+    "institution": "Projet Dzanga-Sangha"
+  },
+  {
+    "archive_id": "APDS-167",
+    "identity_checked": true,
+    "itemType": "report",
+    "title": "Study of Sustainable Management of African Mahoganies Through Studies of Their Regeneration Requirements and Landscape Scale Distribution in the Central African Republic: Research Report",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Hall",
+        "firstName": "Jefferson S."
+      }
+    ],
+    "date": "2000-01-26",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "SYSTEM:APDS-report-2026-10-08"
+      }
+    ],
+    "collections": [
+      "3C93VEPK",
+      "FGHTWX4J"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: Sapelli research project initiated at Bayanga with Dzanga-Sangha. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed.",
+    "institution": "Yale School of Forestry and Environmental Studies"
+  },
+  {
+    "archive_id": "APDS-168",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "The Role of Habitat Specialization in the Regeneration of Entandrophragma spp.: Implications for the Maintenance of Species Diversity and Forest Management in Central Africa",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Hall",
+        "firstName": "Jefferson S."
+      }
+    ],
+    "date": "2002-12",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Bayanga"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "3C93VEPK",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: 100-ha plot and regeneration research in the Bayanga / DSPA research programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. PhD dissertation, cover explicitly identifies degree.",
+    "university": "Yale University"
+  },
+  {
+    "archive_id": "APDS-169",
+    "identity_checked": true,
+    "itemType": "thesis",
+    "title": "Ecology and patch dynamics of Megaphrynium macrostachyum (Benth.) Milne-Redh. (Marantaceae) in the south-west Central African Republic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Brncic",
+        "firstName": "Terry"
+      }
+    ],
+    "date": "2002",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Metadata-Incomplete"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      },
+      {
+        "tag": "TAXON:Plants"
+      },
+      {
+        "tag": "SYSTEM:APDS-thesis-2026-10-08"
+      }
+    ],
+    "collections": [
+      "3C93VEPK",
+      "WBFD5NZE"
+    ],
+    "url": "",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: field plant ecology in southwestern CAR, Ndakan study area in the DSPA research programme. DOI not identified in the original document; no DOI inferred from bibliography. Stable external URL not identified; retained as metadata-incomplete. Metadata only; archival scan not redistributed. Doctor of Philosophy, Michaelmas term 2002; two-page spread scans, PDF page count is not printed pagination.",
+    "university": "University of Oxford"
+  },
+  {
+    "archive_id": "APDS-170",
+    "identity_checked": true,
+    "itemType": "bookSection",
+    "title": "Trois stratégies de conservation de la forêt tropicale : une analyse critique basée sur des expériences dans la région de la Sangha",
+    "creators": [
+      {
+        "creatorType": "author",
+        "lastName": "Blom",
+        "firstName": "Allard"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Eves",
+        "firstName": "Heather E."
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Hardin",
+        "firstName": "Rebecca"
+      },
+      {
+        "creatorType": "editor",
+        "lastName": "Rupp",
+        "firstName": "Stephanie"
+      }
+    ],
+    "date": "1998",
+    "tags": [
+      {
+        "tag": "SCOPE:DSPA-Core"
+      },
+      {
+        "tag": "STATUS:Verified"
+      },
+      {
+        "tag": "SYSTEM:APDS-Archive-2026-10-08"
+      },
+      {
+        "tag": "SITE:Dzanga-Sangha"
+      }
+    ],
+    "collections": [
+      "E9WWEBHW"
+    ],
+    "url": "https://elischolar.library.yale.edu/yale_fes_bulletin/",
+    "extra": "APDS archive review 2026-10-08. Identity evidence: original archival scan, title page and introductory text. Scope evidence: analysis of Dzanga-Sangha project activities since 1988. DOI not identified in the original document; no DOI inferred from bibliography. Public bibliographic/full-text source: https://elischolar.library.yale.edu/yale_fes_bulletin/. Metadata only; archival scan not redistributed. French extract, printed pages 225-233. Volume published 1998; filename 1990 is incorrect. Bulletin 102.",
+    "publisher": "Yale School of Forestry and Environmental Studies",
+    "bookTitle": "Utilisation des ressources naturelles dans la région trinationale du fleuve Sangha en Afrique équatoriale : histoires, savoirs et institutions",
+    "pages": "225-233",
+    "series": "Yale F&ES Bulletin",
+    "seriesNumber": "102"
+  }
+]
