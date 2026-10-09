@@ -6,6 +6,7 @@ function researchMetrics(items) {
     return [...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'fr'));
   };
   const years=documents.map(yearOf).filter(Boolean).map(Number);
+  const allYears=items.map(yearOf).filter(Boolean).map(Number);
   const yearly=countValues(documents,i=>[yearOf(i)]),yearCounts=new Map(yearly);
   const timeline=years.length?Array.from({length:Math.max(...years)-Math.min(...years)+1},(_,n)=>{const y=String(Math.min(...years)+n);return [y,yearCounts.get(y)||0];}):[];
   return {total:items.length,documents:documents.length,datasets:items.length-documents.length,undated:documents.length-years.length,timeline,
@@ -13,7 +14,7 @@ function researchMetrics(items) {
     authors:countValues(documents,i=>(i.data.creators||[]).filter(c=>c.creatorType==='author').map(LibraryModel.authorKey)),
     authorLabels:Object.fromEntries(documents.flatMap(i=>(i.data.creators||[]).filter(c=>c.creatorType==='author').map(c=>[LibraryModel.authorKey(c),c.name||[c.firstName,c.lastName].filter(Boolean).join(' ')]))),
     categories:countValues(items,i=>[LibraryModel.labels[LibraryModel.category(i)]]),
-    yearCategories:[...new Set(items.map(yearOf).filter(Boolean))].sort().map(year=>[year,...['research','reports','datasets','other'].map(cat=>items.filter(i=>yearOf(i)===year&&LibraryModel.category(i)===cat).length)]),
+    yearCategories:allYears.length?Array.from({length:Math.max(...allYears)-Math.min(...allYears)+1},(_,n)=>String(Math.min(...allYears)+n)).map(year=>[year,...['research','reports','datasets','other'].map(cat=>items.filter(i=>yearOf(i)===year&&LibraryModel.category(i)===cat).length)]):[],
     types:countValues(items,i=>[TYPE_LABELS[i.data.itemType]||i.data.itemType]),
     scope:countValues(items,i=>tagValues(tagsOf(i),'SCOPE:').length?tagValues(tagsOf(i),'SCOPE:'):['Non renseignée']),
     access:countValues(items,i=>tagValues(tagsOf(i),'ACCESS:').length?tagValues(tagsOf(i),'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint'}[v]||v)):['Non renseigné']),
