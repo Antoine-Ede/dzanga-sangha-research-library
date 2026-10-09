@@ -2,6 +2,7 @@ const GROUP_ID = "6701789";
 const API = `https://api.zotero.org/groups/${GROUP_ID}`;
 const state = { items: [], collections: new Map(), filtered: [], selected: {}, optionValues: {}, authorLabels: new Map(), ready: false, section:'library' };
 const FILTERS = {
+  categoryFilter: {param:'category',label:'Catégorie'},
   collectionFilter: {param:'theme',label:'Thème',multi:true},
   scopeFilter: {param:'scope',label:'Portée'},
   siteFilter: {param:'site',label:'Site',multi:true},
@@ -44,7 +45,7 @@ async function fetchAll(endpoint) {
 }
 
 function tagsOf(item) {
-  return (item.data.tags || []).map(x => x.tag).filter(Boolean);
+  return LibraryModel.tags(item);
 }
 function yearOf(item) {
   const m = String(item.data.date || "").match(/\b(18|19|20)\d{2}\b/);
@@ -86,7 +87,8 @@ function titleLink(item) {
 
 function valuesOf(item, id) {
   let values;
-  if (id === 'collectionFilter') values = collectionNames(item).filter(v=>!/^00 |^99 /.test(v));
+  if (id === 'categoryFilter') values = [LibraryModel.category(item)];
+  else if (id === 'collectionFilter') values = collectionNames(item).filter(v=>!/^00 |^99 /.test(v));
   else if (id === 'yearFilter') values = [yearOf(item)].filter(Boolean);
   else if (id === 'authorFilter') values = authorSurnames(item).map(v=>norm(v).trim());
   else if (id === 'typeFilter') values = [item.data.itemType].filter(Boolean);
@@ -95,6 +97,7 @@ function valuesOf(item, id) {
 }
 function optionLabel(id, value) {
   if (value === UNKNOWN) return 'Non renseigné';
+  if (id === 'categoryFilter') return LibraryModel.labels[value]||value;
   if (id === 'collectionFilter') return value.replace(/^\d+ - /,'');
   if (id === 'scopeFilter') return {'DSPA-Core':'Données DSPA · Core','DSPA-Relevant':'Contexte et gestion · Relevant'}[value] || value;
   if (id === 'accessFilter') return {Open:'Accès ouvert',Restricted:'Accès restreint'}[value] || value;
@@ -164,13 +167,14 @@ function searchUrl() {
   if($('resultView').value!=='table')url.searchParams.set('view',$('resultView').value);
   if($('groupYears').checked)url.searchParams.set('group','year');
   if(state.section!=='library')url.searchParams.set('section',state.section);
+  if(state.section==='analysis'&&$('analysisCategory').value)url.searchParams.set('analysis_category',$('analysisCategory').value);
   return url.href;
 }
 function restoreSearch() {
   const params=new URL(location.href).searchParams;
   $('search').value=params.get('q')||'';
   for(const [id,config] of Object.entries(FILTERS)){
-    const selected=params.getAll(config.param).filter(v=>state.optionValues[id].includes(v));
+    const selected=params.getAll(config.param).map(v=>['taxonFilter','methodFilter','siteFilter'].includes(id)?LibraryModel.canonicalTag(({taxonFilter:'TAXON:',methodFilter:'METHOD:',siteFilter:'SITE:'}[id])+v).split(':').slice(1).join(':'):v).filter(v=>state.optionValues[id].includes(v));
     state.selected[id]=[...new Set(config.multi?selected:selected.slice(0,1))];
     if(!config.multi)$(id).value=state.selected[id][0]||'';
   }
@@ -178,7 +182,8 @@ function restoreSearch() {
   $('sortOrder').value=['newest','oldest','title','author'].includes(params.get('sort'))?params.get('sort'):'newest';
   $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'table';
   $('groupYears').checked=params.get('group')==='year';
-  setSection(params.get('section')==='analysis'?'analysis':'library');
+  $('analysisCategory').value=['research','reports','datasets','other'].includes(params.get('analysis_category'))?params.get('analysis_category'):'';
+  setSection(['analysis','quality'].includes(params.get('section'))?params.get('section'):'library');
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -223,11 +228,12 @@ function applyFilters() {
   $('exportCsv').textContent=state.section==='library'?'Exporter les résultats en CSV':'Exporter la bibliothèque en CSV';
   render();
   if(typeof renderAnalytics==='function')renderAnalytics(state.items);
+  if(typeof renderQuality==='function')renderQuality(state.items);
 }
 
 function setSection(section) {
   state.section=section;
-  for(const name of ['library','analysis']){
+  for(const name of ['library','analysis','quality']){
     $(name+'Panel').hidden=name!==section;
     $(name+'Tab').setAttribute('aria-pressed',String(name===section));
   }
@@ -312,7 +318,7 @@ async function init() {
     state.items=raw.filter(i=>!["note","attachment","annotation"].includes(i.data.itemType));
 
     updateStats(); populateFilters();restoreSearch();state.ready=true;
-    for(const section of ['library','analysis'])$(section+'Tab').disabled=false;
+    for(const section of ['library','analysis','quality'])$(section+'Tab').disabled=false;
     applyFilters();
     $("status").style.display="none";
   } catch (e) {
@@ -337,11 +343,15 @@ window.addEventListener('popstate',()=>{if(state.ready){restoreSearch();applyFil
 $("exportCsv").addEventListener("click",exportCsv);
 $('libraryTab').addEventListener('click',()=>{setSection('library');applyFilters();});
 $('analysisTab').addEventListener('click',()=>{setSection('analysis');applyFilters();});
+$('qualityTab').addEventListener('click',()=>{setSection('quality');applyFilters();});
+$('qualityIssue').addEventListener('change',()=>renderQuality(state.items));
+$('qualityExport').addEventListener('click',exportQualityCsv);
+$('analysisCategory').addEventListener('change',applyFilters);
 $('browseDatasets').addEventListener('click',()=>{
   $('resetFilters').click();$('typeFilter').value='dataset';setSection('library');applyFilters();
   $('results').scrollIntoView({behavior:'smooth',block:'start'});
 });
-for(const section of ['library','analysis'])$(section+'Tab').disabled=true;
+for(const section of ['library','analysis','quality'])$(section+'Tab').disabled=true;
 const initialSection=new URL(location.href).searchParams.get('section');
-setSection(initialSection==='analysis'?'analysis':'library');
+setSection(['analysis','quality'].includes(initialSection)?initialSection:'library');
 init();

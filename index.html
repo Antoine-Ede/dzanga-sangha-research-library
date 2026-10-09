@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Bibliothèque scientifique publique des Aires Protégées de Dzanga-Sangha.">
   <title>Dzanga-Sangha Research Library</title>
-  <link rel="stylesheet" href="styles.css?v=20261006-library">
+  <link rel="icon" type="image/png" href="assets/ds-logo-transp-schwarz.png">
+  <link rel="stylesheet" href="styles.css?v=20261009-curation">
 </head>
 <body>
   <div class="brand-header"><div class="wrap"><a class="brand-name" href="https://dzanga-sangha.org/" target="_blank" rel="noopener"><img class="brand-logo" src="assets/ds-logo-transp-schwarz.png" alt="" width="147" height="157"><span class="brand-wordmark">Dzanga-Sangha <span>Aires protégées</span></span></a><span class="brand-context">Recherche & connaissances</span></div></div>
@@ -31,12 +32,14 @@
     <nav class="section-nav" aria-label="Sections de la bibliothèque">
       <button id="libraryTab" type="button" aria-controls="libraryPanel" aria-pressed="true">Bibliothèque</button>
       <button id="analysisTab" type="button" aria-controls="analysisPanel" aria-pressed="false">Analyse de la recherche</button>
+      <button id="qualityTab" type="button" aria-controls="qualityPanel" aria-pressed="false">Qualité bibliographique</button>
     </nav>
     <section id="searchPanel" class="panel search-panel">
       <label class="search-label" for="search">Rechercher</label>
       <input id="search" type="search" placeholder="Titre, auteur, espèce, site, DOI…" autocomplete="off">
       <p class="filter-help" id="filterHelp">Ajoutez plusieurs choix dans un même filtre pour élargir la recherche. Les filtres différents se combinent. Les nombres indiquent les références compatibles avec les autres filtres.</p>
       <div class="filters">
+        <label>Catégorie<select id="categoryFilter"><option value="">Toute la bibliothèque</option></select></label>
         <label>Thèmes · plusieurs choix
           <select id="collectionFilter" aria-describedby="filterHelp"><option value="">Ajouter un thème…</option></select>
         </label>
@@ -95,17 +98,24 @@
     </div>
     <section id="analysisPanel" hidden aria-labelledby="analysisHeading">
       <div class="analysis-intro"><div><h2 id="analysisHeading">La recherche en perspective</h2><p id="analysisCount" role="status"></p></div><button id="browseDatasets" type="button">Voir les jeux de données référencés</button></div>
-      <p class="analysis-note">Ces indicateurs décrivent toute la bibliothèque Zotero, pas l'ensemble des recherches réalisées à Dzanga-Sangha. Cliquez sur une année pour retrouver ses documents dans la bibliothèque.</p>
+      <label class="analysis-selector">Corpus analysé <select id="analysisCategory"><option value="">Toute la bibliothèque</option><option value="research">Publications scientifiques et thèses</option><option value="reports">Rapports, gestion et développement</option><option value="datasets">Jeux de données et protocoles</option><option value="other">Autres documents</option></select></label>
+      <p class="analysis-note">Ces indicateurs décrivent les documents recensés dans Zotero, pas l'ensemble des recherches réalisées à Dzanga-Sangha. Les dates sont celles des publications, pas des périodes de terrain. Cliquez sur une année pour retrouver ses documents.</p>
       <div id="analysisSummary" class="analysis-summary"></div>
       <div class="analysis-grid">
-        <section class="analysis-card analysis-wide"><h3>Documents au fil du temps</h3><p>Année bibliographique des notices, jeux de données exclus. Cliquez sur une année pour la filtrer.</p><div id="publicationTimeline"></div></section>
+        <section class="analysis-card analysis-wide"><h3>Documents au fil du temps</h3><p>Choisissez un corpus pour séparer les publications, les rapports et les données. Le tableau détaille chaque catégorie par année. Cliquez sur une année pour la filtrer.</p><div id="publicationTimeline"></div></section>
         <section class="analysis-card"><h3>Répartition par thème</h3><p>Part des documents rattachés à chaque thème. Une notice peut relever de plusieurs thèmes : les proportions ne s'additionnent pas nécessairement à 100 %.</p><div id="themeAnalysis"></div></section>
-        <section class="analysis-card"><h3>Auteurs les plus représentés</h3><p>Les dix noms d'auteur les plus fréquents dans les notices filtrées, toutes positions de signature confondues. Ce décompte ne mesure pas l'impact scientifique.</p><div id="authorAnalysis"></div></section>
+        <section class="analysis-card"><h3>Auteurs les plus représentés</h3><p>Chaque auteur est compté une fois par document, toutes positions de signature confondues. Les éditeurs sont exclus. Les noms et prénoms sont conservés pour limiter les homonymes ; les initiales peuvent rester séparées. Ce décompte ne mesure pas l'impact scientifique.</p><div id="authorAnalysis"></div></section>
         <section class="analysis-card"><h3>Types de documents</h3><div id="typeAnalysis"></div></section>
         <section class="analysis-card"><h3>Portée et accès</h3><div id="scopeAnalysis"></div><div id="accessAnalysis"></div></section>
         <section class="analysis-card"><h3>Sites documentés</h3><p>Sites renseignés dans les tags Zotero ; plusieurs sites peuvent figurer sur une notice.</p><div id="siteAnalysis"></div></section>
         <section class="analysis-card"><h3>Couverture des métadonnées</h3><p>Champs renseignés dans le corpus filtré. Un champ présent ne garantit pas à lui seul sa qualité.</p><div id="metadataAnalysis"></div></section>
       </div>
+    </section>
+    <section id="qualityPanel" hidden aria-labelledby="qualityHeading">
+      <h2 id="qualityHeading">Vérifier et compléter les notices</h2>
+      <p class="analysis-note">Un DOI absent n'est pas une erreur. Les rapports anciens et les documents d'archives peuvent être correctement identifiés sans DOI. La justification Core détectée est une trace documentaire à vérifier, pas une certification automatique. Les liens renseignés ne sont pas testés ici.</p>
+      <div class="quality-controls"><label>Point à vérifier<select id="qualityIssue"><option value="">Tous les points à vérifier</option></select></label><button id="qualityExport" type="button" disabled>Exporter les vérifications en CSV</button></div>
+      <p id="qualityCount" role="status"></p><div id="qualityResults"></div>
     </section>
   </main>
 
@@ -115,7 +125,9 @@
     </div>
   </footer>
 
-  <script src="analytics.js?v=20261006-library"></script>
-  <script src="app.js?v=20261006-library"></script>
+  <script src="library-model.js?v=20261009-curation"></script>
+  <script src="quality.js?v=20261009-curation"></script>
+  <script src="analytics.js?v=20261009-curation"></script>
+  <script src="app.js?v=20261009-curation"></script>
 </body>
 </html>

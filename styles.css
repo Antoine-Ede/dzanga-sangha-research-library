@@ -168,3 +168,14 @@ footer { border-top:1px solid var(--line); padding:28px 0 50px; color:var(--mute
   .year { margin-top:8px; }
 }
 @media (max-width: 350px) { .filters { grid-template-columns:1fr; } }
+.section-nav { flex-wrap:wrap; }
+.analysis-selector,.quality-controls label { display:flex; flex-direction:column; gap:8px; color:var(--ink); }
+.analysis-selector { max-width:540px; margin:24px 0; }
+.analysis-selector select,.quality-controls select { min-height:44px; max-width:100%; padding:10px 12px; border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink); font:inherit; }
+.quality-controls { display:flex; align-items:end; flex-wrap:wrap; gap:20px; margin:24px 0; }
+.quality-controls button { min-height:44px; padding:10px 14px; border:1px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink); cursor:pointer; font:inherit; }
+#qualityPanel { padding:20px 0 50px; }
+#qualityCount { color:var(--muted); line-height:1.6; }
+#qualityResults ul { padding-left:18px; margin:0; line-height:1.6; }
+#qualityResults .reference-table { min-width:680px; }
+@media(max-width:520px){.quality-controls { align-items:stretch; flex-direction:column; }.quality-controls label { min-width:0; }}
