@@ -18,4 +18,18 @@ No new DOI was assigned from filenames, cited references or an unconfirmed match
 
 This is a record of an **already completed import**, not a queue to import again. Before any future import, compare Zotero keys, DOI identity and title/author/date combinations against the current group. Multiple scans of one work are not separate publications.
 
-No archival PDF or attachment was published. A public bibliographic notice does not authorize publication of the corresponding scan. Copyright, private information, community knowledge and precise locations require a separate review before full-text release. The detailed archive inventory and sensitivity findings remain in the local private audit report, outside this repository.
+During the first metadata-only pass, no archival PDF or attachment was published. Six separately reviewed redacted plans were subsequently published; see the update below. A public bibliographic notice does not authorize publication of the corresponding scan. Copyright, private information, community knowledge and precise locations require a separate review before full-text release. The detailed archive inventory and sensitivity findings remain in the local private audit report, outside this repository.
+
+## Completed second pass — 10 October 2026
+
+All 36 previously held relevant works now have honest bibliographic notices in Zotero: 20 reports, 8 manuscripts/research proposals, 4 books and 4 composite documents. Unknown authors, dates and identifiers remain explicit; no DOI was inferred. The reports also belong to collection 16. Drafts and proposals are not presented as completed research results.
+
+The archive contributes 118 new notices in total. All 118 identify a copy retained at the Bibliothèque des APDS and its APDS inventory identifier. Twenty-five second-pass originals contain sensitive material and are represented only by minimal bibliographic metadata and a controlled-consultation warning. No original PDF or private OCR corpus was uploaded.
+
+Six historical village plans are available as [redacted public PDFs](plans-publics/README.md). Their immutable links are in Zotero. Source page numbering is retained after a new explanatory cover. Detailed maps, signatures, unnecessary names and identified personal passages were removed. The public copies have no source OCR, annotations or embedded attachments. They document historical plans and assessments, not present-day conditions.
+
+- `catalogue-final.json`: current public metadata for all 118 archive notices.
+- `second-pass-imported-items.json`: permanent Zotero keys for the 36 additional notices; do not reimport.
+- `second-pass-verification.json`: API verification and integrity checks on 10 October.
+
+The application changes on this branch display archive provenance, missing-information notices and controlled-consultation warnings in both cards and the comparison table. Zotero imports are live immediately; the branch's interface changes require a separate merge/deployment. This work does not modify or merge `main`. Independent bibliography updates since the initial import have been preserved.
