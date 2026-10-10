@@ -13,7 +13,7 @@
     if(!(d.creators||[]).some(c=>['author','editor'].includes(c.creatorType)&&(c.name||c.lastName)))out.push('Auteur ou responsable manquant');
     if(![d.publicationTitle,d.bookTitle,d.proceedingsTitle,d.publisher,d.institution,d.university,d.repository].some(v=>String(v||'').trim()))out.push('Source bibliographique manquante');
     if(t.filter(v=>/^SCOPE:DSPA-(Core|Relevant)$/.test(v)).length!==1)out.push('Portée à préciser');
-    if(t.includes('SCOPE:DSPA-Core')&&!/(?:scope evidence|evidence|preuve|justification)\s*:\s*\S.{10}/i.test(d.extra||''))out.push('Justification Core à expliciter');
+    if(t.includes('SCOPE:DSPA-Core')&&!/(?:scope evidence|classification evidence(?:\s*\([^)]*\))?|evidence|preuve|justification)\s*:\s*\S.{10}/i.test(d.extra||''))out.push('Justification Core à expliciter');
     if(t.filter(v=>/^ACCESS:(Open|Restricted)$/.test(v)).length!==1)out.push('Accès à déterminer');
     if(t.includes('STATUS:Metadata-Incomplete')||t.includes('STATUS:To-Review'))out.push('Vérification signalée dans Zotero');
     const doi=String(d.DOI||'').trim()||String(d.extra||'').match(/^DOI:\s*(\S+)/im)?.[1];
