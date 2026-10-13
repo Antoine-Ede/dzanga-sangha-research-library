@@ -14,11 +14,13 @@
       5,
       9
     ],
-    "sha256": "29dc92f32f8d4d804ad5c582ca020a2bb0a1e09e245f270e816f71a9c9318264",
-    "bytes": 3178765,
+    "sha256": "d7b4ba15f49e650a8c454aa59a9b98eed8a0ffc24d5fc8fa2a62887c37dfd698",
+    "bytes": 4160908,
     "original_retained_at": "Bibliothèque des APDS",
     "original_consultation": "Encadrée : éléments sensibles",
-    "public_version": "Expurgée ; sans OCR source, signatures, pièces jointes ni annotations"
+    "public_version": "Expurgée ; sans OCR source, signatures, pièces jointes ni annotations",
+    "revised_at": "2026-10-13",
+    "revision": "Retrait complémentaire d’une imputation personnelle p.7 du PDF source ; constat collectif et actions conservés."
   },
   {
     "archive_id": "APDS-068",

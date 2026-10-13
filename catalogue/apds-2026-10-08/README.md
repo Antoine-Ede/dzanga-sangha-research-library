@@ -14,6 +14,14 @@ The batch contains 65 reports, 10 theses, 5 book chapters and 2 books. Seven not
 
 No new DOI was assigned from filenames, cited references or an unconfirmed match. Two published articles found in the archive already existed in Zotero and were not duplicated. A related workshop packet was also left under its existing record pending a packet-versus-synthesis distinction.
 
+## Preferred online version — 12 October 2026
+
+When an archival scan is confirmed to represent the same publication as an online publisher or institutional copy, prefer that online version in the existing Zotero record. Verify title, authors, edition or language, publication date and pagination before matching. Use a verified DOI as the stable URL when available; otherwise retain a verified publisher or institutional link. A DOI found only in the bibliography, a later article derived from a report, or a translated edition does not establish an identical work.
+
+Keep the APDS archive provenance and inventory identifiers, and explicitly describe missing pages or uncertain metadata. Do not create a second record for a scan or an alternative DOI of the same publication. Relevant works without a confirmed online equivalent retain their honest archival notice with missing information identified.
+
+An online match does not clear sensitive content or authorize redistribution of the scan. Preserve any controlled-consultation warning where justified; full-text review and link verification are recorded separately in the private audit.
+
 ## Reuse
 
 This is a record of an **already completed import**, not a queue to import again. Before any future import, compare Zotero keys, DOI identity and title/author/date combinations against the current group. Multiple scans of one work are not separate publications.

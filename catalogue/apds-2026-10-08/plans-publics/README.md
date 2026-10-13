@@ -7,3 +7,5 @@ Chaque PDF comprend une page de présentation et conserve la pagination du scan 
 Les copies publiques ont été reconstruites à partir des images expurgées. La couche OCR, les annotations et les pièces jointes des originaux ne sont pas incluses. Les originaux restent conservés à la Bibliothèque des APDS et contiennent des éléments sensibles ; leur consultation doit être encadrée.
 
 `manifest.json` indique les identifiants d’inventaire, les pages concernées et l’empreinte SHA-256 de chaque copie publique. Aucun original non expurgé n’est publié ici.
+
+Révision du 13 octobre 2026 : la copie de Yandoumbé (APDS-067) renforce le retrait d’une imputation personnelle sur la page 7 du scan source. Le constat collectif d’échec du dispositif et les actions proposées sont conservés. La couverture précise cette révision ; le manifeste contient sa nouvelle empreinte. Utiliser cette copie révisée plutôt que l’ancienne version du 8 octobre.
