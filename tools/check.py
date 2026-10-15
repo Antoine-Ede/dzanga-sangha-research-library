@@ -7,6 +7,7 @@ import json
 import os
 from pathlib import Path
 import re
+import shutil
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -24,6 +25,18 @@ SECRETS = (
     re.compile(r'(?i)(?:api[_-]?key|password|secret|token)\s*[:=]\s*[\"\x27][A-Za-z0-9_/-]{20,}[\"\x27]'),
     re.compile(r'(?i)[A-Z]:[\\/]+Users[\\/]+[^\s\"<>]+'),
 )
+
+
+def resolve_node(path=None, home=None, platform=sys.platform):
+    """Use PATH first, then the existing Windows Codex runtime; never install anything."""
+    executable = shutil.which('node', path=path)
+    if executable:
+        return executable
+    if platform == 'win32':
+        bundled = (Path(home) if home is not None else Path.home()) / '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe'
+        if bundled.is_file():
+            return str(bundled)
+    return None
 
 
 def git(root, *args):
@@ -162,6 +175,10 @@ def main():
         return 0
     config = json.loads((ROOT / '.checks.json').read_text(encoding='utf-8'))
     errors = static_checks(ROOT, before, config) + index_findings(ROOT, config)
+    node = resolve_node()
+    if node is None:
+        errors.append('Node.js unavailable in PATH and local Windows Codex runtime. Node.js 18+ is required; no JavaScript checks can be certified.')
+        node = 'node'
     steps = []
 
     def run(command):
@@ -177,11 +194,11 @@ def main():
     run(['git', 'diff', '--check', config['base_commit']])
     run(['git', 'diff', '--cached', '--check', config['base_commit']])
     run(['git', '--version'])
-    run(['node', '--version'])
+    run([node, '--version'])
     for name in before['files']:
         if name.endswith(('.js', '.cjs')) and before['files'][name] is not None:
-            run(['node', '--check', name])
-    run(['node', 'tests/site.cjs'])
+            run([node, '--check', name])
+    run([node, 'tests/site.cjs'])
     run([sys.executable, '-m', 'unittest', 'discover', '-s', 'tests', '-p', 'test_*.py', '-v'])
     changed = set(git(ROOT, 'diff', '--name-only', config['base_commit']).decode().splitlines())
     changed.update(git(ROOT, 'diff', '--cached', '--name-only', config['base_commit']).decode().splitlines())

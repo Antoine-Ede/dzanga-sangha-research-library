@@ -24,6 +24,17 @@ La première commande exécute les contrôles hors ligne et écrit `.local/verif
 
 Sous PowerShell, `./dev.ps1 check` et `./dev.ps1 check --verify-proof` sélectionnent Python disponible ou le runtime local fourni avec Codex si le raccourci Windows `python` est inutilisable. Aucune installation ni configuration globale. Les commandes Python ci-dessous et ce lanceur sont équivalents.
 
+Si PowerShell refuse les scripts `.ps1`, appeler directement Python, sans changer la politique d’exécution. Cet exemple pour le worktree Windows fonctionne depuis n’importe quel dossier (adapter `$projet` si le dépôt a été déplacé) :
+
+```powershell
+$projet = Join-Path $env:USERPROFILE 'Documents\Codex\2026-10-08\github-plugin-github-openai-curated-remote\work\library-development-system'
+$pythonExe = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+& $pythonExe "$projet\tools\check.py"
+& $pythonExe "$projet\tools\check.py" --verify-proof
+```
+
+Le contrôle cherche Node.js dans PATH, puis, sous Windows, dans le runtime Codex déjà présent dans le profil utilisateur. Il consigne le chemin exécuté et sa version dans la preuve. Si aucun runtime n’est disponible, il échoue explicitement ; aucun téléchargement ni changement de PATH global. Une preuve échouée est refusée par `--verify-proof` : c’est le comportement attendu jusqu’à la réussite d’un nouveau contrôle.
+
 ## Architecture conservée
 
 `index.html` charge `library-model.js`, `quality.js`, `analytics.js`, puis `app.js`. `app.js` lit les collections et notices Zotero avec pagination et présente recherche, filtres et trois vues. `analytics.js` analyse le corpus, `quality.js` prépare des vérifications, `library-model.js` centralise les catégories et conventions de tags. Le site est actuellement publié depuis `main` ; aucun déploiement n’est réalisé par les outils locaux de cette branche.

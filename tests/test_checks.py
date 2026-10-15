@@ -3,10 +3,28 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
-from tools.check import ROOT, canonical, findings, fresh, index_findings, inputs
+from unittest.mock import patch
+from tools.check import ROOT, canonical, findings, fresh, index_findings, inputs, resolve_node
 
 
 class GuardTests(unittest.TestCase):
+    def test_node_path_preferred_and_missing_runtime_refused(self):
+        with patch('tools.check.shutil.which', return_value='installed-node'):
+            self.assertEqual(resolve_node(), 'installed-node')
+        with patch('tools.check.shutil.which', return_value=None):
+            self.assertIsNone(resolve_node(home=ROOT / '.local/no-such-profile', platform='win32'))
+
+    def test_node_fallback_when_absent_from_path(self):
+        temp_root = ROOT / '.local/test-temp'
+        temp_root.mkdir(parents=True, exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=temp_root) as temp:
+            binary = Path(temp) / '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe'
+            binary.parent.mkdir(parents=True)
+            binary.write_bytes(b'synthetic placeholder, never executed')
+            with patch('tools.check.shutil.which', return_value=None):
+                self.assertEqual(resolve_node(home=temp, platform='win32'), str(binary))
+                self.assertIsNone(resolve_node(home=temp, platform='linux'))
+
     def test_safe_and_forbidden_inputs(self):
         self.assertEqual(findings('docs/note.md', b'Public metadata only.'), [])
         self.assertTrue(findings('outputs/inventaire-prive.json', b'{}'))
