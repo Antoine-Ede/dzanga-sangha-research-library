@@ -4,7 +4,7 @@
 
 Mission du 15 octobre : [socle de développement](docs/tasks/001-development.md), puis [file bibliographique locale](docs/tasks/002-bibliography.md). État effectivement vérifié et prochaine étape : [STATE](docs/STATE.md). Aucun import, push, déploiement ou merge n’appartient à cette mission. Valider le parcours manuel avant toute IA réelle ou automatisation.
 
-Les deux lots locaux sont réalisés. Prochain petit pas : revue humaine des cinq candidats de l’essai ciblé, contrôle des rapprochements et export des décisions locales avec le [guide](docs/BIBLIOGRAPHY.md). La couverture sans DOI et la qualité des preuves restent à évaluer avant tout connecteur supplémentaire, interface ou fournisseur IA. Les chiffres APDS ci-dessous restent un bilan historique préservé.
+Les deux lots locaux et le premier tri de dix candidats sont réalisés : une référence contextuelle retenue avec accord utilisateur, quatre doublons d’instantané et cinq résultats hors périmètre identifiés par l’assistant. Exports et limites dans STATE ; aucune écriture Zotero. La couverture sans DOI, les nouvelles sources et la qualité des preuves restent à évaluer avant tout connecteur supplémentaire, interface ou fournisseur IA. Le prototype distingue la décision humaine du tri assistant, actuellement exporté séparément ; envisager son intégration native uniquement si le parcours se répète. Les chiffres APDS ci-dessous restent un bilan historique préservé.
 
 ## Bilan historique APDS conservé
 
