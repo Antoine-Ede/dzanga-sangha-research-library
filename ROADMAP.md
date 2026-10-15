@@ -4,6 +4,8 @@
 
 Mission du 15 octobre : [socle de développement](docs/tasks/001-development.md), puis [file bibliographique locale](docs/tasks/002-bibliography.md). État effectivement vérifié et prochaine étape : [STATE](docs/STATE.md). Aucun import, push, déploiement ou merge n’appartient à cette mission. Valider le parcours manuel avant toute IA réelle ou automatisation.
 
+Les deux lots locaux sont réalisés. Prochain petit pas : revue humaine des cinq candidats de l’essai ciblé, contrôle des rapprochements et export des décisions locales avec le [guide](docs/BIBLIOGRAPHY.md). La couverture sans DOI et la qualité des preuves restent à évaluer avant tout connecteur supplémentaire, interface ou fournisseur IA. Les chiffres APDS ci-dessous restent un bilan historique préservé.
+
 ## Bilan historique APDS conservé
 
 État consigné le **15 octobre 2026** ; dernier contrôle documentaire détaillé : **14 octobre 2026, lot 19**. Ce document clôt le lot de travail `feature/apds-archive-catalogue` et prépare sa reprise après l’amélioration du développement souhaitée par le responsable du projet. **L’audit exhaustif des archives n’est pas terminé.**

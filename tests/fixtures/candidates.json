@@ -1,0 +1,42 @@
+[
+  {
+    "visibility": "synthetic",
+    "source": "fixture-archive",
+    "record_id": "report-001",
+    "url": "https://example.invalid/report-001",
+    "query": "synthetic Dzanga-Sangha reports",
+    "retrieved_at": "2026-10-15T10:00:00+00:00",
+    "metadata": {"title": "Rapport fictif de gestion à Dzanga-Sangha", "authors": [], "date": null, "doi": null},
+    "evidence": [{"field": "relevance", "text": "Exemple fictif : comparaison de méthodes de gestion utiles aux APDS ; aucune observation de terrain attestée.", "locator": "synthetic-summary"}]
+  },
+  {
+    "visibility": "synthetic",
+    "source": "fixture-publisher",
+    "record_id": "study-a",
+    "url": "https://example.invalid/study-a",
+    "query": "synthetic Dzanga-Sangha observations",
+    "retrieved_at": "2026-10-15T10:00:00+00:00",
+    "metadata": {"title": "Synthetic observations in Dzanga-Sangha", "authors": ["Example Author"], "date": "2001", "doi": "10.5555/apds.fixture.a"},
+    "evidence": [{"field": "abstract", "text": "Synthetic fixture only: observations were collected in the APDS. This is not a real publication.", "locator": "synthetic-abstract"}]
+  },
+  {
+    "visibility": "synthetic",
+    "source": "fixture-index",
+    "record_id": "alternate-a",
+    "url": "https://example.invalid/alternate-a",
+    "query": "synthetic conflicting dates",
+    "retrieved_at": "2026-10-15T10:01:00+00:00",
+    "metadata": {"title": "Synthetic observations in Dzanga-Sangha", "authors": ["Example Author"], "date": "2002", "doi": "https://doi.org/10.5555/APDS.FIXTURE.A"},
+    "evidence": []
+  },
+  {
+    "visibility": "synthetic",
+    "source": "fixture-publisher",
+    "record_id": "study-b",
+    "url": "https://example.invalid/study-b",
+    "query": "synthetic misleading title match",
+    "retrieved_at": "2026-10-15T10:02:00+00:00",
+    "metadata": {"title": "Synthetic observations in Dzanga-Sangha", "authors": ["Different Example Author"], "date": "2025", "doi": "10.5555/apds.fixture.b"},
+    "evidence": []
+  }
+]

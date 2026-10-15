@@ -7,6 +7,7 @@ Site statique HTML/CSS/JavaScript alimenté en lecture par le [groupe Zotero 670
 - [État vérifié et prochaine étape](docs/STATE.md)
 - [Instructions Codex / Claude Code](AGENTS.md)
 - [Procédure et preuves de contrôle](docs/WORKFLOW.md)
+- [File bibliographique locale : essai et revue](docs/BIBLIOGRAPHY.md)
 - [Décisions et raisons](docs/DECISIONS.md)
 - [Priorités et audit APDS restant](ROADMAP.md)
 

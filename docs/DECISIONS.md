@@ -18,6 +18,8 @@ La découverte Crossref et l’instantané Zotero utilisent uniquement GET, hôt
 
 Une identité DOI normalisée permet un regroupement technique avec conservation des contradictions. Une ressemblance de titre reste une suggestion sans fusion. Aucune probabilité scientifique. Une décision « retenir » signifie conserver dans le parcours de revue, pas référence scientifiquement validée ni contenu autorisé à la diffusion.
 
+L’essai public du 15 octobre a ramené des faux positifs évidents avec la recherche bibliographique large. La recherche sur titre est donc le défaut de ce premier parcours ; le mode large reste explicite. Les deux modes conservent la requête et leurs curseurs séparément. Ce choix réduit le bruit observé sans garantir la pertinence ni une couverture exhaustive. Pagination et pauses suivent les [conseils Crossref](https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/) et les [principes de l’API Zotero](https://www.zotero.org/support/dev/web_api/v3/basics).
+
 ## D004 — Active — Préservation APDS (15 octobre 2026)
 
 Conserver les conventions `SCOPE:`, `STATUS:`, `ACCESS:` et les preuves `Scope evidence:` existantes. Les champs du prototype complètent ce modèle, sans migrer Zotero ni les instantanés historiques. Pas de nouveau PDF ; les six copies publiques restent inchangées. Pour toute revue future : auteurs ≠ signataires, date de publication ≠ terrain/signature, copie publique ≠ original/OCR ; conserver les lacunes et les retraits déjà effectués.
