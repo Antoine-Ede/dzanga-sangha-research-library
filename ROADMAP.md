@@ -1,5 +1,11 @@
 # Suivi du projet et reprise de l’audit APDS
 
+## Priorité actuelle — système local de développement et propositions
+
+Mission du 15 octobre : [socle de développement](docs/tasks/001-development.md), puis [file bibliographique locale](docs/tasks/002-bibliography.md). État effectivement vérifié et prochaine étape : [STATE](docs/STATE.md). Aucun import, push, déploiement ou merge n’appartient à cette mission. Valider le parcours manuel avant toute IA réelle ou automatisation.
+
+## Bilan historique APDS conservé
+
 État consigné le **15 octobre 2026** ; dernier contrôle documentaire détaillé : **14 octobre 2026, lot 19**. Ce document clôt le lot de travail `feature/apds-archive-catalogue` et prépare sa reprise après l’amélioration du développement souhaitée par le responsable du projet. **L’audit exhaustif des archives n’est pas terminé.**
 
 ## Travail livré
@@ -29,7 +35,7 @@ Les contrôles OCR et visuels **se recoupent et ne doivent pas être additionné
 
 ## Prochaines étapes
 
-1. **Définir puis mettre en place l’amélioration du développement demandée**, sur une nouvelle branche. Son contenu reste à préciser ; aucune nouvelle fonctionnalité de ce futur chantier n’est annoncée comme réalisée ici. Conserver une procédure de validation avant publication et distinguer les changements Git des écritures dans Zotero, qui alimentent immédiatement le site public.
+1. **Mettre en place puis éprouver l’amélioration du développement** : périmètre désormais précisé dans les deux fiches ci-dessus ; résultats dans STATE. Conserver une procédure de validation avant publication et distinguer les changements Git des écritures dans Zotero, qui alimentent immédiatement le site public.
 2. **Reprendre la revue documentaire depuis les registres privés**, sans réinitialiser les compteurs : examiner les 129 scans restants dans le suivi OCR et les 5 221 pages encore en attente dans le suivi visuel. Revenir aux images pour les tableaux, cartes, annotations et passages mal reconnus ; conserver les limites lorsqu’un original reste illisible.
 3. **Comparer les propositions restantes aux notices Zotero actuelles**, puis appliquer uniquement les compléments validés, sans écraser les enrichissements indépendants. Le lot de propositions de 36 dossiers est partiellement appliqué ; les 13 notices déjà enrichies ne signifient pas que tous leurs champs proposés ont été réconciliés. Vérifier la sauvegarde après rechargement et consigner les champs effectivement modifiés.
 4. **Poursuivre la recherche des versions en ligne identiques** : vérifier titre, auteurs, date, édition/langue et pagination ; privilégier le DOI confirmé ou le dépôt institutionnel. Conserver la provenance APDS et les lacunes du scan. La référence citée dans un rapport, sa traduction ou un article ultérieur ne lui donnent pas leur DOI. Certains liens institutionnels ont été confirmés sans audit visuel du volume en ligne entier ; le lien direct vers l’édition française d’un chapitre reste à confirmer.
