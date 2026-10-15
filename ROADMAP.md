@@ -6,6 +6,16 @@ Mission du 15 octobre : [socle de développement](docs/tasks/001-development.md)
 
 Les deux lots locaux et le premier tri de dix candidats sont réalisés : une référence contextuelle retenue avec accord utilisateur, quatre doublons d’instantané et cinq résultats hors périmètre identifiés par l’assistant. Exports et limites dans STATE ; aucune écriture Zotero. La couverture sans DOI, les nouvelles sources et la qualité des preuves restent à évaluer avant tout connecteur supplémentaire, interface ou fournisseur IA. Le prototype distingue la décision humaine du tri assistant, actuellement exporté séparément ; envisager son intégration native uniquement si le parcours se répète. Les chiffres APDS ci-dessous restent un bilan historique préservé.
 
+## Reprise locale — lot 20 du 15 octobre 2026
+
+[Revue et lot limité](docs/tasks/003-review-and-apds-resumption.md) : deux rapports supplémentaires, neuf pages examinées en texte et en image ; deux pages partiellement illisibles, limites conservées. Notices existantes comparées par GET public ; propositions locales seulement. Aucun original, PDF public ou champ Zotero modifié. Pas de version complète équivalente en ligne confirmée par les deux recherches ciblées.
+
+Compteurs actuels des registres privés : **43 scans / 565 pages examinées en OCR** (334 lisibles, 231 insuffisantes), **54 scans / 800 pages examinées visuellement** (740 lisibles, 60 partiellement illisibles). Restent **127 scans / 5 447 pages dans le suivi OCR** et **5 212 pages dans le suivi visuel**. Couverture lisible unique : 745 pages, avec 329 pages communes aux deux lectures. Les compteurs historiques ci-dessous restent inchangés ; utiliser ces compteurs récents pour la prochaine reprise.
+
+La revue locale du socle et du prototype est consignée dans STATE ; leurs limites restent explicites. Une intégration Git est encore à autoriser : GitHub Pages publie depuis main. Le prochain lot APDS doit partir des statuts privés `pending`, sans réinitialisation ni import. Les deux nouveaux compléments restent soumis à validation et relecture de la notice actuelle avant application ; aucune autorisation de diffusion des scans n’en découle.
+
+Preuves locales : `outputs/verification-revue-ocr-2026-10-15-lot20.json` et sauvegarde privée `outputs/recovery-library-review-2026-10-15/`. Le bilan narratif `outputs/bilan-revue-ocr.md` reste historique au lot 19 ; les registres JSON et leurs rapports régénérés font foi pour les compteurs du lot 20.
+
 ## Bilan historique APDS conservé
 
 État consigné le **15 octobre 2026** ; dernier contrôle documentaire détaillé : **14 octobre 2026, lot 19**. Ce document clôt le lot de travail `feature/apds-archive-catalogue` et prépare sa reprise après l’amélioration du développement souhaitée par le responsable du projet. **L’audit exhaustif des archives n’est pas terminé.**
@@ -35,10 +45,10 @@ Les chiffres portent sur les **fichiers scannés**, variantes comprises, et sur 
 
 Les contrôles OCR et visuels **se recoupent et ne doivent pas être additionnés**. Certaines variantes ont été relues sans que toutes les autres copies d’une même publication aient été comparées. Un scan ouvert n’est pas nécessairement lisible ni complet.
 
-## Prochaines étapes
+## Travaux ouverts du bilan initial — actualisation ci-dessus
 
 1. **Mettre en place puis éprouver l’amélioration du développement** : périmètre désormais précisé dans les deux fiches ci-dessus ; résultats dans STATE. Conserver une procédure de validation avant publication et distinguer les changements Git des écritures dans Zotero, qui alimentent immédiatement le site public.
-2. **Reprendre la revue documentaire depuis les registres privés**, sans réinitialiser les compteurs : examiner les 129 scans restants dans le suivi OCR et les 5 221 pages encore en attente dans le suivi visuel. Revenir aux images pour les tableaux, cartes, annotations et passages mal reconnus ; conserver les limites lorsqu’un original reste illisible.
+2. **Poursuivre la revue documentaire depuis les registres privés**, sans réinitialiser les compteurs : utiliser les restes actualisés du lot 20 ci-dessus. Revenir aux images pour les tableaux, cartes, annotations et passages mal reconnus ; conserver les limites lorsqu’un original reste illisible.
 3. **Comparer les propositions restantes aux notices Zotero actuelles**, puis appliquer uniquement les compléments validés, sans écraser les enrichissements indépendants. Le lot de propositions de 36 dossiers est partiellement appliqué ; les 13 notices déjà enrichies ne signifient pas que tous leurs champs proposés ont été réconciliés. Vérifier la sauvegarde après rechargement et consigner les champs effectivement modifiés.
 4. **Poursuivre la recherche des versions en ligne identiques** : vérifier titre, auteurs, date, édition/langue et pagination ; privilégier le DOI confirmé ou le dépôt institutionnel. Conserver la provenance APDS et les lacunes du scan. La référence citée dans un rapport, sa traduction ou un article ultérieur ne lui donnent pas leur DOI. Certains liens institutionnels ont été confirmés sans audit visuel du volume en ligne entier ; le lien direct vers l’édition française d’un chapitre reste à confirmer.
 5. **Compléter les comparaisons de variantes et rechercher les pages manquantes**. Des scans préférables ont été identifiés, mais l’équivalence de toutes les copies et l’intégralité des originaux ne sont pas établies. Ne pas inventer les dates de rédaction à partir des périodes de terrain, ni les auteurs à partir des signataires.
