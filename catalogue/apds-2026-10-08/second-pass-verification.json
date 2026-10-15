@@ -1,0 +1,36 @@
+{
+  "verified_at": "2026-10-10",
+  "group_id": 6701789,
+  "top_level_items": 378,
+  "bibliographic_references": 377,
+  "archive_records": 118,
+  "second_pass_imported": 36,
+  "second_pass_types": {
+    "manuscript": 8,
+    "document": 4,
+    "report": 20,
+    "book": 4
+  },
+  "second_pass_restricted_originals": 25,
+  "reports_in_secondary_collection": 20,
+  "archive_provenance_confirmed": 118,
+  "public_redacted_plans": 6,
+  "original_pdf_hashes_unchanged": 170,
+  "no_new_doi_inferred": true,
+  "concurrent_updates_observed": 5,
+  "git_branch": "feature/apds-archive-catalogue",
+  "main_remote_at_resume": "ef38021716d5e3f5e47324b71960d55c87343670",
+  "first_pass_snapshot": "verification.json",
+  "note": "Zotero is independently being enriched. This task only writes archive provenance, six public plan links and collection membership on its own records; current statuses and annotations are retained.",
+  "interface_validation": {
+    "missing_metadata": "visible notice",
+    "rendering_modes": "table, cards, list",
+    "live_browser_preview": "passed",
+    "missing_authors": "explicit",
+    "public_plan_links_http_200": 6,
+    "restricted_originals": "visible warning",
+    "html_escaping": "passed",
+    "syntax": "passed",
+    "app_sha256": "1f52e714f789f78e3f61915d9bb7df125a40ab976d7931cdf365603c67edc4ab"
+  }
+}

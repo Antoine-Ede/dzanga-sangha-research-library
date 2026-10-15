@@ -13,7 +13,7 @@ const FILTERS = {
   authorFilter: {param:'author',label:'Auteur'},
   typeFilter: {param:'type',label:'Type'}
 };
-const TYPE_LABELS = {journalArticle:'Article de revue',book:'Livre',bookSection:'Chapitre de livre',thesis:'Thèse ou mémoire',report:'Rapport',conferencePaper:'Communication ou résumé de congrès',preprint:'Préprint',dataset:'Jeu de données',webpage:'Page web',document:'Document'};
+const TYPE_LABELS = {journalArticle:'Article de revue',book:'Livre',bookSection:'Chapitre de livre',thesis:'Thèse ou mémoire',report:'Rapport',manuscript:'Manuscrit ou projet de recherche',conferencePaper:'Communication ou résumé de congrès',preprint:'Préprint',dataset:'Jeu de données',webpage:'Page web',document:'Document'};
 const UNKNOWN = '__unspecified__';
 
 const $ = (id) => document.getElementById(id);
@@ -100,7 +100,7 @@ function optionLabel(id, value) {
   if (id === 'categoryFilter') return LibraryModel.labels[value]||value;
   if (id === 'collectionFilter') return value.replace(/^\d+ - /,'');
   if (id === 'scopeFilter') return {'DSPA-Core':'Données DSPA · Core','DSPA-Relevant':'Contexte et gestion · Relevant'}[value] || value;
-  if (id === 'accessFilter') return {Open:'Accès ouvert',Restricted:'Accès restreint'}[value] || value;
+  if (id === 'accessFilter') return {Open:'Accès ouvert',Restricted:'Accès restreint','Restricted-Original':'Original en consultation encadrée'}[value] || value;
   if (id === 'typeFilter') return TYPE_LABELS[value] || value;
   if (id === 'authorFilter') return state.authorLabels.get(value)||value;
   return value;
@@ -240,6 +240,20 @@ function setSection(section) {
   $('searchPanel').hidden=section!=='library';
 }
 
+function archiveInfo(item) {
+  const data=item.data;
+  if (!data.archive) return '';
+  const extra=String(data.extra||'');
+  const publicCopy=extra.includes('version publique expurgée');
+  const restricted=extra.includes('Original contenant des éléments sensibles');
+  const provenance=[data.archive,data.archiveLocation].filter(Boolean).join(' · ');
+  const note=extra.includes('Copie conservée')?extra.slice(extra.indexOf('Copie conservée')):'';
+  const incomplete=tagsOf(item).includes('STATUS:Metadata-Incomplete');
+  return `<div class="archive-info"><p>${esc(provenance)}</p>
+    ${restricted?`<p class="archive-warning">${publicCopy?'Copie publique expurgée disponible. ':''}Original sensible : consultation encadrée aux APDS.</p>`:''}
+    ${note?`<details><summary>${incomplete?'Notice incomplète · ':''}Conservation et informations de notice</summary><p>${esc(note).replace(/\n/g,'<br>')}</p></details>`:''}</div>`;
+}
+
 function render() {
   $("resultCount").textContent = `${state.filtered.length} résultat${state.filtered.length!==1?"s":""} sur ${state.items.length}`;
   const el=$("results");
@@ -263,9 +277,10 @@ function render() {
         <h2>${titleLink(item)}</h2>
         <div class="year">${esc(yearOf(item))}</div>
       </div>
-      <p class="authors">${esc(authorsOf(item))}</p>
+      <p class="authors">${esc(authorsOf(item)||'Auteur non renseigné')}</p>
       <p class="source">${esc(sourceOf(item))}</p>
       <p class="document-type">${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</p>
+      ${archiveInfo(item)}
       <div class="badges">${badges}</div>
       <div class="links">
         <a href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Zotero</a>
@@ -277,7 +292,7 @@ function render() {
   function table(items) {
     const rows=items.map(item=>{
       const tags=tagsOf(item),doi=doiOf(item);
-      return `<tr><th scope="row">${titleLink(item)}<a class="table-zotero" href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a></th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item))}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
+      return `<tr><th scope="row">${titleLink(item)}<a class="table-zotero" href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a>${archiveInfo(item)}</th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item)||'Non renseignés')}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint','Restricted-Original':'Original en consultation encadrée'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
     }).join('');
     return `<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau des références, défilement horizontal"><table class="reference-table"><caption>Comparaison des références · le titre ouvre la publication lorsqu'un DOI ou un lien est disponible.</caption><thead><tr><th scope="col">Titre · publication</th><th scope="col">Année</th><th scope="col">Auteurs</th><th scope="col">Type</th><th scope="col">Portée</th><th scope="col">Accès</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }

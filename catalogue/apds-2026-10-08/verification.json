@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-10-08T14:24:59.854402+00:00",
+  "group_id": 6701789,
+  "new_items": 82,
+  "top_level_items": 283,
+  "bibliographic_items": 282,
+  "preexisting_items": 201,
+  "preexisting_items_modified": [],
+  "metadata_errors": [],
+  "all_target_collections_match": true,
+  "collection_identity_unchanged": true,
+  "new_item_children": 0,
+  "new_normalized_title_duplicates": 0,
+  "types": {
+    "bookSection": 5,
+    "report": 65,
+    "book": 2,
+    "thesis": 10
+  },
+  "statuses": {
+    "STATUS:Verified": 7,
+    "STATUS:Metadata-Incomplete": 75
+  },
+  "scope": {
+    "SCOPE:DSPA-Core": 56,
+    "SCOPE:DSPA-Relevant": 26
+  }
+}
