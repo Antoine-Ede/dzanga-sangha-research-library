@@ -14,7 +14,7 @@ Les scripts `curate_archive.py`, `archive_updates.py`, `text_audit.py`, `summari
 
 Fiches : [lot 1](tasks/001-development.md), puis [lot 2](tasks/002-bibliography.md).
 Rôles exercés successivement par la même session ; aucune revue indépendante déclarée.
-Interdictions actuelles : écriture Zotero, push, publication, fusion et IA externe. Les chiffres APDS du bilan du 14 octobre sont historiques, pas un décompte actualisé du catalogue vivant.
+Limites de la mission initiale : écriture Zotero, push, publication, fusion et IA externe interdits. L'autorisation ultérieure de fusion et de publication induite est consignée dans la dernière section ; les autres limites demeurent. Les chiffres APDS du bilan du 14 octobre sont historiques, pas un décompte actualisé du catalogue vivant.
 
 ## Validation et limites
 
@@ -61,3 +61,15 @@ Preuve séparée hors dépôt : `outputs/verification-revue-ocr-2026-10-15-lot20
 Récupération vérifiée avant les enregistrements : `outputs/recovery-library-review-2026-10-15/branches.bundle` (vérification Git) et `local-and-audit.zip` (CRC et SHA-256 des 36 fichiers). Ne pas publier ces sauvegardes. Pour revenir sur le lot, comparer les entrées concernées avec cette archive et préserver tout travail ultérieur ; ne pas remplacer aveuglément l’ensemble du registre. Les ajouts documentaires Git sont annulables séparément du code. Ne pas supprimer `.local/` sans sauvegarde.
 
 Prochaine petite tâche : décider de l’intégration de la branche, puis poursuivre un lot documentaire borné depuis les statuts encore `pending`. Les compléments des deux notices restent à valider avant toute application dans une mission Zotero autorisée. Les futures sessions doivent relire cet état et la fiche applicable avant d’agir.
+
+## Autorisation d'intégration et suites — point de reprise actuel
+
+Le responsable a demandé ensuite « fusionne main au moment le plus opportun ». Cette instruction autorise désormais le push de la branche, la PR, sa fusion après contrôles et la publication Pages induite. Elle remplace l'interdiction Git de la mission initiale ; aucune écriture Zotero ni tâche semestrielle n'est activée dans ce lot. [Fiche 004](tasks/004-integration-and-follow-up.md). Au contrôle préalable, main distant reste `fbac9cd`, aucun PR ouvert, et le worktree main est propre. Le résultat de l'intégration devra être lu dans l'historique Git/PR et la preuve locale de livraison, plutôt que déduit de cette autorisation.
+
+Nouvelle règle active : [D005](DECISIONS.md), tri documentaire proportionné sans obligation de lire chaque page pour orienter le traitement. Conserver les compteurs réels du lot 20 ; ne pas convertir un tri rapide en certification des pages. Les exigences de préservation et les contrôles d'expurgation restent applicables.
+
+Six suites enregistrées dans ROADMAP avec critères : tri proportionné ; auteurs et résumés de notices ; PDF APDS dans Zotero et accès depuis Pages ; proportions d'accès gratuit/restreint/inconnu ; récits historiques de navigation ; veille semestrielle. Diagnostic confirmé sur l'exemple d'auteur par GET public et source bibliographique ; aucun créateur corrigé à distance. La présentation brute du texte Extra explique les répétitions de la capture. Trois premières pistes historiques sont consignées avec limites ; aucune ajoutée à Zotero.
+
+Le changement de ce lot est documentaire. Aucun code d'interface, PDF public ou catalogue historique modifié ; pas de nouvelle validation navigateur revendiquée. Contrôles communs à exécuter sur le commit final avant intégration, puis sur le SHA fusionné. Conserver la preuve avant fusion dans `.local/premerge-verification.json` et la preuve finale dans le worktree main `.local/verification.json`. Résultat distant, récupération et URL de PR : `.local/integration-delivery.json` du worktree de développement après l'opération. Ne pas confondre réussite des tests et état du déploiement Pages.
+
+Prochaine petite tâche recommandée : correction sourcée des auteurs et présentation concise des notices, dans une nouvelle branche et avec tests navigateur pour le changement d'affichage. Pour les PDF, commencer par un pilote avec accès anonyme réellement vérifié ; stockage de groupe ≠ accès public aux fichiers. La veille reste un projet de file de propositions semestrielle, pas une importation automatique acceptée ni une garantie de PDF gratuits.
