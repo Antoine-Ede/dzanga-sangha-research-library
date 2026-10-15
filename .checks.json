@@ -1,0 +1,6 @@
+{
+  "base_commit": "fbac9cd2cd81a06c6f3b1421a8cf225a4383b1bd",
+  "protected_prefixes": ["catalogue/"],
+  "ui_files": ["app.js", "analytics.js", "quality.js", "library-model.js", "index.html", "styles.css"],
+  "browser_command": []
+}
