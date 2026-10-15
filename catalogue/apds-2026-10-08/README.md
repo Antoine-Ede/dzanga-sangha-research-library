@@ -1,5 +1,7 @@
 # APDS archival bibliography — 8 October 2026
 
+For the 15 October closure checkpoint, remaining review work and known limitations, see the [project roadmap](../../ROADMAP.md). The imports below are completed; the exhaustive document review remains unfinished. These JSON files are historical import snapshots, not a current export of later Zotero enrichments.
+
 82 bibliographic records have been imported into Zotero group 6701789 and assigned to its existing thematic collections. Reports also belong to `16 - Technical reports`, and theses to `15 - Theses & dissertations`.
 
 The group is the live data source of the existing GitHub Pages application. This directory documents the completed import; the application does not need a new data loader. Zotero changes are visible independently of a merge of this Git branch.
@@ -40,4 +42,4 @@ Six historical village plans are available as [redacted public PDFs](plans-publi
 - `second-pass-imported-items.json`: permanent Zotero keys for the 36 additional notices; do not reimport.
 - `second-pass-verification.json`: API verification and integrity checks on 10 October.
 
-The application changes on this branch display archive provenance, missing-information notices and controlled-consultation warnings in both cards and the comparison table. Zotero imports are live immediately; the branch's interface changes require a separate merge/deployment. This work does not modify or merge `main`. Independent bibliography updates since the initial import have been preserved.
+The application changes display archive provenance, missing-information notices and controlled-consultation warnings in cards, compact lists and the comparison table. Zotero imports are live immediately; interface changes are deployed separately through GitHub Pages from `main`. The initially isolated branch is being closed for integration at the user's request on 15 October; the roadmap records unfinished work. Independent bibliography updates since the initial import have been preserved.
