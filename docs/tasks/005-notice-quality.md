@@ -1,6 +1,6 @@
 # Notices d'archives compactes et auteurs à vérifier
 
-Statut : réalisation locale achevée, revue utilisateur en attente ; contrôle final à lire dans `.local/verification.json`. 16 octobre 2026. Branche : `codex/library-notices-quality`, base `807dfc4`.
+Statut : réalisation et revue utilisateur achevées (« Ça semble ok », 16 octobre 2026) ; intégration après contrôle du commit final. Résultat de livraison dans `.local/notice-quality-delivery.json`. Branche : `codex/library-notices-quality`, base `807dfc4`.
 
 - Besoin : alléger les notices répétitives et traiter l'exemple d'auteur « A », sans abandonner la curation APDS.
 - Périmètre : résumé d'archive concis dans les trois vues, détails complets repliables, signalement prudent des noms réduits à des initiales ; proposition locale sourcée pour les treize créateurs de l'exemple.
@@ -16,4 +16,4 @@ Résultats : résumé d'archive compact et détails intacts, avertissement sensi
 
 Proposition privée de correction : `.local/author-correction-proposal.json` et version lisible `.md`, treize auteurs rapprochés par position/nom/initiales avec PubMed, DOI identique. Crossref reproduit l'inversion ; ne pas l'utiliser seul pour cette correction. Aucun prénom complet inventé ; la proposition de titre provient aussi de PubMed. Version Zotero observée 82 ; toute écriture future exige un GET frais et comparaison avant modification ciblée. Aucune écriture appliquée.
 
-Conservation : empreintes des deux registres APDS lot 20 et des décisions bibliographiques antérieures revérifiées inchangées. Capture de référence à présenter : `.local/browser/table.png`, version mobile `.local/browser/mobile-list.png`. Restent revue utilisateur, application éventuelle de la correction Zotero et publication de l'interface ; ces étapes ne sont pas déduites du test local.
+Conservation : empreintes des deux registres APDS lot 20 et des décisions bibliographiques antérieures revérifiées inchangées. Aperçu accepté : `.local/browser/table.png`, version mobile `.local/browser/mobile-list.png`. L'application de la correction Zotero et le pilote PDF restent distincts de cette livraison d'interface. Aucun champ Zotero ni fichier PDF modifié.
