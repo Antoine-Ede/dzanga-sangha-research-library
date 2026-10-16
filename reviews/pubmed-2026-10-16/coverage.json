@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-10-16T20:22:37.166Z",
+  "bibliographicReferences": 435,
+  "expected": 8,
+  "coverage": 8,
+  "checks": [
+    {
+      "pmid": "40915313",
+      "doi": "10.1016/j.lanmic.2025.101173",
+      "key": "2MVUBTXB",
+      "version": 949,
+      "issues": []
+    },
+    {
+      "pmid": "33711161",
+      "doi": "10.1645/20-126",
+      "key": "X2TR4JGG",
+      "version": 957,
+      "issues": []
+    },
+    {
+      "pmid": "29475742",
+      "doi": "10.1016/j.ttbdis.2018.02.006",
+      "key": "VAU3AXIX",
+      "version": 951,
+      "issues": []
+    },
+    {
+      "pmid": "29205130",
+      "doi": "10.1099/mic.0.000587",
+      "key": "ZNHZCP54",
+      "version": 952,
+      "issues": []
+    },
+    {
+      "pmid": "27440885",
+      "doi": "10.1128/JVI.00247-16",
+      "key": "JEAFUQ4U",
+      "version": 953,
+      "issues": []
+    },
+    {
+      "pmid": "26923597",
+      "doi": "10.1016/j.celrep.2016.02.013",
+      "key": "2BRQ9I4X",
+      "version": 954,
+      "issues": []
+    },
+    {
+      "pmid": "25862141",
+      "doi": "10.1093/molbev/msv090",
+      "key": "WZ3E49JV",
+      "version": 955,
+      "issues": []
+    },
+    {
+      "pmid": "25248691",
+      "doi": "10.1016/j.vetmic.2014.08.032",
+      "key": "597KZ93P",
+      "version": 956,
+      "issues": []
+    }
+  ],
+  "complete": true,
+  "authenticatedWrites": false
+}
