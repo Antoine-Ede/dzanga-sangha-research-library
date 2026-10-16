@@ -208,7 +208,7 @@ def main():
         if not config.get('browser_command'):
             errors.append('UI changed: configure and execute browser_command plus user review before accepting.')
         else:
-            run(config['browser_command'])
+            run([node if part == '{node}' else part for part in config['browser_command']])
     after = inputs(ROOT)
     if after != before:
         errors.append('Inputs changed during verification')

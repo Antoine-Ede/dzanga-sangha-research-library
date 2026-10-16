@@ -243,15 +243,17 @@ function setSection(section) {
 function archiveInfo(item) {
   const data=item.data;
   if (!data.archive) return '';
-  const extra=String(data.extra||'');
-  const publicCopy=extra.includes('version publique expurgée');
-  const restricted=extra.includes('Original contenant des éléments sensibles');
+  const info=LibraryModel.archiveSummary(item);
   const provenance=[data.archive,data.archiveLocation].filter(Boolean).join(' · ');
-  const note=extra.includes('Copie conservée')?extra.slice(extra.indexOf('Copie conservée')):'';
-  const incomplete=tagsOf(item).includes('STATUS:Metadata-Incomplete');
+  const access=info.sensitive?'Original sensible : consultation encadrée aux APDS.'
+    :info.controlled?'Original : consultation encadrée aux APDS.'
+    :info.restricted?'Accès restreint signalé dans Zotero.':'';
   return `<div class="archive-info"><p>${esc(provenance)}</p>
-    ${restricted?`<p class="archive-warning">${publicCopy?'Copie publique expurgée disponible. ':''}Original sensible : consultation encadrée aux APDS.</p>`:''}
-    ${note?`<details><summary>${incomplete?'Notice incomplète · ':''}Conservation et informations de notice</summary><p>${esc(note).replace(/\n/g,'<br>')}</p></details>`:''}</div>`;
+    ${info.gaps.length?`<p class="archive-gaps"><strong>À préciser :</strong> ${esc(info.gaps.join(' '))}</p>`
+      :info.incomplete?'<p class="archive-gaps">Notice incomplète : consulter les précisions dans Zotero.</p>':''}
+    ${access?`<p${info.sensitive?' class="archive-warning"':''}>${access}</p>`:''}
+    ${info.publicCopy?'<p>Copie publique expurgée signalée dans la notice.</p>':''}
+    ${info.details?`<details><summary>Détails de la notice Zotero</summary><p class="archive-details">${esc(info.details).replace(/\r?\n/g,'<br>')}</p></details>`:''}</div>`;
 }
 
 function render() {

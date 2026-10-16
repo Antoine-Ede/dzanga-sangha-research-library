@@ -1,4 +1,4 @@
-# État vérifié — 15 octobre 2026
+# État vérifié — 16 octobre 2026
 
 ## Base et diagnostic
 
@@ -73,3 +73,25 @@ Six suites enregistrées dans ROADMAP avec critères : tri proportionné ; auteu
 Le changement de ce lot est documentaire. Aucun code d'interface, PDF public ou catalogue historique modifié ; pas de nouvelle validation navigateur revendiquée. Contrôles communs à exécuter sur le commit final avant intégration, puis sur le SHA fusionné. Conserver la preuve avant fusion dans `.local/premerge-verification.json` et la preuve finale dans le worktree main `.local/verification.json`. Résultat distant, récupération et URL de PR : `.local/integration-delivery.json` du worktree de développement après l'opération. Ne pas confondre réussite des tests et état du déploiement Pages.
 
 Prochaine petite tâche recommandée : correction sourcée des auteurs et présentation concise des notices, dans une nouvelle branche et avec tests navigateur pour le changement d'affichage. Pour les PDF, commencer par un pilote avec accès anonyme réellement vérifié ; stockage de groupe ≠ accès public aux fichiers. La veille reste un projet de file de propositions semestrielle, pas une importation automatique acceptée ni une garantie de PDF gratuits.
+
+## Point de reprise actuel — lot 005, 16 octobre 2026
+
+La mission précédente est terminée : PR nº 2 fusionnée à `807dfc4bcc55eb7672dc933b4ba92a1b7707cdf8`, Pages déployé et contrôle complet réussi sur ce SHA. Preuve : `.local/integration-delivery.json` dans l'ancien worktree de développement. Main reste à ce commit, vérifié au démarrage ; aucun PR ouvert. Le nouveau lot utilise un troisième worktree, branche `codex/library-notices-quality`, issu de main. Les deux anciens worktrees et leurs données ignorées sont préservés.
+
+[Fiche 005](tasks/005-notice-quality.md) : résumés d'archives compacts dans les trois vues, texte Extra complet repliable, provenance/lacunes et avertissement sensible conservés. Signalement prudent des noms réduits à des initiales dans la qualité ; aucune permutation des données ni correction cachée dans le filtre. Une institution et les noms courts usuels restent inchangés. Le signalement peut produire des faux positifs et nécessite une revue, pas une correction en masse.
+
+Exemple réel : proposition locale pour les treize créateurs et le titre de `MCCPAMU3`, version observée 82, DOI `10.1111/eva.12075`. La réponse Crossref reproduit l'erreur ; PubMed permet le rapprochement par nom et initiales. Sources/empreintes, avant et proposition : `.local/author-correction-proposal.json`, version lisible `.md`. Pas d'écriture Zotero : « A » reste donc présent dans le filtre du catalogue réel jusqu'à correction de la source. Ne pas annoncer l'exemple comme réparé à distance. Une relance doit relire la version et préserver les éventuels changements intervenus depuis.
+
+Validation de l'interface : test Playwright/Chrome en vrai navigateur avec données fictives et zéro trafic externe, trois vues, ouverture/fermeture au clavier, contenu échappé, mobile, filtres, recherche, analyse, qualité et export CSV. Captures inspectées dans `.local/browser/`. La commande commune lance ce test via le Node déjà disponible ; détails de dépendances dans WORKFLOW. Échec initial du test VM dû à la comparaison d'objets entre contextes corrigé ; échec réseau localhost de la sandbox résolu avec permission d'exécution, sans modifier les protections. Pas de revue indépendante ni d'audit complet lecteur d'écran. Résultat final sur le commit livré : `.local/verification.json`, à confirmer par `--verify-proof`.
+
+**Continuité des travaux précédents** : audit APDS au lot 20 (43 scans OCR / 54 visuels entièrement parcourus), deux propositions de notices non appliquées ; première file bibliographique de dix candidats et décision humaine conservées. Empreintes des deux registres APDS et de la base/export bibliographiques vérifiées inchangées. Restent pilote PDF Zotero/accès anonyme, récits historiques de la Sangha, indicateurs d'accès et veille semestrielle ; aucune de ces tâches n'est remplacée par le lot d'interface ni marquée accomplie. Reprendre le tri proportionné D005 après ce lot, sans réinitialisation.
+
+Prochaine étape immédiate : revue utilisateur de l'aperçu local, puis intégration de l'interface et application éventuelle de la correction Zotero comme opérations distinctes. Aucun push, fusion, publication ou téléversement dans ce lot local. Retour arrière : revert de ce commit après sauvegarde de `.local`, ou retour au worktree main préservé ; ne pas supprimer les anciens dossiers privés.
+
+### Revue utilisateur validée et priorité PDF — 16 octobre
+
+Le responsable a validé l'aperçu (« Ça semble ok »). Le lot 005 peut être intégré selon l'autorisation de fusion au moment opportun, après contrôle du commit final et sauvegarde Git vérifiée. État distant, SHA fusionné, tests et publication à consigner dans `.local/notice-quality-delivery.json` du worktree de ce lot ; les anciens résultats de contrôle ne remplacent pas cette preuve. La correction des auteurs est toujours une proposition locale, aucune écriture Zotero réalisée.
+
+Prochaine priorité demandée : rendre les PDF APDS autorisés à la diffusion publique consultables depuis le site. Aujourd'hui `articleUrl()` utilise seulement le DOI ou le champ URL de la notice ; le site ne récupère pas les pièces jointes PDF Zotero. Une notice sans DOI ni URL de document renvoie donc seulement vers Zotero. Un tag d'accès ne suffit pas à rendre le fichier accessible.
+
+Le pilote doit établir un parcours complet : PDF de diffusion identifié et conservé dans Zotero, URL de lecture publique durable (ou dépôt public complémentaire si Zotero impose une connexion), lien « Consulter le PDF » distinct de « Notice Zotero », test sans connexion et contrôle du bon fichier/version. Cette fonction et le stockage des fichiers ne sont pas livrés par le lot 005. Les six copies publiques préexistantes sont préservées ; les autres originaux ne sont pas téléversés implicitement. Audit APDS, histoire de la Sangha et veille restent suivis dans ROADMAP.
