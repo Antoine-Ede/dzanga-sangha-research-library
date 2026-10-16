@@ -97,6 +97,21 @@ async function main(){
     assert.match(await page.locator('#qualityCount').innerText(),/1 notices à examiner sur 3/);
     assert((await page.locator('#qualityResults').innerText()).includes('auteurs à vérifier'));
     await page.locator('#libraryTab').click();
+    await page.locator('#search').fill('texte libre');
+    await page.locator('#helpTab').focus();await page.keyboard.press('Enter');
+    assert(await page.locator('#helpPanel').isVisible());
+    for(const id of ['searchPanel','statsPanel','libraryPanel','analysisPanel','qualityPanel','exportCsv'])assert(await page.locator('#'+id).isHidden());
+    assert.equal(await page.locator('#helpTab').getAttribute('aria-pressed'),'true');
+    assert.equal(new URL(page.url()).searchParams.get('section'),'help');
+    assert((await page.locator('#help-pdfs').innerText()).includes('Consulter le PDF'));
+    await page.screenshot({path:path.join(out,'help-desktop.png'),fullPage:true});
+    await page.setViewportSize({width:390,height:844});
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+    await page.screenshot({path:path.join(out,'help-mobile.png'),fullPage:true});
+    await page.locator('#libraryTab').click();
+    assert.equal(await page.locator('#search').inputValue(),'texte libre');
+    assert.match(await page.locator('#resultCount').innerText(),/1 résultat sur 3/);
+    await page.locator('#resetFilters').click();
     await page.locator('#resultView').selectOption('list');
     await page.setViewportSize({width:390,height:844});
     await page.locator('#results').screenshot({path:path.join(out,'mobile-list.png')});
@@ -104,9 +119,21 @@ async function main(){
     const downloadPromise=page.waitForEvent('download');await page.locator('#exportCsv').click();
     const download=await downloadPromise;await download.saveAs(path.join(out,'synthetic-export.csv'));
     assert(fs.readFileSync(path.join(out,'synthetic-export.csv'),'utf8').includes('Durand A'));
+    // The guide deep link and navigation remain usable when public Zotero fails.
+    await context.route('https://api.zotero.org/**',route=>route.fulfill({status:403,json:{error:'Synthetic denied'}}));
+    const unavailable=await context.newPage();unavailable.on('pageerror',error=>errors.push(error.message));
+    await unavailable.goto(origin+'/?section=help&q=preserved');await unavailable.waitForLoadState('networkidle');
+    assert(await unavailable.locator('#helpPanel').isVisible());
+    assert(await unavailable.locator('#helpTab').isEnabled());
+    assert(await unavailable.locator('#searchPanel').isHidden());
+    assert(await unavailable.locator('#exportCsv').isHidden());
+    await unavailable.locator('#helpTab').click();
+    assert.equal(new URL(unavailable.url()).searchParams.get('section'),'help');
+    await unavailable.screenshot({path:path.join(out,'help-api-unavailable.png'),fullPage:true});
+    await unavailable.close();
     assert.deepEqual(errors,[]);assert.deepEqual(blocked,[]);
-    fs.writeFileSync(path.join(out,'result.json'),JSON.stringify({passed:true,browser:browser.version(),data:'synthetic only',views:['cards','list','table'],keyboard:true,mobile:true,externalTraffic:0,limits:['not a screen-reader audit','not scientific validation','user review pending']},null,2));
-    console.log('PASS browser: three views, keyboard details, escaped content, filters, analysis, quality, mobile and CSV; no external traffic');
+    fs.writeFileSync(path.join(out,'result.json'),JSON.stringify({passed:true,browser:browser.version(),data:'synthetic only',views:['cards','list','table'],keyboard:true,mobile:true,help:true,helpDeepLink:true,helpWithApiFailure:true,externalTraffic:0,limits:['not a screen-reader audit','not scientific validation','user review pending']},null,2));
+    console.log('PASS browser: three views, keyboard, filters, analysis, quality, mobile, CSV and guide with API failure; no external traffic');
   }finally{
     if(browser)await browser.close();
     await new Promise(resolve=>server.close(resolve));

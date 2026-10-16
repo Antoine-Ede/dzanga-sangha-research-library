@@ -6,7 +6,7 @@
   <meta name="description" content="Bibliothèque scientifique publique des Aires Protégées de Dzanga-Sangha.">
   <title>Dzanga-Sangha Research Library</title>
   <link rel="icon" type="image/png" href="assets/ds-logo-transp-schwarz.png">
-  <link rel="stylesheet" href="styles.css?v=20261016-pdf">
+  <link rel="stylesheet" href="styles.css?v=20261016-guide">
 </head>
 <body>
   <div class="brand-header"><div class="wrap"><a class="brand-name" href="https://dzanga-sangha.org/" target="_blank" rel="noopener"><img class="brand-logo" src="assets/ds-logo-transp-schwarz.png" alt="" width="147" height="157"><span class="brand-wordmark">Dzanga-Sangha <span>Aires protégées</span></span></a><span class="brand-context">Recherche & connaissances</span></div></div>
@@ -22,7 +22,7 @@
   </header>
 
   <main class="wrap">
-    <section class="stats" aria-label="Statistiques">
+    <section id="statsPanel" class="stats" aria-label="Statistiques">
       <div class="stat"><strong id="statTotal">—</strong><span>références</span></div>
       <div class="stat"><strong id="statCore">—</strong><span>DSPA-Core</span></div>
       <div class="stat"><strong id="statOpen">—</strong><span>accès ouvert</span></div>
@@ -33,7 +33,51 @@
       <button id="libraryTab" type="button" aria-controls="libraryPanel" aria-pressed="true">Bibliothèque</button>
       <button id="analysisTab" type="button" aria-controls="analysisPanel" aria-pressed="false">Analyse de la recherche</button>
       <button id="qualityTab" type="button" aria-controls="qualityPanel" aria-pressed="false">Qualité bibliographique</button>
+      <button id="helpTab" type="button" aria-controls="helpPanel" aria-pressed="false">Mode d’emploi</button>
     </nav>
+    <section id="helpPanel" class="help-panel" hidden aria-labelledby="helpHeading">
+      <h2 id="helpHeading">Comprendre la bibliothèque et y contribuer</h2>
+      <p class="help-lead">Zotero conserve les références. Ce hub permet de les explorer, de comparer les documents et de suivre la couverture de la bibliothèque.</p>
+      <nav class="help-contents" aria-label="Dans ce guide"><a href="#help-reading">Consulter</a><a href="#help-pdfs">Ouvrir un PDF</a><a href="#help-contribute">Ajouter une référence</a><a href="#help-classification">Classer</a><a href="#help-discovery">Nouvelles publications</a></nav>
+      <section id="help-reading" class="help-section">
+        <h3>Zotero, la source de référence</h3>
+        <p>Le hub lit directement la <a href="https://www.zotero.org/groups/6701789/dzanga-sangha_research_library/library" target="_blank" rel="noopener">bibliothèque publique Zotero</a>. Une référence ajoutée ou corrigée dans Zotero apparaît au prochain chargement du hub. Les notes et les pièces jointes ne figurent pas parmi les résultats bibliographiques.</p>
+        <p>Dans la bibliothèque, plusieurs choix d’un même filtre élargissent la recherche ; les filtres différents se combinent. Le titre ouvre le DOI ou le lien du document quand il est renseigné. Le lien « Notice Zotero » permet de consulter sa fiche. L’export CSV contient les résultats filtrés.</p>
+        <p>L’analyse décrit le corpus recensé, pas toutes les recherches réalisées dans la région. Les années sont celles des documents, pas nécessairement celles du terrain. L’onglet Qualité signale les notices à contrôler ; ses alertes demandent une vérification humaine.</p>
+      </section>
+      <section id="help-pdfs" class="help-section">
+        <h3>Ouvrir le PDF d’une archive</h3>
+        <p>Lorsqu’une copie publique validée est disponible, utilisez le lien <strong>Consulter le PDF</strong> dans les résultats. Le document s’ouvre dans un nouvel onglet ou se télécharge selon le navigateur. Le lien <strong>Notice Zotero</strong> reste distinct pour consulter les informations bibliographiques.</p>
+        <p>Une copie expurgée peut être publique alors que l’original reste sous consultation encadrée aux APDS. Vérifiez les avertissements de la notice et la présentation du PDF : la copie publique peut signaler des retraits ou des pages manquantes. Une notice seule, ou une pièce jointe réservée aux membres Zotero, ne garantit pas l’accès public au fichier.</p>
+      </section>
+      <section id="help-contribute" class="help-section">
+        <h3>Ajouter une référence</h3>
+        <p>La consultation est publique. L’ajout et la correction nécessitent des droits d’édition dans le groupe Zotero. Sans ces droits, transmettez au responsable le DOI ou le lien original, le titre, les auteurs, l’année et une courte justification du lien avec Dzanga-Sangha.</p>
+        <ol class="help-steps">
+          <li><strong>Vérifier qu’elle n’est pas déjà présente.</strong> Recherchez d’abord son DOI, puis son titre et son auteur. Pour une thèse, un rapport ou un document ancien sans DOI, comparez aussi l’organisme, la date et la version.</li>
+          <li><strong>Créer la notice dans le groupe Zotero.</strong> Avec des droits d’édition, utilisez le DOI ou le Zotero Connector depuis la source originale. Pour un document sans identifiant, créez une notice du bon type : rapport, thèse, livre ou jeu de données. Un PDF seul ne remplace pas une fiche bibliographique complète.</li>
+          <li><strong>Contrôler les métadonnées.</strong> Comparez titre, auteurs, date, revue ou organisme et identifiants avec le document ou l’éditeur. Gardez une trace du lien source et de la justification de pertinence dans le champ Extra. N’inventez pas les informations manquantes.</li>
+          <li><strong>Classer et faire vérifier.</strong> Placez une proposition dans « 00 - A verifier » avec le tag <code>STATUS:To-Review</code>. Après vérification, attribuez les collections thématiques et les tags contrôlés, puis remplacez le statut par <code>STATUS:Verified</code>. Une notice qui reste incomplète doit le signaler avec <code>STATUS:Metadata-Incomplete</code>.</li>
+        </ol>
+        <p>Les collections peuvent se combiner : une étude de santé des gorilles peut relever des primates et de One Health. Les rapports de gestion ou de développement et les jeux de données ont aussi leurs catégories dans le hub.</p>
+      </section>
+      <section id="help-classification" class="help-section">
+        <h3>Choisir la portée et les tags</h3>
+        <dl class="help-definitions">
+          <dt>DSPA-Core</dt><dd>Le document utilise des observations, du terrain, des échantillons, du suivi ou des données provenant directement des Aires Protégées de Dzanga-Sangha. Une simple mention de Dzanga-Sangha ne suffit pas.</dd>
+          <dt>DSPA-Relevant</dt><dd>Le document est directement utile pour comprendre ou gérer la zone, sans données primaires APDS identifiées. Les interventions en périphérie, dont Monasao, peuvent entrer dans cette portée lorsque leur lien avec la zone est établi.</dd>
+          <dt>Sites, taxons et méthodes</dt><dd>Utilisez les tags existants avec les préfixes <code>SITE:</code>, <code>TAXON:</code> et <code>METHOD:</code>. Retenez les lieux réellement étudiés, les organismes concernés et les méthodes documentées ; évitez de déduire ces informations du seul titre.</dd>
+          <dt>Accès au document</dt><dd><code>ACCESS:Open</code> indique une version du document publiquement consultable. Un résumé ou une page DOI seuls ne suffisent pas. <code>ACCESS:Restricted</code> signale un accès limité ; si l’accès reste inconnu, gardez-le à déterminer. Une copie privée reçue d’un auteur ne prouve pas un accès public.</dd>
+        </dl>
+        <p>Un document consultable en ligne n’autorise pas automatiquement sa redistribution. Pour les documents internes ou sensibles, faites vérifier les conditions de partage avant d’ajouter une copie ou un lien public.</p>
+      </section>
+      <section id="help-discovery" class="help-section">
+        <h3>Comment les nouvelles publications arrivent-elles ?</h3>
+        <p>Le hub reflète les ajouts à Zotero, mais ne décide pas lui-même quelles publications importer. Les recherches bibliographiques et les scripts de découverte produisent des candidats : une personne vérifie leur identité, leur pertinence et les doublons avant l’import.</p>
+        <p>La recherche combine les noms des sites, les auteurs, les citations et les dépôts documentaires. OpenAlex, Crossref, Semantic Scholar, les éditeurs et les organismes de projet peuvent retrouver des documents différents. Aucun moteur ne garantit à lui seul une couverture exhaustive, en particulier pour les rapports anciens.</p>
+        <p>Pour proposer un jeu de données, ajoutez son DOI ou son lien de dépôt, les producteurs, la version, les sites couverts et les conditions d’accès. Il est référencé séparément de l’article qui l’utilise.</p>
+      </section>
+    </section>
     <section id="searchPanel" class="panel search-panel">
       <label class="search-label" for="search">Rechercher</label>
       <input id="search" type="search" placeholder="Titre, auteur, espèce, site, DOI…" autocomplete="off">
@@ -128,6 +172,6 @@
   <script src="library-model.js?v=20261016-pdf"></script>
   <script src="quality.js?v=20261009-curation"></script>
   <script src="analytics.js?v=20261009-calendar"></script>
-  <script src="app.js?v=20261016-pdf"></script>
+  <script src="app.js?v=20261016-guide"></script>
 </body>
 </html>

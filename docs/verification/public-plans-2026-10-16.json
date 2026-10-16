@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-10-16T20:47:21.292Z",
+  "groupId": "6701789",
+  "catalogueVersion": "957",
+  "expected": 6,
+  "verified": 6,
+  "checks": [
+    {
+      "archiveId": "APDS-067",
+      "expectedSha256": "d7b4ba15f49e650a8c454aa59a9b98eed8a0ffc24d5fc8fa2a62887c37dfd698",
+      "expectedBytes": 4160908,
+      "issues": [],
+      "key": "2EUH2M3A",
+      "url": "https://raw.githubusercontent.com/Antoine-Ede/dzanga-sangha-research-library/eb6feddb082fcd9de048492fa70e5ff3b0466503/catalogue/apds-2026-10-08/plans-publics/apds-067-yandoumbe-2001-public.pdf",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 4160908,
+      "sha256": "d7b4ba15f49e650a8c454aa59a9b98eed8a0ffc24d5fc8fa2a62887c37dfd698"
+    },
+    {
+      "archiveId": "APDS-068",
+      "expectedSha256": "f6b72973c75f5208bb11fb54af57ba1282d3a9592cd64293d97808cb63c3b580",
+      "expectedBytes": 3947693,
+      "issues": [],
+      "key": "J2LFFNVL",
+      "url": "https://raw.githubusercontent.com/Antoine-Ede/dzanga-sangha-research-library/a8fe5e9c130d74108b6083e1b36b325ffc4d22ea/catalogue/apds-2026-10-08/plans-publics/apds-068-babongo-2001-public.pdf",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 3947693,
+      "sha256": "f6b72973c75f5208bb11fb54af57ba1282d3a9592cd64293d97808cb63c3b580"
+    },
+    {
+      "archiveId": "APDS-069",
+      "expectedSha256": "f2822980398e42d628cf736e79a6fdaea84cd0b00520e0d0d30f596086cff448",
+      "expectedBytes": 8049498,
+      "issues": [],
+      "key": "NJ4EAIJT",
+      "url": "https://raw.githubusercontent.com/Antoine-Ede/dzanga-sangha-research-library/a8fe5e9c130d74108b6083e1b36b325ffc4d22ea/catalogue/apds-2026-10-08/plans-publics/apds-069-bayanga-2002-public.pdf",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 8049498,
+      "sha256": "f2822980398e42d628cf736e79a6fdaea84cd0b00520e0d0d30f596086cff448"
+    },
+    {
+      "archiveId": "APDS-070",
+      "expectedSha256": "a3952dac0a40a08cffdeb1cd8a2a5eb6d9ebd1f13fc9dd100e0c1f4e22bb83a9",
+      "expectedBytes": 3655425,
+      "issues": [],
+      "key": "TQCICXFU",
+      "url": "https://raw.githubusercontent.com/Antoine-Ede/dzanga-sangha-research-library/a8fe5e9c130d74108b6083e1b36b325ffc4d22ea/catalogue/apds-2026-10-08/plans-publics/apds-070-bomandjokou-2001-public.pdf",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 3655425,
+      "sha256": "a3952dac0a40a08cffdeb1cd8a2a5eb6d9ebd1f13fc9dd100e0c1f4e22bb83a9"
+    },
+    {
+      "archiveId": "APDS-112",
+      "expectedSha256": "f21944ba4054999cc34c9ad51ca3a45d34e3c4f0170da86bce6ef6f4bbde35cc",
+      "expectedBytes": 3410082,
+      "issues": [],
+      "key": "6ASVF8AJ",
+      "url": "https://raw.githubusercontent.com/Antoine-Ede/dzanga-sangha-research-library/a8fe5e9c130d74108b6083e1b36b325ffc4d22ea/catalogue/apds-2026-10-08/plans-publics/apds-112-lidjombo-2000-public.pdf",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 3410082,
+      "sha256": "f21944ba4054999cc34c9ad51ca3a45d34e3c4f0170da86bce6ef6f4bbde35cc"
+    },
+    {
+      "archiveId": "APDS-113",
+      "expectedSha256": "2d22a62fe92415f9a2266d0ce74e514830244ce0a4d588834200a71859712248",
+      "expectedBytes": 3844766,
+      "issues": [],
+      "key": "KUVU8MMU",
+      "url": "https://raw.githubusercontent.com/Antoine-Ede/dzanga-sangha-research-library/a8fe5e9c130d74108b6083e1b36b325ffc4d22ea/catalogue/apds-2026-10-08/plans-publics/apds-113-babongo-yondo-yobe-2005-public.pdf",
+      "httpStatus": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 3844766,
+      "sha256": "2d22a62fe92415f9a2266d0ce74e514830244ce0a4d588834200a71859712248"
+    }
+  ],
+  "authenticated": false,
+  "writes": false,
+  "limits": [
+    "Six already-public redacted copies only",
+    "Identity and public download check, not a new document sensitivity review",
+    "No assertion that all APDS archives are cleared for publication"
+  ],
+  "complete": true
+}
