@@ -4,6 +4,8 @@ Site statique HTML/CSS/JavaScript alimenté en lecture par le [groupe Zotero 670
 
 ## Développer et reprendre
 
+L'onglet **Mode d'emploi** explique la consultation, l'accès aux PDF, l'ajout d'une référence et le classement ; lien direct `?section=help`. Les six copies publiques APDS préexistantes ont été [vérifiées sans connexion](docs/verification/public-plans-2026-10-16.json). L'accès à une copie expurgée ne modifie pas les conditions de consultation de l'original.
+
 - [État vérifié et prochaine étape](docs/STATE.md)
 - [Instructions Codex / Claude Code](AGENTS.md)
 - [Procédure et preuves de contrôle](docs/WORKFLOW.md)
