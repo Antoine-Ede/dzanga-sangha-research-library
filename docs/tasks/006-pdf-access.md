@@ -1,6 +1,6 @@
 # Pilote d'accès PDF APDS
 
-Statut : interface locale réalisée ; téléchargement public vérifié ; stockage Zotero et revue utilisateur restants. Branche `codex/library-pdf-access`, base `3ee16aa`.
+Statut : interface locale réalisée ; téléchargement public vérifié ; stockage Zotero vérifié ; revue utilisateur et publication restantes. Branche `codex/library-pdf-access`, base `3ee16aa`.
 
 - Besoin : ouvrir un PDF de diffusion depuis chaque présentation, séparément de sa notice Zotero.
 - Périmètre : lien explicite pour les URL de documents finissant en `.pdf` ; pilote réel APDS-069 Bayanga, copie publique expurgée préexistante, notice NJ4EAIJT. L'accord utilisateur « ok continue » autorise son stockage ciblé dans Zotero lorsqu'un accès d'écriture est disponible.
@@ -12,4 +12,4 @@ Statut : interface locale réalisée ; téléchargement public vérifié ; stock
 - Retour arrière : revert du lot local ; main et anciens worktrees préservés. Avant ajout distant, sauvegarder notice/version et enfants, vérifier l'absence de doublon. Aucun effacement distant automatique.
 - Revue : même session, pas de revue indépendante ; aperçu pour revue utilisateur avant publication.
 
-Résultats : tests synthétiques et navigateur réussis ; téléchargement réel sans connexion conforme au SHA du manifeste Bayanga. Le serveur public déclenche un téléchargement, pas une lecture intégrée. Notice version 938 sans enfant lors du GET préalable ; aucun téléversement faute d'accès d'écriture. Preuves locales et reprise détaillées dans STATE. Les deux registres d'audit et la base/export des décisions antérieures ont conservé leurs empreintes du lot 20.
+Résultats : tests synthétiques et navigateur réussis ; téléchargement réel sans connexion conforme au SHA du manifeste Bayanga. Le serveur public déclenche un téléchargement, pas une lecture intégrée. Notice version 938 sans enfant lors du GET préalable ; copie expurgée jointe sous CM5RDMRW avec la clé fournie ensuite. Retéléchargement authentifié conforme au SHA-256, parent inchangé. GET du fichier Zotero anonyme : 404 ; URL publique complémentaire conservée. Preuves locales et reprise détaillées dans STATE. Les deux registres d'audit et la base/export des décisions antérieures ont conservé leurs empreintes du lot 20.

@@ -8,7 +8,7 @@ Les deux lots locaux et le premier tri de dix candidats sont réalisés : une r�
 
 ## Demandes du responsable — suites priorisées du 15 octobre 2026
 
-Point actuel du 16 octobre : lot 005 livré par PR nº 3. [Lot 006](docs/tasks/006-pdf-access.md) prépare localement le lien PDF explicite dans les trois vues. Le téléchargement anonyme de la copie expurgée Bayanga est vérifié (empreinte identique au manifeste). Stockage dans Zotero encore non réalisé faute d'accès d'écriture ; revue du nouvel aperçu et publication restantes. Ce pilote ne généralise pas l'accès à tous les scans APDS ni aux pièces jointes réservées aux membres. Les priorités ci-dessous restent suivies.
+Point actuel du 16 octobre : lot 005 livré par PR nº 3. [Lot 006](docs/tasks/006-pdf-access.md) prépare localement le lien PDF explicite dans les trois vues. Le téléchargement anonyme de la copie expurgée Bayanga est vérifié (empreinte identique au manifeste). Copie expurgée stockée dans Zotero (CM5RDMRW), retéléchargement authentifié conforme ; accès anonyme Zotero en 404, donc URL publique complémentaire conservée. Revue du nouvel aperçu et publication restantes. Ce pilote ne généralise pas l'accès à tous les scans APDS ni aux pièces jointes réservées aux membres. Les priorités ci-dessous restent suivies.
 
 Ces évolutions sont cadrées, **pas encore implémentées**. La fusion du socle ne les rend pas disponibles.
 
