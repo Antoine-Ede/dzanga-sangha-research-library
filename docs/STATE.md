@@ -1,5 +1,19 @@
 # État vérifié — 16 octobre 2026
 
+## Reprise prioritaire — lot 006, pilote PDF
+
+Le lot 005 a été fusionné (PR nº 3, main `3ee16aa0592f816c75cc93bebd3c5a58622fa8fb`) et Pages déployé ; preuve dans l'ancien worktree `.local/notice-quality-delivery.json`. Les sections ci-dessous conservent la chronologie et ne remplacent pas ce point actuel. Nouveau travail isolé dans `library-pdf-access`, branche `codex/library-pdf-access`, [fiche 006](tasks/006-pdf-access.md). Main et les anciens worktrees sont préservés.
+
+Implémentation locale : lien « Consulter le PDF » distinct de « Notice Zotero » dans les trois vues pour le champ URL HTTP(S) se terminant en `.pdf` (paramètres acceptés, identifiants dans l'URL refusés). Le DOI garde la priorité du titre. Aucun droit de diffusion ni accès gratuit n'est déduit du suffixe ; aucune pièce jointe Zotero n'est découverte automatiquement. Les avertissements sur l'original restent visibles.
+
+Pilote réel APDS-069, Bayanga : GET anonyme HTTP 200 et téléchargement dans un contexte Chrome vierge le 16 octobre 2026. Copie publique expurgée de 27 pages selon manifeste, 8 049 498 octets, SHA-256 `f2822980398e42d628cf736e79a6fdaea84cd0b00520e0d0d30f596086cff448`, identique au manifeste et au fichier versionné. L'URL immuable existante du champ Zotero est conservée. GitHub répond `application/octet-stream` : téléchargement du PDF, pas lecteur intégré. Preuves : `.local/pdf-public-check.json` et `.local/pdf-browser-check.json`. Cette vérification d'identité ne constitue pas une nouvelle lecture des 27 pages.
+
+**Partie restante : stockage Zotero.** Notice `NJ4EAIJT`, version 938, aucun enfant au GET préalable. L'outil de session navigateur échoue à l'initialisation, aucun accès d'écriture disponible ; emplacement d'une clé existante demandé sans demander son contenu. Aucun téléversement ni modification Zotero réalisé. L'accord utilisateur couvre cette copie expurgée uniquement. Relire notice/enfants avant toute reprise pour éviter un doublon. Le pilote complet n'est donc pas terminé.
+
+Validation locale : commande commune, 34 tests Python, tests JavaScript et navigateur synthétique (trois vues, liens distincts, activation au clavier, filtres, analyse, qualité, mobile et export). La destination PDF est simulée dans ces tests ; le téléchargement réel anonyme est une preuve séparée ci-dessus. Auto-revue dans la même session, pas de relecteur indépendant. Preuve exacte du commit livré : `.local/verification.json`, à confirmer avec `--verify-proof`. Revue utilisateur du nouvel aperçu encore attendue avant publication conformément à AGENTS. Aucun push, fusion ou déploiement du lot 006.
+
+Retour arrière : revert du commit local, conservation des données ignorées et worktrees antérieurs. Prochain petit pas : terminer la pièce jointe Zotero lorsque l'accès est disponible, puis intégrer le lien après revue utilisateur. Audit APDS lot 20, propositions d'auteurs et file bibliographique restent conservés ; aucune nouvelle page auditée par ce pilote.
+
 ## Base et diagnostic
 
 Base inspectée : `fbac9cd2cd81a06c6f3b1421a8cf225a4383b1bd`, identique à `origin/main` au démarrage. Dépôt distant : `Antoine-Ede/dzanga-sangha-research-library`. Checkout initial propre, PR APDS nº 1 fusionnée ; aucune PR ouverte observée. Travail actuel dans un worktree distinct, branche `codex/library-development-system`, sans upstream de publication. Une sauvegarde Git complète a été vérifiée avant sa création ; le checkout initial reste sur main.

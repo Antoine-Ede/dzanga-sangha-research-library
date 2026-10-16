@@ -27,6 +27,22 @@ for(const view of ['table','cards','list']) {
 }
 assert.equal(archiveInfo({data:{}}),'');
 assert.equal(safeUrl('javascript:alert(1)'),'');
+for (const url of ['', 'https://example.org/article', 'javascript:alert(1)', 'https://user:pass@example.org/file.pdf', 'https://example.org/file.pdf/page']) {
+  assert.equal(pdfUrl({data:{url}}),'');
+}
+const pdfItem={...testItem,data:{...testItem.data,url:'https://example.org/copy.PDF?download=1&label=%22',DOI:'10.1234/example'}};
+const unchanged=JSON.stringify(pdfItem);
+assert(pdfUrl(pdfItem));
+assert(articleUrl(pdfItem).startsWith('https://doi.org/'));
+state.items=[pdfItem];state.filtered=[pdfItem];
+for(const view of ['table','cards','list']) {
+  $('resultView').value=view;render();const html=$('results').innerHTML;
+  assert.equal((html.match(/Consulter le PDF/g)||[]).length,1);
+  assert(html.includes('Notice Zotero'));
+  assert(html.includes('consultation encadrée aux APDS'));
+  assert(html.includes('&amp;label='));
+}
+assert.equal(JSON.stringify(pdfItem),unchanged);
 assert.equal(LibraryModel.category({data:{itemType:'report'}}),'reports');
 assert.equal(LibraryModel.category({data:{itemType:'dataset'}}),'datasets');
 assert(!LibraryModel.issues(testItem).some(x=>/DOI/.test(x)));

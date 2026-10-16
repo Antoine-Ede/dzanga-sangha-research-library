@@ -4,12 +4,13 @@
     "data": {
       "title": "Rapport synthétique — archive de démonstration",
       "itemType": "report",
+      "url": "https://example.org/public-copy.pdf",
       "creators": [{"creatorType":"author","firstName":"Léa","lastName":"Martin"}],
       "date": "1999",
       "institution": "Institut fictif",
       "archive": "Bibliothèque fictive des APDS",
       "archiveLocation": "APDS-DEMO",
-      "extra": "Scope evidence: fictional fixture only, no real field data.\nCopie conservée dans la Bibliothèque fictive des APDS. Identifiant d’inventaire : APDS-DEMO.\nInformations manquantes ou à confirmer : DOI non identifié, URL externe stable non identifiée.\nOriginal contenant des éléments sensibles ; consultation encadrée. Une version publique expurgée est signalée à titre de démonstration.\nAccess verification: synthetic fixture, not a redistribution licence.\nRéserve spécifique : annexe absente. <img src=x onerror=alert(1)>",
+      "extra": "Scope evidence: fictional fixture only, no real field data.\nCopie conservée dans la Bibliothèque fictive des APDS. Identifiant d’inventaire : APDS-DEMO.\nInformations manquantes ou à confirmer : DOI non identifié, éditeur non identifié.\nOriginal contenant des éléments sensibles ; consultation encadrée. Une version publique expurgée est signalée à titre de démonstration.\nAccess verification: synthetic fixture, not a redistribution licence.\nRéserve spécifique : annexe absente. <img src=x onerror=alert(1)>",
       "tags": [{"tag":"SCOPE:DSPA-Relevant"},{"tag":"ACCESS:Restricted-Original"},{"tag":"STATUS:Metadata-Incomplete"}],
       "collections": []
     }
