@@ -84,6 +84,17 @@ function titleLink(item) {
   const title=esc(item.data.title || '(Sans titre)'),url=articleUrl(item);
   return url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${title}</a>` : title;
 }
+// A curated document URL identifies a PDF link, not its redistribution rights.
+function pdfUrl(item) {
+  const value = safeUrl(item.data.url);
+  if (!value) return '';
+  const url = new URL(value);
+  return !url.username && !url.password && /\.pdf$/i.test(url.pathname) ? value : '';
+}
+function pdfLink(item) {
+  const url = pdfUrl(item);
+  return url ? `<a class="document-pdf" href="${esc(url)}" target="_blank" rel="noopener">Consulter le PDF</a>` : '';
+}
 
 function valuesOf(item, id) {
   let values;
@@ -285,16 +296,16 @@ function render() {
       ${archiveInfo(item)}
       <div class="badges">${badges}</div>
       <div class="links">
-        <a href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Zotero</a>
+        <a href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a>
         ${doi ? `<a href="https://doi.org/${encodeURIComponent(doi)}" target="_blank" rel="noopener">DOI</a>` : ""}
-        ${url && !url.includes("doi.org") ? `<a href="${esc(url)}" target="_blank" rel="noopener">Lien</a>` : ""}
+        ${pdfLink(item) || (url && !url.includes("doi.org") ? `<a href="${esc(url)}" target="_blank" rel="noopener">Lien</a>` : "")}
       </div>
     </article>`;
   }
   function table(items) {
     const rows=items.map(item=>{
       const tags=tagsOf(item),doi=doiOf(item);
-      return `<tr><th scope="row">${titleLink(item)}<a class="table-zotero" href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a>${archiveInfo(item)}</th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item)||'Non renseignés')}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint','Restricted-Original':'Original en consultation encadrée'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
+      return `<tr><th scope="row">${titleLink(item)}${pdfLink(item)}<a class="table-zotero" href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a>${archiveInfo(item)}</th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item)||'Non renseignés')}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint','Restricted-Original':'Original en consultation encadrée'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
     }).join('');
     return `<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau des références, défilement horizontal"><table class="reference-table"><caption>Comparaison des références · le titre ouvre la publication lorsqu'un DOI ou un lien est disponible.</caption><thead><tr><th scope="col">Titre · publication</th><th scope="col">Année</th><th scope="col">Auteurs</th><th scope="col">Type</th><th scope="col">Portée</th><th scope="col">Accès</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }

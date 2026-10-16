@@ -2,6 +2,8 @@
 
 Lire `docs/STATE.md`, puis la fiche active dans `docs/tasks/`. Consulter `ROADMAP.md` pour les priorités et `docs/DECISIONS.md` pour les raisons. `CLAUDE.md` renvoie ici ; aucune seconde politique.
 
+Lot actif : `docs/tasks/006-pdf-access.md`. L'accord du responsable autorise uniquement le stockage de la copie publique expurgée APDS-069 dans sa notice existante pour ce pilote, après vérification du fichier et des pièces jointes. Les exclusions d'écriture des lots antérieurs ne bloquent pas cette opération ciblée ; aucune autorisation générale d'import ou de correction des auteurs n'en découle.
+
 - Vérifier distant, branche, SHA, statut, worktrees et activité concurrente. Une seule session écrit dans une copie de travail. Préserver les changements d’autrui ; isoler le travail si nécessaire.
 - Définir besoin, limites et critères observables avant une tâche significative avec `docs/tasks/TEMPLATE.md`. Pour une petite correction : besoin, diff et test ciblé suffisent dans STATE.
 - Autorisation du 15 octobre : intégrer la branche de développement validée à main, avec push et publication Pages induite. Consigner les résultats et remarques dans STATE/ROADMAP. Les prochains changements fonctionnels restent des lots séparés ; pas d’import initial, d’écriture Zotero, de fournisseur IA réel ni d’automatisation planifiée dans ce lot. Ne pas étendre l’autorisation de fusion aux autres services.

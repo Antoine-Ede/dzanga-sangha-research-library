@@ -36,6 +36,8 @@ async function main(){
     await context.route('**/*',async route=>{
       const request=route.request(),url=new URL(request.url());
       if(url.origin===origin)return route.continue();
+      // Navigation contract only; the real public PDF is checked separately.
+      if(request.url()==='https://example.org/public-copy.pdf')return route.fulfill({contentType:'text/html',body:'<p>Synthetic PDF destination</p>'});
       if(url.origin==='https://api.zotero.org'&&request.method()==='GET'){
         const isItems=url.pathname==='/groups/6701789/items/top';
         const isCollections=url.pathname==='/groups/6701789/collections';
@@ -51,6 +53,16 @@ async function main(){
     const out=path.join(root,'.local/browser');fs.mkdirSync(out,{recursive:true});
     for(const view of ['cards','list','table']){
       await page.locator('#resultView').selectOption(view);
+      const pdf=page.locator('#results a.document-pdf');
+      assert.equal(await pdf.count(),1);
+      assert.equal(await pdf.getAttribute('href'),'https://example.org/public-copy.pdf');
+      assert.equal(await page.getByRole('link',{name:'Notice Zotero',exact:true}).count(),3);
+      await pdf.focus();
+      const opened=page.waitForEvent('popup');await page.keyboard.press('Enter');
+      const destination=await opened;await destination.waitForLoadState();
+      assert.equal(destination.url(),'https://example.org/public-copy.pdf');
+      assert.equal(await destination.locator('p').innerText(),'Synthetic PDF destination');
+      await destination.close();
       const archive=page.locator('#results .archive-info').filter({hasText:'APDS-DEMO'});
       const summary=archive.locator('summary');
       assert.equal(await archive.locator('details').getAttribute('open'),null);
