@@ -1,0 +1,303 @@
+{
+  "generatedAt": "2026-10-16T20:23:45.983702+00:00",
+  "baseScreeningDate": "2026-10-14",
+  "previouslyPending": 10,
+  "accepted": 8,
+  "rejected": 2,
+  "pending": 0,
+  "decisions": [
+    {
+      "pmid": "40915313",
+      "doi": "10.1016/j.lanmic.2025.101173",
+      "title": "Genomic epidemiology of clade Ia monkeypox viruses circulating in the Central African Republic in 2022-24: a retrospective cross-sectional study",
+      "authors": "Malaka, Christian Noël and Patrono, Livia Victoria and Tombolomako, Thais Berenger and Farra, Ella and Sibiro, Ornella and Garba-Ouangolé, Sandra and Selekon, Benjamin and Lemon, Cyprien Gildas and Mbrenga, Festus and Soumah, Aboubacar and Lorke, Jenny and Düx, Ariane and Semdouto, Julien Honorat and Niatou, Frédéric Stéphane Singa and Kandou, Jephté Kaleb and Raphaël, Mbaïlao and Moyen, Jean Méthode and Kalthan, Ernest and Sako, Edith and Ngbeadego-Soukoudoupou, Aubin and Kpahina, Odilon Auguste and Lemey, Philippe and O'Toole, Áine and Rambaut, Andrew and Somse, Pierre and Calvignac-Spencer, Sébastien and Nakoune, Emmanuel and Hubertus Leendertz, Fabian and Boum, Yap",
+      "year": "2025",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://doi.org/10.1016/j.lanmic.2025.101173",
+      "confidence": "verified regional relevance",
+      "decision": "accept",
+      "notes": "District-level geography is not an APDS sampling location. No SITE:Dzanga-Sangha tag. No causal attribution of an individual spillover.",
+      "relevance": "The original Results explicitly include Sangha-Mbaere among the sampled health districts and report geographic structure involving this prefecture. Regional mpox surveillance is directly relevant to One Health management around DSPA. No APDS-specific village or protected-area sampling is established here: Relevant, not Core. Publisher confirms an open-access article under CC BY 4.0.",
+      "scope": "DSPA-Relevant",
+      "access": "Open",
+      "taxa": [
+        "Humans"
+      ],
+      "methods": [
+        "Pathogen-screening"
+      ],
+      "sites": [],
+      "locator": "Results: districts and phylogenetic spatial structure; Fig. 1; publisher open-access licence",
+      "evidence": "The original Results explicitly include Sangha-Mbaere among the sampled health districts and report geographic structure involving this prefecture. Regional mpox surveillance is directly relevant to One Health management around DSPA. No APDS-specific village or protected-area sampling is established here: Relevant, not Core. Publisher confirms an open-access article under CC BY 4.0.",
+      "limitation": "District-level geography is not an APDS sampling location. No SITE:Dzanga-Sangha tag. No causal attribution of an individual spillover.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "38849672",
+      "doi": "10.1038/s44319-024-00156-z",
+      "title": "An ounce of prevention is better : Monitoring wildlife health as a tool for pandemic prevention",
+      "authors": "Gogarten, Jan Frederik and Düx, Ariane and Gräßle, Tobias and Lumbu, Christelle Patricia and Markert, Stephanie and Patrono, Livia Victoria and Pléh, Kamilla Anna and Singa, Frederic Niatou and Tanga, Coch Tanguy Floyde and Tombolomako, Thais Berenger and Couacy-Hymann, Emmanuel and Kouadio, Leonce and Ahuka-Mundeke, Steve and Makouloutou-Nzassi, Patrice and Calvignac-Spencer, Sébastien and Leendertz, Fabian Hubertus",
+      "year": "2024",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11239677/",
+      "confidence": "excluded from this bounded selection after source inspection",
+      "decision": "reject",
+      "notes": "Excluded from this selection, not a claim that the general surveillance methods have no value.",
+      "relevance": "Perspective about wildlife-health surveillance and pandemic prevention. The inspected original uses Tai examples; its Central African Republic passage concerns travel and visa barriers. No local APDS data or specific local management application is established. Author affiliation alone is insufficient for this bounded DSPA selection.",
+      "locator": "Original article body, figures/captions and discussion, obtained via NCBI EFetch",
+      "evidence": "Perspective about wildlife-health surveillance and pandemic prevention. The inspected original uses Tai examples; its Central African Republic passage concerns travel and visa barriers. No local APDS data or specific local management application is established. Author affiliation alone is insufficient for this bounded DSPA selection.",
+      "limitation": "Excluded from this selection, not a claim that the general surveillance methods have no value.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "34599175",
+      "doi": "10.1038/s41467-021-26055-8",
+      "title": "Emergence and spread of SARS-CoV-2 lineage B.1.620 with variant of concern-like mutations and deletions",
+      "authors": "Dudas, Gytis and Hong, Samuel L and Potter, Barney I and Calvignac-Spencer, Sébastien and Niatou-Singa, Frédéric S and Tombolomako, Thais B and Fuh-Neba, Terence and Vickos, Ulrich and Ulrich, Markus and Leendertz, Fabian H and Khan, Kamran and Huber, Carmen and Watts, Alexander and Olendraitė, Ingrida and Snijder, Joost and Wijnant, Kim N and Bonvin, Alexandre M J J and Martres, Pascale and Behillil, Sylvie and Ayouba, Ahidjo and Maidadi, Martin Foudi and Djomsi, Dowbiss Meta and Godwe, Celestin and Butel, Christelle and Šimaitis, Aistis and Gabrielaitė, Miglė and Katėnaitė, Monika and Norvilas, Rimvydas and Raugaitė, Ligita and Koyaweda, Giscard Wilfried and Kandou, Jephté Kaleb and Jonikas, Rimvydas and Nasvytienė, Inga and Žemeckienė, Živilė and Gečys, Dovydas and Tamušauskaitė, Kamilė and Norkienė, Milda and Vasiliūnaitė, Emilija and Žiogienė, Danguolė and Timinskas, Albertas and Šukys, Marius and Šarauskas, Mantas and Alzbutas, Gediminas and Aziza, Adrienne Amuri and Lusamaki, Eddy Kinganda and Cigolo, Jean-Claude Makangara and Mawete, Francisca Muyembe and Lofiko, Emmanuel Lokilo and Kingebeni, Placide Mbala and Tamfum, Jean-Jacques Muyembe and Belizaire, Marie Roseline Darnycka and Essomba, René Ghislain and Assoumou, Marie Claire Okomo and Mboringong, Akenji Blaise and Dieng, Alle Baba and Juozapaitė, Dovilė and Hosch, Salome and Obama, Justino and Ayekaba, Mitoha Ondo'o and Naumovas, Daniel and Pautienius, Arnoldas and Rafaï, Clotaire Donatien and Vitkauskienė, Astra and Ugenskienė, Rasa and Gedvilaitė, Alma and Čereškevičius, Darius and Lesauskaitė, Vaiva and Žemaitis, Lukas and Griškevičius, Laimonas and Baele, Guy",
+      "year": "2021",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://www.nature.com/articles/s41467-021-26055-8",
+      "confidence": "excluded from this bounded selection after source inspection",
+      "decision": "reject",
+      "notes": "Excluded from this selection; absence of an identified APDS location is not proof that no sequence could originate there.",
+      "relevance": "Study of SARS-CoV-2 lineage B.1.620 with CAR/Cameroon genomes and international travel analysis. The inspected original establishes country-level origins but no APDS field locality or specific DSPA management application. Country membership and author affiliation do not establish Core or sufficiently direct Relevant scope.",
+      "locator": "Original Results, geographic/travel analysis and Methods; PMC8486757 XML body and captions",
+      "evidence": "Study of SARS-CoV-2 lineage B.1.620 with CAR/Cameroon genomes and international travel analysis. The inspected original establishes country-level origins but no APDS field locality or specific DSPA management application. Country membership and author affiliation do not establish Core or sufficiently direct Relevant scope.",
+      "limitation": "Excluded from this selection; absence of an identified APDS location is not proof that no sequence could originate there.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "33711161",
+      "doi": "10.1645/20-126",
+      "title": "A Review of the Parasite Fauna of the Black-Bellied Pangolin, Phataginus tetradactyla LIN. (Manidae), From Central Africa with the Description of Intraproboscis sanghae n. gen., n. sp. (Acanthocephala: Gigantorhynchidae)",
+      "authors": "Amin, Omar M and Heckmann, Richard A and Sist, Birgit and Basso, Walter U",
+      "year": "2021",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://www.researchgate.net/publication/350019569_A_Review_of_the_Parasite_Fauna_of_the_Black-Bellied_Pangolin_Phataginus_tetradactyla_LIN_Manidae_From_Central_Africa_with_the_Description_of_Intraproboscis_sanghae_n_gen_n_sp_Acanthocephala_Gigantorhy",
+      "confidence": "verified local data",
+      "decision": "accept",
+      "notes": "One host, not a prevalence estimate. Access:Open means public consultation; no redistribution licence is asserted. The separate Zenodo/Plazi metadata record is restricted and is not the basis for Open.",
+      "relevance": "The original Collections section identifies worms from one rescued, rehabilitated and released pangolin monitored at the Sangha Pangolin Project in DSPA. The taxonomic summary explicitly gives DSPA as type locality. Distinct taxonomic analysis of the case described by Sist et al.; not a duplicate clinical paper. Public author full text was consulted on ResearchGate.",
+      "scope": "DSPA-Core",
+      "access": "Open",
+      "taxa": [
+        "Pangolins"
+      ],
+      "methods": [
+        "Parasitology",
+        "Taxonomic-description"
+      ],
+      "sites": [
+        "Dzanga-Sangha"
+      ],
+      "locator": "Author-uploaded original: Materials and Methods / Collections; Taxonomic summary, printed p. 227",
+      "evidence": "The original Collections section identifies worms from one rescued, rehabilitated and released pangolin monitored at the Sangha Pangolin Project in DSPA. The taxonomic summary explicitly gives DSPA as type locality. Distinct taxonomic analysis of the case described by Sist et al.; not a duplicate clinical paper. Public author full text was consulted on ResearchGate.",
+      "limitation": "One host, not a prevalence estimate. Access:Open means public consultation; no redistribution licence is asserted. The separate Zenodo/Plazi metadata record is restricted and is not the basis for Open.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "29475742",
+      "doi": "10.1016/j.ttbdis.2018.02.006",
+      "title": "Redescription of the adult stages of Ixodes (Afrixodes) rasus Neumann 1899, with notes on its phylogenetic position within the genus Ixodes",
+      "authors": "D'Amico, G and Estrada-Peña, A and Kalmár, Z and Fuh, T and Petrželková, K and Mihalca, A D",
+      "year": "2018",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://www.sciencedirect.com/science/article/abs/pii/S1877959X17301267",
+      "confidence": "verified local data",
+      "decision": "accept",
+      "notes": "Full six-page article not read; locality is explicit in the original preview. Specimens do not establish population-level abundance or vector competence.",
+      "relevance": "The publisher Introduction explicitly identifies the questing specimens as collected in Dzanga Ndoki National Park. The study redescribes adults and analyses 16S rDNA from three females and one male. This is direct local specimen evidence, not an affiliation inference. Publisher provides a preview with institutional/purchase access to full text.",
+      "scope": "DSPA-Core",
+      "access": "Restricted",
+      "taxa": [
+        "Ticks"
+      ],
+      "methods": [
+        "Taxonomic-description"
+      ],
+      "sites": [
+        "Dzanga-Sangha",
+        "Ndoki"
+      ],
+      "locator": "Original publisher Introduction, final paragraph; abstract and access options",
+      "evidence": "The publisher Introduction explicitly identifies the questing specimens as collected in Dzanga Ndoki National Park. The study redescribes adults and analyses 16S rDNA from three females and one male. This is direct local specimen evidence, not an affiliation inference. Publisher provides a preview with institutional/purchase access to full text.",
+      "limitation": "Full six-page article not read; locality is explicit in the original preview. Specimens do not establish population-level abundance or vector competence.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "29205130",
+      "doi": "10.1099/mic.0.000587",
+      "title": "Impact of stress on the gut microbiome of free-ranging western lowland gorillas",
+      "authors": "Vlčková, Klára and Shutt-Phillips, Kathryn and Heistermann, Michael and Pafčo, Barbora and Petrželková, Klára J and Todd, Angelique and Modrý, David and Nelson, Karen E and Wilson, Brenda A and Stumpf, Rebecca M and White, Bryan A and Leigh, Steven R and Gomez, Andres",
+      "year": "2018",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://www.dpz.eu/fileadmin/user_upload/Hormonlabor/Publikation_open_access/2018/Vl%C4%8Dkov%C3%A1_et_al._-_2018_-_Impact_of_stress_on_the_gut_microbiome_of_free-ranging_western_lowland_gorillas.pdf",
+      "confidence": "verified local data",
+      "decision": "accept",
+      "notes": "Associations of glucocorticoid metabolites and bacterial composition do not prove a causal effect of tourism or clinical disease. No complete visual audit of all pages claimed.",
+      "relevance": "The original explicitly samples four western lowland gorilla groups in DSPA, with habituated groups at Bai Hokou and Mongambe and unhabituated comparison groups. Local samples support Core. Complete five-page article retrieved from the German Primate Center public repository; sampling page inspected in text and image.",
+      "scope": "DSPA-Core",
+      "access": "Open",
+      "taxa": [
+        "Primates"
+      ],
+      "methods": [
+        "Microbiome"
+      ],
+      "sites": [
+        "Dzanga-Sangha",
+        "Bai-Hokou",
+        "Mongambe"
+      ],
+      "locator": "Original PDF p. 2 / printed p. 41, sampling and analyses; visual check of this page",
+      "evidence": "The original explicitly samples four western lowland gorilla groups in DSPA, with habituated groups at Bai Hokou and Mongambe and unhabituated comparison groups. Local samples support Core. Complete five-page article retrieved from the German Primate Center public repository; sampling page inspected in text and image.",
+      "limitation": "Associations of glucocorticoid metabolites and bacterial composition do not prove a causal effect of tourism or clinical disease. No complete visual audit of all pages claimed.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "27440885",
+      "doi": "10.1128/JVI.00247-16",
+      "title": "Assessing Host-Virus Codivergence for Close Relatives of Merkel Cell Polyomavirus Infecting African Great Apes",
+      "authors": "Madinda, Nadège F and Ehlers, Bernhard and Wertheim, Joel O and Akoua-Koffi, Chantal and Bergl, Richard A and Boesch, Christophe and Akonkwa, Dieudonné Boji Mungu and Eckardt, Winnie and Fruth, Barbara and Gillespie, Thomas R and Gray, Maryke and Hohmann, Gottfried and Karhemere, Stomy and Kujirakwinja, Deo and Langergraber, Kevin and Muyembe, Jean-Jacques and Nishuli, Radar and Pauly, Maude and Petrzelkova, Klara J and Robbins, Martha M and Todd, Angelique and Schubert, Grit and Stoinski, Tara S and Wittig, Roman M and Zuberbühler, Klaus and Peeters, Martine and Leendertz, Fabian H and Calvignac-Spencer, Sébastien",
+      "year": "2016",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://www.eva.mpg.de/documents/AmSocMicrobiology/Madinda_Assessing_JVirol_2016_2344185.pdf",
+      "confidence": "verified local data",
+      "decision": "accept",
+      "notes": "Do not attribute positive results from other sites to DSPA. Site-level negatives do not prove virus absence from the population.",
+      "relevance": "Table 1 explicitly includes 23 western lowland gorilla samples from Dzanga-Sangha Special Reserve, with zero positives in that row. Negative local screening is still primary APDS data. Complete original retrieved from the author institution MPI EVA; the sampling table was visually verified.",
+      "scope": "DSPA-Core",
+      "access": "Open",
+      "taxa": [
+        "Primates"
+      ],
+      "methods": [
+        "Pathogen-screening"
+      ],
+      "sites": [
+        "Dzanga-Sangha"
+      ],
+      "locator": "Original Table 1, PDF p. 3 / printed p. 8533, visual and text checks",
+      "evidence": "Table 1 explicitly includes 23 western lowland gorilla samples from Dzanga-Sangha Special Reserve, with zero positives in that row. Negative local screening is still primary APDS data. Complete original retrieved from the author institution MPI EVA; the sampling table was visually verified.",
+      "limitation": "Do not attribute positive results from other sites to DSPA. Site-level negatives do not prove virus absence from the population.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "26923597",
+      "doi": "10.1016/j.celrep.2016.02.013",
+      "title": "Gut Microbiome of Coexisting BaAka Pygmies and Bantu Reflects Gradients of Traditional Subsistence Patterns",
+      "authors": "Gomez, Andres and Petrzelkova, Klara J and Burns, Michael B and Yeoman, Carl J and Amato, Katherine R and Vlckova, Klara and Modry, David and Todd, Angelique and Jost Robinson, Carolyn A and Remis, Melissa J and Torralba, Manolito G and Morton, Elise and Umaña, Juan D and Carbonero, Franck and Gaskins, H Rex and Nelson, Karen E and Wilson, Brenda A and Stumpf, Rebecca M and White, Bryan A and Leigh, Steven R and Blekhman, Ran",
+      "year": "2016",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://www.researchgate.net/publication/295882090_Gut_Microbiome_of_Coexisting_BaAka_Pygmies_and_Bantu_Reflects_Gradients_of_Traditional_Subsistence_Patterns",
+      "confidence": "verified local data",
+      "decision": "accept",
+      "notes": "Do not infer a specific village such as Monasao from this passage. Cross-sectional associations with subsistence patterns are not a randomized causal intervention.",
+      "relevance": "The author-uploaded original specifies samples from 28 BaAka and 29 Bantu inhabitants of DSPA, collected in 2010 and 2011. This directly establishes local primary data. Methods were consulted in the public author copy; the publisher confirms DOI, final pagination 2142-2153, issue date 8 March 2016 and CC BY open access.",
+      "scope": "DSPA-Core",
+      "access": "Open",
+      "taxa": [
+        "Humans"
+      ],
+      "methods": [
+        "Microbiome"
+      ],
+      "sites": [
+        "Dzanga-Sangha"
+      ],
+      "locator": "Original Experimental Procedures / Study Site, Subjects, and Sample Collection; publisher DOI page",
+      "evidence": "The author-uploaded original specifies samples from 28 BaAka and 29 Bantu inhabitants of DSPA, collected in 2010 and 2011. This directly establishes local primary data. Methods were consulted in the public author copy; the publisher confirms DOI, final pagination 2142-2153, issue date 8 March 2016 and CC BY open access.",
+      "limitation": "Do not infer a specific village such as Monasao from this passage. Cross-sectional associations with subsistence patterns are not a randomized causal intervention.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "25862141",
+      "doi": "10.1093/molbev/msv090",
+      "title": "Multiple Cross-Species Transmission Events of Human Adenoviruses (HAdV) during Hominine Evolution",
+      "authors": "Hoppe, Eileen and Pauly, Maude and Gillespie, Thomas R and Akoua-Koffi, Chantal and Hohmann, Gottfried and Fruth, Barbara and Karhemere, Stomy and Madinda, Nadège F and Mugisha, Lawrence and Muyembe, Jean-Jacques and Todd, Angelique and Petrzelkova, Klara J and Gray, Maryke and Robbins, Martha and Bergl, Richard A and Wittig, Roman M and Zuberbühler, Klaus and Boesch, Christophe and Schubert, Grit and Leendertz, Fabian H and Ehlers, Bernhard and Calvignac-Spencer, Sébastien",
+      "year": "2015",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://www.eva.mpg.de/documents/Oxford/Hoppe_Multiple_MolBiolEvo_2015_2148912.pdf",
+      "confidence": "verified local data",
+      "decision": "accept",
+      "notes": "Phylogenetic historical cross-species events are not evidence of a recent local transmission direction between the sampled human and ape groups.",
+      "relevance": "The original sampling table explicitly includes DSPA samples from central chimpanzees, western lowland gorillas and humans. This is direct APDS primary data in a multisite analysis. Complete original retrieved from MPI EVA; sampling table checked visually and against the Oxford publisher table.",
+      "scope": "DSPA-Core",
+      "access": "Open",
+      "taxa": [
+        "Primates",
+        "Humans"
+      ],
+      "methods": [
+        "Pathogen-screening"
+      ],
+      "sites": [
+        "Dzanga-Sangha"
+      ],
+      "locator": "Original Table 1, PDF p. 5 / printed p. 2076; visually checked against publisher table",
+      "evidence": "The original sampling table explicitly includes DSPA samples from central chimpanzees, western lowland gorillas and humans. This is direct APDS primary data in a multisite analysis. Complete original retrieved from MPI EVA; sampling table checked visually and against the Oxford publisher table.",
+      "limitation": "Phylogenetic historical cross-species events are not evidence of a recent local transmission direction between the sampled human and ape groups.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    },
+    {
+      "pmid": "25248691",
+      "doi": "10.1016/j.vetmic.2014.08.032",
+      "title": "Diversity of zoonotic enterohepatic Helicobacter species and detection of a putative novel gastric Helicobacter species in wild and wild-born captive chimpanzees and western lowland gorillas",
+      "authors": "Flahou, Bram and Modrý, David and Pomajbíková, Kateřina and Petrželková, Klára J and Smet, Annemieke and Ducatelle, Richard and Pasmans, Frank and Sá, Rui M and Todd, Angelique and Hashimoto, Chie and Mulama, Martin and Kiang, John and Rossi, Mirko and Haesebrouck, Freddy",
+      "year": "2014",
+      "query": "PubMed geographic synonyms (see pubmed_skill_query.txt)",
+      "source": "https://www.sciencedirect.com/science/article/pii/S0378113514004088",
+      "confidence": "verified local data",
+      "decision": "accept",
+      "notes": "Complete full-text access has not been verified, so no Open or Restricted tag is invented. Detection and zoonotic potential do not by themselves prove local human transmission.",
+      "relevance": "Original Animals and sampling identifies 10 unhabituated and 10 human-habituated western lowland gorillas from Dzanga-Ndoki National Park, CAR, among the multisite groups. Core follows those local samples. Scientific identity corroborated by PubMed and Crossref. The original sampling passage is available on the publisher page.",
+      "scope": "DSPA-Core",
+      "access": null,
+      "taxa": [
+        "Primates"
+      ],
+      "methods": [
+        "Pathogen-screening"
+      ],
+      "sites": [
+        "Dzanga-Sangha",
+        "Ndoki"
+      ],
+      "locator": "Original publisher Animals and sampling section",
+      "evidence": "Original Animals and sampling identifies 10 unhabituated and 10 human-habituated western lowland gorillas from Dzanga-Ndoki National Park, CAR, among the multisite groups. Core follows those local samples. Scientific identity corroborated by PubMed and Crossref. The original sampling passage is available on the publisher page.",
+      "limitation": "Complete full-text access has not been verified, so no Open or Restricted tag is invented. Detection and zoonotic potential do not by themselves prove local human transmission.",
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex, same-session source review; user-authorized import"
+    }
+  ],
+  "original22Outcome": {
+    "accepted": 13,
+    "rejected": 7,
+    "associatedCorrections": 2,
+    "pending": 0
+  },
+  "relatedCorrections": [
+    {
+      "doi": "10.1128/msphere.00168-21",
+      "originalDOI": "10.1128/msphere.00271-19",
+      "originalKey": "P86QEJK3",
+      "outcome": "Associated erratum, not a separate primary study; no bibliographic field change established by this classification review."
+    },
+    {
+      "doi": "10.1007/s00436-017-5708-3",
+      "originalDOI": "10.1007/s00436-017-5667-8",
+      "originalKey": "UQTUP832",
+      "outcome": "Author-affiliation correction, not a separate primary study. Zotero has no matching affiliation field to update; no new study created."
+    }
+  ],
+  "authenticatedWrites": false
+}

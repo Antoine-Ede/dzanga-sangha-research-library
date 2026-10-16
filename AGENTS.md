@@ -2,6 +2,8 @@
 
 Lire `docs/STATE.md`, puis la fiche active dans `docs/tasks/`. Consulter `ROADMAP.md` pour les priorités et `docs/DECISIONS.md` pour les raisons. `CLAUDE.md` renvoie ici ; aucune seconde politique.
 
+Reprise bibliographique de cette branche : [lot 007](docs/tasks/007-pubmed-closeout.md), clos avec huit nouvelles notices et contrôle de relance. Son autorisation utilisateur du 16 octobre concerne uniquement les références non archivistiques sélectionnées. Le contexte du pilote PDF ci-dessous et les travaux APDS restent distincts.
+
 Lot actif : `docs/tasks/006-pdf-access.md`. L'accord du responsable autorise uniquement le stockage de la copie publique expurgée APDS-069 dans sa notice existante pour ce pilote, après vérification du fichier et des pièces jointes. Les exclusions d'écriture des lots antérieurs ne bloquent pas cette opération ciblée ; aucune autorisation générale d'import ou de correction des auteurs n'en découle.
 
 - Vérifier distant, branche, SHA, statut, worktrees et activité concurrente. Une seule session écrit dans une copie de travail. Préserver les changements d’autrui ; isoler le travail si nécessaire.
