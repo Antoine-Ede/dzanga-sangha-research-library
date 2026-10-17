@@ -7,4 +7,10 @@ node_modules/
 .env.*
 *.sqlite*
 *.db
+# Local browser verification artefacts are not website assets.
+.playwright-cli/
+output/
+*secret*
+*apikey*
+*api_key*
 *.log

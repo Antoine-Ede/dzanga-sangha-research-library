@@ -194,7 +194,7 @@ function restoreSearch() {
   $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'table';
   $('groupYears').checked=params.get('group')==='year';
   $('analysisCategory').value=['research','reports','datasets','other'].includes(params.get('analysis_category'))?params.get('analysis_category'):'';
-  setSection(['analysis','quality'].includes(params.get('section'))?params.get('section'):'library');
+  setSection(['analysis','quality','help'].includes(params.get('section'))?params.get('section'):'library');
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -244,11 +244,13 @@ function applyFilters() {
 
 function setSection(section) {
   state.section=section;
-  for(const name of ['library','analysis','quality']){
+  for(const name of ['library','analysis','quality','help']){
     $(name+'Panel').hidden=name!==section;
     $(name+'Tab').setAttribute('aria-pressed',String(name===section));
   }
   $('searchPanel').hidden=section!=='library';
+  $('statsPanel').hidden=section==='help';
+  $('exportCsv').hidden=section==='help';
 }
 
 function archiveInfo(item) {
@@ -372,6 +374,11 @@ $("exportCsv").addEventListener("click",exportCsv);
 $('libraryTab').addEventListener('click',()=>{setSection('library');applyFilters();});
 $('analysisTab').addEventListener('click',()=>{setSection('analysis');applyFilters();});
 $('qualityTab').addEventListener('click',()=>{setSection('quality');applyFilters();});
+$('helpTab').addEventListener('click',()=>{
+  setSection('help');
+  if(state.ready)applyFilters();
+  else{const url=new URL(location.href);url.searchParams.set('section','help');history.replaceState(null,'',url.href);}
+});
 $('qualityIssue').addEventListener('change',()=>renderQuality(state.items));
 $('qualityExport').addEventListener('click',exportQualityCsv);
 $('analysisCategory').addEventListener('change',applyFilters);
@@ -381,5 +388,5 @@ $('browseDatasets').addEventListener('click',()=>{
 });
 for(const section of ['library','analysis','quality'])$(section+'Tab').disabled=true;
 const initialSection=new URL(location.href).searchParams.get('section');
-setSection(['analysis','quality'].includes(initialSection)?initialSection:'library');
+setSection(['analysis','quality','help'].includes(initialSection)?initialSection:'library');
 init();

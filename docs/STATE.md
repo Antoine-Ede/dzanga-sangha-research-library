@@ -1,4 +1,14 @@
-# État vérifié — 16 octobre 2026
+# État vérifié — reprise du 17 octobre 2026
+
+## Point de reprise courant — lot 009
+
+Le responsable autorise la poursuite après l'aperçu du guide, en imposant la vérification des PR et la conservation des preuves. La PR 4 est fusionnée à `fb60b7807b4205d342ece7c1d84494a501362fd9` le 16 octobre à 19:34 UTC ; GitHub Pages confirme ce commit `built` à 19:35 UTC. Le pilote PDF Bayanga est livré, pas en attente d'intégration.
+
+La PR 5 est fusionnée le 17 octobre à 19:30 UTC, commit `34a8c2e59d983b307e6384b338a1fc87fc828b80`. Les huit ajouts Zotero étaient déjà réalisés : aucun import relancé. La branche du guide a intégré ce nouveau main en conservant les deux historiques. La revue utilisateur du guide est acceptée par l'accord de continuation du 17 octobre après présentation de l'aperçu et de la proposition de fusion ; ce n'est pas une revue scientifique indépendante. La PR 6 est en cours de livraison dans le lot 009 ; son état réel reste vérifiable sur GitHub et sera consigné après fusion/publication.
+
+Reprise APDS transférée ici explicitement le 17 octobre. Les registres privés de l'autre session (`outputs/`, `work/`, `.local`) n'ont pas été retrouvés dans les emplacements locaux recherchés. Leur dossier est demandé au responsable ; ne pas reconstituer leurs décisions à partir du seul dépôt public. Les compteurs du lot 20 ci-dessous restent historiques jusqu'à lecture de ces registres. Le message de l'autre session signale quatre copies propres ; trois copies de ce jeu Git ont été contrôlées propres ici, sans prétendre avoir relocalisé les quatre autres dossiers.
+
+Récupération préalable vérifiée : bundle Git complet et copies des deux preuves de contrôle PR 5/6, conservés dans `.local/recovery-2026-10-17/` du worktree du guide. Anciens worktrees et fichiers ignorés préservés. Aucun original, PDF ou pièce jointe Zotero modifié par cette intégration. [Fiche 009](tasks/009-integration-reconciliation.md). Les sections datées du 16 octobre décrivent leurs étapes historiques ; ce point courant les remplace pour le statut de reprise.
 
 ## Clôture bibliographique du lot 007 — 16 octobre
 
@@ -14,11 +24,11 @@ Validation : prévalidation des huit DOI, lecture après écriture, audit public
 
 Retour arrière : revert du bilan Git si nécessaire ; pour les données, inspecter la notice actuelle avant toute annulation et utiliser la sauvegarde de pagination, sans écraser des enrichissements ultérieurs. Les scripts ciblés et rapports complets sont conservés dans l'espace local de recherche, hors du dépôt public : `prepare_pubmed_closeout.py`, `import_pubmed_closeout.ps1`, `check_pubmed_closeout.cjs`, dossier `reports/nonarchive/pubmed_closeout/`. Ce ne sont pas de nouvelles commandes génériques de reprise du dépôt. Prochain pas : choisir un nouveau lot borné de découverte ; les archives APDS et l'ancien guide restent des chantiers séparés.
 
-## Reprise prioritaire — lot 006, pilote PDF
+## Lot 006 — pilote PDF livré, détails et historique
 
 Le lot 005 a été fusionné (PR nº 3, main `3ee16aa0592f816c75cc93bebd3c5a58622fa8fb`) et Pages déployé ; preuve dans l'ancien worktree `.local/notice-quality-delivery.json`. Les sections ci-dessous conservent la chronologie et ne remplacent pas ce point actuel. Nouveau travail isolé dans `library-pdf-access`, branche `codex/library-pdf-access`, [fiche 006](tasks/006-pdf-access.md). Main et les anciens worktrees sont préservés.
 
-Implémentation locale : lien « Consulter le PDF » distinct de « Notice Zotero » dans les trois vues pour le champ URL HTTP(S) se terminant en `.pdf` (paramètres acceptés, identifiants dans l'URL refusés). Le DOI garde la priorité du titre. Aucun droit de diffusion ni accès gratuit n'est déduit du suffixe ; aucune pièce jointe Zotero n'est découverte automatiquement. Les avertissements sur l'original restent visibles.
+Implémentation publiée par la PR 4 : lien « Consulter le PDF » distinct de « Notice Zotero » dans les trois vues pour le champ URL HTTP(S) se terminant en `.pdf` (paramètres acceptés, identifiants dans l'URL refusés). Le DOI garde la priorité du titre. Aucun droit de diffusion ni accès gratuit n'est déduit du suffixe ; aucune pièce jointe Zotero n'est découverte automatiquement. Les avertissements sur l'original restent visibles.
 
 Pilote réel APDS-069, Bayanga : GET anonyme HTTP 200 et téléchargement dans un contexte Chrome vierge le 16 octobre 2026. Copie publique expurgée de 27 pages selon manifeste, 8 049 498 octets, SHA-256 `f2822980398e42d628cf736e79a6fdaea84cd0b00520e0d0d30f596086cff448`, identique au manifeste et au fichier versionné. L'URL immuable existante du champ Zotero est conservée. GitHub répond `application/octet-stream` : téléchargement du PDF, pas lecteur intégré. Preuves : `.local/pdf-public-check.json` et `.local/pdf-browser-check.json`. Cette vérification d'identité ne constitue pas une nouvelle lecture des 27 pages.
 
@@ -28,7 +38,7 @@ L'appel anonyme au fichier Zotero renvoie HTTP 404 : l'accès public au fichier 
 
 Validation locale : commande commune, 34 tests Python, tests JavaScript et navigateur synthétique (trois vues, liens distincts, activation au clavier, filtres, analyse, qualité, mobile et export). La destination PDF est simulée dans ces tests ; le téléchargement réel anonyme est une preuve séparée ci-dessus. Auto-revue dans la même session, pas de relecteur indépendant. Preuve exacte du commit livré : `.local/verification.json`, à confirmer avec `--verify-proof`. Le responsable a demandé « fusionne » après présentation de l’aperçu et du bilan : intégration et publication autorisées. Résultat de fusion, SHA, déploiement et contrôle public à consigner dans `.local/pdf-access-delivery.json` ; cette autorisation ne vaut pas preuve de publication.
 
-Retour arrière : revert du commit local, conservation des données ignorées et worktrees antérieurs. Prochain petit pas : intégrer le lien, vérifier le déploiement, puis reprendre un lot APDS borné selon D005. Le stockage Zotero du pilote est terminé ; son accès anonyme passe par le dépôt public complémentaire. Audit APDS lot 20, propositions d'auteurs et file bibliographique restent conservés ; aucune nouvelle page auditée par ce pilote.
+Retour arrière : revert ciblé du code après inspection, conservation des données ignorées et worktrees antérieurs. La fusion et le déploiement du lien sont terminés ; prochaine reprise : lot APDS borné selon D005. Le stockage Zotero du pilote est terminé ; son accès anonyme passe par le dépôt public complémentaire. Audit APDS lot 20, propositions d'auteurs et file bibliographique restent conservés ; aucune nouvelle page auditée par ce pilote.
 
 ## Base et diagnostic
 
@@ -125,3 +135,13 @@ Le responsable a validé l'aperçu (« Ça semble ok »). Le lot 005 peut être 
 Prochaine priorité demandée : rendre les PDF APDS autorisés à la diffusion publique consultables depuis le site. Aujourd'hui `articleUrl()` utilise seulement le DOI ou le champ URL de la notice ; le site ne récupère pas les pièces jointes PDF Zotero. Une notice sans DOI ni URL de document renvoie donc seulement vers Zotero. Un tag d'accès ne suffit pas à rendre le fichier accessible.
 
 Le pilote doit établir un parcours complet : PDF de diffusion identifié et conservé dans Zotero, URL de lecture publique durable (ou dépôt public complémentaire si Zotero impose une connexion), lien « Consulter le PDF » distinct de « Notice Zotero », test sans connexion et contrôle du bon fichier/version. Cette fonction et le stockage des fichiers ne sont pas livrés par le lot 005. Les six copies publiques préexistantes sont préservées ; les autres originaux ne sont pas téléversés implicitement. Audit APDS, histoire de la Sangha et veille restent suivis dans ROADMAP.
+
+## Mode d'emploi et PDF publics — lot 008
+
+Le mode d'emploi du commit local f04245a n'avait pas été fusionné. Il est maintenant porté sur main fb60b78 dans une branche isolée, avec les dernières fonctions de notices et d'accès PDF conservées. Onglet « Mode d'emploi », lien profond `?section=help`, ajout d'une référence, classement, veille et ouverture des PDF. Recherche, statistiques et export sont masqués dans le guide ; leur état est conservé au retour. Le guide reste lisible quand Zotero renvoie une erreur 403. [Fiche 008](tasks/008-guide-and-public-pdfs.md). La PR de ce lot doit recevoir sa revue utilisateur avant fusion ; les travaux APDS et la PR bibliographique nº 5 restent séparés.
+
+**Six PDF APDS déjà publics contrôlés le 16 octobre, 20:47 UTC** : APDS-067, 068, 069, 070, 112 et 113. Chaque notice fournit son URL PDF publique ; six téléchargements anonymes HTTP 200 et six empreintes/tailles conformes au manifeste, y compris la révision de Yandoumbé. [Preuve publique](verification/public-plans-2026-10-16.json). La fonction « Consulter le PDF » est déjà fusionnée par la PR nº 4. Ces fichiers peuvent se télécharger au lieu de s'afficher dans un lecteur intégré. Les pièces jointes Zotero réservées aux membres ne sont pas utilisées comme seul accès public.
+
+Aucun original, copie expurgée, manifeste ou champ Zotero modifié par ce contrôle. Il ne donne pas une autorisation nouvelle de diffusion aux autres archives. Les documents en attente d'examen dans la conversation APDS restent dans ce suivi.
+
+Validation : 34 tests Python, syntaxe JavaScript, rendu synthétique et test navigateur (guide desktop/mobile, clavier, recherche conservée et erreur API). Captures inspectées en une passe, styles existants conservés. Auto-revue, aucun relecteur indépendant ni audit complet lecteur d'écran. La preuve finale du commit doit être vérifiée avec `tools/check.py --verify-proof`. Retour arrière par revert du lot, anciens checkouts conservés ; aucun retour arrière Zotero requis. Prochain pas : revue de l'aperçu du guide et fusion de sa PR, puis poursuite du lot APDS séparé.

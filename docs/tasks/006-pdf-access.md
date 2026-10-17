@@ -1,6 +1,6 @@
 # Pilote d'accès PDF APDS
 
-Statut : interface locale réalisée ; téléchargement public vérifié ; stockage Zotero vérifié ; intégration autorisée par « fusionne » ; résultat de publication dans `.local/pdf-access-delivery.json`. Branche `codex/library-pdf-access`, base `3ee16aa`.
+Statut : livré. PR 4 fusionnée le 16 octobre 2026 à 19:34 UTC, commit fb60b7807b4205d342ece7c1d84494a501362fd9 ; GitHub Pages confirme `built` sur ce SHA à 19:35 UTC. Téléchargement public et stockage Zotero vérifiés auparavant. Le journal `.local/pdf-access-delivery.json` est cité par l'autre session ; son emplacement privé n'est pas encore relocalisé ici. Branche historique `codex/library-pdf-access`, base `3ee16aa` ; ne pas rejouer ce pilote.
 
 - Besoin : ouvrir un PDF de diffusion depuis chaque présentation, séparément de sa notice Zotero.
 - Périmètre : lien explicite pour les URL de documents finissant en `.pdf` ; pilote réel APDS-069 Bayanga, copie publique expurgée préexistante, notice NJ4EAIJT. L'accord utilisateur « ok continue » autorise son stockage ciblé dans Zotero lorsqu'un accès d'écriture est disponible.
