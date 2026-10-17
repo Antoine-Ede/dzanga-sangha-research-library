@@ -2,10 +2,10 @@
 
 ## État courant — 17 octobre 2026
 
-- PR 4 livrée sur Pages : lien PDF et pilote Bayanga terminés, ne pas les rejouer. PR 5 fusionnée : bilan PubMed consigné, huit notices déjà importées. PR 6 : guide vérifié et accepté, intégration suivie dans le [lot 009](docs/tasks/009-integration-reconciliation.md) et STATE.
+- PR 4 livrée sur Pages : lien PDF et pilote Bayanga terminés, ne pas les rejouer. PR 5 fusionnée : bilan PubMed consigné, huit notices déjà importées. PR 6 fusionnée et publiée sur Pages le 17 octobre : Mode d'emploi accessible. Preuves du [lot 009](docs/tasks/009-integration-reconciliation.md) dans STATE.
 - Les six copies APDS publiques sont accessibles sans connexion et conformes au manifeste (contrôle du 16 octobre). Cela ne rend pas les autres originaux diffusables.
-- L'audit APDS est transféré ici ; reprendre les registres privés conservés de l'autre session. Leur emplacement est en cours de recherche auprès du responsable ; aucun compteur ni décision réinitialisé.
-- Restent distincts : correction sourcée des auteurs de la notice MCCPAMU3, accès intégral d'un article non confirmé, revue APDS proportionnée, sources historiques/communautaires et future veille non activée.
+- L'audit APDS continuera dans l'autre session : le responsable précise que les registres sont sur l'autre ordinateur, après avoir initialement demandé le transfert ici. Aucun compteur ni décision réinitialisé et aucune nouvelle page auditée dans cette session.
+- MCCPAMU3 corrigée et relance sans écriture vérifiée : treize auteurs et titre, sans toucher aux classifications. [Lot 010](docs/tasks/010-source-closeout.md). Restent distincts : téléchargement intégral Flahou non confirmé malgré une piste UGent documentée, revue APDS proportionnée depuis les registres privés, sources historiques/communautaires et future veille non activée.
 
 Les paragraphes datés du 15/16 octobre ci-dessous sont l'historique de cadrage ; leurs formules « prochain lot », « localement » et « pas encore » ne remplacent pas cet état courant. Les chiffres des anciens audits ne sont pas présentés comme de nouveaux contrôles.
 

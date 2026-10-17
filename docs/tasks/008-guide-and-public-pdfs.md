@@ -1,6 +1,6 @@
 # Lot 008 — mode d'emploi et contrôle des PDF publics
 
-Statut : réalisée et vérifiée, revue utilisateur acceptée le 17 octobre après l'aperçu et la proposition de fusion ; intégration PR 6 suivie dans le lot 009. Session Codex.
+Statut : livrée. Revue utilisateur acceptée le 17 octobre après l'aperçu et la proposition de fusion ; PR 6 fusionnée à dc5f1a136d771440146117904ed4a8e93db568df et Pages `built` le même jour. Session Codex. Résultat suivi dans le lot 009.
 
 - Besoin : livrer le guide resté sur une ancienne branche et confirmer que les archives dont une copie publique est déjà validée sont accessibles via leur PDF.
 - Périmètre : porter le guide sur le main actuel, documenter l'ouverture des PDF, vérifier les six copies publiques du manifeste sans connexion et par empreinte.
