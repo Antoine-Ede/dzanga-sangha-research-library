@@ -1,0 +1,27 @@
+{
+  "asOf": "2026-10-16",
+  "groupId": "6701789",
+  "before": 427,
+  "after": 435,
+  "created": 8,
+  "metadataCorrections": 1,
+  "correctionFields": [
+    "pages",
+    "extra"
+  ],
+  "correctedItem": "X2TR4JGG",
+  "rerunCreated": 0,
+  "rerunAlreadyPresent": 8,
+  "rerunUpdated": 0,
+  "failures": [],
+  "topLevelCollections": 19,
+  "manifestCoverage": "31/31",
+  "untitled": 0,
+  "duplicateDOIs": 0,
+  "probableTitleDuplicates": 0,
+  "archivesChanged": 0,
+  "attachmentsChanged": 0,
+  "independentReview": false,
+  "uiChanged": false,
+  "complete": true
+}
