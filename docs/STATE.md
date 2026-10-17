@@ -1,5 +1,19 @@
 # État vérifié — 16 octobre 2026
 
+## Clôture bibliographique du lot 007 — 16 octobre
+
+Reprise depuis `origin/main` fb60b78 dans un worktree isolé ; les changements des PR 1–4, le pilote PDF et les travaux APDS sont préservés. La branche préexistante du guide est conservée séparément, sans réapplication d'anciens fichiers du site sur le nouveau main. [Fiche 007](tasks/007-pubmed-closeout.md), [registre et bilan](../reviews/pubmed-2026-10-16/README.md).
+
+Les six notices du dernier lot étaient déjà importées. Audit de reprise : 427 références. Les dix candidats PubMed encore ouverts ont reçu huit acceptations et deux exclusions motivées ; les huit acceptations sont importées et contrôlées publiquement. **État après : 435 références, 19 collections, seed 31/31, aucun titre vide ni doublon détecté.** Une pagination absente de Crossref a été complétée à partir de PubMed et de l'original avec sauvegarde et contrôle de version. Relance réelle sous Windows PowerShell : **zéro création, huit déjà présentes, zéro correction supplémentaire, zéro échec**. Couverture publique : 8/8.
+
+Les décisions sont celles de l'assistant sur sources originales ciblées, pas une revue indépendante. L'article mpox est Relevant sur la preuve régionale Sangha-Mbaéré, sans tag de site APDS inventé. Un accès intégral reste non confirmé ; aucune autorisation de redistribuer les PDF n'est déduite de leur consultation. Les deux corrections associées aux études antérieures sont tracées sans créer de nouvelles études. Les 22 candidats initiaux sont triés : 13 acceptations, 7 exclusions et 2 corrections associées. Cela ne clôt pas toutes les pistes des autres bases ou des archives.
+
+La clé locale a été lue uniquement en mémoire pour ce lot, fournie aux API Zotero par l'environnement du processus puis retirée. Aucun secret ni PDF d'éditeur ajouté au dépôt. Révoquer la clé temporaire exposée dès que le travail authentifié des deux conversations est terminé ; la clôture de ce lot ne vaut pas confirmation de fin du chantier APDS parallèle.
+
+Validation : prévalidation des huit DOI, lecture après écriture, audit public et relance ; commande commune avec 34 tests Python, syntaxe JavaScript, rendu synthétique et navigateur réussis. Le premier lancement navigateur en sandbox n'avait pas accès au binaire installé ; la relance autorisée hors sandbox a passé sans nouvelle installation. Preuve finale liée au commit dans `.local/verification.json`, à contrôler avec `--verify-proof`. Aucun fichier applicatif du hub modifié ; les ajouts Zotero apparaissent au rechargement sans déploiement.
+
+Retour arrière : revert du bilan Git si nécessaire ; pour les données, inspecter la notice actuelle avant toute annulation et utiliser la sauvegarde de pagination, sans écraser des enrichissements ultérieurs. Les scripts ciblés et rapports complets sont conservés dans l'espace local de recherche, hors du dépôt public : `prepare_pubmed_closeout.py`, `import_pubmed_closeout.ps1`, `check_pubmed_closeout.cjs`, dossier `reports/nonarchive/pubmed_closeout/`. Ce ne sont pas de nouvelles commandes génériques de reprise du dépôt. Prochain pas : choisir un nouveau lot borné de découverte ; les archives APDS et l'ancien guide restent des chantiers séparés.
+
 ## Reprise prioritaire — lot 006, pilote PDF
 
 Le lot 005 a été fusionné (PR nº 3, main `3ee16aa0592f816c75cc93bebd3c5a58622fa8fb`) et Pages déployé ; preuve dans l'ancien worktree `.local/notice-quality-delivery.json`. Les sections ci-dessous conservent la chronologie et ne remplacent pas ce point actuel. Nouveau travail isolé dans `library-pdf-access`, branche `codex/library-pdf-access`, [fiche 006](tasks/006-pdf-access.md). Main et les anciens worktrees sont préservés.

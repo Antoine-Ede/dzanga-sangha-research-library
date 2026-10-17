@@ -2,6 +2,8 @@
 
 Site statique HTML/CSS/JavaScript alimenté en lecture par le [groupe Zotero 6701789](https://www.zotero.org/groups/6701789/dzanga-sangha_research_library/library). Zotero reste la source de vérité ; les instantanés dans `catalogue/` documentent les imports historiques.
 
+Dernier lot bibliographique : [revue PubMed du 16 octobre 2026](reviews/pubmed-2026-10-16/README.md), avec sources, décisions et limites. [Skills employés et provenance](docs/RESEARCH_SKILLS.md). Ces registres historiques ne sont pas des files à réimporter.
+
 ## Développer et reprendre
 
 L'onglet **Mode d'emploi** explique la consultation, l'accès aux PDF, l'ajout d'une référence et le classement ; lien direct `?section=help`. Les six copies publiques APDS préexistantes ont été [vérifiées sans connexion](docs/verification/public-plans-2026-10-16.json). L'accès à une copie expurgée ne modifie pas les conditions de consultation de l'original.
