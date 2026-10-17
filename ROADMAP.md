@@ -2,6 +2,7 @@
 
 ## État courant — 17 octobre 2026
 
+- Revue qualité [lot 012](docs/tasks/012-quality-review.md) terminée pour le tri de 144 alertes et les 34 notices hors archives : 23 corrigées, compteur réel **127/435** avec les mêmes règles. Restent 110 archives pour l'autre session et [17 incertitudes documentées](reviews/quality-2026-10-17/remaining-nonarchive.csv). Aucun import ni scan APDS ; sauvegarde, lecture publique et relance sans écriture contrôlées.
 - PR 4 livrée sur Pages : lien PDF et pilote Bayanga terminés, ne pas les rejouer. PR 5 fusionnée : bilan PubMed consigné, huit notices déjà importées. PR 6 fusionnée et publiée sur Pages le 17 octobre : Mode d'emploi accessible. Preuves du [lot 009](docs/tasks/009-integration-reconciliation.md) dans STATE.
 - Les six copies APDS publiques sont accessibles sans connexion et conformes au manifeste (contrôle du 16 octobre). Cela ne rend pas les autres originaux diffusables.
 - L'audit APDS continuera dans l'autre session : le responsable précise que les registres sont sur l'autre ordinateur, après avoir initialement demandé le transfert ici. Aucun compteur ni décision réinitialisé et aucune nouvelle page auditée dans cette session.

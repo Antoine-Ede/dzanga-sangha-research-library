@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-10-17T21:15:18.437Z",
+  "groupId": "6701789",
+  "userDisplayedCount": 145,
+  "before": {
+    "references": 435,
+    "flagged": 144,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 34,
+    "reasons": {
+      "Année manquante": 27,
+      "Vérification signalée dans Zotero": 109,
+      "Accès à déterminer": 99,
+      "Source bibliographique manquante": 37,
+      "Lien externe non renseigné": 109,
+      "Justification Core à expliciter": 14,
+      "Auteur ou responsable manquant": 17,
+      "Nom/prénom à vérifier : nom réduit à des initiales": 2
+    }
+  },
+  "after": {
+    "references": 435,
+    "flagged": 127,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 17,
+    "reasons": {
+      "Accès à déterminer": 83,
+      "Source bibliographique manquante": 37,
+      "Année manquante": 27,
+      "Vérification signalée dans Zotero": 109,
+      "Lien externe non renseigné": 108,
+      "Justification Core à expliciter": 14,
+      "Auteur ou responsable manquant": 17
+    }
+  },
+  "triaged": 144,
+  "nonarchiveReviewed": 34,
+  "archiveDeferred": 110,
+  "resolved": 17,
+  "correctedRemaining": 6,
+  "reviewedUnresolved": 11,
+  "itemsUpdated": 23,
+  "newReferences": 0,
+  "confirmedFreeFullTexts": 4,
+  "confirmedRestrictedRoutes": 12,
+  "rerunWrites": 0,
+  "archiveMetadataUnchanged": true,
+  "archiveChangesBetweenSnapshots": [],
+  "qualityRulesChanged": false,
+  "qualityRulesSHA256": "3af04d2c916010887a4bd57c216198e6075f34a1b9254d2ef8c5e96bd4f3ab4e",
+  "completeForBoundedReview": true,
+  "limitations": [
+    "110 APDS archival records are explicitly deferred to the other session; not claimed scientifically reviewed here.",
+    "17 nonarchive records retain justified unresolved indicators; network failure alone is neither paid access nor free full text.",
+    "Self-review; no independent reviewer.",
+    "Complete PDFs were retrieved for access/identity; only targeted bibliographic pages were read. No PDF redistributed."
+  ]
+}

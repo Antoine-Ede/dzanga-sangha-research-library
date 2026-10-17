@@ -1,0 +1,3080 @@
+[
+  {
+    "key": "MSGR4TKC",
+    "title": "Rapport annuel 2019",
+    "initialIssues": [
+      "Année manquante",
+      "Vérification signalée dans Zotero"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://fondationtns.org/wp-content/uploads/2022/10/RAPPORT-ANNUEL-2019-Online-2020-2-for-Print-only-10302020-fnl.pdf"
+    ],
+    "reason": "Reporting year 2019 is explicit, but publication year remains unstated. Neither PDF-generation year nor upload folder proves publication date. Keep incomplete-status and missing-year alerts.",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Année manquante",
+      "Vérification signalée dans Zotero"
+    ],
+    "afterVersion": 946,
+    "appliedFields": []
+  },
+  {
+    "key": "9M3PNGTQ",
+    "title": "First observations on the behavior of the flightless anomalure (Zenkerella insignis)",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0944200617300855"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Publisher offers Purchase PDF and organizational login. No independently verified free full text found in the bounded DOI/repository search. Classification concerns the verified routes, not proof that no free copy exists anywhere."
+    ],
+    "proof": {
+      "key": "9M3PNGTQ",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0944200617300855",
+      "status": 200,
+      "scrapeId": "01a14bac-61cb-75ea-b32a-daa389cdea5b",
+      "checkedAt": "2026-10-17T21:04:44.191Z",
+      "tool": "Firecrawl live fetch (maxAge 0), no authenticated profile",
+      "identityTitle": "First observations on the behavior of the flightless anomalure (Zenkerella insignis)",
+      "citationDOI": "10.1016/j.zool.2017.06.003",
+      "citationDate": "2017/08/01",
+      "onlineDate": "2017/06/17",
+      "accessEvidence": "Publisher offers Purchase PDF and organizational login."
+    },
+    "finalIssues": [],
+    "afterVersion": 960,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "D75DEJVI",
+    "title": "Case report: Intestinal perforation and secondary peritonitis due to Acanthocephala infection in a black-bellied pangolin (Phataginus tetradactyla)",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S138357692030132X"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Publisher offers Purchase PDF and organizational login. No independently verified free full text found in the bounded DOI/repository search. Classification concerns the verified routes, not proof that no free copy exists anywhere."
+    ],
+    "proof": {
+      "key": "D75DEJVI",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S138357692030132X",
+      "status": 200,
+      "scrapeId": "01a14baa-9df9-7326-8e23-1a4724d7d29d",
+      "checkedAt": "2026-10-17T21:04:44.195Z",
+      "tool": "Firecrawl live fetch (maxAge 0), no authenticated profile",
+      "identityTitle": "Case report: Intestinal perforation and secondary peritonitis due to Acanthocephala infection in a black-bellied pangolin (Phataginus tetradactyla)",
+      "citationDOI": "10.1016/j.parint.2020.102182",
+      "citationDate": "2021/02/01",
+      "onlineDate": "2020/09/01",
+      "accessEvidence": "Publisher offers Purchase PDF and organizational login."
+    },
+    "finalIssues": [],
+    "afterVersion": 961,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "NJ4EAIJT",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero"
+    ],
+    "afterVersion": 938,
+    "appliedFields": []
+  },
+  {
+    "key": "KUVU8MMU",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero"
+    ],
+    "afterVersion": 936,
+    "appliedFields": []
+  },
+  {
+    "key": "J2LFFNVL",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero"
+    ],
+    "afterVersion": 934,
+    "appliedFields": []
+  },
+  {
+    "key": "RZMNLUYS",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 930,
+    "appliedFields": []
+  },
+  {
+    "key": "UFNZFU4A",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 929,
+    "appliedFields": []
+  },
+  {
+    "key": "Z6SXGKC2",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 923,
+    "appliedFields": []
+  },
+  {
+    "key": "ZA5RJ4CM",
+    "title": "Candidature au patrimoine mondial évaluation technique de l'UICN. : trinational de Sangha. (Cameroun, République Centrafricaine, Congo)",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "url",
+      "access"
+    ],
+    "sources": [
+      "https://agritrop.cirad.fr/559936/1/document_559936.pdf"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Complete anonymous PDF retrieved: 26 pages, 1905554 bytes, SHA-256 535d66f6fba259a2e98d73ce9cfcb1f91a538cf7a8b92cd630ace296d3fa699f. Identity checked in text on pages 1-2 and visually on page 1. No redistribution right inferred; PDF remains hosted by its source (or archived official source)."
+    ],
+    "proof": {
+      "url": "https://agritrop.cirad.fr/559936/1/document_559936.pdf",
+      "http": 200,
+      "bytes": 1905554,
+      "sha256": "535d66f6fba259a2e98d73ce9cfcb1f91a538cf7a8b92cd630ace296d3fa699f",
+      "pages": 26,
+      "identityCheckedTextPages": [
+        1,
+        2
+      ],
+      "visuallyCheckedPages": [
+        1
+      ],
+      "scopeOfReading": "identity and bibliographic verification, not all-page scientific review"
+    },
+    "finalIssues": [],
+    "afterVersion": 973,
+    "appliedFields": [
+      "url",
+      "extra",
+      "tags"
+    ]
+  },
+  {
+    "key": "P2MRQW92",
+    "title": "Charakterizace mikroflóry trávicího traktu volně žijících goril nížinných (Gorilla gorilla gorilla)",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "url",
+      "access"
+    ],
+    "sources": [
+      "https://is.muni.cz/th/lp9y8/Vlckova_MT.pdf"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Complete anonymous PDF retrieved: 63 pages, 29560160 bytes, SHA-256 88f7620cad7fbe962d983b16a753936874e1879194ac0afd98cbe3ba0624b751. Identity checked in text on pages 1-2 and visually on page 1. No redistribution right inferred; PDF remains hosted by its source (or archived official source)."
+    ],
+    "proof": {
+      "url": "https://is.muni.cz/th/lp9y8/Vlckova_MT.pdf",
+      "http": 200,
+      "bytes": 29560160,
+      "sha256": "88f7620cad7fbe962d983b16a753936874e1879194ac0afd98cbe3ba0624b751",
+      "pages": 63,
+      "identityCheckedTextPages": [
+        1,
+        2
+      ],
+      "visuallyCheckedPages": [
+        1
+      ],
+      "scopeOfReading": "identity and bibliographic verification, not all-page scientific review"
+    },
+    "finalIssues": [],
+    "afterVersion": 975,
+    "appliedFields": [
+      "url",
+      "extra",
+      "tags"
+    ]
+  },
+  {
+    "key": "AVQHSZBM",
+    "title": "The Gorilla Paradox",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://link.springer.com/chapter/10.1007/978-1-4899-0092-0_6"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Primary publisher explicitly displays subscription preview / access options; the direct full-text endpoint returned the same access page, not a PDF. DOI repository lookup found no verified free copy. This is not inferred from a network failure."
+    ],
+    "proof": {
+      "url": "https://link.springer.com/chapter/10.1007/978-1-4899-0092-0_6",
+      "http": 200,
+      "publisherAccessMessage": "preview of subscription content",
+      "anonymousPDFProbe": "HTML access page; not PDF"
+    },
+    "finalIssues": [],
+    "afterVersion": 964,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "PD7AW6IE",
+    "title": "Seedling performance of four sympatric Entandrophragma species (Meliaceae) under simulated fertility and moisture regimes of a Central African rain forest",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://www.cambridge.org/core/journals/journal-of-tropical-ecology/article/abs/seedling-performance-of-four-sympatric-entandrophragma-species-meliaceae-under-simulated-fertility-and-moisture-regimes-of-a-central-african-rain-forest/473A08FF7E33E618C1F9640AED1C8166"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Primary publisher explicitly displays subscription preview / access options; the direct full-text endpoint returned the same access page, not a PDF. DOI repository lookup found no verified free copy. This is not inferred from a network failure."
+    ],
+    "proof": {
+      "url": "https://www.cambridge.org/core/journals/journal-of-tropical-ecology/article/abs/seedling-performance-of-four-sympatric-entandrophragma-species-meliaceae-under-simulated-fertility-and-moisture-regimes-of-a-central-african-rain-forest/473A08FF7E33E618C1F9640AED1C8166",
+      "http": 200,
+      "publisherAccessMessage": "Get access to the full version",
+      "anonymousPDFProbe": "HTML access page; not PDF"
+    },
+    "finalIssues": [],
+    "afterVersion": 966,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "4SGKCTXH",
+    "title": "Monkeys on the Menu? Reconciling Patterns of Primate Hunting and Consumption in a Central African Village",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://link.springer.com/chapter/10.1007/978-3-319-30469-4_3"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Primary publisher explicitly displays subscription preview / access options; the direct full-text endpoint returned the same access page, not a PDF. DOI repository lookup found no verified free copy. This is not inferred from a network failure."
+    ],
+    "proof": {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-30469-4_3",
+      "http": 200,
+      "publisherAccessMessage": "preview of subscription content",
+      "anonymousPDFProbe": "HTML access page; not PDF"
+    },
+    "finalIssues": [],
+    "afterVersion": 965,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "FDH6TJU6",
+    "title": "Floristic and structural distinctness of monodominant Gilbertiodendron dewevrei forest in the western Congo Basin",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "url",
+      "access"
+    ],
+    "sources": [
+      "https://public.pensoft.net/items/?p=7TVeXpoqfNYT89tyrm3ifrTeG9Wv8P676JSQp%2FH2pj9hhtoybol4GF7LEbj3fxHT5Fo8esHssd4XepBmYRbfZBbEH%2Fp8a4Qga45KiCzLFQavWxsfkgRzIb%2FE%2Fiyyb%2Bc%3D&n=sjZLSdA4cv0TrtxvrHXuQuybT43v5tGs6a%2BO%2Bfbm7w%3D%3D"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Complete anonymous PDF retrieved: 20 pages, 6094698 bytes, SHA-256 3ddd807069ed3ea153bf5a76f84d5e1fe8292e2dd3381040378484820e784ff0. Identity checked in text on pages 1-2 and visually on page 1. No redistribution right inferred; PDF remains hosted by its source (or archived official source)."
+    ],
+    "proof": {
+      "url": "https://public.pensoft.net/items/?p=7TVeXpoqfNYT89tyrm3ifrTeG9Wv8P676JSQp%2FH2pj9hhtoybol4GF7LEbj3fxHT5Fo8esHssd4XepBmYRbfZBbEH%2Fp8a4Qga45KiCzLFQavWxsfkgRzIb%2FE%2Fiyyb%2Bc%3D&n=sjZLSdA4cv0TrtxvrHXuQuybT43v5tGs6a%2BO%2Bfbm7w%3D%3D",
+      "http": 200,
+      "bytes": 6094698,
+      "sha256": "3ddd807069ed3ea153bf5a76f84d5e1fe8292e2dd3381040378484820e784ff0",
+      "pages": 20,
+      "identityCheckedTextPages": [
+        1,
+        2
+      ],
+      "visuallyCheckedPages": [
+        1
+      ],
+      "scopeOfReading": "identity and bibliographic verification, not all-page scientific review"
+    },
+    "finalIssues": [],
+    "afterVersion": 972,
+    "appliedFields": [
+      "url",
+      "extra",
+      "tags"
+    ]
+  },
+  {
+    "key": "JZZ6KTG9",
+    "title": "An elephant (Loxodonta africana) survey using dung counts in the forests of the Central African Republic",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://www.cambridge.org/core/journals/journal-of-tropical-ecology/article/abs/an-elephant-loxodonta-africana-survey-using-dung-counts-in-the-forests-of-the-central-african-republic/BCDDFE8959EC4CAD67F94AEDC4004107"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Primary publisher explicitly displays subscription preview / access options; the direct full-text endpoint returned the same access page, not a PDF. DOI repository lookup found no verified free copy. This is not inferred from a network failure."
+    ],
+    "proof": {
+      "url": "https://www.cambridge.org/core/journals/journal-of-tropical-ecology/article/abs/an-elephant-loxodonta-africana-survey-using-dung-counts-in-the-forests-of-the-central-african-republic/BCDDFE8959EC4CAD67F94AEDC4004107",
+      "http": 200,
+      "publisherAccessMessage": "Get access to the full version",
+      "anonymousPDFProbe": "HTML access page; not PDF"
+    },
+    "finalIssues": [],
+    "afterVersion": 967,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "M3WW68V2",
+    "title": "GPS telemetry of forest elephants in Central Africa: results of a preliminary study",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://doi.org/10.1046%2Fj.1365-2028.2001.00296.x"
+    ],
+    "reason": "DOI bibliographic identity checked against publisher-deposited metadata and repository index. Publisher full-text requests blocked or only abstract/references retrieved; no complete free copy verified. Do not infer paid access from a technical failure. ",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 881,
+    "appliedFields": []
+  },
+  {
+    "key": "66DYNH4B",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 854,
+    "appliedFields": []
+  },
+  {
+    "key": "YJ5I9IKG",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 853,
+    "appliedFields": []
+  },
+  {
+    "key": "IH6DYR2K",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 852,
+    "appliedFields": []
+  },
+  {
+    "key": "FZVEZM3N",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 851,
+    "appliedFields": []
+  },
+  {
+    "key": "UWCU8IN6",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 849,
+    "appliedFields": []
+  },
+  {
+    "key": "AUPWA4YX",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 848,
+    "appliedFields": []
+  },
+  {
+    "key": "R4XSAW3K",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 846,
+    "appliedFields": []
+  },
+  {
+    "key": "IBV4WCGV",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 843,
+    "appliedFields": []
+  },
+  {
+    "key": "TNFSBS2S",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 842,
+    "appliedFields": []
+  },
+  {
+    "key": "6QI7F2RA",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 839,
+    "appliedFields": []
+  },
+  {
+    "key": "Z5P94F96",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 837,
+    "appliedFields": []
+  },
+  {
+    "key": "U3TLFLQ3",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 836,
+    "appliedFields": []
+  },
+  {
+    "key": "L68JV8LG",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 835,
+    "appliedFields": []
+  },
+  {
+    "key": "JWMW8UCA",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 834,
+    "appliedFields": []
+  },
+  {
+    "key": "IB6T72XJ",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 832,
+    "appliedFields": []
+  },
+  {
+    "key": "4KW9APLM",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 831,
+    "appliedFields": []
+  },
+  {
+    "key": "YR4TTSLH",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 830,
+    "appliedFields": []
+  },
+  {
+    "key": "AJ5J3HR3",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 829,
+    "appliedFields": []
+  },
+  {
+    "key": "BYF7K6BC",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 827,
+    "appliedFields": []
+  },
+  {
+    "key": "DWMH5RTQ",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 824,
+    "appliedFields": []
+  },
+  {
+    "key": "GIZD3MYT",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 817,
+    "appliedFields": []
+  },
+  {
+    "key": "AXVQJVRN",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 815,
+    "appliedFields": []
+  },
+  {
+    "key": "LQ9YB6IJ",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 814,
+    "appliedFields": []
+  },
+  {
+    "key": "QG3LFHUG",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 812,
+    "appliedFields": []
+  },
+  {
+    "key": "PRET22IR",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 810,
+    "appliedFields": []
+  },
+  {
+    "key": "9NYFCYNW",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 809,
+    "appliedFields": []
+  },
+  {
+    "key": "89JZXNSP",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 806,
+    "appliedFields": []
+  },
+  {
+    "key": "9DVM7IIU",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 805,
+    "appliedFields": []
+  },
+  {
+    "key": "LAUUHXN4",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 804,
+    "appliedFields": []
+  },
+  {
+    "key": "6E6SKIHQ",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 803,
+    "appliedFields": []
+  },
+  {
+    "key": "C3ZG8PJ2",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 802,
+    "appliedFields": []
+  },
+  {
+    "key": "ZDAJFY6M",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 799,
+    "appliedFields": []
+  },
+  {
+    "key": "KAX45LXW",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 795,
+    "appliedFields": []
+  },
+  {
+    "key": "U8WLVRB8",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 794,
+    "appliedFields": []
+  },
+  {
+    "key": "QWYF3S4B",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 793,
+    "appliedFields": []
+  },
+  {
+    "key": "94IAIHRS",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 792,
+    "appliedFields": []
+  },
+  {
+    "key": "F7ACRJXQ",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 791,
+    "appliedFields": []
+  },
+  {
+    "key": "ITM85MDN",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 790,
+    "appliedFields": []
+  },
+  {
+    "key": "K5RNY7JT",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 786,
+    "appliedFields": []
+  },
+  {
+    "key": "V6IY4L6X",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 785,
+    "appliedFields": []
+  },
+  {
+    "key": "DLGADYGR",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 860,
+    "appliedFields": []
+  },
+  {
+    "key": "VDP3YE5K",
+    "initialIssues": [
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 859,
+    "appliedFields": []
+  },
+  {
+    "key": "XW29ZRPQ",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 783,
+    "appliedFields": []
+  },
+  {
+    "key": "4DM97TPJ",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 781,
+    "appliedFields": []
+  },
+  {
+    "key": "R8XPRBL4",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 780,
+    "appliedFields": []
+  },
+  {
+    "key": "8M9F2XMX",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 863,
+    "appliedFields": []
+  },
+  {
+    "key": "GPRBWTZL",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 862,
+    "appliedFields": []
+  },
+  {
+    "key": "LZZJ8N9V",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 861,
+    "appliedFields": []
+  },
+  {
+    "key": "36FVAGUR",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 776,
+    "appliedFields": []
+  },
+  {
+    "key": "P27XH6RB",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 870,
+    "appliedFields": []
+  },
+  {
+    "key": "2H362IP3",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 869,
+    "appliedFields": []
+  },
+  {
+    "key": "3J659XCT",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 868,
+    "appliedFields": []
+  },
+  {
+    "key": "DZ68XID3",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 867,
+    "appliedFields": []
+  },
+  {
+    "key": "TBSFHA9U",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 866,
+    "appliedFields": []
+  },
+  {
+    "key": "BJLE5NZ6",
+    "initialIssues": [
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 865,
+    "appliedFields": []
+  },
+  {
+    "key": "PKL9NGJJ",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 864,
+    "appliedFields": []
+  },
+  {
+    "key": "BIUCUAI4",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 771,
+    "appliedFields": []
+  },
+  {
+    "key": "NIUXV3VN",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 770,
+    "appliedFields": []
+  },
+  {
+    "key": "UK44H2TH",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 767,
+    "appliedFields": []
+  },
+  {
+    "key": "TUVZZLZW",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 871,
+    "appliedFields": []
+  },
+  {
+    "key": "ZPUJBFL5",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 764,
+    "appliedFields": []
+  },
+  {
+    "key": "MVIVLYDZ",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 872,
+    "appliedFields": []
+  },
+  {
+    "key": "87KKA2QT",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 762,
+    "appliedFields": []
+  },
+  {
+    "key": "QZ75FZ8Q",
+    "title": "Ecological influences on the ranging and grouping behavior of western lowland gorillas at Bai Hoköu, Central African Republic",
+    "initialIssues": [
+      "Accès à déterminer",
+      "Lien externe non renseigné"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://doi.org/10.1002/ajp.20072"
+    ],
+    "reason": "Independent citing bibliographies corroborate the Goldsmith thesis identity/year. No stable record of the thesis itself or complete free copy located. Do not restore the DOI of a different article that merely cites it.",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 761,
+    "appliedFields": []
+  },
+  {
+    "key": "YV3XFZAB",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 754,
+    "appliedFields": []
+  },
+  {
+    "key": "YKB5UYT4",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 753,
+    "appliedFields": []
+  },
+  {
+    "key": "Y59C6AMW",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 752,
+    "appliedFields": []
+  },
+  {
+    "key": "VVU5BX4B",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 751,
+    "appliedFields": []
+  },
+  {
+    "key": "TE2JZN9R",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 747,
+    "appliedFields": []
+  },
+  {
+    "key": "TCYNS55B",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 746,
+    "appliedFields": []
+  },
+  {
+    "key": "RJIIKWZC",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 745,
+    "appliedFields": []
+  },
+  {
+    "key": "Q6J68VM6",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 743,
+    "appliedFields": []
+  },
+  {
+    "key": "Q5RG9G55",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 742,
+    "appliedFields": []
+  },
+  {
+    "key": "P9ERP3PL",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 739,
+    "appliedFields": []
+  },
+  {
+    "key": "NPUXAWBG",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 738,
+    "appliedFields": []
+  },
+  {
+    "key": "NAGCLICV",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 737,
+    "appliedFields": []
+  },
+  {
+    "key": "MPP7MNLJ",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 736,
+    "appliedFields": []
+  },
+  {
+    "key": "KV66PB4R",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 735,
+    "appliedFields": []
+  },
+  {
+    "key": "K2MTIGPZ",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 734,
+    "appliedFields": []
+  },
+  {
+    "key": "JZ3WMQ6E",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 733,
+    "appliedFields": []
+  },
+  {
+    "key": "JWVQC6CI",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 732,
+    "appliedFields": []
+  },
+  {
+    "key": "JJUWPCLS",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 731,
+    "appliedFields": []
+  },
+  {
+    "key": "GYIDSENC",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 729,
+    "appliedFields": []
+  },
+  {
+    "key": "G83RY4XL",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 728,
+    "appliedFields": []
+  },
+  {
+    "key": "FK4TDQ4K",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 723,
+    "appliedFields": []
+  },
+  {
+    "key": "EU7S6RED",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 721,
+    "appliedFields": []
+  },
+  {
+    "key": "E4T2UX3V",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 720,
+    "appliedFields": []
+  },
+  {
+    "key": "DRE5I8Q5",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 719,
+    "appliedFields": []
+  },
+  {
+    "key": "BCEV2ZNH",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 718,
+    "appliedFields": []
+  },
+  {
+    "key": "9P9W95EW",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 717,
+    "appliedFields": []
+  },
+  {
+    "key": "8P2HDJE9",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 716,
+    "appliedFields": []
+  },
+  {
+    "key": "6FYKKIWS",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 715,
+    "appliedFields": []
+  },
+  {
+    "key": "5TKB724X",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 713,
+    "appliedFields": []
+  },
+  {
+    "key": "4CFUT2DQ",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 712,
+    "appliedFields": []
+  },
+  {
+    "key": "39A98XXL",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 710,
+    "appliedFields": []
+  },
+  {
+    "key": "32GHFGY8",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 709,
+    "appliedFields": []
+  },
+  {
+    "key": "2ZQS64JZ",
+    "initialIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 708,
+    "appliedFields": []
+  },
+  {
+    "key": "VYVJ6JYU",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 874,
+    "appliedFields": []
+  },
+  {
+    "key": "TRAKWDIS",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 875,
+    "appliedFields": []
+  },
+  {
+    "key": "MKLMXZNH",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 876,
+    "appliedFields": []
+  },
+  {
+    "key": "JDTZDZ6I",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 877,
+    "appliedFields": []
+  },
+  {
+    "key": "D8CW3BMD",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 695,
+    "appliedFields": []
+  },
+  {
+    "key": "P7QFNJ8Q",
+    "title": "Biomonitoring Survey 2011-2012 in Dzanga-Sangha Protected Areas",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://wwf-congobasin-monitoring.org/en/document/"
+    ],
+    "reason": "WWF catalogue identifies the precise 2013 report and links a Drive file. Anonymous download leads to sign-in; viewer reports login/cookies requirements. No public full PDF confirmed; keep access unknown rather than infer restricted or open from a catalogue label.",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 646,
+    "appliedFields": []
+  },
+  {
+    "key": "U75A6NFN",
+    "title": "Long Term System for Monitoring the Illegal Killing of Elephants (MIKE): Central African Forests, Final Report on Population Surveys (2003-2004)",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "url",
+      "access"
+    ],
+    "sources": [
+      "https://web.archive.org/web/20170716095120id_/https://cites.org/common/prog/mike/survey/central_africa_survey03-04.pdf"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Complete anonymous PDF retrieved: 122 pages, 1981923 bytes, SHA-256 b80c848eafa9af59fdfae9a80562256f35984715cef9198ac65e84995765090e. Identity checked in text on pages 1-2 and visually on page 1. No redistribution right inferred; PDF remains hosted by its source (or archived official source)."
+    ],
+    "proof": {
+      "url": "https://web.archive.org/web/20170716095120id_/https://cites.org/common/prog/mike/survey/central_africa_survey03-04.pdf",
+      "http": 200,
+      "bytes": 1981923,
+      "sha256": "b80c848eafa9af59fdfae9a80562256f35984715cef9198ac65e84995765090e",
+      "pages": 122,
+      "identityCheckedTextPages": [
+        1,
+        2
+      ],
+      "visuallyCheckedPages": [
+        1
+      ],
+      "scopeOfReading": "identity and bibliographic verification, not all-page scientific review"
+    },
+    "finalIssues": [],
+    "afterVersion": 974,
+    "appliedFields": [
+      "url",
+      "extra",
+      "tags"
+    ]
+  },
+  {
+    "key": "XHK43H9U",
+    "title": "Odor signals in wild western lowland gorillas: an involuntary and extra-group communication hypothesis",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0031938415001602"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Publisher offers Purchase PDF and organizational login. No independently verified free full text found in the bounded DOI/repository search. Classification concerns the verified routes, not proof that no free copy exists anywhere."
+    ],
+    "proof": {
+      "key": "XHK43H9U",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0031938415001602",
+      "status": 200,
+      "scrapeId": "01a14bac-8a64-767f-9cea-71c31d46e2fd",
+      "checkedAt": "2026-10-17T21:04:44.195Z",
+      "tool": "Firecrawl live fetch (maxAge 0), no authenticated profile",
+      "identityTitle": "Odor signals in wild western lowland gorillas: an involuntary and extra-group communication hypothesis",
+      "citationDOI": "10.1016/j.physbeh.2015.03.022",
+      "citationDate": "2015/06/01",
+      "onlineDate": "2015/03/19",
+      "accessEvidence": "Publisher offers Purchase PDF and organizational login."
+    },
+    "finalIssues": [],
+    "afterVersion": 962,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "NC8HZD28",
+    "title": "Inside the Dzanga Sangha Rain Forest: from the working journals of the scientists, artists, and filmmakers on expedition for the American Museum of Natural History",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://archive.org/metadata/insidedzangasang0000unse"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Matching ISBN edition in Internet Archive declares access-restricted-item=true; unencrypted PDF is private and the interface offers borrowing/preview. Encrypted lending files are not treated as free full text or downloaded."
+    ],
+    "proof": {
+      "url": "https://archive.org/metadata/insidedzangasang0000unse",
+      "http": 200,
+      "matchingISBN": "9780761108702",
+      "accessRestrictedItem": true,
+      "unencryptedPDFPrivate": true
+    },
+    "finalIssues": [],
+    "afterVersion": 971,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "ZE2U4ZG4",
+    "title": "Cutting the Vines of the Past: Environmental Histories of the Central African Rain Forest",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://www.upress.virginia.edu/title/1456/"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Primary publisher sells the matching cloth/paper editions; no complete free edition verified. Retail and preview availability are distinguished from full text."
+    ],
+    "proof": {
+      "url": "https://www.upress.virginia.edu/title/1456/",
+      "http": 200,
+      "publisherAccessMessage": "Cloth and paper editions offered for sale, matching ISBN."
+    },
+    "finalIssues": [],
+    "afterVersion": 970,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "E39KEPJU",
+    "title": "Shaping Life in the Shadows",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://www.routledge.com/Women-and-Wildlife-Trafficking-Participants-Perpetrators-and-Victims/Agu-Gore/p/book/9780367640286"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Primary book publisher offers institutional eBook purchase and retail checkout; table of contents matches this chapter. Chapter page provides abstract only and no verified complete free copy was found. Book previews are not counted as chapter full text."
+    ],
+    "proof": {
+      "url": "https://www.routledge.com/Women-and-Wildlife-Trafficking-Participants-Perpetrators-and-Victims/Agu-Gore/p/book/9780367640286",
+      "http": 200,
+      "publisherAccessMessage": "eBooks (Institutional Purchase); Add to Cart",
+      "chapterDOI": "10.4324/9781003121831-12"
+    },
+    "finalIssues": [],
+    "afterVersion": 968,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "3CRKNCWH",
+    "title": "Poaching, Wildlife Trafficking and Conflict",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "creators",
+      "access"
+    ],
+    "sources": [
+      "https://www.routledge.com/Poaching-Wildlife-Trafficking-and-Security-in-Africa-Myths-and-Realities/Haenlein-Smith/p/book/9781315149332"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Primary book publisher offers institutional eBook purchase and retail checkout; table of contents matches this chapter. Chapter page provides abstract only and no verified complete free copy was found. Book previews are not counted as chapter full text.",
+      "Primary publisher table of contents confirms the spelling Stéphane Crayne; fixes mixed-case diacritics without changing identity."
+    ],
+    "proof": {
+      "url": "https://www.routledge.com/Poaching-Wildlife-Trafficking-and-Security-in-Africa-Myths-and-Realities/Haenlein-Smith/p/book/9781315149332",
+      "http": 200,
+      "publisherAccessMessage": "eBooks (Institutional Purchase); Add to Cart",
+      "chapterDOI": "10.4324/9781315149332-3"
+    },
+    "finalIssues": [],
+    "afterVersion": 969,
+    "appliedFields": [
+      "extra",
+      "creators",
+      "tags"
+    ]
+  },
+  {
+    "key": "3IQPME9Q",
+    "title": "Evaluation of scaling and deployment of machine learning sensor networks within a simulated environment to prevent elephant poaching",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "access"
+    ],
+    "sources": [
+      "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14030/3094971/Evaluation-of-scaling-and-deployment-of-machine-learning-sensor-networks/10.1117/12.3094971.full"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Publisher offers full article through account/subscription or single-article purchase. No independently verified free full text found in the bounded DOI/repository search. Classification concerns the verified routes, not proof that no free copy exists anywhere."
+    ],
+    "proof": {
+      "key": "3IQPME9Q",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/14030/3094971/Evaluation-of-scaling-and-deployment-of-machine-learning-sensor-networks/10.1117/12.3094971.full",
+      "status": 200,
+      "scrapeId": "01a14bac-afcb-72d1-ab5d-cb08f2f3e47b",
+      "checkedAt": "2026-10-17T21:04:44.195Z",
+      "tool": "Firecrawl live fetch (maxAge 0), no authenticated profile",
+      "identityTitle": "Evaluation of scaling and deployment of machine learning sensor networks within a simulated environment to prevent elephant poaching",
+      "citationDOI": "10.1117/12.3094971",
+      "citationDate": "2026/06/11",
+      "accessEvidence": "Publisher offers full article through account/subscription or single-article purchase."
+    },
+    "finalIssues": [],
+    "afterVersion": 963,
+    "appliedFields": [
+      "tags",
+      "extra"
+    ]
+  },
+  {
+    "key": "5VQJGUJA",
+    "title": "Dental support for African residents",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "corrected_remaining",
+    "plannedFields": [
+      "publicationTitle"
+    ],
+    "sources": [
+      "https://ppm.edu.pl/info/article/WUM58cb4295c9ab42079fba5240591cea58/"
+    ],
+    "reason": "Author institution record and department bibliography give journal title Protetyka Stomatologiczna, 68(1), 108-112 (2018), rather than the generic English translation Prosthodontics. Full-text access remains undetermined; DOI resolver failure is not evidence of payment restrictions.",
+    "evidence": [
+      "Author institution record and department bibliography give journal title Protetyka Stomatologiczna, 68(1), 108-112 (2018), rather than the generic English translation Prosthodontics. Full-text access remains undetermined; DOI resolver failure is not evidence of payment restrictions."
+    ],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 982,
+    "appliedFields": [
+      "extra",
+      "publicationTitle"
+    ]
+  },
+  {
+    "key": "4Q928ICG",
+    "title": "Nouvelle approche dans la gestion de la chasse traditionnelle et de la chasse légale dans la réserve spéciale de forêt dense Dzanga-Sangha (R.C.A.) et optimisation de la filière locale du marché de la viande de brousse",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://agritrop.cirad.fr/392589/"
+    ],
+    "reason": "CIRAD record confirms the 1999 proceedings contribution and bibliographic identity. No complete digital text attached; access remains undetermined, not assumed paywalled.",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 598,
+    "appliedFields": []
+  },
+  {
+    "key": "BZSCURTX",
+    "title": "Forest elephant biology in Dzanga-Sangha, Central African Republic",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://portals.iucn.org/library/node/24046"
+    ],
+    "reason": "IUCN catalogue confirms the 1994 printed report, authors and 44 pages, but provides no digital full-text link. Printed holdings alone do not establish restricted online access.",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 595,
+    "appliedFields": []
+  },
+  {
+    "key": "56U6BEWS",
+    "title": "Entangled Realms: Hunters and Hunted in the Dzanga-Sangha Dense Forest Reserve (APDS), Central African Republic",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://doi.org/10.1353/anq.2014.0036"
+    ],
+    "reason": "DOI and author identity corroborated; Project MUSE page does not yield complete public text in this environment. Closed-access index is a lead only; no access tag assigned without primary access proof.",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 588,
+    "appliedFields": []
+  },
+  {
+    "key": "IHDFAGY7",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 584,
+    "appliedFields": []
+  },
+  {
+    "key": "ZBHBZ4VP",
+    "initialIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Auteur ou responsable manquant",
+      "Source bibliographique manquante",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 878,
+    "appliedFields": []
+  },
+  {
+    "key": "IQW7IRAU",
+    "initialIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "disposition": "deferred_archive_other_session",
+    "reviewedHere": false,
+    "reason": "Explicitly reserved by user to the other computer/session. No archive content or metadata changed here.",
+    "finalIssues": [
+      "Année manquante",
+      "Source bibliographique manquante",
+      "Justification Core à expliciter",
+      "Accès à déterminer",
+      "Vérification signalée dans Zotero",
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 577,
+    "appliedFields": []
+  },
+  {
+    "key": "I8HHPMIM",
+    "title": "Primate and ungulate abundance in response to multi-use zoning and human extractive activities in a Central African Reserve",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "corrected_remaining",
+    "plannedFields": [
+      "date"
+    ],
+    "sources": [
+      "https://api.crossref.org/works/10.1111/j.1365-2028.2010.01229.x"
+    ],
+    "reason": "DOI bibliographic identity checked against publisher-deposited metadata and repository index. Publisher full-text requests blocked or only abstract/references retrieved; no complete free copy verified. Do not infer paid access from a technical failure. Journal issue year corrected; early-online date preserved in provenance.",
+    "evidence": [
+      "Journal issue publication date confirmed by publisher-deposited Crossref metadata (49(1), 70-80); prior date 2010-9-16 is early-online publication and remains recorded here. No day invented."
+    ],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 979,
+    "appliedFields": [
+      "date",
+      "extra"
+    ]
+  },
+  {
+    "key": "G4TI8HVU",
+    "title": "Censusing rainforest game species with communal net hunts",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://doi.org/10.1046%2Fj.1365-2028.1999.00154.x"
+    ],
+    "reason": "DOI bibliographic identity checked against publisher-deposited metadata and repository index. Publisher full-text requests blocked or only abstract/references retrieved; no complete free copy verified. Do not infer paid access from a technical failure. ",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 219,
+    "appliedFields": []
+  },
+  {
+    "key": "3VDDHRV6",
+    "title": "First record of Ae. albopictus (Skuse 1894), in Central African Republic",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [
+      "https://doi.org/10.1111%2Fj.1365-3156.2010.02594.x"
+    ],
+    "reason": "DOI bibliographic identity checked against publisher-deposited metadata and repository index. Publisher full-text requests blocked or only abstract/references retrieved; no complete free copy verified. Do not infer paid access from a technical failure. ",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 217,
+    "appliedFields": []
+  },
+  {
+    "key": "UCCC9JFI",
+    "title": "Comparative ecology of two African forest mongooses, Herpestes naso and Atilax paludinosus",
+    "initialIssues": [
+      "Nom/prénom à vérifier : nom réduit à des initiales",
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "corrected_remaining",
+    "plannedFields": [
+      "creators"
+    ],
+    "sources": [
+      "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2028.1997.086-89086.x"
+    ],
+    "reason": "Real family name Ray confirmed by primary publisher. Access remains undetermined: publisher request blocked; no verified free copy located. A 403 is not a paywall diagnosis.",
+    "evidence": [
+      "Source identifies this as a real family name, not initials. Capitalization normalized only; author identity/order preserved, no given names invented or expanded."
+    ],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 977,
+    "appliedFields": [
+      "extra",
+      "creators"
+    ]
+  },
+  {
+    "key": "ZTSHQ2AU",
+    "title": "BaAka women's health and subsistence practices in transitional conservation economies: Variation with age, household size, and food security",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "corrected_remaining",
+    "plannedFields": [
+      "date"
+    ],
+    "sources": [
+      "https://api.crossref.org/works/10.1002/ajhb.22817"
+    ],
+    "reason": "DOI bibliographic identity checked against publisher-deposited metadata and repository index. Publisher full-text requests blocked or only abstract/references retrieved; no complete free copy verified. Do not infer paid access from a technical failure. Journal issue year corrected; early-online date preserved in provenance.",
+    "evidence": [
+      "Journal issue publication date confirmed by publisher-deposited Crossref metadata (28(4), 453-460); prior date 2015-12-17 is early-online publication and remains recorded here. No day invented."
+    ],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 980,
+    "appliedFields": [
+      "date",
+      "extra"
+    ]
+  },
+  {
+    "key": "SI9BC6HU",
+    "title": "Night and day: evaluating transect methodologies to monitor duikers in the Dzanga‐Sangha Protected Areas, Central African Republic",
+    "initialIssues": [
+      "Accès à déterminer"
+    ],
+    "reviewedHere": true,
+    "disposition": "corrected_remaining",
+    "plannedFields": [
+      "date"
+    ],
+    "sources": [
+      "https://onlinelibrary.wiley.com/doi/10.1111/aje.12344"
+    ],
+    "reason": "DOI bibliographic identity checked against publisher-deposited metadata and repository index. Publisher full-text requests blocked or only abstract/references retrieved; no complete free copy verified. Do not infer paid access from a technical failure. Journal issue year corrected; early-online date preserved in provenance.",
+    "evidence": [
+      "Publisher citation publication date is June 2017; existing 2016-7-13 was first online publication. Use issue date for the citation and preserve early-online date in provenance. Full-text access remains unverified."
+    ],
+    "proof": null,
+    "finalIssues": [
+      "Accès à déterminer"
+    ],
+    "afterVersion": 981,
+    "appliedFields": [
+      "date",
+      "extra"
+    ]
+  },
+  {
+    "key": "XS94EBRI",
+    "title": "Elephant Crop Raiding in the Dzanga-Sangha Reserve, Central African Republic",
+    "initialIssues": [
+      "Source bibliographique manquante",
+      "Lien externe non renseigné"
+    ],
+    "reviewedHere": true,
+    "disposition": "corrected_remaining",
+    "plannedFields": [
+      "url"
+    ],
+    "sources": [
+      "https://web.archive.org/web/20120312232558id_/http://www.african-elephant.org/hec/pdfs/hecdzren.pdf"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Archived original report retrieved anonymously, seven pages; title, Kamiss/Turkalo and 30 November 1999 match. First page visually checked. Source institution remains unset: author affiliations and IUCN questionnaire attribution do not establish an issuing body."
+    ],
+    "proof": {
+      "url": "https://web.archive.org/web/20120312232558id_/http://www.african-elephant.org/hec/pdfs/hecdzren.pdf",
+      "http": 200,
+      "sha256": "9a085b0fd50f72e26b23019eefe3476424d50871b858d6cc50ff29225c9e9e89",
+      "pages": 7,
+      "visuallyCheckedPages": [
+        1
+      ],
+      "remaining": "Issuing institution not explicitly established."
+    },
+    "finalIssues": [
+      "Source bibliographique manquante"
+    ],
+    "afterVersion": 976,
+    "appliedFields": [
+      "extra",
+      "url"
+    ]
+  },
+  {
+    "key": "4RU6UJN7",
+    "title": "Western lowland gorilla (Gorilla gorilla gorilla) diet and activity budgets: effects of group size, age class and food availability in the Dzanga-Ndoki National Park, Central African Republic",
+    "initialIssues": [
+      "Lien externe non renseigné"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [],
+    "reason": "Local-original provenance identifies the Fuh Neba MSc thesis (Oxford Brookes, 2013). Targeted repository/title search found conference/publication derivatives, not this exact thesis. Do not substitute another document URL.",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 177,
+    "appliedFields": []
+  },
+  {
+    "key": "Q6J9RKGG",
+    "title": "Seasonal influence on foraging startegies, activity and energy budgets of western lowland gorillas (Gorilla gorilla gorilla) in Bai-Hokou, Central African Republic",
+    "initialIssues": [
+      "Lien externe non renseigné"
+    ],
+    "reviewedHere": true,
+    "disposition": "reviewed_unresolved",
+    "plannedFields": [],
+    "sources": [],
+    "reason": "Local-original provenance and independent bibliographies corroborate Masi thesis (2007). No stable public repository record of this exact thesis located. Preserve original title spelling and leave link blank.",
+    "evidence": [],
+    "proof": null,
+    "finalIssues": [
+      "Lien externe non renseigné"
+    ],
+    "afterVersion": 173,
+    "appliedFields": []
+  },
+  {
+    "key": "FN9T5ETQ",
+    "title": "Partial completion of a census of the western lowland gorilla (Gorilla g. gorilla (Savage and Wyman)) in southwestern Central African Republic",
+    "initialIssues": [
+      "Nom/prénom à vérifier : nom réduit à des initiales"
+    ],
+    "reviewedHere": true,
+    "disposition": "resolved",
+    "plannedFields": [
+      "creators"
+    ],
+    "sources": [
+      "https://api.crossref.org/works/10.1515/mamm.1989.53.2.203"
+    ],
+    "reason": "Verified correction staged; unresolved indicators will be measured after application.",
+    "evidence": [
+      "Source identifies this as a real family name, not initials. Capitalization normalized only; author identity/order preserved, no given names invented or expanded."
+    ],
+    "proof": null,
+    "finalIssues": [],
+    "afterVersion": 978,
+    "appliedFields": [
+      "extra",
+      "creators"
+    ]
+  }
+]

@@ -1,6 +1,10 @@
 # État vérifié — reprise du 17 octobre 2026
 
-## Point de reprise courant — lots 009/010/011
+## Point de reprise courant — lot 012 et livraisons précédentes
+
+À la demande du responsable d'examiner les 145 notices affichées en qualité, l'instantané public après Flahou en compte 144 sur 435 : 110 archives réservées à l'autre session et 34 notices hors archives. [Lot 012](tasks/012-quality-review.md) : ces 34 ont reçu une revue et une décision sourcée ; 23 notices ont été corrigées avec sauvegarde/version et lecture publique. Quatre textes intégraux gratuits et douze voies d'accès restreintes confirmés, liens originaux retrouvés, casse des noms et métadonnées bibliographiques corrigées. Aucune règle de qualité modifiée, aucune archive ou référence nouvelle créée.
+
+**Compteur après : 127 sur 435**, dont les 110 archives et 17 incertitudes hors archives conservées. Dix-sept notices ne présentent plus d'indicateur ; six ont été enrichies mais gardent une incertitude ; onze n'avaient pas de correction suffisamment établie. Relance : zéro écriture, 23 déjà conformes ; audit public : 19 collections, seed 31/31, aucun titre vide ni doublon détecté. Toutes les métadonnées d'archives sont inchangées entre les instantanés. Le navigateur public confirme 127 lignes, l'export qualité et le nouveau lien PDF UICN. [Bilan](../reviews/quality-2026-10-17/README.md), [17 cas restants](../reviews/quality-2026-10-17/remaining-nonarchive.csv). Auto-revue, pas de revue indépendante ; les contrôles ciblés des originaux ne sont pas une lecture exhaustive des documents. Scripts et sauvegardes restent locaux, aucune clé ou copie PDF republiée. Pour annuler, comparer les versions actuelles avant restauration des seuls champs visés. Prochain pas : obtenir des preuves/copies pour ces 17 cas ; APDS reste dans l'autre session.
 
 Le responsable autorise la poursuite après l'aperçu du guide, en imposant la vérification des PR et la conservation des preuves. La PR 4 est fusionnée à `fb60b7807b4205d342ece7c1d84494a501362fd9` le 16 octobre à 19:34 UTC ; GitHub Pages confirme ce commit `built` à 19:35 UTC. Le pilote PDF Bayanga est livré, pas en attente d'intégration.
 
