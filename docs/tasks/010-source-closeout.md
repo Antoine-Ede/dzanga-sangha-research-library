@@ -10,4 +10,4 @@ Statut : clos pour la correction et la documentation, 17 octobre 2026. Piste PDF
 - Validation : contrôle des notices réelles distinct des tests synthétiques du code ; limites réseau consignées. Auto-revue, pas de revue scientifique indépendante.
 - Résultat réel : MCCPAMU3 v82 sauvegardée, correction v958 contrôlée publiquement ; relance sans écriture. Catalogue 435 références, 19 collections, seed 31/31, zéro titre vide/doublon détecté. Flahou : piste UGent documentée, connexion directe en échec ; accès non modifié. Bilans dans `reviews/source-closeout-2026-10-17/` et `docs/verification/integration-2026-10-17.json`.
 - Retour : restaurer seulement les champs visés depuis la sauvegarde après comparaison avec la version courante ; ne pas écraser d'enrichissement ultérieur. Les fichiers privés restent hors dépôt.
-- Suite : audit APDS transféré ici, depuis les registres privés à retrouver ; aucun compteur historique réinitialisé.
+- Suite : le responsable précise finalement que les registres APDS sont sur l'autre ordinateur ; cet audit continuera dans l'autre session. Ne pas le reprendre ici. Aucun compteur historique réinitialisé.

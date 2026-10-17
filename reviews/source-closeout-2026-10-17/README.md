@@ -14,4 +14,4 @@ Pour Flahou et al. 2014, DOI 10.1016/j.vetmic.2014.08.032, le [dépôt instituti
 
 Le téléchargement direct depuis cet environnement échoue par délai de connexion ; le rendu demandé au fournisseur de recherche n'a pas été obtenu. L'accès courant n'est donc pas certifié et la notice 597KZ93P reste inchangée. Le [rapport de piste](fulltext-pending.json) conserve URL et limites pour un prochain contrôle dans un navigateur. Le dépôt indique un copyright sans licence ; la possibilité de consulter n'autorise pas la republication.
 
-Auto-revue dans la même session, pas de revue scientifique indépendante. Aucun scan APDS, original ni PDF d'éditeur ajouté à ce bilan. L'audit APDS est transféré à cette conversation, mais attend la localisation des registres privés ; aucun ancien compteur ni décision n'a été réinitialisé.
+Auto-revue dans la même session, pas de revue scientifique indépendante. Aucun scan APDS, original ni PDF d'éditeur ajouté à ce bilan. Après un transfert initial, le responsable précise que les registres privés APDS sont sur l'autre ordinateur et réserve finalement cet audit à l'autre session. Aucun ancien compteur ni décision n'a été réinitialisé.
