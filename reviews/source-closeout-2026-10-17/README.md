@@ -10,6 +10,8 @@ Sauvegarde locale de la version 82, PATCH conditionnel sur cette version, lectur
 
 ## Texte intégral : piste, pas accès confirmé
 
+**Constat historique du premier passage.** Le téléchargement et l'accès sont ensuite confirmés dans le [lot 011](../fulltext-2026-10-17/README.md), avec sauvegarde, correction Zotero et contrôle réel du hub. Les observations et le fichier de piste ci-dessous restent conservés pour tracer cette évolution.
+
 Pour Flahou et al. 2014, DOI 10.1016/j.vetmic.2014.08.032, le [dépôt institutionnel UGent](https://biblio.ugent.be/publication/5794114) signale un PDF intégral de neuf pages. Son texte indexé correspond au DOI et aux méthodes utilisant des échantillons de Dzanga-Ndoki. Ce contrôle ciblé ne constitue pas une lecture des neuf pages.
 
 Le téléchargement direct depuis cet environnement échoue par délai de connexion ; le rendu demandé au fournisseur de recherche n'a pas été obtenu. L'accès courant n'est donc pas certifié et la notice 597KZ93P reste inchangée. Le [rapport de piste](fulltext-pending.json) conserve URL et limites pour un prochain contrôle dans un navigateur. Le dépôt indique un copyright sans licence ; la possibilité de consulter n'autorise pas la republication.

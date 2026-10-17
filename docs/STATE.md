@@ -1,6 +1,6 @@
 # État vérifié — reprise du 17 octobre 2026
 
-## Point de reprise courant — lots 009/010
+## Point de reprise courant — lots 009/010/011
 
 Le responsable autorise la poursuite après l'aperçu du guide, en imposant la vérification des PR et la conservation des preuves. La PR 4 est fusionnée à `fb60b7807b4205d342ece7c1d84494a501362fd9` le 16 octobre à 19:34 UTC ; GitHub Pages confirme ce commit `built` à 19:35 UTC. Le pilote PDF Bayanga est livré, pas en attente d'intégration.
 
@@ -10,7 +10,9 @@ Répartition APDS clarifiée le 17 octobre : après le transfert initial à cett
 
 Récupération préalable vérifiée : bundle Git complet et copies des deux preuves de contrôle PR 5/6, conservés dans `.local/recovery-2026-10-17/` du worktree du guide. Anciens worktrees et fichiers ignorés préservés. Aucun original, PDF ou pièce jointe Zotero modifié par cette intégration. [Fiche 009](tasks/009-integration-reconciliation.md), close pour la livraison ; l'audit APDS reste affecté à l'autre session. Les sections datées du 16 octobre décrivent leurs étapes historiques ; ce point courant les remplace pour le statut de reprise.
 
-Suite ciblée [010](tasks/010-source-closeout.md) : MCCPAMU3 corrigée depuis PubMed 24062800, treize créateurs remis dans le bon ordre de champs et titre sans espaces parasites, sans développer les initiales. Sauvegarde v82, écriture conditionnelle, lecture publique v958 ; relance : zéro écriture. Tags, collections et autres champs préservés. Script et preuves privées dans l'espace local de recherche, pas dans le site. Le dépôt UGent 5794114 signale une copie intégrale de Flahou 2014 ; texte indexé contrôlé (identité et méthodes), mais téléchargement direct impossible ici et rendu non obtenu. Ne pas transformer cette piste en accès confirmé : aucun tag ni URL de 597KZ93P modifié. [Bilan et sources](../reviews/source-closeout-2026-10-17/README.md).
+Suite ciblée [010](tasks/010-source-closeout.md) : MCCPAMU3 corrigée depuis PubMed 24062800, treize créateurs remis dans le bon ordre de champs et titre sans espaces parasites, sans développer les initiales. Sauvegarde v82, écriture conditionnelle, lecture publique v958 ; relance : zéro écriture. Tags, collections et autres champs préservés. Script et preuves privées dans l'espace local de recherche, pas dans le site. Le premier contrôle de Flahou avait laissé son téléchargement non confirmé ; ce constat historique est conservé dans le [bilan 010](../reviews/source-closeout-2026-10-17/README.md).
+
+Point restant résolu par le [lot 011](tasks/011-flahou-fulltext.md) après la demande de continuation : les deux URL UGent ont répondu anonymement HTTP 200 avec un PDF identique de neuf pages. Identité DOI et méthodes contrôlées en texte et en image sur les pages 1–2, empreinte consignée. Notice 597KZ93P v956 sauvegardée ; URL PDF, `ACCESS:Open` et preuve ajoutés, v959 vérifiée publiquement ; relance sans écriture. **435 références, 19 collections, seed 31/31, zéro titre vide ou doublon détecté ; couverture PubMed 8/8 maintenue.** Le navigateur public affiche le lien dans les trois vues, avec données réelles et sans authentification. Aucun code du hub, PDF ni pièce jointe modifié. [Rapports et limites](../reviews/fulltext-2026-10-17/README.md). Consultation gratuite confirmée, aucune licence de redistribution inférée. Pour annuler, comparer la notice actuelle à la sauvegarde avant de restaurer uniquement les champs visés ; préserver les enrichissements ultérieurs.
 
 ## Clôture bibliographique du lot 007 — 16 octobre
 
