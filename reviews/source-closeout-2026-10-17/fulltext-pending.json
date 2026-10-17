@@ -1,0 +1,26 @@
+{
+  "doi": "10.1016/j.vetmic.2014.08.032",
+  "zoteroKey": "597KZ93P",
+  "checkedAt": "2026-10-17",
+  "institutionalRecord": "https://biblio.ugent.be/publication/5794114",
+  "candidatePDF": "https://backoffice.biblio.ugent.be/download/5794114/5794116",
+  "repositoryLabels": [
+    "full text",
+    "open access",
+    "No license (in copyright)"
+  ],
+  "indexedPDF": {
+    "pages": 9,
+    "identityMatches": true,
+    "targetedTextChecked": [
+      "first-page title, DOI and bibliographic identity",
+      "methods: gorillas sampled in Dzanga-Ndoki National Park"
+    ],
+    "retrieval": "search-provider cached text, crawled two weeks before check"
+  },
+  "directAnonymousDownload": "connection timeout from local environment",
+  "visualRendering": "not obtained: cache miss",
+  "accessConfirmed": false,
+  "zoteroModified": false,
+  "decision": "Keep access unset pending successful anonymous PDF retrieval. Do not redistribute."
+}

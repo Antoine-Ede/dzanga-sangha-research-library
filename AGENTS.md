@@ -4,7 +4,7 @@ Lire `docs/STATE.md`, puis la fiche active dans `docs/tasks/`. Consulter `ROADMA
 
 Reprise bibliographique de cette branche : [lot 007](docs/tasks/007-pubmed-closeout.md), clos avec huit nouvelles notices et contrôle de relance. Son autorisation utilisateur du 16 octobre concerne uniquement les références non archivistiques sélectionnées. Le contexte du pilote PDF ci-dessous et les travaux APDS restent distincts.
 
-Lot actif : `docs/tasks/009-integration-reconciliation.md` — intégration des PR 5/6 et réconciliation des états. Le pilote PDF 006 est déjà livré par la PR 4 ; ne pas le rejouer. Le responsable confirme le 17 octobre le transfert de l'audit APDS ici, à reprendre depuis ses registres privés sans réinitialisation. Cet accord ne déclassifie aucun document et n'autorise pas la publication générale des originaux.
+Lot actif : `docs/tasks/010-source-closeout.md` — correction bibliographique ciblée et bilan de livraison. Le lot 009 a livré les PR 5/6 ; le pilote PDF 006 est déjà livré par la PR 4, ne pas le rejouer. Le responsable confirme le 17 octobre le transfert de l'audit APDS ici, à reprendre depuis ses registres privés sans réinitialisation. Cet accord ne déclassifie aucun document et n'autorise pas la publication générale des originaux.
 
 - Vérifier distant, branche, SHA, statut, worktrees et activité concurrente. Une seule session écrit dans une copie de travail. Préserver les changements d’autrui ; isoler le travail si nécessaire.
 - Définir besoin, limites et critères observables avant une tâche significative avec `docs/tasks/TEMPLATE.md`. Pour une petite correction : besoin, diff et test ciblé suffisent dans STATE.

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-17",
+  "repository": "Antoine-Ede/dzanga-sangha-research-library",
+  "pullRequests": [
+    {
+      "number": 4,
+      "state": "MERGED",
+      "mergeCommit": "fb60b7807b4205d342ece7c1d84494a501362fd9",
+      "mergedAt": "2026-10-16T19:34:56Z"
+    },
+    {
+      "number": 5,
+      "state": "MERGED",
+      "mergeCommit": "34a8c2e59d983b307e6384b338a1fc87fc828b80",
+      "mergedAt": "2026-10-17T19:30:17Z",
+      "importsReplayed": false
+    },
+    {
+      "number": 6,
+      "state": "MERGED",
+      "testedHead": "e8fe02dbe429a9244eafbfb9c9bad213178132a1",
+      "mergeCommit": "dc5f1a136d771440146117904ed4a8e93db568df",
+      "mergedAt": "2026-10-17T19:35:04Z"
+    }
+  ],
+  "pages": {
+    "commit": "dc5f1a136d771440146117904ed4a8e93db568df",
+    "status": "built",
+    "updatedAt": "2026-10-17T19:35:26Z"
+  },
+  "publicGuide": {
+    "url": "https://antoine-ede.github.io/dzanga-sangha-research-library/?section=help",
+    "anonymousGet": true,
+    "guideMarkupFound": true,
+    "cacheVersion": "20261016-guide",
+    "deployedJavaScriptMatchesSourceAfterCRLFNormalization": true,
+    "deployedJavaScriptSyntaxPassed": true
+  },
+  "syntheticChecks": {
+    "testedHead": "e8fe02dbe429a9244eafbfb9c9bad213178132a1",
+    "pythonTests": 34,
+    "browserTestsPassed": true,
+    "proofFreshnessPassed": true
+  },
+  "publicPDFsEvidence": "public-plans-2026-10-16.json",
+  "backups": "Verified local Git bundle and prior proofs preserved; no worktree deleted.",
+  "limitations": [
+    "Self-review, not independent review.",
+    "No newly published original PDF.",
+    "APDS private audit registers not located; no additional pages counted."
+  ]
+}

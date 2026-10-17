@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-10-17T19:39:05.7550347Z",
+  "key": "MCCPAMU3",
+  "doi": "10.1111/eva.12075",
+  "source": "https://pubmed.ncbi.nlm.nih.gov/24062800/",
+  "sourceSHA256": "f54d80bd34c0b39e81a06d614630a091a76f17c441a3524e819f90bf3b68d961",
+  "beforeVersion": 82,
+  "preparedFields": [
+    "extra",
+    "creators",
+    "title"
+  ],
+  "authors": 13,
+  "updated": 1,
+  "alreadyPresent": 0,
+  "complete": true,
+  "afterVersion": 958
+}
