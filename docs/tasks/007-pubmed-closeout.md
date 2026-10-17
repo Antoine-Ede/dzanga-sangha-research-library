@@ -1,6 +1,6 @@
 # Lot 007 — clôture de la revue PubMed
 
-Statut : close, livraison Git en préparation. 16 octobre 2026, session Codex bibliographie.
+Statut : close et intégrée par PR 5 le 17 octobre 2026, commit 34a8c2e59d983b307e6384b338a1fc87fc828b80. Les huit créations Zotero du 16 octobre ne sont pas à rejouer.
 
 - Besoin : terminer la sélection PubMed commencée le 14 octobre, en tenant compte des imports et du nouveau socle de développement.
 - Périmètre : dix candidats encore en attente ; vérifier identité et preuve territoriale, importer seulement les références confirmées absentes, contrôler la relance et consigner les limites. La demande du responsable du 16 octobre fournit une authentification locale pour terminer ce travail. Elle n'étend pas le pilote PDF du lot 006.

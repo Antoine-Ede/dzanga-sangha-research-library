@@ -1,5 +1,14 @@
 # Suivi du projet et reprise de l’audit APDS
 
+## État courant — 17 octobre 2026
+
+- PR 4 livrée sur Pages : lien PDF et pilote Bayanga terminés, ne pas les rejouer. PR 5 fusionnée : bilan PubMed consigné, huit notices déjà importées. PR 6 : guide vérifié et accepté, intégration suivie dans le [lot 009](docs/tasks/009-integration-reconciliation.md) et STATE.
+- Les six copies APDS publiques sont accessibles sans connexion et conformes au manifeste (contrôle du 16 octobre). Cela ne rend pas les autres originaux diffusables.
+- L'audit APDS est transféré ici ; reprendre les registres privés conservés de l'autre session. Leur emplacement est en cours de recherche auprès du responsable ; aucun compteur ni décision réinitialisé.
+- Restent distincts : correction sourcée des auteurs de la notice MCCPAMU3, accès intégral d'un article non confirmé, revue APDS proportionnée, sources historiques/communautaires et future veille non activée.
+
+Les paragraphes datés du 15/16 octobre ci-dessous sont l'historique de cadrage ; leurs formules « prochain lot », « localement » et « pas encore » ne remplacent pas cet état courant. Les chiffres des anciens audits ne sont pas présentés comme de nouveaux contrôles.
+
 ## Priorité actuelle — système local de développement et propositions
 
 Mission initiale du 15 octobre : [socle de développement](docs/tasks/001-development.md), puis [file bibliographique locale](docs/tasks/002-bibliography.md). L'utilisateur a ensuite autorisé la fusion à main au moment opportun : [intégration et suites](docs/tasks/004-integration-and-follow-up.md). État vérifié : [STATE](docs/STATE.md). Aucun import Zotero ni lancement planifié dans ce lot ; valider le parcours manuel avant toute IA réelle ou automatisation.
