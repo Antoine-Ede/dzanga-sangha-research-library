@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-10-17T20:25:37.1084025Z",
+  "key": "597KZ93P",
+  "doi": "10.1016/j.vetmic.2014.08.032",
+  "source": "https://biblio.ugent.be/publication/5794114",
+  "pdf": "https://biblio.ugent.be/publication/5794114/file/5794116.pdf",
+  "httpStatus": 200,
+  "bytes": 678572,
+  "sha256": "6e016e94d4cad8539376043a4efa30ae9d2e3c7de0b562d862f7adab0210d426",
+  "pages": 9,
+  "visuallyCheckedPages": [
+    1,
+    2
+  ],
+  "beforeVersion": 956,
+  "preparedFields": [
+    "extra",
+    "url",
+    "tags"
+  ],
+  "updated": 1,
+  "alreadyPresent": 0,
+  "complete": true,
+  "afterVersion": 959
+}

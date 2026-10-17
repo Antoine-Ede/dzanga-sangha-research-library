@@ -1,6 +1,6 @@
 # Lot 010 — correction bibliographique ciblée
 
-Statut : clos pour la correction et la documentation, 17 octobre 2026. Piste PDF restant à confirmer explicitement. Même session Codex, sans second relecteur.
+Statut : clos pour la correction et la documentation, 17 octobre 2026. La piste PDF laissée ouverte à ce passage est ensuite résolue dans le lot 011. Même session Codex, sans second relecteur.
 
 - Besoin : terminer les suites non archivistiques déjà proposées et autorisées par la continuation du responsable ; consigner la livraison des PR 5/6 dans l'état courant.
 - Périmètre : corriger uniquement les treize créateurs inversés et les espaces parasites du titre de MCCPAMU3 après comparaison avec PubMed ; rechercher la copie intégrale de Flahou 2014 sans inventer son accès ; clôturer le suivi de publication.
