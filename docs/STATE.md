@@ -1,4 +1,14 @@
-# État vérifié — reprise du 17 octobre 2026
+# État vérifié — reprise du 19 octobre 2026
+
+## Point de reprise courant — lot 013
+
+Suite des 17 incertitudes hors archives : trois corrections Zotero vérifiées le 19 octobre, relance zéro écriture. GPS Blake : texte HTML d'auteur gratuit ; Osiak : PDF éditeur de cinq pages, URL et accès corrigés ; Kamiss/Turkalo : organisme AfESG établi par les publications du programme. Aucune création ni règle de qualité modifiée. Sauvegardes, versions conditionnelles, conservation des autres champs et lecture publique contrôlées. **435 références, 19 collections, seed 31/31, aucun titre vide ou doublon détecté.** [Lot 013](tasks/013-quality-followup.md), [bilan et preuves](../reviews/quality-followup-2026-10-19/README.md).
+
+Le navigateur public confirme **124/435**, export actif, aucune erreur JavaScript. Restent les 110 archives réservées à l'autre session et [14 incertitudes hors archives](../reviews/quality-followup-2026-10-19/remaining-nonarchive.csv). Métadonnées APDS identiques entre les instantanés. Quatorze des 17 cas ont reçu de nouveaux contrôles ; trois conservent les conclusions du lot 012 sans preuve nouvelle. Résumés, références citées et blocages techniques ne sont pas convertis artificiellement en décisions d'accès. Auto-revue ciblée, aucune copie PDF republiée. Scripts, sauvegardes et preuves privées dans `.local/quality-followup/` et le dossier canonique `reports/nonarchive/quality_followup_2026_10_19/`, à conserver. Pour annuler, comparer les versions courantes et restaurer seulement les champs visés depuis les sauvegardes. Prochain pas : liens propres et modalités de consultation auprès des auteurs/organismes ; audit APDS dans l'autre session. Révoquer la clé temporaire exposée dès que les deux conversations ont terminé leurs écritures authentifiées.
+
+Les paragraphes datés ci-dessous restent l'historique, avec leurs compteurs à cette date.
+
+Validation du lot 013 : contrôle commun réussi (tests Python, syntaxe JavaScript, rendu et navigateur synthétiques), plus contrôle du navigateur avec données Zotero publiques réelles. Preuve de code liée à l'état testé dans `.local/verification.json`, à revérifier après tout changement de HEAD ou de fichier. Aucune modification du code du hub. Le PDF dentaire passe par une route sans suffixe `.pdf` dans le chemin : son URL est conservée dans la notice Zotero, mais le bouton PDF dédié du hub ne reconnaît actuellement que les chemins se terminant par `.pdf`. Cette limite d'affichage reste distincte de l'accès gratuit vérifié.
 
 ## Point de reprise courant — lot 012 et livraisons précédentes
 

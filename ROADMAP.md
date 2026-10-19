@@ -1,6 +1,10 @@
 # Suivi du projet et reprise de l’audit APDS
 
-## État courant — 17 octobre 2026
+## État courant — 19 octobre 2026
+
+- Suite [lot 013](docs/tasks/013-quality-followup.md) : trois corrections, deux textes gratuits confirmés et organisme AfESG identifié ; relance zéro écriture. Compteur **124/435**, dont 110 archives réservées et [14 incertitudes hors archives](reviews/quality-followup-2026-10-19/remaining-nonarchive.csv). Aucun import, règles inchangées ; [bilan et preuves](reviews/quality-followup-2026-10-19/README.md).
+
+## Livraisons précédentes — 17 octobre 2026
 
 - Revue qualité [lot 012](docs/tasks/012-quality-review.md) terminée pour le tri de 144 alertes et les 34 notices hors archives : 23 corrigées, compteur réel **127/435** avec les mêmes règles. Restent 110 archives pour l'autre session et [17 incertitudes documentées](reviews/quality-2026-10-17/remaining-nonarchive.csv). Aucun import ni scan APDS ; sauvegarde, lecture publique et relance sans écriture contrôlées.
 - PR 4 livrée sur Pages : lien PDF et pilote Bayanga terminés, ne pas les rejouer. PR 5 fusionnée : bilan PubMed consigné, huit notices déjà importées. PR 6 fusionnée et publiée sur Pages le 17 octobre : Mode d'emploi accessible. Preuves du [lot 009](docs/tasks/009-integration-reconciliation.md) dans STATE.
