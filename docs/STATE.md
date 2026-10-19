@@ -1,6 +1,14 @@
 # État vérifié — reprise du 19 octobre 2026
 
-## Point de reprise courant — lot 013
+## Point de reprise courant — lot 014
+
+Une correction supplémentaire : URL propre de la thèse Goldsmith 1996 retrouvée et ajoutée, avec sauvegarde v761, PATCH conditionnel et lecture publique v986. La fiche ne donne pas le texte ; accès indéterminé conservé. Relance : zéro écriture, une déjà conforme. **435 références, 19 collections, seed 31/31, aucun titre vide ou doublon détecté.** Toutes les autres données de notices, dont les archives APDS, sont identiques entre les instantanés. Le compteur reste **124/435**, car Goldsmith garde une autre alerte ; les liens externes manquants hors archives passent de trois à deux.
+
+Huit cas ont reçu de nouvelles recherches ciblées, six ne sont pas relancés faute de piste nouvelle. Résumé institutionnel Fuh retrouvé, sans substitution à sa thèse ; communiqués, résumés structurés et bibliographies ne sont pas du texte intégral. Les dossiers `Downloads/Researchgate` et `Downloads/OneDrive_2_05-10-2026` sont absents de ce poste ; aucune nouvelle lecture de leurs anciens fichiers. Les registres APDS restent sur l'autre ordinateur et dans l'autre session. [Lot 014](tasks/014-author-copies.md), [bilan et preuves](../reviews/author-copies-2026-10-19/README.md), [14 cas restants](../reviews/author-copies-2026-10-19/remaining-nonarchive.csv).
+
+La suite utile demande des liens ou modalités de consultation des auteurs/organismes : onze accès à établir, deux liens de thèses (Masi/Fuh), une date FTNS. Ne pas transformer l'absence de piste en décision d'accès ni répéter les mêmes imports. Scripts, sauvegardes et preuves privés : `.local/quality-author-copies/` et `reports/nonarchive/quality_author_copies_2026_10_19/` du dossier canonique. Auto-revue ciblée ; aucun PDF republié. Retour arrière : comparer la version courante avant restauration des seuls champs URL/Extra. Révoquer la clé temporaire quand les écritures authentifiées des deux conversations sont terminées.
+
+## Livraison précédente — lot 013
 
 Suite des 17 incertitudes hors archives : trois corrections Zotero vérifiées le 19 octobre, relance zéro écriture. GPS Blake : texte HTML d'auteur gratuit ; Osiak : PDF éditeur de cinq pages, URL et accès corrigés ; Kamiss/Turkalo : organisme AfESG établi par les publications du programme. Aucune création ni règle de qualité modifiée. Sauvegardes, versions conditionnelles, conservation des autres champs et lecture publique contrôlées. **435 références, 19 collections, seed 31/31, aucun titre vide ou doublon détecté.** [Lot 013](tasks/013-quality-followup.md), [bilan et preuves](../reviews/quality-followup-2026-10-19/README.md).
 
@@ -10,7 +18,7 @@ Les paragraphes datés ci-dessous restent l'historique, avec leurs compteurs à 
 
 Validation du lot 013 : contrôle commun réussi (tests Python, syntaxe JavaScript, rendu et navigateur synthétiques), plus contrôle du navigateur avec données Zotero publiques réelles. Preuve de code liée à l'état testé dans `.local/verification.json`, à revérifier après tout changement de HEAD ou de fichier. Aucune modification du code du hub. Le PDF dentaire passe par une route sans suffixe `.pdf` dans le chemin : son URL est conservée dans la notice Zotero, mais le bouton PDF dédié du hub ne reconnaît actuellement que les chemins se terminant par `.pdf`. Cette limite d'affichage reste distincte de l'accès gratuit vérifié.
 
-## Point de reprise courant — lot 012 et livraisons précédentes
+## Historique — lot 012 et livraisons précédentes
 
 À la demande du responsable d'examiner les 145 notices affichées en qualité, l'instantané public après Flahou en compte 144 sur 435 : 110 archives réservées à l'autre session et 34 notices hors archives. [Lot 012](tasks/012-quality-review.md) : ces 34 ont reçu une revue et une décision sourcée ; 23 notices ont été corrigées avec sauvegarde/version et lecture publique. Quatre textes intégraux gratuits et douze voies d'accès restreintes confirmés, liens originaux retrouvés, casse des noms et métadonnées bibliographiques corrigées. Aucune règle de qualité modifiée, aucune archive ou référence nouvelle créée.
 

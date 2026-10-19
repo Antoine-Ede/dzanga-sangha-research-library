@@ -1,5 +1,7 @@
 # Suite de la revue qualité — 19 octobre 2026
 
+Suite ultérieure : [lot 014, copies d'auteurs](../author-copies-2026-10-19/README.md) — lien Goldsmith réparé, accès encore indéterminé, compteur inchangé à 124/435. Les données ci-dessous sont celles de la première suite du 19 octobre.
+
 **Trois alertes résolues ; compteur 127 → 124 sur 435 références.** Restent 110 archives réservées à l'autre session et 14 incertitudes hors archives. Règles du compteur inchangées, aucun import.
 
 | Notice | Correction et preuve |
