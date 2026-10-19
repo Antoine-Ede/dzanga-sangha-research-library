@@ -1,0 +1,336 @@
+[
+  {
+    "key": "5VQJGUJA",
+    "title": "Dental support for African residents",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [],
+    "decision": "resolved",
+    "newChecks": true,
+    "sources": [
+      "http://www.protetstomatol.pl/Stomatologiczne-wsparcie-mieszkancow-Afryki,100337,0,2.html",
+      "http://www.protetstomatol.pl/pdf-100337-32298?filename=Dental-support-for-Africa.pdf"
+    ],
+    "reason": "Anonymous publisher PDF GET HTTP 200 on 2026-10-19; 5 pages, 2046332 bytes, SHA256 6685a1af4fd5498dbdbaefcda1105b93cfc3b71e4c24c7523bcea80441a4b3c3. Cover visually checked; title, author, DOI and 2018 volume 68(1),108-112 match. Pages 1-2 text checked; Monasao clinic described. Publisher HTTP endpoint works; HTTPS certificate invalid on this host. No PDF redistribution or new licence inferred.",
+    "beforeVersion": 982,
+    "afterVersion": 984,
+    "appliedFields": [
+      "url",
+      "extra",
+      "tags"
+    ]
+  },
+  {
+    "key": "SI9BC6HU",
+    "title": "Night and day: evaluating transect methodologies to monitor duikers in the Dzanga‐Sangha Protected Areas, Central African Republic",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://onlinelibrary.wiley.com/doi/10.1111/aje.12344",
+      "https://www.researchgate.net/publication/305310799_Night_and_day_evaluating_transect_methodologies_to_monitor_duikers_in_the_Dzanga-Sangha_Protected_Areas_Central_African_Republic"
+    ],
+    "reason": "New exact ResearchGate record says Request full-text. Later results/methods passages belong to citing articles. Publisher content retrieved previously was only abstract/references; access remains unknown.",
+    "beforeVersion": 981,
+    "afterVersion": 981,
+    "appliedFields": []
+  },
+  {
+    "key": "ZTSHQ2AU",
+    "title": "BaAka women's health and subsistence practices in transitional conservation economies: Variation with age, household size, and food security",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://api.crossref.org/works/10.1002/ajhb.22817",
+      "https://www.academia.edu/123086192/BaAka_womens_health_and_subsistence_practices_in_transitional_conservation_economies_Variation_with_age_household_size_and_food_security"
+    ],
+    "reason": "Exact-title author-copy candidate found on Academia.edu, but live retrieval returned HTTP 502. Full text not verified; indicator retained.",
+    "beforeVersion": 980,
+    "afterVersion": 980,
+    "appliedFields": []
+  },
+  {
+    "key": "I8HHPMIM",
+    "title": "Primate and ungulate abundance in response to multi-use zoning and human extractive activities in a Central African Reserve",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://api.crossref.org/works/10.1111/j.1365-2028.2010.01229.x"
+    ],
+    "reason": "New publisher PDF request redirects to showAbstract HTML. Abstract and reference links marked FULL_TEXT in tracking parameters are not the actual article body.",
+    "beforeVersion": 979,
+    "afterVersion": 979,
+    "appliedFields": []
+  },
+  {
+    "key": "UCCC9JFI",
+    "title": "Comparative ecology of two African forest mongooses, Herpestes naso and Atilax paludinosus",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2028.1997.086-89086.x"
+    ],
+    "reason": "New publisher PDF request redirects to showAbstract HTML. Technical-difficulties message is not a subscription decision. Access remains unknown.",
+    "beforeVersion": 977,
+    "afterVersion": 977,
+    "appliedFields": []
+  },
+  {
+    "key": "XS94EBRI",
+    "title": "Elephant Crop Raiding in the Dzanga-Sangha Reserve, Central African Republic",
+    "beforeIssues": [
+      "Source bibliographique manquante"
+    ],
+    "remainingIssues": [],
+    "decision": "resolved",
+    "newChecks": true,
+    "sources": [
+      "https://pachydermjournal.org/index.php/pachyderm/article/download/1024/1003",
+      "https://www.hwctf.org/es/_files/ugd/7acc16_94f899bb1020486e8e80374325112f2b.pdf"
+    ],
+    "reason": "Issuing programme identified from its own publications, not author affiliations: Hoare, Pachyderm 29 (2000),59-60 lists the exact study as an AfESG Human-Elephant Conflict Taskforce product among the consultant studies of 1998-1999; the AfESG Decision Support System bibliography, printed p102 (PDF p108), item52 explicitly identifies the exact title and authors as an IUCN African Elephant Specialist Group Report. Report authors, date and existing public copy link preserved.",
+    "beforeVersion": 976,
+    "afterVersion": 985,
+    "appliedFields": [
+      "extra",
+      "institution"
+    ]
+  },
+  {
+    "key": "MSGR4TKC",
+    "title": "Rapport annuel 2019",
+    "beforeIssues": [
+      "Année manquante",
+      "Vérification signalée dans Zotero"
+    ],
+    "remainingIssues": [
+      "Année manquante",
+      "Vérification signalée dans Zotero"
+    ],
+    "decision": "unresolved",
+    "newChecks": false,
+    "sources": [
+      "https://fondationtns.org/wp-content/uploads/2022/10/RAPPORT-ANNUEL-2019-Online-2020-2-for-Print-only-10302020-fnl.pdf"
+    ],
+    "reason": "No new decisive evidence in this follow-up. Previous finding retained: Reporting year 2019 is explicit, but publication year remains unstated. Neither PDF-generation year nor upload folder proves publication date. Keep incomplete-status and missing-year alerts.",
+    "beforeVersion": 946,
+    "afterVersion": 946,
+    "appliedFields": []
+  },
+  {
+    "key": "M3WW68V2",
+    "title": "GPS telemetry of forest elephants in Central Africa: results of a preliminary study",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [],
+    "decision": "resolved",
+    "newChecks": true,
+    "sources": [
+      "https://www.researchgate.net/publication/227683515_GPS_telemetry_of_forest_elephants_in_Central_Africa_results_of_a_preliminary_study"
+    ],
+    "reason": "Anonymous live HTML retrieval on 2026-10-19 returned the author-posted original text, including Materials and methods, Results, Discussion and References; original printed pages 178-186 and DOI match. The separate PDF endpoint returned HTTP 403, so a PDF download is not claimed. ResearchGate display date differs from the original 2001 publication; bibliographic date preserved. Free reading does not establish redistribution rights.",
+    "beforeVersion": 881,
+    "afterVersion": 983,
+    "appliedFields": [
+      "url",
+      "extra",
+      "tags"
+    ]
+  },
+  {
+    "key": "QZ75FZ8Q",
+    "title": "Ecological influences on the ranging and grouping behavior of western lowland gorillas at Bai Hoköu, Central African Republic",
+    "beforeIssues": [
+      "Accès à déterminer",
+      "Lien externe non renseigné"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer",
+      "Lien externe non renseigné"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://doi.org/10.1002/ajp.20072"
+    ],
+    "reason": "Targeted dissertation search still returned citations, not a stable exact thesis record. Previous metadata retained; no derivative article URL substituted.",
+    "beforeVersion": 761,
+    "afterVersion": 761,
+    "appliedFields": []
+  },
+  {
+    "key": "P7QFNJ8Q",
+    "title": "Biomonitoring Survey 2011-2012 in Dzanga-Sangha Protected Areas",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://wwf-congobasin-monitoring.org/en/document/",
+      "https://drive.google.com/file/d/0B-dJZnbw2aZCY1lJMXZoUjY1Rms/view"
+    ],
+    "reason": "New anonymous browser check follows the official catalogue link to Google Sign-in. The catalogue labels the file Open, but free full text is not confirmed; no access tag inferred from a possibly stale Drive link.",
+    "beforeVersion": 646,
+    "afterVersion": 646,
+    "appliedFields": []
+  },
+  {
+    "key": "4Q928ICG",
+    "title": "Nouvelle approche dans la gestion de la chasse traditionnelle et de la chasse légale dans la réserve spéciale de forêt dense Dzanga-Sangha (R.C.A.) et optimisation de la filière locale du marché de la viande de brousse",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": false,
+    "sources": [
+      "https://agritrop.cirad.fr/392589/"
+    ],
+    "reason": "No new decisive evidence in this follow-up. Previous finding retained: CIRAD record confirms the 1999 proceedings contribution and bibliographic identity. No complete digital text attached; access remains undetermined, not assumed paywalled.",
+    "beforeVersion": 598,
+    "afterVersion": 598,
+    "appliedFields": []
+  },
+  {
+    "key": "BZSCURTX",
+    "title": "Forest elephant biology in Dzanga-Sangha, Central African Republic",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": false,
+    "sources": [
+      "https://portals.iucn.org/library/node/24046"
+    ],
+    "reason": "No new decisive evidence in this follow-up. Previous finding retained: IUCN catalogue confirms the 1994 printed report, authors and 44 pages, but provides no digital full-text link. Printed holdings alone do not establish restricted online access.",
+    "beforeVersion": 595,
+    "afterVersion": 595,
+    "appliedFields": []
+  },
+  {
+    "key": "56U6BEWS",
+    "title": "Entangled Realms: Hunters and Hunted in the Dzanga-Sangha Dense Forest Reserve (APDS), Central African Republic",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://doi.org/10.1353/anq.2014.0036",
+      "https://muse.jhu.edu/article/553746"
+    ],
+    "reason": "New live publisher retrieval still returns a verification challenge; search finds Request PDF on ResearchGate. Neither proves paid access or a free full text.",
+    "beforeVersion": 588,
+    "afterVersion": 588,
+    "appliedFields": []
+  },
+  {
+    "key": "G4TI8HVU",
+    "title": "Censusing rainforest game species with communal net hunts",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://doi.org/10.1046%2Fj.1365-2028.1999.00154.x"
+    ],
+    "reason": "New publisher PDF request redirects to showAbstract HTML (summary/references). Exact ResearchGate record found as Request PDF. Full text still unconfirmed.",
+    "beforeVersion": 219,
+    "afterVersion": 219,
+    "appliedFields": []
+  },
+  {
+    "key": "3VDDHRV6",
+    "title": "First record of Ae. albopictus (Skuse 1894), in Central African Republic",
+    "beforeIssues": [
+      "Accès à déterminer"
+    ],
+    "remainingIssues": [
+      "Accès à déterminer"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [
+      "https://doi.org/10.1111%2Fj.1365-3156.2010.02594.x"
+    ],
+    "reason": "New publisher PDF request redirects to showAbstract HTML with structured abstract and references. Citing PMC articles are different studies; no full-text proof for this DOI.",
+    "beforeVersion": 217,
+    "afterVersion": 217,
+    "appliedFields": []
+  },
+  {
+    "key": "4RU6UJN7",
+    "title": "Western lowland gorilla (Gorilla gorilla gorilla) diet and activity budgets: effects of group size, age class and food availability in the Dzanga-Ndoki National Park, Central African Republic",
+    "beforeIssues": [
+      "Lien externe non renseigné"
+    ],
+    "remainingIssues": [
+      "Lien externe non renseigné"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [],
+    "reason": "Targeted thesis search returned the author profile and derivative conference work. No exact thesis URL established; no replacement by a different publication.",
+    "beforeVersion": 177,
+    "afterVersion": 177,
+    "appliedFields": []
+  },
+  {
+    "key": "Q6J9RKGG",
+    "title": "Seasonal influence on foraging startegies, activity and energy budgets of western lowland gorillas (Gorilla gorilla gorilla) in Bai-Hokou, Central African Republic",
+    "beforeIssues": [
+      "Lien externe non renseigné"
+    ],
+    "remainingIssues": [
+      "Lien externe non renseigné"
+    ],
+    "decision": "unresolved",
+    "newChecks": true,
+    "sources": [],
+    "reason": "Targeted thesis search returned citations and different papers. No exact public institutional thesis record established; original title and date retained.",
+    "beforeVersion": 173,
+    "afterVersion": 173,
+    "appliedFields": []
+  }
+]

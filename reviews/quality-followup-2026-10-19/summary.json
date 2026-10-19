@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-10-19T21:25:49.147Z",
+  "groupId": "6701789",
+  "before": {
+    "references": 435,
+    "flagged": 127,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 17
+  },
+  "after": {
+    "references": 435,
+    "flagged": 124,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 14
+  },
+  "corrected": 3,
+  "resolved": 3,
+  "remainingNonarchive": 14,
+  "newChecks": 14,
+  "carriedUnresolved": 3,
+  "confirmedFreeFullTexts": 2,
+  "newReferences": 0,
+  "rerunWrites": 0,
+  "archivesModified": 0,
+  "archiveMetadataUnchanged": true,
+  "qualityRulesChanged": false,
+  "qualityRulesSHA256": "3af04d2c916010887a4bd57c216198e6075f34a1b9254d2ef8c5e96bd4f3ab4e",
+  "limitations": [
+    "APDS archives excluded and reserved to the other session.",
+    "Three unresolved cases carried from the prior review without new decisive evidence.",
+    "Targeted identity/access review, not an exhaustive scientific reading.",
+    "Self-review, no independent reviewer.",
+    "No PDF redistributed; anonymous reading does not establish a redistribution licence."
+  ]
+}

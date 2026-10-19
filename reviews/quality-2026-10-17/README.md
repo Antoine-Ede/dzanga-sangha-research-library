@@ -1,5 +1,7 @@
 # Revue des alertes bibliographiques — 17 octobre 2026
 
+Suite datée du 19 octobre : trois corrections supplémentaires, compteur 124/435 et 14 cas hors archives restants. Voir le [bilan de suite](../quality-followup-2026-10-19/README.md) ; les chiffres ci-dessous sont ceux du 17 octobre.
+
 Le compteur public passe de **144 à 127 notices signalées**, avec les mêmes règles de contrôle et toujours **435 références**. Les 145 vues par le responsable incluaient encore le point Flahou corrigé juste avant ce lot.
 
 | Résultat | Notices |
