@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-10-19T21:43:19.196Z",
+  "groupId": "6701789",
+  "before": {
+    "references": 435,
+    "flagged": 124,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 14,
+    "nonarchiveMissingLinks": 3
+  },
+  "after": {
+    "references": 435,
+    "flagged": 124,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 14,
+    "nonarchiveMissingLinks": 2
+  },
+  "newChecks": 8,
+  "notRequeried": 6,
+  "itemsUpdated": 1,
+  "remainingNonarchive": 14,
+  "resolvedItems": 0,
+  "missingLinksRepaired": 1,
+  "newAccessDecisions": 0,
+  "newReferences": 0,
+  "rerunWrites": 0,
+  "archivesModified": 0,
+  "allOtherItemDataUnchanged": true,
+  "qualityRulesChanged": false,
+  "qualityRulesSHA256": "3af04d2c916010887a4bd57c216198e6075f34a1b9254d2ef8c5e96bd4f3ab4e",
+  "limitations": [
+    "The Goldsmith link is its own bibliographic record, not a free thesis PDF.",
+    "Access remains unknown for Goldsmith and all other unresolved access cases.",
+    "Canopy is an institutional project summary, not the Fuh thesis.",
+    "Original local download folders were absent; no new inspection of their former files is claimed.",
+    "Six cases were not queried again because no new lead was available.",
+    "Self-review, no independent reviewer; no APDS archive reviewed or modified."
+  ]
+}

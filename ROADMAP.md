@@ -2,6 +2,8 @@
 
 ## État courant — 19 octobre 2026
 
+- [Lot 014](docs/tasks/014-author-copies.md) : propre notice de thèse Goldsmith retrouvée, URL réparée ; accès indéterminé conservé. Compteur **124/435 inchangé**, liens manquants hors archives 3 → 2. Restent onze accès, deux URL de thèses et une date FTNS. [Bilan des pistes et limites](reviews/author-copies-2026-10-19/README.md). Priorité aux preuves des auteurs/organismes ; ne pas répéter les mêmes recherches sans piste nouvelle. Archives APDS réservées à l'autre session.
+
 - Suite [lot 013](docs/tasks/013-quality-followup.md) : trois corrections, deux textes gratuits confirmés et organisme AfESG identifié ; relance zéro écriture. Compteur **124/435**, dont 110 archives réservées et [14 incertitudes hors archives](reviews/quality-followup-2026-10-19/remaining-nonarchive.csv). Aucun import, règles inchangées ; [bilan et preuves](reviews/quality-followup-2026-10-19/README.md).
 
 ## Livraisons précédentes — 17 octobre 2026
