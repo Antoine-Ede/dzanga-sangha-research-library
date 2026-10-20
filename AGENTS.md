@@ -2,7 +2,7 @@
 
 Lire `docs/STATE.md`, puis la fiche active dans `docs/tasks/`. Consulter `ROADMAP.md` pour les priorités et `docs/DECISIONS.md` pour les raisons. `CLAUDE.md` renvoie ici ; aucune seconde politique.
 
-Dernier lot clos : `docs/tasks/014-author-copies.md` — URL propre Goldsmith réparée, accès toujours indéterminé. Compteur 124/435, dont 110 archives réservées et 14 cas hors archives (onze accès, deux URL de thèses, une date FTNS). Les liens manquants hors archives sont désormais deux. Scripts ciblés déjà appliqués : ne pas rejouer les imports. Les anciens dossiers de téléchargements sont absents de ce poste ; registres APDS toujours dans l'autre session. Prochaine étape utile : nouvelles preuves ou liens des auteurs/organismes.
+Dernier lot clos : `docs/tasks/015-historical-access.md` — Marasse et Entangled Realms : restrictions explicitement attestées par les sources, tags/provenance ajoutés. Compteur 122/435, dont 110 archives réservées et 12 cas hors archives (neuf accès, deux URL de thèses, une date FTNS). Autres données inchangées, relance sans écriture. Le lot 014 a réparé l'URL propre Goldsmith sans déclarer le texte accessible. Scripts ciblés déjà appliqués : ne pas rejouer les imports. Domaine Remis maintenant expiré ; anciens dossiers de téléchargements absents de ce poste ; registres APDS dans l'autre session. Prochaine étape utile : preuves nouvelles ou liens des auteurs/organismes.
 
 Reprise bibliographique de cette branche : [lot 007](docs/tasks/007-pubmed-closeout.md), clos avec huit nouvelles notices et contrôle de relance. Son autorisation utilisateur du 16 octobre concerne uniquement les références non archivistiques sélectionnées. Le contexte du pilote PDF ci-dessous et les travaux APDS restent distincts.
 

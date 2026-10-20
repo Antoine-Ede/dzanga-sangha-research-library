@@ -1,0 +1,31 @@
+[
+  {
+    "key": "4Q928ICG",
+    "checkedAt": "2026-10-20",
+    "sources": [
+      "https://agris.fao.org/search/en/providers/122653/records/64745bae2437ad1e5b9628be",
+      "https://agritrop.cirad.fr/392589/",
+      "https://agritrop.cirad.fr/300606/"
+    ],
+    "provider": "CIRAD supplied record in FAO AGRIS",
+    "accessCode": "info:eu-repo/semantics/closedAccess",
+    "repositoryFullText": false,
+    "parentFormat": "CD-ROM",
+    "scrapes": [
+      "01a15b18-0304-700a-aa5a-f66753dd39a4",
+      "01a15b18-d1a2-746c-99bf-185ca443ee10",
+      "01a15b18-e4a5-700e-9872-7fe40760c732"
+    ]
+  },
+  {
+    "key": "56U6BEWS",
+    "checkedAt": "2026-10-20",
+    "source": "https://muse.jhu.edu/issue/30656",
+    "doi": "10.1353/anq.2014.0036",
+    "article": "553746",
+    "articleLevelLabel": "restricted access",
+    "accessIcon": "https://muse.jhu.edu/images/access/no_access.png",
+    "getAccessActionPresent": true,
+    "scrapeId": "01a15b18-0d8e-77dd-9544-5870a997e9b6"
+  }
+]

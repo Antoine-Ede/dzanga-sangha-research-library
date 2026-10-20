@@ -1,5 +1,7 @@
 # Copies d'auteurs et liens propres — 19 octobre 2026
 
+Suite du 20 octobre : [lot 015](../historical-access-2026-10-20/README.md), deux accès précisés, compteur 122/435 et 12 cas hors archives restants. Les chiffres ci-dessous décrivent le 19 octobre.
+
 **Un lien manquant réparé ; compteur maintenu à 124/435.** La thèse Goldsmith conserve une incertitude d'accès : la nouvelle URL mène à sa propre notice bibliographique, sans texte intégral. Les règles du compteur restent identiques. Aucun nouvel import ni décision d'accès forcée.
 
 La [fiche Goldsmith](https://www.researchgate.net/publication/34184349_Ecological_influences_on_the_ranging_and_grouping_behavior_of_western_lowland_gorillas_at_Bai_Hokou_Central_African_Republic) concorde avec le titre, l'autrice, SUNY Stony Brook et 1996, déjà corroborés par la bibliographie originale de Cipolletta. Elle décrit explicitement une thèse de doctorat sur microforme et propose une demande de copie. Les étiquettes automatiques « Article » et « January » de ResearchGate ne sont pas adoptées. Le type thèse, l'année seule et les initiales d'auteur sont préservés ; aucun PDF gratuit revendiqué.
