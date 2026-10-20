@@ -1,6 +1,10 @@
 # Suivi du projet et reprise de l’audit APDS
 
-## État courant — 19 octobre 2026
+## État courant — 20 octobre 2026
+
+- [Lot 015](docs/tasks/015-historical-access.md) : deux restrictions d'accès explicitement attestées et ajoutées à Zotero, sans changement de métadonnées bibliographiques. Compteur **122/435** : 110 archives réservées et [12 cas hors archives](reviews/historical-access-2026-10-20/remaining-nonarchive.csv). Relance sans écriture, autres notices inchangées. [Bilan et preuves](reviews/historical-access-2026-10-20/README.md). Restent neuf accès, deux URL de thèses et une date FTNS.
+
+## Livraisons précédentes — 19 octobre 2026
 
 - [Lot 014](docs/tasks/014-author-copies.md) : propre notice de thèse Goldsmith retrouvée, URL réparée ; accès indéterminé conservé. Compteur **124/435 inchangé**, liens manquants hors archives 3 → 2. Restent onze accès, deux URL de thèses et une date FTNS. [Bilan des pistes et limites](reviews/author-copies-2026-10-19/README.md). Priorité aux preuves des auteurs/organismes ; ne pas répéter les mêmes recherches sans piste nouvelle. Archives APDS réservées à l'autre session.
 

@@ -1,6 +1,12 @@
-# État vérifié — reprise du 19 octobre 2026
+# État vérifié — reprise du 20 octobre 2026
 
-## Point de reprise courant — lot 014
+## Point de reprise courant — lot 015
+
+Six cas examinés par de nouvelles voies historiques/éditeurs. Deux classifications d'accès désormais étayées : Marasse, code closedAccess fourni par le CIRAD à AGRIS et absence de texte dans les notices communication/actes ; Entangled Realms, restriction propre à l'article sur le sommaire MUSE. Pas de décision déduite d'une erreur technique ni d'un ancien extrait de recherche. Tag `ACCESS:Restricted` et provenance ajoutés, auteurs/dates/titres préservés. Deux sauvegardes, PATCH conditionnels et lectures publiques ; relance zéro écriture, deux conformes. **435 références, 19 collections, seed 31/31, aucun titre vide ou doublon détecté.** Toutes les autres données, dont APDS, identiques avant/après.
+
+Compteur réel **122/435**, dont 110 archives réservées à l'autre session et [12 cas hors archives](../reviews/historical-access-2026-10-20/remaining-nonarchive.csv) : neuf accès, deux liens de thèses, une date FTNS. Quatre des six cas examinés restent incertains ; huit autres sont reportés sans nouvelle recherche répétitive. Ancien domaine Remis expiré, index d'archives non assimilés à des textes intégraux. [Lot 015](tasks/015-historical-access.md), [preuves et limites](../reviews/historical-access-2026-10-20/README.md). Auto-revue ciblée ; aucun PDF publié ni import ou règle de qualité modifié. Contrôle commun et navigateur consignés localement à la clôture. Scripts/preuves : `.local/quality-history/` et dossier canonique `reports/nonarchive/quality_history_2026_10_20/`. Pour annuler, comparer les versions actuelles aux sauvegardes avant restauration sélective des tags/Extra. Les restrictions concernent les voies attestées ; une copie gratuite vérifiée permettra de réviser le classement. APDS reste dans l'autre session ; révoquer la clé temporaire après les écritures authentifiées des deux conversations.
+
+## Livraison précédente — lot 014
 
 Une correction supplémentaire : URL propre de la thèse Goldsmith 1996 retrouvée et ajoutée, avec sauvegarde v761, PATCH conditionnel et lecture publique v986. La fiche ne donne pas le texte ; accès indéterminé conservé. Relance : zéro écriture, une déjà conforme. **435 références, 19 collections, seed 31/31, aucun titre vide ou doublon détecté.** Toutes les autres données de notices, dont les archives APDS, sont identiques entre les instantanés. Le compteur reste **124/435**, car Goldsmith garde une autre alerte ; les liens externes manquants hors archives passent de trois à deux.
 

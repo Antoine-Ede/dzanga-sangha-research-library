@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-10-20T20:59:43.235Z",
+  "groupId": "6701789",
+  "before": {
+    "references": 435,
+    "flagged": 124,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 14,
+    "nonarchiveAccessUnknown": 11,
+    "nonarchiveMissingLinks": 2
+  },
+  "after": {
+    "references": 435,
+    "flagged": 122,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 12,
+    "nonarchiveAccessUnknown": 9,
+    "nonarchiveMissingLinks": 2
+  },
+  "reviewedThisLot": 6,
+  "carriedForward": 8,
+  "itemsUpdated": 2,
+  "resolvedItems": 2,
+  "confirmedRestrictedRoutes": 2,
+  "newReferences": 0,
+  "rerunWrites": 0,
+  "archivesModified": 0,
+  "allOtherItemDataUnchanged": true,
+  "qualityRulesChanged": false,
+  "qualityRulesSHA256": "3af04d2c916010887a4bd57c216198e6075f34a1b9254d2ef8c5e96bd4f3ab4e",
+  "limitations": [
+    "Explicit access decisions apply to the verified publisher/repository routes, not every possible alternative copy.",
+    "No full paper scientifically read or PDF redistributed in this lot.",
+    "The Remis domain is now parked; archived indexes were discovery leads only, not a new full-text proof.",
+    "Four examined cases remain uncertain; eight other unresolved cases were carried forward without repeated searches.",
+    "APDS remains reserved to the other session; self-review without an independent reviewer."
+  ]
+}
