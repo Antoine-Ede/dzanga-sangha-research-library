@@ -2,6 +2,8 @@
 
 ## État courant — 20 octobre 2026
 
+- [Lot 016](docs/tasks/016-official-source-links.md) : six liens officiels corrigés dans Zotero, dont HAL pour Diallo ; accès et compteur **122/435 inchangés**. Le correctif en revue rend les URL complémentaires visibles dans la vue Tableau comme dans Cartes/Liste ; aucun import ni audit APDS. [Bilan et preuves](reviews/official-source-links-2026-10-20/README.md). Revue utilisateur de l'affichage avant fusion.
+
 - [Lot 015](docs/tasks/015-historical-access.md) : deux restrictions d'accès explicitement attestées et ajoutées à Zotero, sans changement de métadonnées bibliographiques. Compteur **122/435** : 110 archives réservées et [12 cas hors archives](reviews/historical-access-2026-10-20/remaining-nonarchive.csv). Relance sans écriture, autres notices inchangées. [Bilan et preuves](reviews/historical-access-2026-10-20/README.md). Restent neuf accès, deux URL de thèses et une date FTNS.
 
 ## Livraisons précédentes — 19 octobre 2026

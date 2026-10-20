@@ -20,6 +20,7 @@
     "data": {
       "title": "Article synthétique — auteurs à vérifier",
       "itemType": "journalArticle",
+      "DOI": "10.1234/synthetic",
       "creators": [{"creatorType":"author","firstName":"Durand","lastName":"A"}],
       "date": "2013",
       "publicationTitle": "Revue fictive",

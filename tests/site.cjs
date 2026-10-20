@@ -43,6 +43,17 @@ for(const view of ['table','cards','list']) {
   assert(html.includes('&amp;label='));
 }
 assert.equal(JSON.stringify(pdfItem),unchanged);
+const repositoryItem={...testItem,data:{...testItem.data,url:'https://hal.science/synthetic-record',DOI:'10.1234/synthetic'}};
+state.items=[repositoryItem];state.filtered=[repositoryItem];
+for(const view of ['table','cards','list']) {
+  $('resultView').value=view;render();const html=$('results').innerHTML;
+  assert.equal((html.match(/Notice HAL/g)||[]).length,1);
+  assert(html.includes('https://hal.science/synthetic-record'));
+  assert(html.includes('https://doi.org/10.1234%2Fsynthetic'));
+  assert(!html.includes('Consulter le PDF'));
+  assert(html.includes('Notice Zotero'));
+}
+for(const url of ['', 'javascript:alert(1)', 'https://user:pass@example.org/record', 'https://doi.org/10.1234/synthetic'])assert.equal(sourceLink({data:{url}}),'');
 assert.equal(LibraryModel.category({data:{itemType:'report'}}),'reports');
 assert.equal(LibraryModel.category({data:{itemType:'dataset'}}),'datasets');
 assert(!LibraryModel.issues(testItem).some(x=>/DOI/.test(x)));

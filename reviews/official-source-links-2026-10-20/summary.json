@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-20T21:29:29.985Z",
+  "groupId": "6701789",
+  "before": {
+    "references": 435,
+    "flagged": 122,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 12
+  },
+  "after": {
+    "references": 435,
+    "flagged": 122,
+    "archivesFlagged": 110,
+    "nonarchivesFlagged": 12
+  },
+  "itemsUpdated": 6,
+  "officialRepositoryLinks": 1,
+  "officialPublisherLinks": 5,
+  "accessTagsModified": 0,
+  "newReferences": 0,
+  "rerunWrites": 0,
+  "archivesModified": 0,
+  "allOtherItemDataUnchanged": true,
+  "qualityRulesChanged": false,
+  "qualityRulesSHA256": "3af04d2c916010887a4bd57c216198e6075f34a1b9254d2ef8c5e96bd4f3ab4e",
+  "limitations": [
+    "Official landing pages are not necessarily free full text. HAL record has no main file.",
+    "Publisher landing URLs were checked against DOI-identical Crossref metadata; no publisher full-text download claimed.",
+    "Access uncertainties, two thesis URLs and FTNS publication date remain unresolved. APDS belongs to the other session.",
+    "Self-review in this session; no independent reviewer."
+  ]
+}
