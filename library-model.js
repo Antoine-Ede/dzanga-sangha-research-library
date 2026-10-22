@@ -34,9 +34,10 @@
     const d=item.data,t=tags(item),out=[];
     if(!String(d.title||'').trim())out.push('Titre manquant');
     if(!/\b(?:18|19|20)\d{2}\b/.test(d.date||''))out.push('Année manquante');
-    if(!(d.creators||[]).some(c=>['author','editor'].includes(c.creatorType)&&(c.name||c.lastName)))out.push('Auteur ou responsable manquant');
+    const responsibleRoles=isCommunication(item)?['author','editor','creator','director','host','producer','executiveProducer','seriesCreator','scriptwriter']:['author','editor'];
+    if(!(d.creators||[]).some(c=>responsibleRoles.includes(c.creatorType)&&(c.name||c.lastName)))out.push('Auteur ou responsable manquant');
     if((d.creators||[]).some(authorNeedsReview))out.push('Nom/prénom à vérifier : nom réduit à des initiales');
-    if(![d.publicationTitle,d.bookTitle,d.proceedingsTitle,d.publisher,d.institution,d.university,d.repository].some(v=>String(v||'').trim()))out.push('Source bibliographique manquante');
+    if(![d.publicationTitle,d.bookTitle,d.proceedingsTitle,d.publisher,d.institution,d.university,d.repository,...(isCommunication(item)?[d.websiteTitle,d.network,d.studio,d.label]:[])].some(v=>String(v||'').trim()))out.push('Source bibliographique manquante');
     if(t.filter(v=>/^SCOPE:DSPA-(Core|Relevant)$/.test(v)).length!==1)out.push('Portée à préciser');
     if(t.includes('SCOPE:DSPA-Core')&&!/(?:scope evidence|classification evidence(?:\s*\([^)]*\))?|evidence|preuve|justification)\s*:\s*\S.{10}/i.test(d.extra||''))out.push('Justification Core à expliciter');
     if(t.filter(v=>/^ACCESS:(Open|Restricted)$/.test(v)).length!==1)out.push('Accès à déterminer');

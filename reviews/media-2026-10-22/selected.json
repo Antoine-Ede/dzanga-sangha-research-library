@@ -1,0 +1,622 @@
+[
+  {
+    "id": "earthranger",
+    "title": "Technology is Transforming Conservation in Dzanga-Sangha, Central African Republic",
+    "date": "2025-05-06",
+    "source": "EarthRanger",
+    "itemType": "webpage",
+    "language": "en",
+    "origin": "Institutional",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "EarthRanger"
+      }
+    ],
+    "url": "https://www.earthranger.com/success-stories/dzanga-sangha",
+    "evidence": "Étude de cas de l'éditeur sur le suivi et la gestion des APDS.",
+    "collection": "12 - Conservation & management",
+    "access": "Open",
+    "note": "",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": []
+  },
+  {
+    "id": "mongabay-arranz",
+    "DOI": "10.66709/news-316927",
+    "title": "What it takes to make conservation work in Central Africa: Luis Arranz’s 46-year journey",
+    "date": "2026-04-27",
+    "source": "Mongabay",
+    "itemType": "newspaperArticle",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Rhett Ayers",
+        "lastName": "Butler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Akana"
+      }
+    ],
+    "url": "https://news.mongabay.com/2026/04/what-it-takes-to-make-conservation-work-in-central-africa-luis-arranzs-46-year-journey/",
+    "evidence": "Portrait de Luis Arranz : gestion des APDS parmi plusieurs terrains africains.",
+    "collection": "12 - Conservation & management",
+    "access": "Open",
+    "note": "Signatures visibles retenues ; métadonnées structurées limitées à Rhett Butler. Les deux auteurs sont explicitement crédités sur la page ; aucun auteur technique supplémentaire déduit.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": []
+  },
+  {
+    "id": "mongabay-kienast",
+    "DOI": "10.66709/news-316782",
+    "title": "Studying the world’s largest gathering of forest elephants with sound and field observation",
+    "date": "2026-04-19",
+    "source": "Mongabay",
+    "itemType": "newspaperArticle",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Rhett Ayers",
+        "lastName": "Butler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Akana"
+      }
+    ],
+    "url": "https://news.mongabay.com/2026/04/studying-the-worlds-largest-gathering-of-forest-elephants-with-sound-and-field-observation/",
+    "evidence": "Entretien avec Ivonne Kienast sur l'observation et l'acoustique des éléphants de Dzanga Bai.",
+    "collection": "01 - Elephants",
+    "access": "Open",
+    "note": "Signatures visibles retenues ; métadonnées structurées limitées à Rhett Butler. Les deux auteurs sont explicitement crédités sur la page ; aucun auteur technique supplémentaire déduit.",
+    "sites": [
+      "Dzanga-Sangha",
+      "Dzanga-Bai"
+    ],
+    "taxa": [
+      "Elephants"
+    ]
+  },
+  {
+    "id": "wwfde-limo",
+    "title": "Limo: Ein neuer Silberrücken in Dzanga-Sangha",
+    "date": "",
+    "source": "WWF Deutschland",
+    "itemType": "webpage",
+    "language": "de",
+    "origin": "Institutional",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "WWF Deutschland"
+      }
+    ],
+    "url": "https://www.wwf.de/themen-projekte/bedrohte-tier-und-pflanzenarten/gorillas/limo-ein-neuer-silberruecken-in-dzanga-sangha",
+    "evidence": "Présentation institutionnelle du nouveau groupe de gorilles Limo aux APDS.",
+    "collection": "13 - Tourism & habituation",
+    "access": "Open",
+    "note": "La page indique seulement « Stand: 2025-09-23 » (mise à jour). Date de publication initiale non attestée : champ date laissé vide. Le millésime de version ne devient pas une date de première publication.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Gorilla"
+    ]
+  },
+  {
+    "id": "wwfde-habituation",
+    "title": "Gorillahabituierung in Dzanga-Sangha",
+    "date": "",
+    "source": "WWF Deutschland",
+    "itemType": "webpage",
+    "language": "de",
+    "origin": "Institutional",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "WWF Deutschland"
+      }
+    ],
+    "url": "https://www.wwf.de/themen-projekte/bedrohte-tier-und-pflanzenarten/gorillas/gorillahabituierung-ganz-nah-dran",
+    "evidence": "Présentation WWF de l'habituation des gorilles aux APDS.",
+    "collection": "13 - Tourism & habituation",
+    "access": "Open",
+    "note": "La page indique seulement « Stand: 2024-02-15 » (mise à jour). Date de publication initiale non attestée : champ date laissé vide. Le millésime de version ne devient pas une date de première publication.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Gorilla"
+    ]
+  },
+  {
+    "id": "wwfde-baby",
+    "title": "Baby-Boom in Dzanga-Sangha",
+    "date": "",
+    "source": "WWF Deutschland",
+    "itemType": "webpage",
+    "language": "de",
+    "origin": "Institutional",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "WWF Deutschland"
+      }
+    ],
+    "url": "https://www.wwf.de/themen-projekte/bedrohte-tier-und-pflanzenarten/gorillas/baby-boom-in-dzanga-sangha",
+    "evidence": "Actualités WWF sur les naissances et le suivi des groupes habitués.",
+    "collection": "13 - Tourism & habituation",
+    "access": "Open",
+    "note": "La page indique seulement « Stand: 2024-11-07 » (mise à jour). Date de publication initiale non attestée : champ date laissé vide. Le millésime de version ne devient pas une date de première publication.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Gorilla"
+    ]
+  },
+  {
+    "id": "wwfus-inside",
+    "title": "Inside the Congo Basin's Dzanga-Sangha Protected Area",
+    "date": "2025-11-19",
+    "source": "World Wildlife Fund",
+    "itemType": "webpage",
+    "language": "en",
+    "origin": "Institutional",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "World Wildlife Fund"
+      }
+    ],
+    "url": "https://www.worldwildlife.org/news/stories/inside-the-congo-basins-dzanga-sangha-protected-area/",
+    "evidence": "Entretien institutionnel avec Luis Arranz sur la gestion des APDS.",
+    "collection": "12 - Conservation & management",
+    "access": "Open",
+    "note": "Luis Arranz est la personne interrogée, pas un auteur déduit. Pas de signature individuelle attestée : responsabilité éditoriale collective WWF.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": []
+  },
+  {
+    "id": "wwfus-magazine",
+    "title": "How conservation in Dzanga-Sangha supports people",
+    "date": "2025-05-01",
+    "source": "World Wildlife",
+    "itemType": "magazineArticle",
+    "language": "en",
+    "origin": "Institutional",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "World Wildlife Fund"
+      }
+    ],
+    "url": "https://www.worldwildlife.org/news/magazine/summer-2025/how-conservation-in-dzanga-sangha-supports-people/",
+    "evidence": "Bilan institutionnel du tourisme et des services aux communautés dans les APDS.",
+    "collection": "09 - Human dimensions & BaAka",
+    "access": "Open",
+    "note": "Numéro Summer 2025 ; date de mise en ligne attestée par article:published_time. Les crédits photographiques ne sont pas des signatures d'auteur.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": []
+  },
+  {
+    "id": "wwfus-habituation",
+    "title": "What is gorilla habituation, and how does it help conservation?",
+    "date": "2026-02-09",
+    "source": "World Wildlife Fund",
+    "itemType": "webpage",
+    "language": "en",
+    "origin": "Institutional",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "World Wildlife Fund"
+      }
+    ],
+    "url": "https://www.worldwildlife.org/news/stories/what-is-gorilla-habituation-and-how-does-it-help-conservation/",
+    "evidence": "Page institutionnelle sur les groupes Limo et Missiki et l'emploi local aux APDS.",
+    "collection": "13 - Tourism & habituation",
+    "access": "Open",
+    "note": "",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Gorilla"
+    ]
+  },
+  {
+    "id": "bbc-poaching",
+    "title": "Elephant poaching 'rising' in Central African Republic",
+    "date": "2013-04-26",
+    "source": "BBC News",
+    "itemType": "newspaperArticle",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "BBC News"
+      }
+    ],
+    "url": "https://www.bbc.com/news/world-africa-22308960",
+    "evidence": "Dzanga-Sangha : braconnage et crise.",
+    "collection": "01 - Elephants",
+    "access": "Open",
+    "note": "Aucune signature individuelle visible ; responsable éditorial collectif. Date de l'article confirmée par JSON-LD, pas par les dates des liens connexes.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Elephants"
+    ]
+  },
+  {
+    "id": "bbc-hotspots",
+    "title": "Elephant poaching hotspots identified",
+    "date": "2015-06-18",
+    "source": "BBC News",
+    "itemType": "newspaperArticle",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jonathan",
+        "lastName": "Ball"
+      }
+    ],
+    "url": "https://www.bbc.com/news/science-environment-33186445",
+    "evidence": "Ivoire et populations de Dzanga-Sangha.",
+    "collection": "01 - Elephants",
+    "access": "Open",
+    "note": "",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Elephants"
+    ]
+  },
+  {
+    "id": "bbc-mundo",
+    "title": "Aumenta caza ilegal de elefantes en la República Centroafricana",
+    "date": "2013-04-26",
+    "source": "BBC News Mundo",
+    "itemType": "newspaperArticle",
+    "language": "es",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "BBC News Mundo"
+      }
+    ],
+    "url": "https://www.bbc.com/mundo/ultimas_noticias/2013/04/130426_ultnot_elefantes_peligro_cazadores_furtivos_ap",
+    "evidence": "Version espagnole de l'actualité sur le braconnage à Dzanga-Sangha.",
+    "collection": "01 - Elephants",
+    "access": "Open",
+    "note": "Même événement et même date que la notice BBC anglaise : édition linguistique distincte, pas une enquête indépendante supplémentaire.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Elephants"
+    ]
+  },
+  {
+    "id": "natgeo-ivory",
+    "title": "How Killing Elephants Finances Terror in Africa",
+    "date": "2015-08-12",
+    "source": "National Geographic",
+    "itemType": "magazineArticle",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Bryan",
+        "lastName": "Christy"
+      }
+    ],
+    "url": "https://www.nationalgeographic.com/tracking-ivory/article.html",
+    "evidence": "Enquête régionale : massacre de Dzanga Bai et traçage de l'ivoire.",
+    "collection": "01 - Elephants",
+    "access": "Open",
+    "note": "Photographies Brent Stirton : crédit distinct de l'auteur. Référencer l'enquête ne valide pas toutes ses affirmations historiques.",
+    "sites": [
+      "Dzanga-Sangha",
+      "Dzanga-Bai"
+    ],
+    "taxa": [
+      "Elephants"
+    ]
+  },
+  {
+    "id": "natgeo-seizure",
+    "title": "On Trail of Largest African Ivory Seizure in 25 Years, Locating Suspected Kingpin in Vietnam",
+    "date": "2014-11-09",
+    "source": "National Geographic",
+    "itemType": "magazineArticle",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Bryan",
+        "lastName": "Christy"
+      }
+    ],
+    "url": "https://www.nationalgeographic.com/animals/article/141107-togo-vietnam-forest-elephants-ivory-smuggling-animals-conservation",
+    "evidence": "Enquête sur une saisie d'ivoire avec lien génétique à Dzanga-Sangha.",
+    "collection": "01 - Elephants",
+    "access": "Open",
+    "note": "Date affichée November 9, 2014 retenue, différente du 141107 figurant dans l'URL.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Elephants"
+    ]
+  },
+  {
+    "id": "elpais-arranz",
+    "title": "Un biólogo español pide armamento para salvar la fauna africana",
+    "date": "2017-02-26",
+    "source": "El País",
+    "itemType": "newspaperArticle",
+    "language": "es",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Manuel",
+        "lastName": "Ansede"
+      }
+    ],
+    "url": "https://elpais.com/elpais/2017/02/24/ciencia/1487964024_824686.html",
+    "evidence": "Entretien sur la direction des APDS et la protection de la faune.",
+    "collection": "12 - Conservation & management",
+    "access": "Restricted",
+    "note": "La page officielle affiche un abonnement pour continuer. Date publiée le 26 février, non le 24 indiqué dans le chemin URL.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": []
+  },
+  {
+    "id": "elpais-twins",
+    "title": "El nacimiento de unos gemelos de gorila, una pequeña esperanza para la especie",
+    "date": "2016-02-10",
+    "source": "El País",
+    "itemType": "newspaperArticle",
+    "language": "es",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "EFE"
+      }
+    ],
+    "url": "https://elpais.com/elpais/2016/02/10/ciencia/1455118661_969240.html",
+    "evidence": "Dépêche EFE publiée par El País sur les jumeaux gorilles de Bai Hokou.",
+    "collection": "02 - Primates",
+    "access": "Restricted",
+    "note": "Dépêche fondée sur un communiqué WWF ; ne pas compter comme reportage de terrain indépendant. Signature collective EFE attestée ; abonnement affiché.",
+    "sites": [
+      "Dzanga-Sangha",
+      "Bai-Hokou"
+    ],
+    "taxa": [
+      "Gorilla"
+    ]
+  },
+  {
+    "id": "elpais-covid",
+    "title": "Confinarse en el bosque para evadir el coronavirus",
+    "date": "2020-06-24",
+    "source": "El País",
+    "itemType": "newspaperArticle",
+    "language": "es",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "AFP"
+      }
+    ],
+    "url": "https://elpais.com/elpais/2020/06/04/album/1591290772_617882.html",
+    "evidence": "Photoreportage AFP à Bayanga sur les communautés BaAka pendant la pandémie.",
+    "collection": "09 - Human dimensions & BaAka",
+    "access": "Open",
+    "note": "Galerie photographique créditée AFP, photographies Florent Vergnes. Date publiée le 24 juin 2020, pas le 4 juin du chemin URL. Images non republiées.",
+    "sites": [
+      "Dzanga-Sangha",
+      "Bayanga"
+    ],
+    "taxa": []
+  },
+  {
+    "id": "rtve-ivory",
+    "title": "Luis Arranz: \"El tráfico de marfil debería estar prohibido desde hace tiempo\"",
+    "date": "2019-08-25",
+    "source": "RTVE / RNE",
+    "itemType": "radioBroadcast",
+    "language": "es",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "creator",
+        "name": "RTVE / RNE"
+      },
+      {
+        "creatorType": "guest",
+        "firstName": "Luis",
+        "lastName": "Arranz"
+      }
+    ],
+    "url": "https://www.rtve.es/play/audios/24-horas-fin-de-semana/luis-arranz-trafico-marfil-deberia-estar-prohibido-desde-hace-tiempo/5371218/",
+    "evidence": "Entretien radio avec le directeur des APDS sur le trafic d'ivoire.",
+    "collection": "01 - Elephants",
+    "access": "Open",
+    "note": "Notice et description officielles examinées, pas d'écoute intégrale. Luis Arranz est l'invité ; RTVE/RNE est le responsable éditorial collectif, aucun réalisateur individuel inventé.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [
+      "Elephants"
+    ],
+    "programTitle": "24 horas fin de semana",
+    "runningTime": "05:01"
+  },
+  {
+    "id": "rtve-arranz",
+    "title": "El placer de admirar - Luis Arranz",
+    "date": "2022-01-22",
+    "source": "RTVE / RNE",
+    "itemType": "radioBroadcast",
+    "language": "es",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "creator",
+        "name": "RTVE / RNE"
+      },
+      {
+        "creatorType": "guest",
+        "firstName": "Luis",
+        "lastName": "Arranz"
+      }
+    ],
+    "url": "https://www.rtve.es/play/audios/el-placer-de-admirar/luis-arranz-22-01-22/6296308/",
+    "evidence": "Portrait radio de Luis Arranz dont la notice mentionne sa direction des APDS depuis 2017.",
+    "collection": "12 - Conservation & management",
+    "access": "Open",
+    "note": "Notice et description officielles examinées ; entretien de carrière sur plusieurs pays, pas une émission intégralement consacrée aux APDS ni une écoute intégrale.",
+    "sites": [
+      "Dzanga-Sangha"
+    ],
+    "taxa": [],
+    "programTitle": "El placer de admirar",
+    "runningTime": "32:09"
+  },
+  {
+    "id": "wwfes-forest",
+    "title": "450.000 nuevas hectáreas de bosques tropicales africanos consiguen la certificación forestal FSC",
+    "date": "2008-05-30",
+    "source": "WWF España",
+    "itemType": "webpage",
+    "language": "es",
+    "origin": "Institutional",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "WWF/Adena"
+      }
+    ],
+    "url": "https://www.wwf.es/?4180/",
+    "evidence": "Communiqué régional sur la certification forestière autour des parcs du paysage TNS.",
+    "collection": "14 - Sangha Trinational & regional",
+    "access": "Open",
+    "note": "Pertinence régionale seulement ; la page situe approximativement les parcs. Ne pas utiliser sa localisation de Dzanga comme autorité géographique.",
+    "sites": [
+      "TNS-Regional"
+    ],
+    "taxa": []
+  },
+  {
+    "id": "bbc-village",
+    "title": "The village of elephants",
+    "date": "2013-01-16",
+    "source": "BBC One",
+    "itemType": "tvBroadcast",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [],
+    "url": "https://www.bbc.co.uk/programmes/p013vbkt",
+    "evidence": "Extrait documentaire tourné à Dzanga Bai.",
+    "collection": "01 - Elephants",
+    "access": "Restricted",
+    "note": "Extrait, pas épisode complet. Date de mise à disposition du clip ; page officielle affichant une restriction géographique. Visionnage complet non réalisé ; crédits de réalisation/production non attestés, créateurs laissés vides plutôt que transformer le diffuseur en réalisateur.",
+    "sites": [
+      "Dzanga-Sangha",
+      "Dzanga-Bai"
+    ],
+    "taxa": [
+      "Elephants"
+    ],
+    "programTitle": "Africa — Series 1, Congo",
+    "runningTime": "01:58"
+  },
+  {
+    "id": "mongabay-tourism",
+    "DOI": "10.66709/news-317163",
+    "title": "The little-known story of emerging ecotourism in the Central African Republic",
+    "date": "2026-04-08",
+    "source": "Mongabay",
+    "itemType": "newspaperArticle",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Akana"
+      }
+    ],
+    "url": "https://news.mongabay.com/2026/04/the-little-known-story-of-emerging-ecotourism-in-the-central-african-republic/",
+    "evidence": "Reportage sur le tourisme, les emplois et les activités communautaires à Bayanga et aux APDS.",
+    "collection": "13 - Tourism & habituation",
+    "access": "Open",
+    "note": "David Akana est confirmé par la signature et la citation recommandée. Le nom différent des métadonnées techniques correspond au crédit Editor dans le bas de page, pas à l'auteur du reportage.",
+    "sites": [
+      "Dzanga-Sangha",
+      "Bayanga"
+    ],
+    "taxa": []
+  },
+  {
+    "id": "mongabay-elephants",
+    "DOI": "10.66709/news-317009",
+    "title": "A unique clearing in Central Africa draws elephants from the dense forests",
+    "date": "2026-04-06",
+    "source": "Mongabay",
+    "itemType": "newspaperArticle",
+    "language": "en",
+    "origin": "Journalistic",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Akana"
+      }
+    ],
+    "url": "https://news.mongabay.com/2026/04/a-unique-clearing-in-central-africa-draws-elephants-from-the-dense-forests/",
+    "evidence": "Reportage consacré aux éléphants de Dzanga Bai.",
+    "collection": "01 - Elephants",
+    "access": "Open",
+    "note": "David Akana est confirmé par la signature et la citation recommandée. Le nom différent des métadonnées techniques correspond au crédit Editor dans le bas de page, pas à l'auteur du reportage.",
+    "sites": [
+      "Dzanga-Sangha",
+      "Dzanga-Bai"
+    ],
+    "taxa": [
+      "Elephants"
+    ]
+  }
+]

@@ -1,0 +1,187 @@
+{
+  "checkedAt": "2026-10-22T22:03:03.740Z",
+  "groupId": "6701789",
+  "referencesBefore": 435,
+  "referencesAfter": 458,
+  "created": 23,
+  "coverage": 23,
+  "existingItemsUnchanged": 436,
+  "communication": 24,
+  "researchDenominator": 434,
+  "qualityWithReviewedCode": 126,
+  "undatedNew": [
+    "MUVXTV3J",
+    "9VTPA7N6",
+    "PW2E4GHU"
+  ],
+  "originCounts": {
+    "Journalistique": 15,
+    "Institutionnelle": 8,
+    "À préciser": 1
+  },
+  "duplicateDOIs": 0,
+  "untitled": 0,
+  "mappings": [
+    {
+      "id": "earthranger",
+      "key": "5EMGJKST",
+      "version": 995,
+      "url": "https://www.earthranger.com/success-stories/dzanga-sangha",
+      "zotero": "https://www.zotero.org/groups/6701789/items/5EMGJKST"
+    },
+    {
+      "id": "mongabay-arranz",
+      "key": "ANTH2HMD",
+      "version": 996,
+      "url": "https://news.mongabay.com/2026/04/what-it-takes-to-make-conservation-work-in-central-africa-luis-arranzs-46-year-journey/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/ANTH2HMD"
+    },
+    {
+      "id": "mongabay-kienast",
+      "key": "RXWSFJA9",
+      "version": 997,
+      "url": "https://news.mongabay.com/2026/04/studying-the-worlds-largest-gathering-of-forest-elephants-with-sound-and-field-observation/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/RXWSFJA9"
+    },
+    {
+      "id": "wwfde-limo",
+      "key": "PW2E4GHU",
+      "version": 998,
+      "url": "https://www.wwf.de/themen-projekte/bedrohte-tier-und-pflanzenarten/gorillas/limo-ein-neuer-silberruecken-in-dzanga-sangha",
+      "zotero": "https://www.zotero.org/groups/6701789/items/PW2E4GHU"
+    },
+    {
+      "id": "wwfde-habituation",
+      "key": "9VTPA7N6",
+      "version": 999,
+      "url": "https://www.wwf.de/themen-projekte/bedrohte-tier-und-pflanzenarten/gorillas/gorillahabituierung-ganz-nah-dran",
+      "zotero": "https://www.zotero.org/groups/6701789/items/9VTPA7N6"
+    },
+    {
+      "id": "wwfde-baby",
+      "key": "MUVXTV3J",
+      "version": 1000,
+      "url": "https://www.wwf.de/themen-projekte/bedrohte-tier-und-pflanzenarten/gorillas/baby-boom-in-dzanga-sangha",
+      "zotero": "https://www.zotero.org/groups/6701789/items/MUVXTV3J"
+    },
+    {
+      "id": "wwfus-inside",
+      "key": "RX62QNC5",
+      "version": 1001,
+      "url": "https://www.worldwildlife.org/news/stories/inside-the-congo-basins-dzanga-sangha-protected-area/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/RX62QNC5"
+    },
+    {
+      "id": "wwfus-magazine",
+      "key": "WFX86MVX",
+      "version": 1002,
+      "url": "https://www.worldwildlife.org/news/magazine/summer-2025/how-conservation-in-dzanga-sangha-supports-people/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/WFX86MVX"
+    },
+    {
+      "id": "wwfus-habituation",
+      "key": "G7PCQGQE",
+      "version": 1003,
+      "url": "https://www.worldwildlife.org/news/stories/what-is-gorilla-habituation-and-how-does-it-help-conservation/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/G7PCQGQE"
+    },
+    {
+      "id": "bbc-poaching",
+      "key": "7XDAIRJ2",
+      "version": 1004,
+      "url": "https://www.bbc.com/news/world-africa-22308960",
+      "zotero": "https://www.zotero.org/groups/6701789/items/7XDAIRJ2"
+    },
+    {
+      "id": "bbc-hotspots",
+      "key": "2P57EUCE",
+      "version": 1005,
+      "url": "https://www.bbc.com/news/science-environment-33186445",
+      "zotero": "https://www.zotero.org/groups/6701789/items/2P57EUCE"
+    },
+    {
+      "id": "bbc-mundo",
+      "key": "ARF6KRRI",
+      "version": 1006,
+      "url": "https://www.bbc.com/mundo/ultimas_noticias/2013/04/130426_ultnot_elefantes_peligro_cazadores_furtivos_ap",
+      "zotero": "https://www.zotero.org/groups/6701789/items/ARF6KRRI"
+    },
+    {
+      "id": "natgeo-ivory",
+      "key": "DX7226CX",
+      "version": 1007,
+      "url": "https://www.nationalgeographic.com/tracking-ivory/article.html",
+      "zotero": "https://www.zotero.org/groups/6701789/items/DX7226CX"
+    },
+    {
+      "id": "natgeo-seizure",
+      "key": "83HIIKE5",
+      "version": 1008,
+      "url": "https://www.nationalgeographic.com/animals/article/141107-togo-vietnam-forest-elephants-ivory-smuggling-animals-conservation",
+      "zotero": "https://www.zotero.org/groups/6701789/items/83HIIKE5"
+    },
+    {
+      "id": "elpais-arranz",
+      "key": "R8TV5B27",
+      "version": 1009,
+      "url": "https://elpais.com/elpais/2017/02/24/ciencia/1487964024_824686.html",
+      "zotero": "https://www.zotero.org/groups/6701789/items/R8TV5B27"
+    },
+    {
+      "id": "elpais-twins",
+      "key": "SU7NQH5Z",
+      "version": 1010,
+      "url": "https://elpais.com/elpais/2016/02/10/ciencia/1455118661_969240.html",
+      "zotero": "https://www.zotero.org/groups/6701789/items/SU7NQH5Z"
+    },
+    {
+      "id": "elpais-covid",
+      "key": "EG2N2ABU",
+      "version": 1011,
+      "url": "https://elpais.com/elpais/2020/06/04/album/1591290772_617882.html",
+      "zotero": "https://www.zotero.org/groups/6701789/items/EG2N2ABU"
+    },
+    {
+      "id": "rtve-ivory",
+      "key": "XXN4G6J8",
+      "version": 1012,
+      "url": "https://www.rtve.es/play/audios/24-horas-fin-de-semana/luis-arranz-trafico-marfil-deberia-estar-prohibido-desde-hace-tiempo/5371218/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/XXN4G6J8"
+    },
+    {
+      "id": "rtve-arranz",
+      "key": "M6FP8IMC",
+      "version": 1013,
+      "url": "https://www.rtve.es/play/audios/el-placer-de-admirar/luis-arranz-22-01-22/6296308/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/M6FP8IMC"
+    },
+    {
+      "id": "wwfes-forest",
+      "key": "DHZTF8CI",
+      "version": 1014,
+      "url": "https://www.wwf.es/?4180/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/DHZTF8CI"
+    },
+    {
+      "id": "bbc-village",
+      "key": "H6T63KGU",
+      "version": 1015,
+      "url": "https://www.bbc.co.uk/programmes/p013vbkt",
+      "zotero": "https://www.zotero.org/groups/6701789/items/H6T63KGU"
+    },
+    {
+      "id": "mongabay-tourism",
+      "key": "H77REPH9",
+      "version": 1016,
+      "url": "https://news.mongabay.com/2026/04/the-little-known-story-of-emerging-ecotourism-in-the-central-african-republic/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/H77REPH9"
+    },
+    {
+      "id": "mongabay-elephants",
+      "key": "PKXRBCJF",
+      "version": 1017,
+      "url": "https://news.mongabay.com/2026/04/a-unique-clearing-in-central-africa-draws-elephants-from-the-dense-forests/",
+      "zotero": "https://www.zotero.org/groups/6701789/items/PKXRBCJF"
+    }
+  ]
+}
