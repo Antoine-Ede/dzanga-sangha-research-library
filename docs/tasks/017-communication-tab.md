@@ -1,6 +1,6 @@
 # Tâche 017 — Médias et communication
 
-Statut : réalisé, vérification technique et revue utilisateur avant fusion. Responsable : assistant, 22 octobre 2026.
+Statut : réalisé et testé ; revue utilisateur acceptée le 22 octobre, fusion et publication autorisées. Preuve exacte de livraison dans `.local/communication-preview/integration.json`. Responsable : assistant, 22 octobre 2026.
 
 - Besoin : créer l'onglet Communication demandé par le responsable, pour consulter presse, documentaires, reportages et podcasts concernant la zone.
 - Périmètre : interface statique et lecture du catalogue Zotero public ; catégorie distincte, filtres et export. Aucun import, secret, vidéo intégrée, compteur d'audience inventé ni audit APDS. Branche basée sur la PR 13, toujours en revue ; pas de fusion implicite.
