@@ -1,4 +1,12 @@
-# État vérifié — reprise du 20 octobre 2026
+# État vérifié — reprise du 22 octobre 2026
+
+## Lot 017 — Communication, développement du 22 octobre
+
+L'utilisateur demande de créer Communication et confirme l'inclusion des contenus journalistiques et institutionnels avec distinction claire. Extension du style existant : filtres propres (texte, format, année, média/diffuseur, nature), tableau de liens directs, export de la sélection, compteurs descriptifs et lien profond. Types médiatiques reconnus ; pages et types ambigus seulement avec `CORPUS:Communication`. Nature uniquement selon les tags `COMMUNICATION:Journalistic` ou `COMMUNICATION:Institutional` ; inconnue ou contradiction affichée « À préciser ». Aucun contenu, audience ou impact inventé.
+
+Les médias restent dans le catalogue général mais sont séparés de l'analyse de la recherche, dont le dénominateur exclut cette catégorie. Aucun changement des décisions d'accès ou des tags Zotero. L'instantané public du 22 octobre contient 435 références, dont une notice magazine éligible, nature à préciser ; aucune recherche exhaustive de médias ni import effectué. Les 110 archives restent réservées à l'autre session. [Règles et limites](COMMUNICATION.md), [tâche](tasks/017-communication-tab.md).
+
+Branche `codex/communication-tab` basée sur `08b7338` de la PR 13, qui reste en revue. PR de communication à comparer à cette branche, pas à main, pour garder les lots distincts. Contrôles synthétiques : modèle, sécurité du rendu, filtres, clavier, export et lien profond, séparation des panneaux et mobile. Navigateur sur données publiques réelles : une ligne Communication, nature à préciser, 435 références ; dénominateur recherche 434, compteur qualité 122, aucune erreur JavaScript. Captures privées dans `.local/communication-preview/` ; auto-revue dans la même session. Revue utilisateur avant fusion ; aucun déploiement implicite. Retour arrière : retirer le commit Communication sans retirer le correctif des titres ; aucune restauration Zotero nécessaire.
 
 ## Point de reprise courant — lot 016, affichage en revue
 

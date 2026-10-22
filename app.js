@@ -15,6 +15,8 @@ const FILTERS = {
 };
 const TYPE_LABELS = {journalArticle:'Article de revue',book:'Livre',bookSection:'Chapitre de livre',thesis:'Thèse ou mémoire',report:'Rapport',manuscript:'Manuscrit ou projet de recherche',conferencePaper:'Communication ou résumé de congrès',preprint:'Préprint',dataset:'Jeu de données',webpage:'Page web',document:'Document'};
 const UNKNOWN = '__unspecified__';
+Object.assign(TYPE_LABELS,{newspaperArticle:'Article de presse',magazineArticle:'Article de magazine',film:'Documentaire ou film',videoRecording:'Vidéo',tvBroadcast:'Reportage ou émission TV',radioBroadcast:'Émission radio',podcast:'Podcast'});
+const COMMUNICATION_FILTERS = {communicationFormat:'media_format',communicationYear:'media_year',communicationSource:'media_source',communicationOrigin:'media_origin'};
 
 const $ = (id) => document.getElementById(id);
 const esc = (s="") => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -199,6 +201,10 @@ function searchUrl() {
   if($('groupYears').checked)url.searchParams.set('group','year');
   if(state.section!=='library')url.searchParams.set('section',state.section);
   if(state.section==='analysis'&&$('analysisCategory').value)url.searchParams.set('analysis_category',$('analysisCategory').value);
+  if(state.section==='communication'){
+    if($('communicationSearch').value.trim())url.searchParams.set('media_q',$('communicationSearch').value.trim());
+    for(const [id,param] of Object.entries(COMMUNICATION_FILTERS))if($(id).value)url.searchParams.set(param,$(id).value);
+  }
   return url.href;
 }
 function restoreSearch() {
@@ -214,7 +220,12 @@ function restoreSearch() {
   $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'table';
   $('groupYears').checked=params.get('group')==='year';
   $('analysisCategory').value=['research','reports','datasets','other'].includes(params.get('analysis_category'))?params.get('analysis_category'):'';
-  setSection(['analysis','quality','help'].includes(params.get('section'))?params.get('section'):'library');
+  $('communicationSearch').value=params.get('media_q')||'';
+  for(const [id,param] of Object.entries(COMMUNICATION_FILTERS)){
+    const value=params.get(param)||'';
+    $(id).value=Array.from($(id).options||[]).some(o=>o.value===value)?value:'';
+  }
+  setSection(['analysis','communication','quality','help'].includes(params.get('section'))?params.get('section'):'library');
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -255,22 +266,56 @@ function applyFilters() {
   updateFacets(criteria);renderActiveFilters();
   const url=searchUrl();$('searchLink').href=url;history.replaceState(null,'',url);
   $('shareStatus').textContent='';
-  $('exportCsv').disabled=!(state.section==='library'?state.filtered:state.items).length;
-  $('exportCsv').textContent=state.section==='library'?'Exporter les résultats en CSV':'Exporter la bibliothèque en CSV';
+  $('exportCsv').disabled=!(state.section==='communication'?communicationSelection():state.section==='library'?state.filtered:state.items).length;
+  $('exportCsv').textContent=state.section==='communication'?'Exporter les médias en CSV':state.section==='library'?'Exporter les résultats en CSV':'Exporter la bibliothèque en CSV';
   render();
+  renderCommunication();
   if(typeof renderAnalytics==='function')renderAnalytics(state.items);
   if(typeof renderQuality==='function')renderQuality(state.items);
 }
 
 function setSection(section) {
   state.section=section;
-  for(const name of ['library','analysis','quality','help']){
+  for(const name of ['library','analysis','communication','quality','help']){
     $(name+'Panel').hidden=name!==section;
     $(name+'Tab').setAttribute('aria-pressed',String(name===section));
   }
   $('searchPanel').hidden=section!=='library';
-  $('statsPanel').hidden=section==='help';
+  $('statsPanel').hidden=['help','communication'].includes(section);
   $('exportCsv').hidden=section==='help';
+}
+
+function mediaSource(item) {
+  return item.data.publicationTitle||item.data.studio||item.data.network||item.data.label||item.data.publisher||item.data.institution||'';
+}
+function mediaCreators(item) {
+  return (item.data.creators||[]).map(c=>c.name||[c.firstName,c.lastName].filter(Boolean).join(' ')).filter(Boolean).join(', ');
+}
+function mediaValue(item,id) {
+  return ({communicationFormat:()=>LibraryModel.mediaFormat(item),communicationYear:()=>yearOf(item)||UNKNOWN,communicationSource:()=>mediaSource(item)||UNKNOWN,communicationOrigin:()=>LibraryModel.mediaOrigin(item)})[id]();
+}
+function communicationItems() {
+  return state.items.filter(LibraryModel.isCommunication).sort((a,b)=>Number(yearOf(b))-Number(yearOf(a))||String(a.data.title||'').localeCompare(String(b.data.title||''),'fr'));
+}
+function populateCommunicationFilters() {
+  const items=communicationItems();
+  for(const id of Object.keys(COMMUNICATION_FILTERS)){
+    const first=$(id).options[0].text;
+    const values=[...new Set(items.map(item=>mediaValue(item,id)))].sort((a,b)=>a===UNKNOWN?1:b===UNKNOWN?-1:id==='communicationYear'?Number(b)-Number(a):a.localeCompare(b,'fr'));
+    $(id).innerHTML=`<option value="">${esc(first)}</option>`+values.map(v=>`<option value="${esc(v)}">${esc(v===UNKNOWN?'Non renseigné':v)}</option>`).join('');
+  }
+}
+function communicationSelection() {
+  const query=norm($('communicationSearch').value.trim());
+  return communicationItems().filter(item=>Object.keys(COMMUNICATION_FILTERS).every(id=>!$(id).value||$(id).value===mediaValue(item,id))&&(!query||norm([item.data.title,mediaCreators(item),mediaSource(item),item.data.abstractNote,item.data.language,...tagsOf(item)].join(' ')).includes(query)));
+}
+function renderCommunication() {
+  const all=communicationItems(),items=communicationSelection(),years=items.map(yearOf).filter(Boolean).map(Number),sources=new Set(items.map(mediaSource).filter(Boolean));
+  const period=years.length?`${Math.min(...years)}–${Math.max(...years)}`:'Non renseignée';
+  $('communicationStats').innerHTML=[[items.length,'contenus dans la sélection'],[sources.size,'médias ou diffuseurs renseignés'],[period,'période couverte']].map(([n,label])=>`<div><dt>${esc(label)}</dt><dd>${esc(n)}</dd></div>`).join('');
+  $('communicationCount').textContent=`${items.length} contenu${items.length===1?'':'s'} sur ${all.length} dans cette rubrique. ${items.length-years.length} sans année renseignée.`;
+  if(!items.length){$('communicationResults').innerHTML=`<div class="empty panel"><h3>${all.length?'Aucun contenu ne correspond à ces filtres.':'Aucun média référencé pour le moment.'}</h3><p>${all.length?'Effacez ces filtres pour retrouver les médias recensés.':'Les contenus apparaîtront après leur référencement dans Zotero. Consultez les consignes ci-dessous pour proposer une référence.'}</p></div>`;return;}
+  $('communicationResults').innerHTML=`<div class="table-scroll" role="region" tabindex="0" aria-label="Tableau des médias, défilement horizontal"><table class="reference-table"><caption>Médias et communication recensés dans Zotero</caption><thead><tr><th scope="col">Titre et source</th><th scope="col">Année</th><th scope="col">Auteurs ou réalisation</th><th scope="col">Format</th><th scope="col">Média ou diffuseur</th><th scope="col">Nature</th></tr></thead><tbody>${items.map(item=>`<tr><th scope="row">${titleLink(item)}${sourceLink(item)}<a class="table-zotero" href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a></th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(mediaCreators(item)||'Non renseignés')}</td><td>${esc(LibraryModel.mediaFormat(item))}</td><td>${esc(mediaSource(item)||'Non renseigné')}</td><td>${esc(LibraryModel.mediaOrigin(item))}</td></tr>`).join('')}</tbody></table></div>`;
 }
 
 function archiveInfo(item) {
@@ -344,15 +389,18 @@ function csvCell(v) {
   return `"${s.replace(/"/g,'""')}"`;
 }
 function exportCsv() {
-  const rows=[["Title","Authors","Year","Document type","Source","DOI","Collections","Tags","Zotero URL"]];
-  for (const i of state.section==='library'?state.filtered:state.items) rows.push([
+  const media=state.section==='communication';
+  const rows=[media?['Title','Creators','Year','Format','Media','Origin','Language','Document URL','Zotero URL']:["Title","Authors","Year","Document type","Source","DOI","Collections","Tags","Zotero URL"]];
+  for (const i of media?communicationSelection():state.section==='library'?state.filtered:state.items) rows.push(media?[
+    i.data.title,mediaCreators(i),yearOf(i),LibraryModel.mediaFormat(i),mediaSource(i),LibraryModel.mediaOrigin(i),i.data.language||'',articleUrl(i),canonicalUrl(i)
+  ]:[
     i.data.title,authorNames(i).join('; '),yearOf(i),TYPE_LABELS[i.data.itemType]||i.data.itemType,sourceOf(i),doiOf(i),
     collectionNames(i).join("; "),tagsOf(i).join("; "),canonicalUrl(i)
   ]);
   const csv="\ufeff"+rows.map(r=>r.map(csvCell).join(",")).join("\r\n");
   const a=document.createElement("a");
   a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"}));
-  a.download="dzanga_sangha_research_library.csv"; a.click();
+  a.download=media?'dzanga_sangha_communication.csv':"dzanga_sangha_research_library.csv"; a.click();
   setTimeout(()=>URL.revokeObjectURL(a.href),1000);
 }
 
@@ -366,8 +414,8 @@ async function init() {
     const raw=await fetchAll(`${API}/items/top?format=json`);
     state.items=raw.filter(i=>!["note","attachment","annotation"].includes(i.data.itemType));
 
-    updateStats(); populateFilters();restoreSearch();state.ready=true;
-    for(const section of ['library','analysis','quality'])$(section+'Tab').disabled=false;
+    updateStats(); populateFilters();populateCommunicationFilters();restoreSearch();state.ready=true;
+    for(const section of ['library','analysis','communication','quality'])$(section+'Tab').disabled=false;
     applyFilters();
     $("status").style.display="none";
   } catch (e) {
@@ -393,6 +441,10 @@ $("exportCsv").addEventListener("click",exportCsv);
 $('libraryTab').addEventListener('click',()=>{setSection('library');applyFilters();});
 $('analysisTab').addEventListener('click',()=>{setSection('analysis');applyFilters();});
 $('qualityTab').addEventListener('click',()=>{setSection('quality');applyFilters();});
+$('communicationTab').addEventListener('click',()=>{setSection('communication');applyFilters();});
+$('communicationSearch').addEventListener('input',applyFilters);
+for(const id of Object.keys(COMMUNICATION_FILTERS))$(id).addEventListener('change',applyFilters);
+$('communicationReset').addEventListener('click',()=>{$('communicationSearch').value='';for(const id of Object.keys(COMMUNICATION_FILTERS))$(id).value='';applyFilters();});
 $('helpTab').addEventListener('click',()=>{
   setSection('help');
   if(state.ready)applyFilters();
@@ -405,7 +457,7 @@ $('browseDatasets').addEventListener('click',()=>{
   $('resetFilters').click();$('typeFilter').value='dataset';setSection('library');applyFilters();
   $('results').scrollIntoView({behavior:'smooth',block:'start'});
 });
-for(const section of ['library','analysis','quality'])$(section+'Tab').disabled=true;
+for(const section of ['library','analysis','communication','quality'])$(section+'Tab').disabled=true;
 const initialSection=new URL(location.href).searchParams.get('section');
-setSection(['analysis','quality','help'].includes(initialSection)?initialSection:'library');
+setSection(['analysis','communication','quality','help'].includes(initialSection)?initialSection:'library');
 init();

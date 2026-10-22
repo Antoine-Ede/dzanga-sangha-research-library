@@ -1,0 +1,15 @@
+# Tâche 017 — Médias et communication
+
+Statut : réalisé, vérification technique et revue utilisateur avant fusion. Responsable : assistant, 22 octobre 2026.
+
+- Besoin : créer l'onglet Communication demandé par le responsable, pour consulter presse, documentaires, reportages et podcasts concernant la zone.
+- Périmètre : interface statique et lecture du catalogue Zotero public ; catégorie distincte, filtres et export. Aucun import, secret, vidéo intégrée, compteur d'audience inventé ni audit APDS. Branche basée sur la PR 13, toujours en revue ; pas de fusion implicite.
+- Critères : accès direct `?section=communication`, navigation clavier, séparation des panneaux et des statistiques de recherche, filtres propres, tableau avec titre ouvrant PDF/source et lien Zotero distinct, CSV de la seule sélection. Nature journalistique/institutionnelle seulement si explicitement classée ; valeur inconnue conservée sinon.
+- Modèle : types Zotero médiatiques ; pages web et types ambigus uniquement avec `CORPUS:Communication`. Nature facultative : `COMMUNICATION:Journalistic` ou `COMMUNICATION:Institutional`, sans déduction depuis un nom de média. Les deux tags contradictoires restent à préciser. Aucun tag modifié dans Zotero.
+- Direction : extension du système visuel existant, mode Operate ; reprendre navigation, filtres, tableaux et typographie. Pas de refonte ni d'image décorative.
+- Validation : modèle et rendu sur données fictives ; navigateur réel, clavier, filtres, export, liens profonds et mobile ; contrôle public distinct. Compteurs de corpus assortis d'un dénominateur, aucune promesse d'impact causal. Revue utilisateur avant fusion.
+- Retour arrière : retirer le commit de l'onglet sans annuler le correctif des titres ou les décisions Zotero. Préserver les dossiers privés et worktrees.
+
+Résultat : panneau, catégorie, filtres, URL partageable, CSV sélectionné et règles de classement documentées. L'utilisateur a confirmé explicitement l'inclusion des deux natures. Tests synthétiques : modèle, exclusion des médias des métriques de recherche, caractères malveillants échappés, absence de résultats, ouverture clavier, filtres et export, rechargement du lien profond, navigation entre panneaux et mobile. Contrôle navigateur distinct sur données publiques réelles : 435 références, une notice magazine dans Communication, nature à préciser ; dénominateur recherche 434, qualité toujours 122. Aucune erreur JavaScript ni écriture Zotero. Captures ordinateur/mobile privées dans `.local/communication-preview/`. Auto-revue dans la même session, pas de revue indépendante.
+
+Détecteur visuel : avertissements sur le fond crème, le bandeau et la bordure d'archive préexistants ; style conservé conformément au périmètre. Les champs de filtres ont reçu le style et la taille de cible du système existant après le premier contrôle. Revue de confirmation sur données réelles ; pas de refonte supplémentaire.

@@ -1,0 +1,6 @@
+[
+  {"key":"SYNTHPRESS","data":{"title":"Presse fictive sur la forêt","itemType":"newspaperArticle","date":"2024-05-01","publicationTitle":"Journal fictif","language":"fr","url":"https://example.org/synthetic","creators":[{"creatorType":"author","firstName":"Camille","lastName":"Exemple"}],"tags":[{"tag":"COMMUNICATION:Journalistic"}],"collections":[]}},
+  {"key":"SYNTHFILM","data":{"title":"Documentaire fictif des partenaires","itemType":"film","date":"2025","studio":"Studio fictif","language":"en","url":"https://example.org/synthetic","creators":[{"creatorType":"director","firstName":"Lou","lastName":"Exemple"}],"tags":[{"tag":"COMMUNICATION:Institutional"}],"collections":[]}},
+  {"key":"SYNTHWEB","data":{"title":"Contenu fictif <img src=x onerror=alert(1)>","itemType":"webpage","url":"https://example.org/synthetic","creators":[],"tags":[{"tag":"CORPUS:Communication"}],"collections":[]}},
+  {"key":"SYNTHNOTMEDIA","data":{"title":"Page de protocole fictive","itemType":"webpage","url":"https://example.org/synthetic","tags":[],"collections":[]}}
+]

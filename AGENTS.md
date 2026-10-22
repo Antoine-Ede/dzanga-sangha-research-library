@@ -2,6 +2,8 @@
 
 Lire `docs/STATE.md`, puis la fiche active dans `docs/tasks/`. Consulter `ROADMAP.md` pour les priorités et `docs/DECISIONS.md` pour les raisons. `CLAUDE.md` renvoie ici ; aucune seconde politique.
 
+Lot actif : `docs/tasks/017-communication-tab.md` — onglet Communication demandé le 22 octobre ; types médiatiques et pages explicitement classées, nature journalistique/institutionnelle sur tags uniquement, filtres/export propres. Aucun import ni écriture Zotero. Branche basée sur la PR 13, qui reste en revue ; ne pas fusionner implicitement l'une ou l'autre. Revue utilisateur avant publication de l'interface, APDS toujours réservé.
+
 Lot en revue : `docs/tasks/016-official-source-links.md` — six liens officiels déjà corrigés dans Zotero, dont HAL pour Diallo, sans décision d'accès nouvelle. Correction de la vue Tableau pour afficher les URL complémentaires comme les cartes/listes. Revue utilisateur de l'affichage requise avant fusion ; ne pas rejouer les écritures. Compteur 122/435 inchangé, APDS toujours réservé à l'autre session.
 
 Dernier lot clos : `docs/tasks/015-historical-access.md` — Marasse et Entangled Realms : restrictions explicitement attestées par les sources, tags/provenance ajoutés. Compteur 122/435, dont 110 archives réservées et 12 cas hors archives (neuf accès, deux URL de thèses, une date FTNS). Autres données inchangées, relance sans écriture. Le lot 014 a réparé l'URL propre Goldsmith sans déclarer le texte accessible. Scripts ciblés déjà appliqués : ne pas rejouer les imports. Domaine Remis maintenant expiré ; anciens dossiers de téléchargements absents de ce poste ; registres APDS dans l'autre session. Prochaine étape utile : preuves nouvelles ou liens des auteurs/organismes.

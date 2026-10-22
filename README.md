@@ -6,6 +6,8 @@ Dernier lot bibliographique : [revue PubMed du 16 octobre 2026](reviews/pubmed-2
 
 ## Développer et reprendre
 
+L'onglet **Communication** regroupe presse, documentaires, vidéos, radio et podcasts référencés dans Zotero ; accès direct `?section=communication`, filtres propres et CSV de la sélection. Journalisme et contenus institutionnels sont distingués lorsqu'ils sont explicitement classés. Les médias sont séparés des indicateurs de recherche. [Conventions, ajout de contenus et limites](docs/COMMUNICATION.md). Cette extension nécessite sa fusion et sa publication avant d'être disponible sur le site public.
+
 L'onglet **Mode d'emploi** explique la consultation, l'accès aux PDF, l'ajout d'une référence et le classement ; lien direct `?section=help`. Les six copies publiques APDS préexistantes ont été [vérifiées sans connexion](docs/verification/public-plans-2026-10-16.json). L'accès à une copie expurgée ne modifie pas les conditions de consultation de l'original.
 
 - [État vérifié et prochaine étape](docs/STATE.md)

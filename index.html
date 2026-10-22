@@ -6,14 +6,14 @@
   <meta name="description" content="Bibliothèque scientifique publique des Aires Protégées de Dzanga-Sangha.">
   <title>Dzanga-Sangha Research Library</title>
   <link rel="icon" type="image/png" href="assets/ds-logo-transp-schwarz.png">
-  <link rel="stylesheet" href="styles.css?v=20261020-sources">
+  <link rel="stylesheet" href="styles.css?v=20261022-communication">
 </head>
 <body>
   <div class="brand-header"><div class="wrap"><a class="brand-name" href="https://dzanga-sangha.org/" target="_blank" rel="noopener"><img class="brand-logo" src="assets/ds-logo-transp-schwarz.png" alt="" width="147" height="157"><span class="brand-wordmark">Dzanga-Sangha <span>Aires protégées</span></span></a><span class="brand-context">Recherche & connaissances</span></div></div>
   <header class="hero">
     <div class="wrap">
       <h1>Dzanga-Sangha Research Library</h1>
-      <p class="lead">Bibliothèque centralisée des publications, thèses, rapports et jeux de données issus des recherches menées à Dzanga-Sangha ou directement utiles à sa gestion.</p>
+      <p class="lead">Bibliothèque centralisée des publications, thèses, rapports, jeux de données et contenus médiatiques sur Dzanga-Sangha ou directement utiles à sa gestion.</p>
       <div class="hero-links">
         <a href="https://www.zotero.org/groups/6701789/dzanga-sangha_research_library/library" target="_blank" rel="noopener">Voir la bibliothèque Zotero</a>
         <button id="exportCsv" type="button" disabled>Exporter les résultats en CSV</button>
@@ -32,9 +32,27 @@
     <nav class="section-nav" aria-label="Sections de la bibliothèque">
       <button id="libraryTab" type="button" aria-controls="libraryPanel" aria-pressed="true">Bibliothèque</button>
       <button id="analysisTab" type="button" aria-controls="analysisPanel" aria-pressed="false">Analyse de la recherche</button>
+      <button id="communicationTab" type="button" aria-controls="communicationPanel" aria-pressed="false">Communication</button>
       <button id="qualityTab" type="button" aria-controls="qualityPanel" aria-pressed="false">Qualité bibliographique</button>
       <button id="helpTab" type="button" aria-controls="helpPanel" aria-pressed="false">Mode d’emploi</button>
     </nav>
+    <section id="communicationPanel" class="communication-panel" hidden aria-labelledby="communicationHeading">
+      <h2 id="communicationHeading">Médias et communication</h2>
+      <p>Presse, documentaires, reportages et podcasts référencés dans Zotero : explorer les récits et la visibilité de Dzanga-Sangha.</p>
+      <p class="communication-note">Ce recensement décrit la couverture du catalogue, pas une mesure d’impact. Les audiences, vues et retombées ne sont pas collectées. La nature journalistique ou institutionnelle est indiquée lorsqu’elle est renseignée dans Zotero.</p>
+      <div class="communication-filters">
+        <label>Rechercher dans les médias<input id="communicationSearch" type="search" placeholder="Titre, auteur, média ou sujet"></label>
+        <label>Format<select id="communicationFormat"><option value="">Tous les formats</option></select></label>
+        <label>Année<select id="communicationYear"><option value="">Toutes les années</option></select></label>
+        <label>Média ou diffuseur<select id="communicationSource"><option value="">Tous les médias</option></select></label>
+        <label>Nature<select id="communicationOrigin"><option value="">Toutes les natures</option></select></label>
+        <button id="communicationReset" type="button">Effacer ces filtres</button>
+      </div>
+      <dl id="communicationStats" class="communication-stats" aria-label="Couverture médiatique de la sélection"></dl>
+      <p id="communicationCount" role="status" aria-live="polite"></p>
+      <div id="communicationResults"></div>
+      <details class="communication-help"><summary>Ajouter un contenu à cette rubrique</summary><p>Ajoutez sa notice dans le groupe Zotero avec son titre, son auteur ou réalisateur, sa date, son média ou diffuseur, sa langue et le lien original. Les types Article de journal, Article de magazine, Film, Enregistrement vidéo, Émission TV ou radio et Podcast apparaissent ici automatiquement. Pour une page web ou un autre type, utilisez le tag <code>CORPUS:Communication</code> après vérification de sa pertinence.</p><p>Classez sa nature avec <code>COMMUNICATION:Journalistic</code> ou <code>COMMUNICATION:Institutional</code> seulement si elle est établie. La présence dans cette rubrique ne valide pas les affirmations du contenu et n’attribue pas automatiquement une portée DSPA-Core.</p></details>
+    </section>
     <section id="helpPanel" class="help-panel" hidden aria-labelledby="helpHeading">
       <h2 id="helpHeading">Comprendre la bibliothèque et y contribuer</h2>
       <p class="help-lead">Zotero conserve les références. Ce hub permet de les explorer, de comparer les documents et de suivre la couverture de la bibliothèque.</p>
@@ -43,7 +61,7 @@
         <h3>Zotero, la source de référence</h3>
         <p>Le hub lit directement la <a href="https://www.zotero.org/groups/6701789/dzanga-sangha_research_library/library" target="_blank" rel="noopener">bibliothèque publique Zotero</a>. Une référence ajoutée ou corrigée dans Zotero apparaît au prochain chargement du hub. Les notes et les pièces jointes ne figurent pas parmi les résultats bibliographiques.</p>
         <p>Dans la bibliothèque, plusieurs choix d’un même filtre élargissent la recherche ; les filtres différents se combinent. Cliquez sur le titre pour ouvrir le PDF disponible en priorité, sinon le lien du document ou sa page officielle via le DOI. Une notice HAL ou PubMed reste un lien complémentaire lorsqu’un DOI permet de rejoindre la publication. Le lien « Notice Zotero » permet de consulter sa fiche. L’export CSV contient les résultats filtrés.</p>
-        <p>L’analyse décrit le corpus recensé, pas toutes les recherches réalisées dans la région. Les années sont celles des documents, pas nécessairement celles du terrain. L’onglet Qualité signale les notices à contrôler ; ses alertes demandent une vérification humaine.</p>
+        <p>L’analyse décrit le corpus recensé hors médias, pas toutes les recherches réalisées dans la région. L’onglet Communication regroupe séparément presse, documentaires et reportages, avec des filtres et un export propres. Les années sont celles des documents, pas nécessairement celles du terrain. L’onglet Qualité signale les notices à contrôler ; ses alertes demandent une vérification humaine.</p>
       </section>
       <section id="help-pdfs" class="help-section">
         <h3>Ouvrir le PDF d’une archive</h3>
@@ -169,9 +187,9 @@
     </div>
   </footer>
 
-  <script src="library-model.js?v=20261016-pdf"></script>
+  <script src="library-model.js?v=20261022-communication"></script>
   <script src="quality.js?v=20261009-curation"></script>
-  <script src="analytics.js?v=20261009-calendar"></script>
-  <script src="app.js?v=20261022-title-pdf"></script>
+  <script src="analytics.js?v=20261022-communication"></script>
+  <script src="app.js?v=20261022-communication"></script>
 </body>
 </html>
