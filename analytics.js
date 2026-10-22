@@ -1,5 +1,6 @@
 // All indicators derive from public Zotero records; no stored corpus or private key.
 function researchMetrics(items) {
+  items=items.filter(i=>!LibraryModel.isCommunication(i));
   const documents=items.filter(i=>i.data.itemType!=='dataset');
   const countValues=(records,get)=>{
     const counts=new Map();for(const item of records)for(const value of new Set(get(item).filter(Boolean)))counts.set(value,(counts.get(value)||0)+1);
@@ -32,7 +33,7 @@ function renderAnalytics(items) {
   const category=$('analysisCategory').value;
   if(category)items=items.filter(i=>LibraryModel.category(i)===category);
   const m=researchMetrics(items);
-  $('analysisCount').textContent=`${m.total} références sélectionnées sur ${state.items.length}.`;
+  $('analysisCount').textContent=`${m.total} références sélectionnées sur ${state.items.filter(i=>!LibraryModel.isCommunication(i)).length}, hors médias et communication.`;
   $('analysisSummary').innerHTML=[['Documents',m.documents],['Jeux de données',m.datasets],['Noms d’auteur',m.authors.length],['Documents sans date',m.undated]].map(([label,n])=>`<div><strong>${n}</strong><span>${label}</span></div>`).join('');
   const series=m.yearCategories.map(([year,...ns])=>[year,ns.reduce((a,b)=>a+b,0)]),peak=Math.max(1,...series.map(([,n])=>n));
   $('publicationTimeline').innerHTML=series.length?`<div class="timeline-scroll"><div class="timeline" style="--year-count:${series.length}">${series.map(([year,n],i)=>`<button class="year-bar" type="button" data-analysis-year="${year}" aria-label="${year} : ${n} documents, filtrer cette année"><span class="bar-count">${n}</span><span class="year-column" style="height:${n/peak*145}px" aria-hidden="true"></span><span class="year-tick">${i===0||i===series.length-1||Number(year)%5===0?year:'·'}</span></button>`).join('')}</div></div><details class="chart-data"><summary>Comparer les catégories par année</summary><div class="table-scroll"><table class="reference-table"><caption>Année de publication ; pour les données, année de la notice du dépôt</caption><thead><tr><th scope="col">Année</th><th scope="col">Publications et thèses</th><th scope="col">Rapports</th><th scope="col">Données et protocoles</th><th scope="col">Autres</th></tr></thead><tbody>${m.yearCategories.map(([y,...ns])=>`<tr><th scope="row">${y}</th>${ns.map(n=>`<td>${n}</td>`).join('')}</tr>`).join('')}</tbody></table></div></details>`:'<p>Aucun document daté dans cette sélection.</p>';

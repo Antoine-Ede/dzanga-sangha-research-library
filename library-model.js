@@ -1,10 +1,14 @@
 /* Shared curation rules. No inference of scientific scope or access rights. */
 (function(root){
   const aliases={'TAXON:Elephant':'TAXON:Elephants','TAXON:Gorillas':'TAXON:Gorilla','METHOD:Behavioral-observation':'METHOD:Behavioural-observation','SITE:Bai Hokou':'SITE:Bai-Hokou','SITE:Bai-Hoköu':'SITE:Bai-Hokou','SITE:Dzanga Sangha':'SITE:Dzanga-Sangha'};
-  const labels={research:'Publications scientifiques et thèses',reports:'Rapports, gestion et développement',datasets:'Jeux de données et protocoles',other:'Autres documents'};
+  const labels={research:'Publications scientifiques et thèses',reports:'Rapports, gestion et développement',datasets:'Jeux de données et protocoles',communication:'Médias et communication',other:'Autres documents'};
+  const mediaTypes={newspaperArticle:'Article de presse',magazineArticle:'Article de magazine',film:'Documentaire ou film',videoRecording:'Vidéo',tvBroadcast:'Reportage ou émission TV',radioBroadcast:'Émission radio',podcast:'Podcast'};
   function canonicalTag(tag){return aliases[tag]||tag;}
   function tags(item){return [...new Set((item.data.tags||[]).map(t=>canonicalTag(t.tag)).filter(Boolean))];}
-  function category(item){const type=item.data.itemType;if(type==='dataset')return 'datasets';if(type==='report')return 'reports';if(['journalArticle','thesis','book','bookSection','conferencePaper','preprint'].includes(type))return 'research';return 'other';}
+  function isCommunication(item){return !!mediaTypes[item.data.itemType]||tags(item).includes('CORPUS:Communication');}
+  function mediaFormat(item){return mediaTypes[item.data.itemType]||'Autre contenu';}
+  function mediaOrigin(item){const t=tags(item),journalistic=t.includes('COMMUNICATION:Journalistic'),institutional=t.includes('COMMUNICATION:Institutional');return journalistic!==institutional?(journalistic?'Journalistique':'Institutionnelle'):'À préciser';}
+  function category(item){const type=item.data.itemType;if(isCommunication(item))return 'communication';if(type==='dataset')return 'datasets';if(type==='report')return 'reports';if(['journalArticle','thesis','book','bookSection','conferencePaper','preprint'].includes(type))return 'research';return 'other';}
   function authorKey(c){return (c.name||[c.firstName,c.lastName].filter(Boolean).join(' ')).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim().replace(/\s+/g,' ');}
   // A review hint, never an automatic permutation or an identity decision.
   function authorNeedsReview(c){
@@ -42,7 +46,7 @@
     if(!doi&&!['http:','https:'].includes(url?.protocol))out.push('Lien externe non renseigné');
     return out;
   }
-  const model={aliases,labels,canonicalTag,tags,category,authorKey,authorNeedsReview,archiveSummary,issues};
+  const model={aliases,labels,canonicalTag,tags,category,isCommunication,mediaFormat,mediaOrigin,authorKey,authorNeedsReview,archiveSummary,issues};
   if(typeof module!=='undefined'&&module.exports)module.exports=model;
   root.LibraryModel=model;
 })(typeof globalThis==='undefined'?this:globalThis);

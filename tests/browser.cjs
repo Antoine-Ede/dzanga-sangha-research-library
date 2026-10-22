@@ -113,7 +113,7 @@ async function main(){
     await page.locator('#search').fill('texte libre');
     await page.locator('#helpTab').focus();await page.keyboard.press('Enter');
     assert(await page.locator('#helpPanel').isVisible());
-    for(const id of ['searchPanel','statsPanel','libraryPanel','analysisPanel','qualityPanel','exportCsv'])assert(await page.locator('#'+id).isHidden());
+    for(const id of ['searchPanel','statsPanel','libraryPanel','analysisPanel','communicationPanel','qualityPanel','exportCsv'])assert(await page.locator('#'+id).isHidden());
     assert.equal(await page.locator('#helpTab').getAttribute('aria-pressed'),'true');
     assert.equal(new URL(page.url()).searchParams.get('section'),'help');
     assert((await page.locator('#help-pdfs').innerText()).includes('Consulter le PDF'));
@@ -132,6 +132,39 @@ async function main(){
     const downloadPromise=page.waitForEvent('download');await page.locator('#exportCsv').click();
     const download=await downloadPromise;await download.saveAs(path.join(out,'synthetic-export.csv'));
     assert(fs.readFileSync(path.join(out,'synthetic-export.csv'),'utf8').includes('Durand A'));
+    // Communication uses its own filters and exports, with no invented audience.
+    const mediaFixtures=JSON.parse(fs.readFileSync(path.join(__dirname,'fixtures/communication-items.json'),'utf8'));
+    await context.route('https://api.zotero.org/groups/6701789/items/top?**',route=>route.fulfill({json:[...fixtures,...mediaFixtures]}));
+    const mediaPage=await context.newPage();mediaPage.on('pageerror',error=>errors.push(error.message));
+    await mediaPage.goto(origin+'/?section=communication&media_origin=Institutionnelle');await mediaPage.locator('#communicationTab:enabled').waitFor();
+    assert(await mediaPage.locator('#communicationPanel').isVisible());
+    assert(await mediaPage.locator('#searchPanel').isHidden());assert(await mediaPage.locator('#statsPanel').isHidden());
+    assert.match(await mediaPage.locator('#communicationCount').innerText(),/1 contenu sur 3/);
+    assert((await mediaPage.locator('#communicationResults').innerText()).includes('Lou Exemple'));
+    const mediaDownloadPromise=mediaPage.waitForEvent('download');await mediaPage.locator('#exportCsv').click();
+    const mediaDownload=await mediaDownloadPromise;await mediaDownload.saveAs(path.join(out,'communication.csv'));
+    const mediaCsv=fs.readFileSync(path.join(out,'communication.csv'),'utf8');assert(mediaCsv.includes('Documentaire fictif'));assert(!mediaCsv.includes('Presse fictive'));
+    await mediaPage.locator('#communicationReset').click();assert.match(await mediaPage.locator('#communicationCount').innerText(),/3 contenus sur 3/);
+    await mediaPage.locator('#communicationYear').selectOption('2024');assert.match(await mediaPage.locator('#communicationCount').innerText(),/1 contenu sur 3/);
+    await mediaPage.locator('#communicationSource').selectOption('Journal fictif');assert.match(await mediaPage.locator('#communicationCount').innerText(),/1 contenu sur 3/);
+    await mediaPage.locator('#communicationSearch').fill('foret');assert.match(await mediaPage.locator('#communicationCount').innerText(),/1 contenu sur 3/);
+    await mediaPage.locator('#communicationReset').click();
+    assert.equal(await mediaPage.locator('#communicationResults img, #communicationResults script').count(),0);
+    assert((await mediaPage.locator('#communicationResults').innerText()).includes('À préciser'));
+    await mediaPage.locator('#communicationFormat').selectOption({label:'Article de presse'});
+    assert.match(await mediaPage.locator('#communicationCount').innerText(),/1 contenu sur 3/);
+    const pressTitle=mediaPage.getByRole('link',{name:'Presse fictive sur la forêt',exact:true});await pressTitle.focus();
+    const mediaPopupPromise=mediaPage.waitForEvent('popup');await mediaPage.keyboard.press('Enter');
+    const mediaDestination=await mediaPopupPromise;await mediaDestination.waitForLoadState();assert.equal(mediaDestination.url(),'https://example.org/synthetic');await mediaDestination.close();
+    await mediaPage.locator('#communicationSearch').fill('introuvable');assert(await mediaPage.getByRole('heading',{name:'Aucun contenu ne correspond à ces filtres.'}).isVisible());
+    await mediaPage.locator('#communicationReset').click();await mediaPage.setViewportSize({width:1440,height:1000});
+    await mediaPage.screenshot({path:path.join(out,'communication-desktop.png'),fullPage:true});
+    await mediaPage.setViewportSize({width:390,height:844});assert(await mediaPage.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+    await mediaPage.screenshot({path:path.join(out,'communication-mobile.png'),fullPage:true});
+    await mediaPage.locator('#helpTab').click();assert(await mediaPage.locator('#communicationPanel').isHidden());
+    await mediaPage.locator('#communicationTab').focus();await mediaPage.keyboard.press('Enter');assert(await mediaPage.locator('#communicationPanel').isVisible());
+    await mediaPage.reload();await mediaPage.locator('#communicationTab:enabled').waitFor();assert(await mediaPage.locator('#communicationPanel').isVisible());
+    await mediaPage.close();
     // The guide deep link and navigation remain usable when public Zotero fails.
     await context.route('https://api.zotero.org/**',route=>route.fulfill({status:403,json:{error:'Synthetic denied'}}));
     const unavailable=await context.newPage();unavailable.on('pageerror',error=>errors.push(error.message));
@@ -145,7 +178,7 @@ async function main(){
     await unavailable.screenshot({path:path.join(out,'help-api-unavailable.png'),fullPage:true});
     await unavailable.close();
     assert.deepEqual(errors,[]);assert.deepEqual(blocked,[]);
-    fs.writeFileSync(path.join(out,'result.json'),JSON.stringify({passed:true,browser:browser.version(),data:'synthetic only',views:['cards','list','table'],keyboard:true,mobile:true,help:true,helpDeepLink:true,helpWithApiFailure:true,externalTraffic:0,limits:['not a screen-reader audit','not scientific validation','user review pending']},null,2));
+    fs.writeFileSync(path.join(out,'result.json'),JSON.stringify({passed:true,browser:browser.version(),data:'synthetic only',views:['cards','list','table'],keyboard:true,mobile:true,communication:true,communicationFilters:true,communicationDeepLink:true,communicationSelectionExport:true,help:true,helpDeepLink:true,helpWithApiFailure:true,externalTraffic:0,limits:['not a screen-reader audit','not scientific validation','user review pending']},null,2));
     console.log('PASS browser: three views, keyboard, filters, analysis, quality, mobile, CSV and guide with API failure; no external traffic');
   }finally{
     if(browser)await browser.close();

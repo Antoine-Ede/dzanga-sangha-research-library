@@ -10,8 +10,10 @@ assert(boundary > 0);
 const nodes = new Map();
 const document = {getElementById(id){if(!nodes.has(id)) nodes.set(id,{value:'',checked:false,innerHTML:'',textContent:''}); return nodes.get(id);}};
 const LibraryModel = require('../library-model.js');
-const context = vm.createContext({document, URL, console, assert, LibraryModel});
+const context = vm.createContext({document, URL, console, assert, LibraryModel, require});
 vm.runInContext(src.slice(0,boundary), context);
+const analytics=fs.readFileSync(path.join(root,'analytics.js'),'utf8');
+vm.runInContext(analytics.slice(0,analytics.indexOf("document.getElementById('publicationTimeline')")),context);
 vm.runInContext(`
 const testItem={key:'SYNTHETIC',data:{title:'Synthetic archive',itemType:'manuscript',creators:[],date:'',archive:'Bibliothèque <img src=x onerror=alert(1)>',archiveLocation:'APDS-SYNTHETIC',extra:'Copie conservée dans la Bibliothèque des APDS.\\nInformations manquantes : auteur, date.\\nOriginal contenant des éléments sensibles <script>alert(1)</script>',tags:[{tag:'STATUS:Metadata-Incomplete'},{tag:'ACCESS:Restricted-Original'}],collections:[]}};
 state.items=[testItem];state.filtered=[testItem];
@@ -62,6 +64,25 @@ for(const view of ['table','cards','list']) {
 for(const url of ['', 'javascript:alert(1)', 'https://user:pass@example.org/record', 'https://doi.org/10.1234/synthetic'])assert.equal(sourceLink({data:{url}}),'');
 assert.equal(LibraryModel.category({data:{itemType:'report'}}),'reports');
 assert.equal(LibraryModel.category({data:{itemType:'dataset'}}),'datasets');
+for(const itemType of ['newspaperArticle','magazineArticle','film','videoRecording','tvBroadcast','radioBroadcast','podcast'])assert.equal(LibraryModel.category({data:{itemType}}),'communication');
+assert.equal(LibraryModel.isCommunication({data:{itemType:'webpage',tags:[]}}),false);
+assert.equal(LibraryModel.isCommunication({data:{itemType:'webpage',tags:[{tag:'CORPUS:Communication'}]}}),true);
+assert.equal(LibraryModel.isCommunication({data:{itemType:'interview',tags:[]}}),false);
+assert.equal(LibraryModel.mediaOrigin({data:{itemType:'film',tags:[]}}),'À préciser');
+assert.equal(LibraryModel.mediaOrigin({data:{tags:[{tag:'COMMUNICATION:Journalistic'},{tag:'COMMUNICATION:Institutional'}]}}),'À préciser');
+const mediaFixtures=JSON.parse(require('node:fs').readFileSync('tests/fixtures/communication-items.json','utf8'));
+assert.equal(mediaFixtures.filter(LibraryModel.isCommunication).length,3);
+assert.equal(researchMetrics(mediaFixtures).total,1);
+state.items=mediaFixtures;renderCommunication();
+assert($('communicationCount').textContent.includes('3 contenus sur 3'));
+assert(!$('communicationResults').innerHTML.includes('<img'));
+$('communicationOrigin').value='Institutionnelle';renderCommunication();
+assert($('communicationCount').textContent.includes('1 contenu sur 3'));
+assert($('communicationResults').innerHTML.includes('Lou Exemple'));
+$('communicationSearch').value='absent';renderCommunication();
+assert($('communicationResults').innerHTML.includes('Aucun contenu ne correspond'));
+$('communicationOrigin').value='';$('communicationSearch').value='';state.items=[];renderCommunication();
+assert($('communicationResults').innerHTML.includes('Aucun média référencé'));
 assert(!LibraryModel.issues(testItem).some(x=>/DOI/.test(x)));
 assert.equal(LibraryModel.authorNeedsReview({creatorType:'author',firstName:'Martin',lastName:'A'}),true);
 for(const c of [{firstName:'A',lastName:'Martin'},{firstName:'Wei',lastName:'Li'},

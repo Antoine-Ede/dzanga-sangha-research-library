@@ -187,6 +187,21 @@ footer { border-top:1px solid var(--line); padding:28px 0 50px; color:var(--mute
 @media(max-width:520px){.quality-controls { align-items:stretch; flex-direction:column; }.quality-controls label { min-width:0; }}
 
 .reference-table .document-pdf { display: block; width: fit-content; margin-top: 6px; }
+.communication-panel { padding:24px 0 48px; }
+.communication-panel>p { max-width:75ch; line-height:1.6; }
+.communication-note { color:var(--muted); }
+.communication-filters { display:flex; flex-wrap:wrap; gap:16px; align-items:end; margin:24px 0; }
+.communication-filters label { display:flex; flex-direction:column; gap:8px; min-width:160px; flex:1; }
+.communication-filters label:first-child { flex:2; min-width:240px; }
+.communication-filters input,.communication-filters select { width:100%; min-width:0; min-height:44px; padding:10px 12px; border:1px solid var(--line); border-radius:10px; background:var(--surface); color:var(--ink); font:inherit; }
+.communication-filters button { min-height:44px; padding:10px 15px; border:1px solid var(--line); border-radius:6px; background:var(--surface); color:var(--ink); font:inherit; cursor:pointer; }
+.communication-stats { display:flex; flex-wrap:wrap; gap:24px 48px; margin:24px 0; }
+.communication-stats div { display:flex; flex-direction:column; gap:4px; }
+.communication-stats dt { color:var(--muted); }
+.communication-stats dd { margin:0; font-size:1.5rem; font-weight:700; }
+.communication-help { margin-top:24px; max-width:75ch; line-height:1.6; }
+.communication-help summary { cursor:pointer; }
+@media(max-width:520px){.communication-filters label,.communication-filters label:first-child { min-width:0; flex-basis:100%; }.communication-filters button { width:100%; }}
 .help-panel { max-width:75ch; margin:32px auto 64px; line-height:1.75; overflow-wrap:anywhere; }
 .help-panel h2 { font-size:clamp(1.7rem,4vw,2.5rem); line-height:1.25; letter-spacing:-.03em; margin:0 0 20px; }
 .help-lead { font-size:1.1rem; }

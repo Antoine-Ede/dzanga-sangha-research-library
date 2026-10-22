@@ -1,6 +1,8 @@
 # Suivi du projet et reprise de l’audit APDS
 
-## État courant — 20 octobre 2026
+## État courant — 22 octobre 2026
+
+- Extension du 22 octobre : [lot 017 — Communication](docs/tasks/017-communication-tab.md), incluant journalisme et contenus institutionnels selon confirmation du responsable. Interface réalisée, testée et validée par l'utilisateur ; fusion des PR 13 et 14 et publication autorisées, aucun import. Preuve exacte de livraison dans `.local/communication-preview/integration.json`. [Conventions et limites](docs/COMMUNICATION.md). Une rubrique de couverture médiatique n'est pas une mesure d'impact. Prochain lot possible : découverte et revue d'un premier corpus de médias auprès de leurs sources originales, sans import massif.
 
 - [Lot 016](docs/tasks/016-official-source-links.md) : six liens officiels corrigés dans Zotero, dont HAL pour Diallo ; accès et compteur **122/435 inchangés**. Le correctif en revue rend les URL complémentaires visibles dans la vue Tableau comme dans Cartes/Liste ; aucun import ni audit APDS. [Bilan et preuves](reviews/official-source-links-2026-10-20/README.md). Revue utilisateur de l'affichage avant fusion.
 
