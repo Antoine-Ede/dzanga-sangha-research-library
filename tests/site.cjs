@@ -33,7 +33,12 @@ for (const url of ['', 'https://example.org/article', 'javascript:alert(1)', 'ht
 const pdfItem={...testItem,data:{...testItem.data,url:'https://example.org/copy.PDF?download=1&label=%22',DOI:'10.1234/example'}};
 const unchanged=JSON.stringify(pdfItem);
 assert(pdfUrl(pdfItem));
-assert(articleUrl(pdfItem).startsWith('https://doi.org/'));
+assert.equal(articleUrl(pdfItem),pdfUrl(pdfItem));
+assert.equal(articleUrl({data:{DOI:'10.1234/example',url:'https://hal.science/synthetic-record'}}),'https://doi.org/10.1234%2Fexample');
+assert.equal(articleUrl({data:{DOI:'10.1234/example',url:'https://example.org/official-article'}}),'https://example.org/official-article');
+assert.equal(articleUrl({data:{DOI:'10.1234/example',url:'https://example.org/pdf-download?id=1'}}),'https://example.org/pdf-download?id=1');
+assert.equal(articleUrl({data:{DOI:'10.1234/example',url:'https://user:pass@example.org/article'}}),'https://doi.org/10.1234%2Fexample');
+assert.equal(articleUrl({data:{url:'https://example.org/official-article'}}),'https://example.org/official-article');
 state.items=[pdfItem];state.filtered=[pdfItem];
 for(const view of ['table','cards','list']) {
   $('resultView').value=view;render();const html=$('results').innerHTML;
@@ -41,6 +46,7 @@ for(const view of ['table','cards','list']) {
   assert(html.includes('Notice Zotero'));
   assert(html.includes('consultation encadrée aux APDS'));
   assert(html.includes('&amp;label='));
+  assert(titleLink(pdfItem).includes('https://example.org/copy.PDF?download=1&amp;label=%22'));
 }
 assert.equal(JSON.stringify(pdfItem),unchanged);
 const repositoryItem={...testItem,data:{...testItem.data,url:'https://hal.science/synthetic-record',DOI:'10.1234/synthetic'}};

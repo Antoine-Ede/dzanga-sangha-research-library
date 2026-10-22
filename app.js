@@ -77,8 +77,17 @@ function canonicalUrl(item) {
   return safeUrl(item.links?.alternate?.href) || `https://www.zotero.org/groups/${GROUP_ID}/items/${encodeURIComponent(item.key)}`;
 }
 function articleUrl(item) {
+  const pdf=pdfUrl(item);
+  if (pdf) return pdf;
   const doi=doiOf(item);
-  return doi ? `https://doi.org/${encodeURIComponent(doi)}` : safeUrl(item.data.url);
+  const url=safeUrl(item.data.url);
+  if (url) {
+    const parsed=new URL(url);
+    // With a DOI, a HAL/PubMed record stays a secondary bibliographic link.
+    const recordOnly=parsed.hostname==='hal.science'||parsed.hostname.endsWith('.hal.science')||parsed.hostname==='pubmed.ncbi.nlm.nih.gov';
+    if (!parsed.username && !parsed.password && (!doi || !recordOnly)) return url;
+  }
+  return doi ? `https://doi.org/${encodeURIComponent(doi)}` : '';
 }
 function titleLink(item) {
   const title=esc(item.data.title || '(Sans titre)'),url=articleUrl(item);

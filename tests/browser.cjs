@@ -62,13 +62,15 @@ async function main(){
       assert.equal(await source.count(),1);
       assert.equal(await source.getAttribute('href'),'https://example.org/synthetic');
       assert.equal(await source.innerText(),'Source en ligne');
-      assert.equal(await page.getByRole('link',{name:'Article synthétique — auteurs à vérifier',exact:true}).getAttribute('href'),'https://doi.org/10.1234%2Fsynthetic');
+      assert.equal(await page.getByRole('link',{name:'Article synthétique — auteurs à vérifier',exact:true}).getAttribute('href'),'https://example.org/synthetic');
       await source.focus();
       const sourceOpened=page.waitForEvent('popup');await page.keyboard.press('Enter');
       const sourceDestination=await sourceOpened;await sourceDestination.waitForLoadState();
       assert.equal(await sourceDestination.locator('p').innerText(),'Synthetic repository record, no full text');
       await sourceDestination.close();
-      await pdf.focus();
+      const pdfTitle=page.getByRole('link',{name:'Rapport synthétique — archive de démonstration',exact:true});
+      assert.equal(await pdfTitle.getAttribute('href'),'https://example.org/public-copy.pdf');
+      await pdfTitle.focus();
       const opened=page.waitForEvent('popup');await page.keyboard.press('Enter');
       const destination=await opened;await destination.waitForLoadState();
       assert.equal(destination.url(),'https://example.org/public-copy.pdf');
