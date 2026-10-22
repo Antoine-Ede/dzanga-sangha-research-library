@@ -1,0 +1,88 @@
+[
+  {
+    "key": "SI9BC6HU",
+    "doi": "10.1111/aje.12344",
+    "title": [
+      "Night and day: evaluating transect methodologies to monitor duikers in the Dzanga‐Sangha Protected Areas, Central African Republic"
+    ],
+    "primaryURL": "https://onlinelibrary.wiley.com/doi/10.1111/aje.12344",
+    "repository": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1111%2Faje.12344",
+      "https://onlinelibrary.wiley.com/doi/10.1111/aje.12344"
+    ]
+  },
+  {
+    "key": "ZTSHQ2AU",
+    "doi": "10.1002/ajhb.22817",
+    "title": [
+      "BaAka women's health and subsistence practices in transitional conservation economies: Variation with age, household size, and food security"
+    ],
+    "primaryURL": "https://onlinelibrary.wiley.com/doi/10.1002/ajhb.22817",
+    "repository": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1002%2Fajhb.22817",
+      "https://onlinelibrary.wiley.com/doi/10.1002/ajhb.22817"
+    ]
+  },
+  {
+    "key": "I8HHPMIM",
+    "doi": "10.1111/j.1365-2028.2010.01229.x",
+    "title": [
+      "Primate and ungulate abundance in response to multi-use zoning and human extractive activities in a Central African Reserve"
+    ],
+    "primaryURL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2028.2010.01229.x",
+    "repository": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1111%2Fj.1365-2028.2010.01229.x",
+      "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2028.2010.01229.x"
+    ]
+  },
+  {
+    "key": "UCCC9JFI",
+    "doi": "10.1111/j.1365-2028.1997.086-89086.x",
+    "title": [
+      "Comparative ecology of two African forest mongooses, <b><i>Herpestes naso</i></b> and <b><i>Atilax paludinosus</i></b>"
+    ],
+    "primaryURL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2028.1997.086-89086.x",
+    "repository": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1111%2Fj.1365-2028.1997.086-89086.x",
+      "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2028.1997.086-89086.x"
+    ]
+  },
+  {
+    "key": "G4TI8HVU",
+    "doi": "10.1046/j.1365-2028.1999.00154.x",
+    "title": [
+      "Censusing rainforest game species with communal net hunts"
+    ],
+    "primaryURL": "https://onlinelibrary.wiley.com/doi/10.1046/j.1365-2028.1999.00154.x",
+    "repository": null,
+    "sources": [
+      "https://api.crossref.org/works/10.1046%2Fj.1365-2028.1999.00154.x",
+      "https://onlinelibrary.wiley.com/doi/10.1046/j.1365-2028.1999.00154.x"
+    ]
+  },
+  {
+    "key": "3VDDHRV6",
+    "doi": "10.1111/j.1365-3156.2010.02594.x",
+    "title": [
+      "First record of Ae. albopictus (Skuse 1894), in Central African Republic"
+    ],
+    "primaryURL": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-3156.2010.02594.x",
+    "repository": {
+      "title_s": [
+        "First record of Ae. albopictus (Skuse 1894), in Central African Republic."
+      ],
+      "uri_s": "https://riip.hal.science/pasteur-00540435v1",
+      "docType_s": "ART",
+      "doiId_s": "10.1111/j.1365-3156.2010.02594.x"
+    },
+    "sources": [
+      "https://api.crossref.org/works/10.1111%2Fj.1365-3156.2010.02594.x",
+      "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-3156.2010.02594.x",
+      "https://riip.hal.science/pasteur-00540435v1"
+    ]
+  }
+]

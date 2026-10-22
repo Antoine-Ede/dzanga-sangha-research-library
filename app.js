@@ -77,8 +77,17 @@ function canonicalUrl(item) {
   return safeUrl(item.links?.alternate?.href) || `https://www.zotero.org/groups/${GROUP_ID}/items/${encodeURIComponent(item.key)}`;
 }
 function articleUrl(item) {
+  const pdf=pdfUrl(item);
+  if (pdf) return pdf;
   const doi=doiOf(item);
-  return doi ? `https://doi.org/${encodeURIComponent(doi)}` : safeUrl(item.data.url);
+  const url=safeUrl(item.data.url);
+  if (url) {
+    const parsed=new URL(url);
+    // With a DOI, a HAL/PubMed record stays a secondary bibliographic link.
+    const recordOnly=parsed.hostname==='hal.science'||parsed.hostname.endsWith('.hal.science')||parsed.hostname==='pubmed.ncbi.nlm.nih.gov';
+    if (!parsed.username && !parsed.password && (!doi || !recordOnly)) return url;
+  }
+  return doi ? `https://doi.org/${encodeURIComponent(doi)}` : '';
 }
 function titleLink(item) {
   const title=esc(item.data.title || '(Sans titre)'),url=articleUrl(item);
@@ -94,6 +103,17 @@ function pdfUrl(item) {
 function pdfLink(item) {
   const url = pdfUrl(item);
   return url ? `<a class="document-pdf" href="${esc(url)}" target="_blank" rel="noopener">Consulter le PDF</a>` : '';
+}
+// A repository record is a useful source link even when no full text is available.
+function sourceLink(item) {
+  const pdf = pdfLink(item);
+  if (pdf) return pdf;
+  const url = safeUrl(item.data.url);
+  if (!url) return '';
+  const parsed = new URL(url);
+  if (parsed.username || parsed.password || ['doi.org', 'dx.doi.org'].includes(parsed.hostname)) return '';
+  const label = parsed.hostname === 'hal.science' || parsed.hostname.endsWith('.hal.science') ? 'Notice HAL' : 'Source en ligne';
+  return `<a class="document-source" href="${esc(url)}" target="_blank" rel="noopener">${label}</a>`;
 }
 
 function valuesOf(item, id) {
@@ -281,7 +301,6 @@ function render() {
   function card(item) {
     const tags=tagsOf(item);
     const doi=doiOf(item);
-    const url=safeUrl(item.data.url);
     const displayTags = tags.filter(t => view==='list'?t.startsWith('SCOPE:')||t.startsWith('ACCESS:'):!t.startsWith("STATUS:") && !t.startsWith("SYSTEM:"));
     const badges = displayTags.map(t => {
       const cls=t.startsWith("SCOPE:")?"scope":t==="ACCESS:Open"?"open":"";
@@ -300,14 +319,14 @@ function render() {
       <div class="links">
         <a href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a>
         ${doi ? `<a href="https://doi.org/${encodeURIComponent(doi)}" target="_blank" rel="noopener">DOI</a>` : ""}
-        ${pdfLink(item) || (url && !url.includes("doi.org") ? `<a href="${esc(url)}" target="_blank" rel="noopener">Lien</a>` : "")}
+        ${sourceLink(item)}
       </div>
     </article>`;
   }
   function table(items) {
     const rows=items.map(item=>{
-      const tags=tagsOf(item),doi=doiOf(item);
-      return `<tr><th scope="row">${titleLink(item)}${pdfLink(item)}<a class="table-zotero" href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a>${archiveInfo(item)}</th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item)||'Non renseignés')}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint','Restricted-Original':'Original en consultation encadrée'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
+      const tags=tagsOf(item);
+      return `<tr><th scope="row">${titleLink(item)}${sourceLink(item)}<a class="table-zotero" href="${esc(canonicalUrl(item))}" target="_blank" rel="noopener">Notice Zotero</a>${archiveInfo(item)}</th><td>${esc(yearOf(item)||'Non renseignée')}</td><td>${esc(authorsOf(item)||'Non renseignés')}</td><td>${esc(TYPE_LABELS[item.data.itemType]||item.data.itemType)}</td><td>${esc(tagValues(tags,'SCOPE:').join(', ')||'Non renseignée')}</td><td>${esc(tagValues(tags,'ACCESS:').map(v=>({Open:'Ouvert',Restricted:'Restreint','Restricted-Original':'Original en consultation encadrée'}[v]||v)).join(', ')||'Non renseigné')}</td></tr>`;
     }).join('');
     return `<div class="table-scroll" tabindex="0" role="region" aria-label="Tableau des références, défilement horizontal"><table class="reference-table"><caption>Comparaison des références · le titre ouvre la publication lorsqu'un DOI ou un lien est disponible.</caption><thead><tr><th scope="col">Titre · publication</th><th scope="col">Année</th><th scope="col">Auteurs</th><th scope="col">Type</th><th scope="col">Portée</th><th scope="col">Accès</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }

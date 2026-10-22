@@ -38,6 +38,7 @@ async function main(){
       if(url.origin===origin)return route.continue();
       // Navigation contract only; the real public PDF is checked separately.
       if(request.url()==='https://example.org/public-copy.pdf')return route.fulfill({contentType:'text/html',body:'<p>Synthetic PDF destination</p>'});
+      if(request.url()==='https://example.org/synthetic')return route.fulfill({contentType:'text/html',body:'<p>Synthetic repository record, no full text</p>'});
       if(url.origin==='https://api.zotero.org'&&request.method()==='GET'){
         const isItems=url.pathname==='/groups/6701789/items/top';
         const isCollections=url.pathname==='/groups/6701789/collections';
@@ -57,7 +58,19 @@ async function main(){
       assert.equal(await pdf.count(),1);
       assert.equal(await pdf.getAttribute('href'),'https://example.org/public-copy.pdf');
       assert.equal(await page.getByRole('link',{name:'Notice Zotero',exact:true}).count(),3);
-      await pdf.focus();
+      const source=page.locator('#results a.document-source');
+      assert.equal(await source.count(),1);
+      assert.equal(await source.getAttribute('href'),'https://example.org/synthetic');
+      assert.equal(await source.innerText(),'Source en ligne');
+      assert.equal(await page.getByRole('link',{name:'Article synthétique — auteurs à vérifier',exact:true}).getAttribute('href'),'https://example.org/synthetic');
+      await source.focus();
+      const sourceOpened=page.waitForEvent('popup');await page.keyboard.press('Enter');
+      const sourceDestination=await sourceOpened;await sourceDestination.waitForLoadState();
+      assert.equal(await sourceDestination.locator('p').innerText(),'Synthetic repository record, no full text');
+      await sourceDestination.close();
+      const pdfTitle=page.getByRole('link',{name:'Rapport synthétique — archive de démonstration',exact:true});
+      assert.equal(await pdfTitle.getAttribute('href'),'https://example.org/public-copy.pdf');
+      await pdfTitle.focus();
       const opened=page.waitForEvent('popup');await page.keyboard.press('Enter');
       const destination=await opened;await destination.waitForLoadState();
       assert.equal(destination.url(),'https://example.org/public-copy.pdf');
