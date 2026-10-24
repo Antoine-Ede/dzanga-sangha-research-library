@@ -1,0 +1,13 @@
+# Tâche 018 — Premier corpus de médias
+
+Statut : corpus livré ; correctif web en revue. Responsable : assistant, 22 octobre 2026.
+
+- Besoin : rechercher des contenus sur Mongabay, WWF Allemagne, National Geographic, BBC, WWF US, médias espagnols et EarthRanger pour alimenter Communication.
+- Périmètre : sources originales, journalisme et communication institutionnelle distincts ; métadonnées et pertinence vérifiées avant ajout. Aucun import massif, audience inventée, copie d'article publiée, audit APDS ou changement de décision humaine existante.
+- Méthode : recherches groupées par source ; inspection ciblée des pages (titre, auteur, date, genre, passage pertinent et accès), liste des doublons et exclusions. Rapports techniques séparés des récits de communication, traductions et reprises signalées.
+- Critères : lien direct canonique, date uniquement attestée, auteurs explicitement crédités ; nature attribuée selon l'émetteur et le contexte. Portée Relevant par défaut pour ce corpus de communication, jamais Core au seul motif d'une mention locale. Aucun accès gratuit déduit d'un extrait de moteur ou d'une page payante.
+- Ajout Zotero : index URL canonique et titre/date/source, contrôles publics avant/après, lot autorisé borné, créations JSON en tableau UTF-8 et relance sans doublon ; clé uniquement en mémoire si disponible. Pas de réimport des anciens scripts.
+- Validation : registre de recherche et décisions sourcées, audit des champs, lectures publiques et navigateur du hub. Les recherches ne prétendent pas à l'exhaustivité ; documenter les sources bloquées ou sans résultat.
+- Risques : faux positifs dans les blocs « articles liés », dates de mise à jour prises pour publication, auteur confondu avec photographe, genre rapport confondu avec média. Retour arrière sélectif à partir du journal des clés créées, jamais suppression d'une notice préexistante.
+
+Résultat : 23 créations confirmées publiquement, relance 0 création/23 présentes ; 458 références et 24 contenus Communication. Les objets préexistants restent identiques. Trois dates initiales et les crédits d'un clip restent incomplets. Registre de 48 pistes, dont 23 retenues ; 22 pistes encore en attente, un alias et deux reprises écartées de ce premier lot. Audit public complet, 19 collections, 31/31 DOI seed, aucun titre vide/doublon détecté. Correctif des sources/rôles média testé sans changement de mise en page, prêt à la revue ; détails et limites dans STATE et `reviews/media-2026-10-22/README.md`.

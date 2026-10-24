@@ -70,6 +70,17 @@ assert.equal(LibraryModel.isCommunication({data:{itemType:'webpage',tags:[{tag:'
 assert.equal(LibraryModel.isCommunication({data:{itemType:'interview',tags:[]}}),false);
 assert.equal(LibraryModel.mediaOrigin({data:{itemType:'film',tags:[]}}),'À préciser');
 assert.equal(LibraryModel.mediaOrigin({data:{tags:[{tag:'COMMUNICATION:Journalistic'},{tag:'COMMUNICATION:Institutional'}]}}),'À préciser');
+const institutionalPage={data:{itemType:'webpage',websiteTitle:'Site fictif',creators:[{creatorType:'author',name:'Organisme fictif'}],tags:[{tag:'CORPUS:Communication'}]}};
+assert.equal(sourceOf(institutionalPage),'Site fictif');
+assert.equal(mediaSource(institutionalPage),'Site fictif');
+assert(!LibraryModel.issues(institutionalPage).includes('Source bibliographique manquante'));
+for(const itemType of ['radioBroadcast','film']){
+  const broadcast={data:{itemType,...(itemType==='film'?{studio:'Studio fictif'}:{network:'Diffuseur fictif'}),creators:[{creatorType:'producer',name:'Production fictive'}],tags:[]}};
+  assert(!LibraryModel.issues(broadcast).includes('Source bibliographique manquante'));
+  assert(!LibraryModel.issues(broadcast).includes('Auteur ou responsable manquant'));
+  broadcast.data.creators=[{creatorType:'guest',name:'Invité fictif'}];
+  assert(LibraryModel.issues(broadcast).includes('Auteur ou responsable manquant'));
+}
 const mediaFixtures=JSON.parse(require('node:fs').readFileSync('tests/fixtures/communication-items.json','utf8'));
 assert.equal(mediaFixtures.filter(LibraryModel.isCommunication).length,3);
 assert.equal(researchMetrics(mediaFixtures).total,1);

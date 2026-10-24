@@ -31,6 +31,8 @@ Les médias restent consultables dans la bibliothèque générale et forment une
 
 ## Limites du premier lot
 
+Le [lot de recherche du 22 octobre](../reviews/media-2026-10-22/README.md) ajoute ensuite 23 notices vérifiées ; le groupe comprend maintenant 458 références et 24 contenus Communication. Les chiffres du paragraphe suivant décrivent la livraison initiale de l'interface, avant ces ajouts. Dates manquantes et crédits non attestés restent signalés ; une fiche publique n'implique pas la lecture libre de son média. Les émissions radio et TV conservent les rôles Zotero propres à leur type, sans transformer un invité ou un diffuseur en réalisateur.
+
 Le 22 octobre, une notice existante de type magazine est éligible dans l'instantané public de 435 références ; sa nature reste à préciser. Aucun nouveau média n'a été importé ou recherché exhaustivement et aucun tag Zotero n'a été modifié. Les exemples des tests sont fictifs et ne sont pas livrés comme références du catalogue.
 
 Le lot dépend du correctif des titres de la PR 13. L'utilisateur a validé l'aperçu et autorisé la fusion des deux PR le 22 octobre sous condition de conserver le style et les fonctions existants. Preuve de livraison exacte dans `.local/communication-preview/integration.json` ; les travaux APDS restent dans l'autre session.

@@ -2,6 +2,8 @@
 
 Lire `docs/STATE.md`, puis la fiche active dans `docs/tasks/`. Consulter `ROADMAP.md` pour les priorités et `docs/DECISIONS.md` pour les raisons. `CLAUDE.md` renvoie ici ; aucune seconde politique.
 
+Lot courant : `docs/tasks/018-media-source-review.md` — recherche médias demandée le 22 octobre. 23 ajouts Zotero terminés et vérifiés publiquement, relance zéro création ; 458 références, 24 contenus Communication. Ne pas relancer les anciens imports. Aucun objet préexistant modifié, APDS toujours dans l'autre session. Registre public dans `reviews/media-2026-10-22/` ; preuves privées `.local/media-review/`. Petit correctif des champs média testé sur cette branche, à revoir séparément avant fusion ; aucune nouvelle mise en page.
+
 Lot courant : `docs/tasks/017-communication-tab.md` — onglet Communication demandé et aperçu validé le 22 octobre, sous condition de conserver style et fonctions de la bibliothèque, vérifiée. Fusion des PR 13 et 14 et publication autorisées ; preuve de livraison exacte à consulter dans `.local/communication-preview/integration.json`. Types médiatiques et pages explicitement classées, nature journalistique/institutionnelle sur tags uniquement, filtres/export propres. Aucun import ni écriture Zotero. APDS toujours réservé à l'autre session. Les mentions de revue en attente ci-dessous décrivent l'étape antérieure à cet accord.
 
 Lot en revue : `docs/tasks/016-official-source-links.md` — six liens officiels déjà corrigés dans Zotero, dont HAL pour Diallo, sans décision d'accès nouvelle. Correction de la vue Tableau pour afficher les URL complémentaires comme les cartes/listes. Revue utilisateur de l'affichage requise avant fusion ; ne pas rejouer les écritures. Compteur 122/435 inchangé, APDS toujours réservé à l'autre session.

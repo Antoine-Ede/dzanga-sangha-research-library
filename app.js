@@ -67,7 +67,7 @@ function authorSurnames(item) {
 }
 function sourceOf(item) {
   return item.data.publicationTitle || item.data.bookTitle || item.data.proceedingsTitle ||
-         item.data.publisher || item.data.institution || item.data.university || item.data.repository || "";
+         item.data.websiteTitle || item.data.publisher || item.data.institution || item.data.university || item.data.repository || item.data.network || item.data.studio || item.data.label || "";
 }
 function collectionNames(item) {
   return (item.data.collections || []).map(k => state.collections.get(k)).filter(Boolean);
@@ -286,7 +286,7 @@ function setSection(section) {
 }
 
 function mediaSource(item) {
-  return item.data.publicationTitle||item.data.studio||item.data.network||item.data.label||item.data.publisher||item.data.institution||'';
+  return item.data.publicationTitle||item.data.websiteTitle||item.data.studio||item.data.network||item.data.label||item.data.publisher||item.data.institution||'';
 }
 function mediaCreators(item) {
   return (item.data.creators||[]).map(c=>c.name||[c.firstName,c.lastName].filter(Boolean).join(' ')).filter(Boolean).join(', ');
