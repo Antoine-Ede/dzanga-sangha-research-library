@@ -1,6 +1,6 @@
 # Tâche 019 — Récupération du registre et recherche historique
 
-Statut : conservation initiale, puis vérification. Date : 24 octobre 2026. Responsable : assistant.
+Statut : conservation terminée ; première passe historique documentée, corpus restant ouvert. Date : 24 octobre 2026. Responsable : assistant.
 
 - Besoin utilisateur : lire la passation, préserver d'abord les pistes sur une branche dédiée, contrôler et créer un commit documentaire, puis poursuivre la recherche historique.
 - Base : main à `a444984a9fd40c7ea8f7c76bcb85e3c3c911c1ad`, copie propre ; branche `research/communication-register-recovery-2026-10-24`. Ne pas modifier les anciennes branches Perplexity ni les autres worktrees.
@@ -11,4 +11,7 @@ Statut : conservation initiale, puis vérification. Date : 24 octobre 2026. Resp
 - Validation : unicité/couverture des identifiants, relecture des blocs conservés contre la passation, champs de preuve non remplis artificiellement, lecture complète de la pagination Zotero seulement, `git diff --cached --check`, contrôle commun et preuve sur le SHA final.
 - Risques/retour arrière : erreurs conversationnelles conservées comme telles, liens fragiles et versions confondues. Deux commits documentaires séparant conservation et résultats, réversibles sans toucher au catalogue ni aux fichiers privés.
 - Revue : auto-revue dans la même session, aucune revue indépendante revendiquée. Les pages non consultées et les œuvres non visionnées restent indiquées.
-- Prochaine étape : créer le premier commit contrôlé, puis vérifier les pistes anciennes et rechercher des références antérieures supplémentaires.
+- Conservation : commit `292fe926c1e7eea2b972a400d5cb10a150545428`, contrôle commun passé avant et après commit. Les 60 blocs rapportés sont inchangés dans la suite.
+- Résultats : 17 identifiants initiaux consultés, 15 avec métadonnées confirmées ; dix nouvelles entités historiques dont sept avec métadonnées documentées. 22 lignes de métadonnées au total, sans les assimiler à des œuvres indépendantes. Cinq rapprochements Zotero confirmés sur pagination complète publique (458 références), aucune écriture.
+- Livraison : deux commits documentaires locaux ; contrôle commun et preuve fraîche sur le SHA final dans `.local/verification.json`. Registre et preuves privées préservés, aucune publication induite. Bilan détaillé : `reviews/communication-discovery-2026-10-24/HISTORICAL-REVIEW.md`.
+- Prochaine étape : originaux Boston Phoenix/Natural History/National Geographic, catalogues AMNH et identités des montages BBC/RTVE. 43 pistes initiales sans consultation dans cette passe ; aucun achèvement global revendiqué. Import ou déploiement uniquement après nouvel accord.

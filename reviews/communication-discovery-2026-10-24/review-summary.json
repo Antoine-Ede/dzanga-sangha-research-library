@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-10-24T19:31:05.406116+00:00",
+  "preservation_commit": "292fe926c1e7eea2b972a400d5cb10a150545428",
+  "reported_identifiers_preserved": 60,
+  "original_ids_with_source_checks": 17,
+  "original_ids_with_confirmed_metadata": 15,
+  "metadata_records_confirmed_total": 22,
+  "verification_log_entries": 26,
+  "new_historical_entity_leads": 10,
+  "new_lead_statuses": {
+    "edition_metadata_verified": 1,
+    "review_metadata_verified": 1,
+    "republication_verified_original_issue_pending": 1,
+    "collection_metadata_verified": 1,
+    "recording_metadata_verified": 1,
+    "recording_date_verified_locality_pending": 1,
+    "official_record_verified": 1,
+    "discovered_unverified": 2,
+    "catalogue_metadata_verified": 1
+  },
+  "public_zotero_matches": {
+    "no_exact_match": 55,
+    "matched_record": 5
+  },
+  "zotero_writes": 0,
+  "deployment": false,
+  "works_count_note": "Metadata records and leads include reviews, books, editions, collections, excerpts and a hearing, not independent works or import-ready additions."
+}

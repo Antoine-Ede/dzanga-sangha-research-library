@@ -26,3 +26,11 @@ Les corps d'articles, œuvres protégées, archives APDS, caches, clés et copie
 Comptage déterministe : 60 identifiants uniques, suite DSC-001 à DSC-060 complète, deux liens individuels manquants, cinq clés Zotero rapportées, zéro source nouvellement vérifiée au premier commit. Les blocs conservés ont été comparés caractère par caractère à ceux du fichier utilisateur après normalisation des fins de ligne. Le premier commit ne prétend pas avoir vérifié les pages citées. Les contrôles du dépôt et leur preuve liée au SHA sont consignés dans STATE et `.local/verification.json`.
 
 La recherche historique reprendra après cette première sauvegarde, en priorité Baconnet/Écomedia, AMNH, National Geographic/Nichols et Cornell/NPR. Les nouveaux résultats devront avoir leurs propres identifiants et preuves ; redécouvrir une des 60 pistes ne constitue pas une nouveauté. Les rapports et compteurs de la suite seront ajoutés ici sans réécrire cette provenance initiale.
+
+## Résultats de la première passe historique
+
+Le premier commit de conservation est `292fe926c1e7eea2b972a400d5cb10a150545428`. Les paragraphes précédents décrivent ce premier état ; les fichiers de vérification sont désormais renseignés. Les 60 blocs rapportés restent inchangés et portent toujours leur statut de déclaration initiale.
+
+Voir le [bilan historique](HISTORICAL-REVIEW.md), les [dix nouvelles pistes/entités](historical-leads.tsv) et le [bilan calculé](review-summary.json). Sur les 60 identifiants initiaux, 17 ont fait l'objet de consultations et 15 disposent de métadonnées confirmées avec limites explicites. Le fichier `verified-sources.tsv` contient 22 lignes au total, dont sept entités historiques supplémentaires ; ce n'est ni une liste de 22 œuvres nouvelles, ni une file autorisée à importer.
+
+Le [bilan de lecture publique Zotero](zotero-snapshot-summary.json) couvre cinq pages, 459 objets dont 458 références. Cinq rapprochements annoncés sont confirmés ; 55 pistes n'ont pas de correspondance exacte selon la méthode documentée dans `zotero-matches.tsv`, ce qui ne prouve pas leur absence sous une autre version. Aucun changement du catalogue. Branche et commits locaux seulement ; aucune fusion, aucun déploiement.
