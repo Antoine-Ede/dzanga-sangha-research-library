@@ -1,0 +1,23 @@
+{
+  "source_filename": "PASSATION-CODEX.md",
+  "source_sha256": "e82efa15c57cfbc4a38f774d6663c77af81c5b0e1bb29fd9500b8f5598294479",
+  "source_bytes": 42295,
+  "source_type": "user-provided conversational reconstruction, not an authoritative bibliography",
+  "registry_created_on": "2026-10-24",
+  "base_commit": "a444984a9fd40c7ea8f7c76bcb85e3c3c911c1ad",
+  "reported_identifiers": 60,
+  "reported_unverified": 60,
+  "initial_verified_sources": 0,
+  "missing_url_ids": [
+    "DSC-016",
+    "DSC-029"
+  ],
+  "announced_zotero_keys": {
+    "DSC-020": "M6FP8IMC",
+    "DSC-021": "EG2N2ABU",
+    "DSC-026": "H6T63KGU",
+    "DSC-030": "DX7226CX",
+    "DSC-060": "NC8HZD28"
+  },
+  "counting_note": "Identifiers include documentary families, excerpts and related components; not 60 independent works or additions."
+}

@@ -1,5 +1,11 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Lot 019 — Conservation de la passation, reprise documentaire
+
+L'utilisateur fournit `PASSATION-CODEX.md` et demande explicitement une sauvegarde sur branche dédiée, un commit documentaire contrôlé, puis la recherche historique. Branche propre créée depuis main `a444984` : `research/communication-register-recovery-2026-10-24`. [Tâche 019](tasks/019-communication-register-recovery.md), [registre](../reviews/communication-discovery-2026-10-24/README.md). Les 60 identifiants et leurs blocs de texte sont conservés, tous `reported_unverified` ; deux liens individuels manquent et cinq clés Zotero sont seulement annoncées. Journaux de vérification et de rapprochement séparés, initialement sans preuve de consultation. Le premier commit est un acte de conservation, pas une validation globale. Contrôles avant commit puis preuve à relancer sur son SHA ; détails dans `.local/communication-register-recovery/` et `.local/verification.json`.
+
+Les autorisations antérieures de fusion/publication ne s'étendent pas à ce lot : **aucun import Zotero, aucune fusion à main et aucun déploiement sans nouvel accord**. Les anciennes branches, worktrees et preuves privées restent préservés. Pas d'appel Perplexity payant requis : le registre fourni permet la reprise locale malgré le manque de crédits Computer. Suite : sources anciennes et multilingues avec consultations réelles, sans recompter les pistes existantes comme découvertes.
+
 ## Livraison du lot 018
 
 L'utilisateur demande de terminer cette branche et confie les nouvelles recherches Communication à Perplexity. [PR 15](https://github.com/Antoine-Ede/dzanga-sangha-research-library/pull/15) fusionnée le 24 octobre à `7542f715381bf370379487dee6372092e50c58db`. Correctif des champs et rôles média intégré sans nouvelle mise en page. Aucun nouvel import, aucune modification Zotero ni lecture de clé dans cette clôture ; les 23 ajouts du 22 octobre ne doivent pas être rejoués. Les bilans et compteurs ci-dessous restent datés de leurs contrôles.
