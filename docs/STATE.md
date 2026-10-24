@@ -1,4 +1,12 @@
-# État vérifié — reprise du 22 octobre 2026
+# État vérifié — clôture du 24 octobre 2026
+
+## Livraison du lot 018
+
+L'utilisateur demande de terminer cette branche et confie les nouvelles recherches Communication à Perplexity. [PR 15](https://github.com/Antoine-Ede/dzanga-sangha-research-library/pull/15) fusionnée le 24 octobre à `7542f715381bf370379487dee6372092e50c58db`. Correctif des champs et rôles média intégré sans nouvelle mise en page. Aucun nouvel import, aucune modification Zotero ni lecture de clé dans cette clôture ; les 23 ajouts du 22 octobre ne doivent pas être rejoués. Les bilans et compteurs ci-dessous restent datés de leurs contrôles.
+
+Les deux branches distantes `research/communication-discovery-2026-10-23` et `research/communication-sources-2026-10-23` sont préservées. Les 22 pistes non validées et quatre métadonnées incomplètes restent dans le registre ; leur traitement n'est pas déclaré terminé par la fusion du code. APDS reste dans l'autre session. Preuve finale liée au SHA de main, contrôle commun, construction Pages et navigateur public : `.local/media-review/integration-2026-10-24.json`. Vérifier ce fichier avant de conclure à la publication effective. Les preuves et décisions privées sont conservées, aucun worktree ancien supprimé.
+
+Retour arrière du code : examiner les évolutions ultérieures puis révoquer seulement le changement concerné par un commit de revert ; ne pas restaurer globalement Zotero ou les branches de recherche. La clé exposée reste à révoquer quand les travaux authentifiés des deux conversations sont finis. Les paragraphes suivants sont l'historique de préparation, avant cette fusion.
 
 ## Lot 018 — Premier corpus médiatique
 

@@ -1,6 +1,8 @@
 # Suivi du projet et reprise de l’audit APDS
 
-## État courant — 22 octobre 2026
+## État courant — 24 octobre 2026
+
+- Lot 018 clos : PR 15 fusionnée après accord utilisateur ; correctif des champs média intégré. Aucun nouvel import à effectuer. Nouvelles recherches Communication confiées à Perplexity sur les branches `research/communication-*`, préservées ; 22 pistes et quatre lacunes de métadonnées restent documentées. SHA final, contrôle et publication Pages dans `.local/media-review/integration-2026-10-24.json`. Les points du 22 octobre ci-dessous conservent l'historique avant fusion.
 
 - [Lot 018 — sources médiatiques](docs/tasks/018-media-source-review.md) : 23 ajouts vérifiés et relance sans écriture, 458 références dont 24 Communication. [Bilan et 48 pistes](reviews/media-2026-10-22/README.md). Quatre nouvelles incertitudes explicites, pas de modification APDS. Correctif des champs/rôles média prêt à revoir avant fusion ; recherches complémentaires possibles parmi les 22 pistes en attente.
 

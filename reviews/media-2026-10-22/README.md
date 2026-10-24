@@ -1,5 +1,7 @@
 # Premier corpus Communication — 22 octobre 2026
 
+Clôture du 24 octobre : PR 15 fusionnée après validation utilisateur ; le correctif décrit comme « prêt à revoir » ci-dessous est intégré à main. La preuve finale de publication est conservée dans `.local/media-review/integration-2026-10-24.json`. Aucun nouvel import ; les recherches Communication suivantes passent à Perplexity sur une autre branche. Les compteurs et contrôles du bilan restent ceux du 22 octobre.
+
 Demande : rechercher Mongabay, WWF Allemagne, National Geographic, BBC, WWF US, médias espagnols et EarthRanger. Recherche par domaines et expressions Dzanga/Dzanga-Sangha, puis inspection ciblée des pages originales : titre, signature, date, contexte local, format et accès. Pas de lecture intégrale revendiquée pour les documentaires et entretiens audio. Ce corpus de communication n'est pas une validation scientifique des affirmations des médias.
 
 ## Sélection et traçabilité

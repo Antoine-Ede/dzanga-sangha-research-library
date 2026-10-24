@@ -1,6 +1,6 @@
 # Tâche 018 — Premier corpus de médias
 
-Statut : corpus livré ; correctif web en revue. Responsable : assistant, 22 octobre 2026.
+Statut : clos le 24 octobre 2026. Responsable : assistant. Corpus livré le 22 octobre ; correctif web fusionné par la PR 15 après accord utilisateur. Les recherches complémentaires Communication passent à la branche Perplexity ; les pistes et incertitudes restent conservées, sans import supplémentaire dans cette clôture.
 
 - Besoin : rechercher des contenus sur Mongabay, WWF Allemagne, National Geographic, BBC, WWF US, médias espagnols et EarthRanger pour alimenter Communication.
 - Périmètre : sources originales, journalisme et communication institutionnelle distincts ; métadonnées et pertinence vérifiées avant ajout. Aucun import massif, audience inventée, copie d'article publiée, audit APDS ou changement de décision humaine existante.
@@ -11,3 +11,5 @@ Statut : corpus livré ; correctif web en revue. Responsable : assistant, 22 oct
 - Risques : faux positifs dans les blocs « articles liés », dates de mise à jour prises pour publication, auteur confondu avec photographe, genre rapport confondu avec média. Retour arrière sélectif à partir du journal des clés créées, jamais suppression d'une notice préexistante.
 
 Résultat : 23 créations confirmées publiquement, relance 0 création/23 présentes ; 458 références et 24 contenus Communication. Les objets préexistants restent identiques. Trois dates initiales et les crédits d'un clip restent incomplets. Registre de 48 pistes, dont 23 retenues ; 22 pistes encore en attente, un alias et deux reprises écartées de ce premier lot. Audit public complet, 19 collections, 31/31 DOI seed, aucun titre vide/doublon détecté. Correctif des sources/rôles média testé sans changement de mise en page, prêt à la revue ; détails et limites dans STATE et `reviews/media-2026-10-22/README.md`.
+
+Clôture : la mention « prêt à la revue » décrit l'état du 22 octobre, remplacé par la fusion du 24 octobre à `7542f715381bf370379487dee6372092e50c58db`. Preuve de livraison finale dans `.local/media-review/integration-2026-10-24.json`. Aucune intervention sur les branches Perplexity, les travaux APDS ou les imports historiques.
