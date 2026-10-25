@@ -1,0 +1,71 @@
+id	review_lane	catalogue_match_status	related_local_ids	source_validation	next_action
+SUP-01	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-02	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-03	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-04	source_metadata_review	snapshot_url_overlap	DEC22:37 | MEDIA22:elpais-arranz	conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-05	source_metadata_review	snapshot_url_overlap	DEC22:39 | MEDIA22:elpais-twins	conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-06	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-07	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-08	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-09	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-10	version_or_edition_identity	no_exact_snapshot_match		conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-11	version_or_edition_identity	no_exact_snapshot_match		conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-12	version_or_edition_identity	no_exact_snapshot_match		conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-13	version_or_edition_identity	no_exact_snapshot_match		conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-14	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-15	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-16	locator_not_individual_work	no_exact_snapshot_match		conversation_reported	Index or listing, not an extra work; isolate a specific publication before counting.
+SUP-17	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-18	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-19	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-20	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-21	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-22	version_or_edition_identity	no_exact_snapshot_match		conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-23	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-24	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-25	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-26	source_metadata_review	no_exact_snapshot_match	DEC22:33	conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-27	source_metadata_review	snapshot_url_overlap	DEC22:32 | MEDIA22:wwfus-magazine	conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-28	source_metadata_review	snapshot_url_overlap	DEC22:31 | MEDIA22:wwfus-inside	conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-29	locator_not_individual_work	no_exact_snapshot_match		conversation_reported	Index or listing, not an extra work; isolate a specific publication before counting.
+SUP-30	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-31	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-32	institutional_context_pages	no_exact_snapshot_match		conversation_reported	Two changing pages; no arbitrary historical publication date or automatic work count.
+SUP-33	existing_register_enrichment	no_exact_snapshot_match	DSC-040 | DSC-041	conversation_reported	Compare with linked DSC evidence; retain new companion publications separately when appropriate.
+SUP-34	version_or_edition_identity	no_exact_snapshot_match	DEC22:36	conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-35	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-36	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-37	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-38	locator_not_individual_work	no_exact_snapshot_match		conversation_reported	Index or listing, not an extra work; isolate a specific publication before counting.
+SUP-39	restricted_media_metadata_only	no_exact_snapshot_match		conversation_reported	Explicit adopter-only/exclusive context reported; no media download or public-access classification.
+SUP-40	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-41	book_edition_identity	no_exact_snapshot_match		conversation_reported	Existing HIS book candidates; distinguish edition, review, audio-book and homonymous film.
+SUP-42	secondary_reference_original_pending	no_exact_snapshot_match		conversation_reported	Provided source cites a target whose original has not been established; do not treat source-container URL as target identity.
+SUP-43	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-44	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-45	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-46	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-47	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-48	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-49	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-50	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-51	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-52	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-53	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-54	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-55	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-56	secondary_reference_original_pending	no_exact_snapshot_match		conversation_reported	Provided source cites a target whose original has not been established; do not treat source-container URL as target identity.
+SUP-57	version_or_edition_identity	snapshot_url_overlap		conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-58	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-59	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-60	APDS_public_newsletter_coordination	no_exact_snapshot_match		conversation_reported	Register public newsletter versions only; archive-content audit remains in other session, no originals accessed here.
+SUP-61	source_metadata_review	snapshot_url_overlap	DEC22:02 | MEDIA22:mongabay-kienast	conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-62	source_metadata_review	snapshot_url_overlap	DEC22:04 | MEDIA22:mongabay-elephants	conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-63	source_metadata_review	no_exact_snapshot_match		conversation_reported	Source identity, title, roles, dates and local relevance still need consultation via Perplexity.
+SUP-64	secondary_reference_original_pending	no_exact_snapshot_match		conversation_reported	Provided source cites a target whose original has not been established; do not treat source-container URL as target identity.
+SUP-65	existing_register_enrichment	no_exact_snapshot_match	DSC-013	conversation_reported	Compare with linked DSC evidence; retain new companion publications separately when appropriate.
+SUP-66	existing_register_enrichment	no_exact_snapshot_match	DSC-055	conversation_reported	Compare with linked DSC evidence; retain new companion publications separately when appropriate.
+SUP-67	version_or_edition_identity	no_exact_snapshot_match		conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-68	version_or_edition_identity	no_exact_snapshot_match	DSC-043	conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-69	version_or_edition_identity	no_exact_snapshot_match		conversation_reported	Different runtimes, languages, platforms or dates do not establish separate works; credits and versions need comparison.
+SUP-70	secondary_reference_original_pending	no_exact_snapshot_match		conversation_reported	Provided source cites a target whose original has not been established; do not treat source-container URL as target identity.

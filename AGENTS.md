@@ -2,7 +2,7 @@
 
 Lire `docs/STATE.md`, puis la fiche active dans `docs/tasks/`. Consulter `ROADMAP.md` pour les priorités et `docs/DECISIONS.md` pour les raisons. `CLAUDE.md` renvoie ici ; aucune seconde politique.
 
-Depuis le 25 octobre : toute nouvelle recherche web de ce lot est déléguée à Perplexity via le navigateur (Recherche standard, pas Computer). Lire docs/PERPLEXITY_WORKFLOW.md et le registre privé .local/perplexity-handoffs/jobs.json avant de reprendre une mission. Première passe des 60 pistes achevée, 20 dossiers restent partiels ; distinguer 15 métadonnées directes et 25 déléguées. La session Communication parallèle attend le Markdown du responsable, ne pas y intervenir. Aucun import, push ou déploiement autorisé.
+Depuis le 25 octobre : toute nouvelle recherche web de ce lot est déléguée à Perplexity via le navigateur (Recherche standard, pas Computer). Lire docs/PERPLEXITY_WORKFLOW.md et le registre privé .local/perplexity-handoffs/jobs.json avant de reprendre une mission. Première passe des 60 pistes achevée, 20 dossiers restent partiels ; distinguer 15 métadonnées directes et 25 déléguées. Le supplément Markdown de la session Communication parallèle est reçu (lot 020) ; traiter sa copie fournie, sans intervenir dans la session. Aucun import, push ou déploiement autorisé.
 
 Lot 020 actif : docs/tasks/020-communication-supplement.md. Supplément utilisateur reçu : 70 blocs SUP, tous conversation_reported ; préserver DSC/HIS et séparer rapprochement/validation. Aucun import, push ou déploiement. Ne pas consulter la session Communication externe ; traiter seulement le Markdown transmis. Le lot 019 et ses compteurs demeurent historiques.
 

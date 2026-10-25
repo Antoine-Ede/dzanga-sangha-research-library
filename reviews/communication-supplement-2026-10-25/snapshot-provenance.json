@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-24T19:12:10.289784+00:00",
+  "version": "1017",
+  "pages": 5,
+  "top_level_objects": 459,
+  "references": 458,
+  "complete_pagination": true,
+  "method": "GET only; unauthenticated public endpoint",
+  "local_snapshot_sha256": "4117160a874f5c4ddd253be40365d4de01b662e5119d0e2c3153e082c2050ffe",
+  "analysis_method": "Offline exact canonical URL overlap; exact normalized titles as candidates only; no network request."
+}

@@ -1,6 +1,11 @@
 # Suivi du projet et reprise de l’audit APDS
 
-## État courant — 24 octobre 2026
+## État courant — 25 octobre 2026
+
+- [Lot 020 — supplément Communication](docs/tasks/020-communication-supplement.md) : fichier parallèle reçu,70 pistes conservées séparément et rapprochement hors ligne livré. [Bilan](reviews/communication-supplement-2026-10-25/RECONCILIATION.md). Sept correspondances d'URL dans l'instantané du 24 octobre ne sont pas sept imports ou sept doublons ;63 sans correspondance exacte ne sont pas63absences. Vérification de sources encore ouverte, aucun accès web ni import/publication dans cette réception.
+- Lot019 : première passe de60 pistes terminée,15 métadonnées directes,25 déléguées et20 cas partiels. Ne pas mélanger ces compteurs avec les70 entrées SUP, qui incluent familles, index et enrichissements. Toute recherche web supplémentaire passe par Perplexity ; Computer exclu. Archives APDS toujours dans l'autre session.
+
+## État précédent — 24 octobre 2026
 
 - Lot 018 clos : PR 15 fusionnée après accord utilisateur ; correctif des champs média intégré. Aucun nouvel import à effectuer. Nouvelles recherches Communication confiées à Perplexity sur les branches `research/communication-*`, préservées ; 22 pistes et quatre lacunes de métadonnées restent documentées. SHA final, contrôle et publication Pages dans `.local/media-review/integration-2026-10-24.json`. Les points du 22 octobre ci-dessous conservent l'historique avant fusion.
 

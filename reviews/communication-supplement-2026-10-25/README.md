@@ -20,3 +20,7 @@ Premier commit : conservation seulement, zéro vérification web nouvelle. Le ra
 Les vidéos exclusives pour adoptants (SUP-39) ne sont pas téléchargées. Le bulletin public APDS (SUP-60) est enregistré comme piste, sans reprise de l'audit d'archives réservé à l'autre session. Index, traductions, versions courtes/longues, œuvres et composantes restent distincts. Aucune fiction n'est transformée en documentaire par son seul sujet.
 
 Toutes les recherches web supplémentaires passent par Perplexity. Aucun import Zotero, push, fusion ni déploiement sans nouvel accord. La session Communication externe n'a pas été consultée ou modifiée : seul le fichier transmis est traité. Auto-revue de la même session, pas de revue indépendante revendiquée.
+
+## Rapprochement hors ligne terminé
+
+Voir le [bilan et ses limites](RECONCILIATION.md). Sept correspondances d'URL dans l'instantané Zotero du 24 octobre, 63 sans correspondance exacte selon cette méthode, 12 entrées avec candidats dans les registres locaux, cinq enrichissements DSC rapportés. Aucun de ces compteurs n'est un nombre d'œuvres nouvelles ou une décision de doublon. [File de revue](review-queue.tsv), [alertes](review-alerts.tsv). Toutes les entrées source conservent leur statut conversation_reported ; aucun accès web nouveau.

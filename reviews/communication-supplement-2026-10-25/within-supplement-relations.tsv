@@ -1,0 +1,13 @@
+source_id	target_id	relation	status	review_note
+SUP-07	SUP-17	reported_associated_film	reported_or_provisional	WBUR article points to a WCS film; companion relationship, not duplicate.
+SUP-11	SUP-12	possible_international_version	reported_or_provisional	Titles and montage identity need credits; catalogue dates differ.
+SUP-11	SUP-13	possible_related_programme	reported_or_provisional	Same maker or gorilla protagonists not enough to merge.
+SUP-12	SUP-13	possible_related_programme	reported_or_provisional	Compare credits and cuts; no identity demonstrated.
+SUP-22	SUP-25	film_and_article_about_film	reported_or_provisional	Film and New Yorker article are distinct publications.
+SUP-23	SUP-24	article_and_companion_video	reported_or_provisional	Distinct objects until credits and publication history verified.
+SUP-46	SUP-47	collection_and_reported_component	reported_or_provisional	Recueil and original contribution have distinct dates.
+SUP-46	SUP-48	collection_and_possible_reprint	reported_or_provisional	Compare individual bulletin and collection text.
+SUP-48	SUP-55	possible_reprise_unproved	reported_or_provisional	Similar topic/date does not establish syndication or identity.
+SUP-45	SUP-47	possible_CNN_programme_relation_unproved	reported_or_provisional	No original episode identity established.
+SUP-33	SUP-36	related_GEO_fieldwork_communications	reported_or_provisional	Relay, field visit report and magazine article stay distinct.
+SUP-01	SUP-41	homonymous_film_and_book_distinct	reported_or_provisional	2013 film and 1993 book are not duplicates.

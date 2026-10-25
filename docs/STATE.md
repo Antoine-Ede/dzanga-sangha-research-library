@@ -1,5 +1,11 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Supplément rapproché — 25 octobre 2026
+
+[Lot 020](tasks/020-communication-supplement.md), [bilan](../reviews/communication-supplement-2026-10-25/RECONCILIATION.md). Premier commit de conservation 6c581e7,70 blocs et101 liens préservés. Rapprochement hors ligne terminé : sept entrées SUP avec URL correspondante dans l'instantané Zotero complet du 24 octobre (458 références),63 sans correspondance exacte par cette méthode ;12 candidats locaux et5 enrichissements DSC déclarés. Pas de nombre d'œuvres nouvelles déduit, aucune décision automatique de doublon. Sept alertes conservées, notamment dates El País/WWF et identité des versions. Zéro source nouvellement vérifiée ; les valeurs du supplément restent conversation_reported. Source privée avec SHA, réception COMM-EXTERNAL consignée ; session externe non consultée.
+
+Base DSC/HIS intacte, autres worktrees préservés. Aucun accès web nouveau, import Zotero, push, fusion ou déploiement. Prochaine étape : preuves ciblées via Perplexity pour SUP-65, CARPO/entretien, SUP-64, National Geographic, SUP-51, presse de 1994, puis dates/versions. Auto-revue hors ligne ; contrôle commun et preuve fraîche sur commit final requis. Retour arrière : retirer seulement le rapprochement en conservant la première sauvegarde et les sources privées. Les sections suivantes conservent les étapes antérieures.
+
 ## Supplément reçu — 25 octobre 2026
 
 Le responsable transmet le Markdown de la session parallèle. [Lot 020](tasks/020-communication-supplement.md), [supplément](../reviews/communication-supplement-2026-10-25/README.md) : 70 identifiants SUP préservés avec blocs exacts et liens multiples, tous conversation_reported. Original intégral privé et empreinte vérifiée ; aucun lien consulté dans cette conservation. Les propositions du document ne remplacent pas les autorisations utilisateur. Le premier registre DSC/HIS reste intact. Suite : rapprochements hors ligne, sans déduire 70 œuvres nouvelles. Aucun import Zotero, push, fusion ou déploiement ; pas d'intervention dans la session externe. Les sections suivantes décrivent les étapes précédentes.

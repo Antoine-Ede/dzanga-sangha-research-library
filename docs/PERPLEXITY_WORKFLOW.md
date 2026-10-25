@@ -37,3 +37,7 @@ python tools/perplexity_handoff.py record --job HIST-2026-10-25-01 --file CHEMIN
 ```
 
 `record` n'accepte que les missions déclarées, copie sans écraser les preuves existantes et conserve le statut documentaire `unreviewed`. Un export reçu ne prouve pas que les cinq cas sont résolus. Pas de collecte de l'historique général du compte, cookies ou données d'autres projets.
+
+## Réception du supplément externe — 25 octobre 2026
+
+Le responsable a transmis PASSATION-CODEX-SUPPLEMENT-2026-10-25.md : 70 entrées SUP,101 liens. La réception est archivée sous COMM-EXTERNAL avec SHA-256 et source_url nul (fichier utilisateur, pas une URL de session inventée). Le premier registre et les rapports délégués restent distincts. [Bilan du rapprochement hors ligne](../reviews/communication-supplement-2026-10-25/RECONCILIATION.md). Le statut attente de fichier décrit l'étape antérieure ; aucune session externe n'a été lue ou modifiée. La réception privée a été consignée hors ligne, sans utiliser la commande record prévue pour une URL de discussion.
