@@ -1,5 +1,9 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Supplément reçu — 25 octobre 2026
+
+Le responsable transmet le Markdown de la session parallèle. [Lot 020](tasks/020-communication-supplement.md), [supplément](../reviews/communication-supplement-2026-10-25/README.md) : 70 identifiants SUP préservés avec blocs exacts et liens multiples, tous conversation_reported. Original intégral privé et empreinte vérifiée ; aucun lien consulté dans cette conservation. Les propositions du document ne remplacent pas les autorisations utilisateur. Le premier registre DSC/HIS reste intact. Suite : rapprochements hors ligne, sans déduire 70 œuvres nouvelles. Aucun import Zotero, push, fusion ou déploiement ; pas d'intervention dans la session externe. Les sections suivantes décrivent les étapes précédentes.
+
 ## Dernière reprise — première passe du registre terminée, 25 octobre
 
 [Revue déléguée](../reviews/communication-discovery-2026-10-24/DELEGATED-REVIEW.md), [état des 60 identifiants](../reviews/communication-discovery-2026-10-24/register-status-2026-10-25.tsv). Les lots Perplexity 02–04 ont terminé : original AMNH toujours inaccessible, quatre pages WWF/Smithsonian documentées puis 39 pistes contrôlées en première passe. Bilan calculé : 60/60 avec revue initiale, dont 15 métadonnées confirmées directement, 25 selon consultation déléguée et 20 dossiers partiels. Aucun de ces statuts n'est une acceptation/import automatique. Toutes les recherches web supplémentaires ont été confiées à Perplexity Recherche standard ; Computer reste décoché.
