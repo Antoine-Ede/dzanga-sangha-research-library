@@ -1,5 +1,13 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Dernière reprise — première passe du registre terminée, 25 octobre
+
+[Revue déléguée](../reviews/communication-discovery-2026-10-24/DELEGATED-REVIEW.md), [état des 60 identifiants](../reviews/communication-discovery-2026-10-24/register-status-2026-10-25.tsv). Les lots Perplexity 02–04 ont terminé : original AMNH toujours inaccessible, quatre pages WWF/Smithsonian documentées puis 39 pistes contrôlées en première passe. Bilan calculé : 60/60 avec revue initiale, dont 15 métadonnées confirmées directement, 25 selon consultation déléguée et 20 dossiers partiels. Aucun de ces statuts n'est une acceptation/import automatique. Toutes les recherches web supplémentaires ont été confiées à Perplexity Recherche standard ; Computer reste décoché.
+
+Réponses complètes et TSV copiés, empreintes contrôlées, provenance privée `.local/perplexity-handoffs/jobs.json`. Les artefacts annoncés par Perplexity ne sont pas présentés comme téléchargés ; le dernier lot n'annonce aucun fichier créé. Codex a contrôlé les identifiants, la couverture, les champs, les statuts et les limites hors ligne, sans relecture indépendante des pages. Les 60 blocs initiaux et les 22 lignes de métadonnées directes sont inchangés. La session Communication externe attend toujours le Markdown utilisateur, aucune intervention dans cette session.
+
+Branche documentaire existante ; contrôle commun et preuve fraîche sur le nouveau commit local requis. Aucun import/écriture Zotero, push, fusion ni déploiement. Prochain pas : compléter de manière ciblée les 20 cas, les originaux historiques et leurs preuves locales, puis rapprocher le Markdown Communication quand reçu. Retour arrière : retirer le commit de revue uniquement en conservant les exports privés et le registre initial ; pas de restauration Zotero nécessaire. Les paragraphes suivants conservent les étapes intermédiaires.
+
 ## Suivi Perplexity — 25 octobre 2026
 
 L'utilisateur demande de déléguer toute nouvelle recherche web à Perplexity et de suivre directement les résultats, en préservant la session Communication parallèle qui sera transmise par Markdown. [Protocole](PERPLEXITY_WORKFLOW.md). Mission dédiée HIST-2026-10-25-01, cinq incertitudes historiques uniquement : https://www.perplexity.ai/search/12d2a0cb-3d47-4862-81b9-b06f49fad325 . Recherche standard, Computer décoché ; le choix Recherche approfondie a affiché une proposition Max, pas une activation confirmée. Aucun abonnement changé.

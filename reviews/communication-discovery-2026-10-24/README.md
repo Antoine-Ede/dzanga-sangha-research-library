@@ -34,3 +34,9 @@ Le premier commit de conservation est `292fe926c1e7eea2b972a400d5cb10a150545428`
 Voir le [bilan historique](HISTORICAL-REVIEW.md), les [dix nouvelles pistes/entités](historical-leads.tsv) et le [bilan calculé](review-summary.json). Sur les 60 identifiants initiaux, 17 ont fait l'objet de consultations et 15 disposent de métadonnées confirmées avec limites explicites. Le fichier `verified-sources.tsv` contient 22 lignes au total, dont sept entités historiques supplémentaires ; ce n'est ni une liste de 22 œuvres nouvelles, ni une file autorisée à importer.
 
 Le [bilan de lecture publique Zotero](zotero-snapshot-summary.json) couvre cinq pages, 459 objets dont 458 références. Cinq rapprochements annoncés sont confirmés ; 55 pistes n'ont pas de correspondance exacte selon la méthode documentée dans `zotero-matches.tsv`, ce qui ne prouve pas leur absence sous une autre version. Aucun changement du catalogue. Branche et commits locaux seulement ; aucune fusion, aucun déploiement.
+
+## Revue déléguée du 25 octobre
+
+La [revue et ses limites](DELEGATED-REVIEW.md) complète la première passe : [60 identifiants suivis](register-status-2026-10-25.tsv), 15 avec métadonnées confirmées directement, 25 avec métadonnées attestées selon la consultation déléguée à Perplexity, 20 encore partiels. Zéro identifiant sans première revue ; ce n'est pas une acceptation finale des 60 pistes. Les compteurs du 24 octobre ci-dessus sont conservés comme état historique.
+
+Les résultats délégués restent séparés du fichier `verified-sources.tsv`, dont les 22 lignes initiales ne changent pas. [Quatre pages WWF/Smithsonian](delegated-verification-2026-10-25.tsv), [39 pistes restantes](delegated-sweep-2026-10-25.tsv), [cinq incertitudes historiques](perplexity-review-2026-10-25.tsv), [bilan calculé](delegated-review-summary.json). Aucun média intégralement visionné ou écouté revendiqué. Session Communication externe toujours séparée ; aucun import Zotero ou déploiement.
