@@ -15,6 +15,10 @@ Le registre de suivi et les captures brutes restent privés : `.local/perplexity
 
 Ce mécanisme est un suivi à chaque reprise de travail, **pas une synchronisation permanente**, un accès au système de fichiers distant ou une surveillance en arrière-plan. Aucun connecteur Computer n'est nécessaire. Les fichiers d'une autre conversation ne sont pas prétendus visibles.
 
+## Mesure d'efficacité, sans fausse précision
+
+Le navigateur ne fournit pas les jetons ni la facturation de Perplexity, et le projet ne dispose pas d'une recherche directe équivalente comme baseline. Il est donc interdit de déclarer une économie mesurée de jetons. Le script local `tools/perplexity_efficiency.py` ne calcule que des proxys observables (volume des réponses, dossiers couverts et durée explicitement affichée) et laisse les champs de jetons et d'économie à `null`. Voir [la méthode](PERPLEXITY_MEASUREMENT.md).
+
 ## Capacités constatées le 25 octobre
 
 Le compte connecté affiche Pro. Cliquer Recherche approfondie a ouvert une proposition de passage à Max ; aucune activation de ce mode n'a été confirmée et aucun abonnement n'a été changé. Le premier lot est donc lancé en **Recherche standard**, Computer décoché. Ne pas présenter sa réponse comme une Recherche approfondie.

@@ -20,3 +20,7 @@ Statut : conservation et rapprochement hors ligne terminés ; vérification des 
 ## Consolidation du 29 octobre
 
 Deux missions du 25 octobre : six entrées examinées, une confirmation déléguée (SUP-51), quatre partiels, un blocage ; 64 entrées non examinées dans ces missions. Réponse en attente récupérée depuis le DOM visible, sans relance des recherches. Voir PRIORITY-REVIEW.md. Aucune correction Zotero, aucun import/push/déploiement ; originaux et anciens registres inchangés. Contrôles de structure, identifiants et empreintes puis contrôle commun requis sur le commit final.
+
+## Mesure de délégation — 29 octobre
+
+Un outil local compte les missions, cas, artefacts, volumes textuels et seules durées affichées dans les preuves privées. Il ne convertit pas des mots en jetons et ne calcule aucun gain sans export d'usage fournisseur et comparaison directe équivalente. La mesure actuelle est donc un indicateur de volume et de couverture, jamais une économie démontrée. Voir `docs/PERPLEXITY_MEASUREMENT.md`.
