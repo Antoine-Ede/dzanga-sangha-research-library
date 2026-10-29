@@ -32,3 +32,7 @@ Trois entrées sont des outils de repérage (SUP-16, SUP-29, SUP-38), SUP-32 reg
 Les titres, dates, rôles et langues du supplément restent dans des colonnes rapportées. Les relations sont des candidats, des rapprochements déclarés ou des hypothèses explicites, jamais des fusions. La base DSC/HIS et ses résultats sont inchangés. L'original intégral et les traces de réception restent privés avec empreinte ; aucun fichier de la session externe n'a été consulté directement.
 
 Aucune nouvelle recherche web, aucun import Zotero, push, fusion ou déploiement dans cette réception. Auto-revue de la même session ; pas de relecteur indépendant. Retour arrière : retirer le commit de rapprochement sans retirer la première conservation, en préservant le Markdown privé et les anciens registres.
+
+## Vérifications prioritaires consolidées le 29 octobre
+
+[Résultats et limites des six cas](PRIORITY-REVIEW.md) : une confirmation déléguée, quatre partiels, un blocage. Consultations Perplexity du 25 octobre, sans nouvelle lecture de source lors de la consolidation. Les alertes de date restent ouvertes ; les états de réception et rapprochement ci-dessus sont historiques. Aucun import ou déploiement.

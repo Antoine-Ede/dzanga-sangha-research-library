@@ -16,3 +16,7 @@ Statut : conservation et rapprochement hors ligne terminés ; vérification des 
 - Rapprochement calculé : sept entrées avec URL correspondante dans l'instantané complet du 24 octobre, 63 sans correspondance exacte ; 12 candidats locaux, cinq enrichissements DSC rapportés, aucune fusion. Sept alertes documentées. Aucun de ces rapprochements n'atteste une consultation actuelle de source.
 - Livrable : reviews/communication-supplement-2026-10-25/RECONCILIATION.md et registres liés. Le fichier reçu est archivé et le suivi COMM-EXTERNAL marqué reçu, sans lecture de la session externe. Aucune recherche web, écriture Zotero ou publication.
 - Suite : vérifications ciblées via Perplexity, en priorité CARPO/SUP-65, National Geographic/SUP-64 et presse1994/SUP-51 ; aucune autorisation d'import.
+
+## Consolidation du 29 octobre
+
+Deux missions du 25 octobre : six entrées examinées, une confirmation déléguée (SUP-51), quatre partiels, un blocage ; 64 entrées non examinées dans ces missions. Réponse en attente récupérée depuis le DOM visible, sans relance des recherches. Voir PRIORITY-REVIEW.md. Aucune correction Zotero, aucun import/push/déploiement ; originaux et anciens registres inchangés. Contrôles de structure, identifiants et empreintes puis contrôle commun requis sur le commit final.

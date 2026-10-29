@@ -1,5 +1,9 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Reprise du 29 octobre — preuves Perplexity consolidées
+
+[Six vérifications prioritaires](../reviews/communication-supplement-2026-10-25/PRIORITY-REVIEW.md), consultations déléguées du 25 octobre : une confirmation, quatre partiels, un blocage  ; 64 autres entrées SUP non examinées dans ces deux missions. Réponse02 récupérée le 29 dans le DOM visible (presse-papiers vide), pas nouvelle consultation de source. SUP-51, LA Times 1994, documenté ; CARPO fin d'entretien et original Chadwick restent incomplets ; dates El País/WWF/Carroll non corrigées. Registres originaux intacts,preuves privées et SHA archivés. Aucun import Zotero, push, fusion, déploiement ou accès à la session externe. Auto-revue hors ligne, pas de confirmation scientifique globale. Suite : autres entrées SUP et preuves nouvelles pour les blocages ; ne pas répéter les mêmes échecs sans nouvel élément. Contrôle commun et preuve fraîche sur commit final requis. Retour arrière : retirer seulement ce lot documentaire en conservant toutes les preuves.
+
 ## Supplément rapproché — 25 octobre 2026
 
 [Lot 020](tasks/020-communication-supplement.md), [bilan](../reviews/communication-supplement-2026-10-25/RECONCILIATION.md). Premier commit de conservation 6c581e7,70 blocs et101 liens préservés. Rapprochement hors ligne terminé : sept entrées SUP avec URL correspondante dans l'instantané Zotero complet du 24 octobre (458 références),63 sans correspondance exacte par cette méthode ;12 candidats locaux et5 enrichissements DSC déclarés. Pas de nombre d'œuvres nouvelles déduit, aucune décision automatique de doublon. Sept alertes conservées, notamment dates El País/WWF et identité des versions. Zéro source nouvellement vérifiée ; les valeurs du supplément restent conversation_reported. Source privée avec SHA, réception COMM-EXTERNAL consignée ; session externe non consultée.

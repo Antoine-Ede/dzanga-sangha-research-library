@@ -24,3 +24,7 @@ Toutes les recherches web supplémentaires passent par Perplexity. Aucun import 
 ## Rapprochement hors ligne terminé
 
 Voir le [bilan et ses limites](RECONCILIATION.md). Sept correspondances d'URL dans l'instantané Zotero du 24 octobre, 63 sans correspondance exacte selon cette méthode, 12 entrées avec candidats dans les registres locaux, cinq enrichissements DSC rapportés. Aucun de ces compteurs n'est un nombre d'œuvres nouvelles ou une décision de doublon. [File de revue](review-queue.tsv), [alertes](review-alerts.tsv). Toutes les entrées source conservent leur statut conversation_reported ; aucun accès web nouveau.
+
+## Vérifications prioritaires consolidées le 29 octobre
+
+[Résultats et limites des six cas](PRIORITY-REVIEW.md) : une confirmation déléguée, quatre partiels, un blocage. Consultations Perplexity du 25 octobre, sans nouvelle lecture de source lors de la consolidation. Les alertes de date restent ouvertes ; les états de réception et rapprochement ci-dessus sont historiques. Aucun import ou déploiement.
