@@ -24,3 +24,7 @@ Deux missions du 25 octobre : six entrées examinées, une confirmation délégu
 ## Mesure de délégation — 29 octobre
 
 Un outil local compte les missions, cas, artefacts, volumes textuels et seules durées affichées dans les preuves privées. Il ne convertit pas des mots en jetons et ne calcule aucun gain sans export d'usage fournisseur et comparaison directe équivalente. La mesure actuelle est donc un indicateur de volume et de couverture, jamais une économie démontrée. Voir `docs/PERPLEXITY_MEASUREMENT.md`.
+
+## Paquet de reprise Perplexity — 2 novembre
+
+Le service externe ne voit pas les registres locaux. `PERPLEXITY-VERIFICATION-PACKET-64.md`, produit par `tools/build_perplexity_packet.py`, transmet les 64 blocs restants et les relations seulement candidates ; six dossiers déjà traités sont exclus. Aucun fichier n'est transmis automatiquement : le responsable l'envoie manuellement avec le mandat de vérification. Contrôle requis avant réception : 64 titres SUP, aucun des six identifiants exclus et aucun champ converti en métadonnée vérifiée.
