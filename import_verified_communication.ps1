@@ -117,7 +117,9 @@ try {
     for ($offset = 0; $offset -lt $pending.Count; $offset += 25) {
         $last = [Math]::Min($offset + 24, $pending.Count - 1)
         $batch = @($pending[$offset..$last] | ForEach-Object { Convert-CandidateToItem $_ })
-        $json = $batch | ConvertTo-Json -Depth 12 -Compress
+        # InputObject preserves an array even when the final batch contains one item
+        # (Windows PowerShell 5.1 otherwise commonly serializes a scalar object).
+        $json = ConvertTo-Json -InputObject $batch -Depth 12 -Compress
         if (-not $json.TrimStart().StartsWith('[')) { Stop-Safely 'Zotero batch payload is not a JSON array.' }
         $body = [System.Text.Encoding]::UTF8.GetBytes($json)
         $response = Invoke-ZoteroRequest -Method 'POST' -Uri "https://api.zotero.org/groups/$ExpectedGroupId/items" -Body $body -AdditionalHeaders @{ 'If-Unmodified-Since-Version' = $live.version }
