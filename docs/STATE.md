@@ -1,5 +1,9 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Correctif de prélecture Zotero Communication — 4 novembre
+
+La prélecture de `import_verified_communication.ps1` a refusé une clé chargée localement avant tout appel d’écriture, car elle ne reconnaissait que l’ancienne forme `access.group`. Le script accepte maintenant le schéma courant `access.groups`, en privilégiant la règle spécifique au groupe `6701789`, puis `all`, tout en conservant une compatibilité avec l’ancienne forme. Un test de non-régression et l’analyse syntaxique PowerShell couvrent ce chemin. Aucune clé, réponse d’API ou donnée Zotero n’est enregistrée par cette correction ; l’import reste en attente d’une nouvelle prélecture réussie dans le shell authentifié de l’utilisateur.
+
 ## Livraison Perplexity des 64 entrées SUP — 4 novembre
 
 Deux fichiers transmis par le responsable sont préservés et [intégrés comme preuve déléguée](../reviews/communication-supplement-2026-10-25/perplexity-final-2026-11-03/INTEGRATION.md), sans écraser `reported-sources.tsv`. Le contrôle fail-closed valide 64/64 identifiants attendus, les six exclusions, le schéma à 12 colonnes et les statuts rapportés : 35 `verified_delegated`, 25 `partial`, 4 `blocked`. Codex n'a relu aucune URL : ces statuts ne sont pas une vérification primaire indépendante, ni une autorisation d'import, de fusion, de droits ou de classement scientifique. Les quatre blocages et la décision de pertinence de SUP-47 restent ouverts. Aucun import Zotero, push, fusion ou déploiement. Retour arrière : retirer seulement ce paquet reçu et son manifeste ; les registres sources et le catalogue restent inchangés.
