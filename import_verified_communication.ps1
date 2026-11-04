@@ -1,4 +1,4 @@
-<#[
+<#
 Imports conservative, delegated-verified Communication webpages into Zotero.
 
 Default mode is a read-only preflight.  Pass -Apply only after preflight is
@@ -41,11 +41,29 @@ function Read-ZoteroJson([string]$Uri) {
     return @{ response = $response; data = ($response.Content | ConvertFrom-Json) }
 }
 
+function Get-GroupPermissionState($Key) {
+    # Current Zotero keys expose group permissions under access.groups, normally
+    # with an `all` rule; retain the legacy shape only as a compatibility path.
+    $scope = $null
+    if ($null -ne $Key.access.groups) {
+        $properties = @($Key.access.groups.psobject.Properties)
+        $specific = $properties | Where-Object { $_.Name -eq $ExpectedGroupId } | Select-Object -First 1
+        $all = $properties | Where-Object { $_.Name -eq 'all' } | Select-Object -First 1
+        if ($null -ne $specific) { $scope = $specific.Value }
+        elseif ($null -ne $all) { $scope = $all.Value }
+    }
+    if ($null -eq $scope -and $null -ne $Key.access.group) { $scope = $Key.access.group }
+    if ($null -eq $scope) { return @{ read = $false; write = $false; schema = 'no-group-scope' } }
+    $canRead = [bool]$scope.library -or [bool]$scope.read
+    return @{ read = $canRead; write = [bool]$scope.write; schema = 'groups-scope' }
+}
+
 function Assert-Environment {
     if ([string]::IsNullOrWhiteSpace($env:ZOTERO_API_KEY)) { Stop-Safely 'ZOTERO_API_KEY is not loaded in this shell.' }
     if ($env:ZOTERO_GROUP_ID -ne $ExpectedGroupId) { Stop-Safely ('ZOTERO_GROUP_ID must equal ' + $ExpectedGroupId + '.') }
     $key = (Read-ZoteroJson 'https://api.zotero.org/keys/current').data
-    if (-not $key.access.group.read -or -not $key.access.group.write) { Stop-Safely 'Current Zotero key lacks group read/write permission.' }
+    $permission = Get-GroupPermissionState $key
+    if (-not $permission.read -or -not $permission.write) { Stop-Safely 'Current Zotero key lacks group library/read and write permission.' }
     Write-Output 'Group read/write permissions: OK'
 }
 
