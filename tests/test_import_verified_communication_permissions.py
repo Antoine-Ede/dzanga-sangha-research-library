@@ -20,3 +20,11 @@ def test_legacy_group_permission_schema_remains_a_compatibility_path() -> None:
 
     assert "$Key.access.group" in source
     assert "Current Zotero key lacks group library/read and write permission." in source
+
+
+def test_creation_response_uses_zotero_v3_item_key_not_object_text() -> None:
+    source = SCRIPT.read_text(encoding="utf-8")
+
+    assert "$property.Value.key" in source
+    assert "Zotero v3 returns a creation object" in source
+    assert "Created Communication record:" in source

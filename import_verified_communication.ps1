@@ -33,7 +33,15 @@ function Invoke-ZoteroRequest([string]$Method, [string]$Uri, [byte[]]$Body = $nu
     foreach ($name in $AdditionalHeaders.Keys) { $headers[$name] = $AdditionalHeaders[$name] }
     $params = @{ Method = $Method; Uri = $Uri; Headers = $headers; UseBasicParsing = $true; ErrorAction = 'Stop' }
     if ($null -ne $Body) { $params['Body'] = $Body; $params['ContentType'] = 'application/json; charset=utf-8' }
-    return Invoke-WebRequest @params
+    try { return Invoke-WebRequest @params }
+    catch {
+        # The request URI carries only the public group/item path.  Do not expose
+        # headers or response bodies, which may contain sensitive context.
+        $status = $null
+        if ($null -ne $_.Exception.Response) { $status = [int]$_.Exception.Response.StatusCode }
+        if ($null -ne $status) { throw ("Zotero $Method request failed (HTTP $status): $Uri") }
+        throw
+    }
 }
 
 function Read-ZoteroJson([string]$Uri) {
@@ -144,11 +152,16 @@ try {
         $result = $response.Content | ConvertFrom-Json
         if ($null -eq $result.successful) { Stop-Safely 'Zotero response lacks successful creation records.' }
         foreach ($property in $result.successful.psobject.Properties) {
-            $index = [int]$property.Name; $key = [string]$property.Value
+            $index = [int]$property.Name
+            # Zotero v3 returns a creation object (key/version/data), while older
+            # responses may map the submitted index directly to an item key.
+            $key = if ($null -ne $property.Value.key) { [string]$property.Value.key } else { [string]$property.Value }
+            if ([string]::IsNullOrWhiteSpace($key)) { Stop-Safely ('Zotero returned an empty item key for batch index ' + $index + '.') }
             $candidate = $pending[$offset + $index]
             $check = (Read-ZoteroJson "https://api.zotero.org/groups/$ExpectedGroupId/items/$key").data
             if ($check.data.title -ne $candidate.title -or (Normalize-Url $check.data.url) -ne (Normalize-Url $candidate.url)) { Stop-Safely ('Immediate Zotero verification failed for ' + $candidate.id + '.') }
             [void]$created.Add([pscustomobject]@{ id = $candidate.id; key = $key })
+            Write-Output ('Created Communication record: ' + $candidate.id)
         }
         if ($null -ne $result.failed) {
             foreach ($property in $result.failed.psobject.Properties) { [void]$failed.Add([pscustomobject]@{ batchIndex = $property.Name; reason = 'Zotero reported failed creation.' }) }
