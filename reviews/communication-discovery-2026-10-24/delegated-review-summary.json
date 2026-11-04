@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-25",
+  "reported_ids": 60,
+  "ids_with_a_first_source_review": 60,
+  "ids_without_first_review": 0,
+  "initial_direct_source_checks": 17,
+  "additional_delegated_source_checks": 43,
+  "original_id_statuses": {
+    "metadata_reported_delegated": 25,
+    "partial": 20,
+    "metadata_confirmed_direct": 15
+  },
+  "initial_confirmed_metadata_records_unchanged": 22,
+  "additional_delegated_metadata_records": 25,
+  "historical_uncertainties": {
+    "partial": 3,
+    "blocked": 2
+  },
+  "zotero_writes": 0,
+  "deployed": false,
+  "method_note": "First review is not final acceptance: direct and delegated source reads, partial dossiers, editions and components remain separate."
+}

@@ -1,0 +1,17 @@
+{
+  "consolidated_at": "2026-10-29T20:16:58.409693+00:00",
+  "source_review_date": "2026-10-25",
+  "supplement_entries": 70,
+  "entries_examined": 6,
+  "statuses": {
+    "partial": 4,
+    "verified_delegated": 1,
+    "blocked": 1
+  },
+  "not_examined_in_these_missions": 64,
+  "independent_source_rechecks_by_Codex": 0,
+  "zotero_writes": 0,
+  "deployed": false,
+  "token_savings_measured": false,
+  "counts_note": "Fields supported by a delegated page read do not equal scientific validation or an import-ready record."
+}

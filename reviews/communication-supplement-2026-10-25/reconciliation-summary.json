@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-10-25T21:16:44.192998+00:00",
+  "preservation_commit": "6c581e7e48a131568fe72cc480e0ece84fc2b399",
+  "reported_entries": 70,
+  "reported_links": 101,
+  "unique_reported_urls": 100,
+  "catalogue_snapshot_checked_at": "2026-10-24T19:12:10.289784+00:00",
+  "catalogue_snapshot_references": 458,
+  "snapshot_match_statuses": {
+    "no_exact_snapshot_match": 63,
+    "snapshot_url_overlap": 7
+  },
+  "entries_with_local_url_or_title_candidates": 12,
+  "entries_with_reported_DSC_enrichment": 5,
+  "review_lanes": {
+    "source_metadata_review": 46,
+    "version_or_edition_identity": 10,
+    "locator_not_individual_work": 3,
+    "institutional_context_pages": 1,
+    "existing_register_enrichment": 3,
+    "restricted_media_metadata_only": 1,
+    "book_edition_identity": 1,
+    "secondary_reference_original_pending": 4,
+    "APDS_public_newsletter_coordination": 1
+  },
+  "new_verified_sources": 0,
+  "zotero_writes": 0,
+  "network_requests": 0,
+  "pushed": false,
+  "deployed": false,
+  "new_works_count": null,
+  "count_note": "70 reported entities may be sources, versions, indexes or enrichment; catalogue matches are not duplicate decisions or proof of source validity."
+}

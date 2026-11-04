@@ -1,0 +1,17 @@
+{
+  "source_filename": "PASSATION-CODEX-SUPPLEMENT-2026-10-25.md",
+  "source_sha256": "bd93c25043fcad8bb1333d5b3aebf72d562fc53e9278a2ef9ed82ad525ceb938",
+  "source_bytes": 45764,
+  "received_at": "2026-10-25T21:13:42.132122+00:00",
+  "reported_entries": 70,
+  "reported_links": 101,
+  "unique_reported_urls": 100,
+  "status": "conversation_reported",
+  "source_description": "User-supplied compilation, not a source verification report executed in this session.",
+  "prior_register": "reviews/communication-discovery-2026-10-24",
+  "new_zotero_writes": 0,
+  "web_checks": 0,
+  "deployed": false,
+  "whole_document_preserved_privately": true,
+  "raw_blocks_roundtrip_checked": true
+}

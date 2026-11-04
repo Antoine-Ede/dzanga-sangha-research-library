@@ -1,0 +1,769 @@
+{
+  "schema_version": 1,
+  "source": "delegated Perplexity delivery; import requires live Zotero duplicate check",
+  "candidate_count": 33,
+  "excluded_non_individual_pages": {
+    "SUP-16": "Evolving author index, not an individual communication work.",
+    "SUP-32": "Two evolving institutional context pages, not an individual work.",
+    "SUP-35": "Undated regional project profile, not an individual communication work."
+  },
+  "candidates": [
+    {
+      "id": "SUP-03",
+      "itemType": "webpage",
+      "title": "The Man Who Spent 30 Years in the Rainforest Preserving the Music of the Bayaka",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Emiko",
+          "lastName": "Jozuka"
+        }
+      ],
+      "date": "2016-07-20",
+      "url": "https://www.vice.com/en/article/louis-sarno-spent-30-years-in-the-rainforest-preserving-the-music-of-the-bayaka/",
+      "websiteTitle": "VICE",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-03\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Emiko Jozuka : auteure ; Louis Sarno/Noel Lobley : interlocuteurs\nReported type: Article VICE/Motherboard\nDSPA relevance: Sarno près de Bayanga/Yadoumbé et accès Bayaka à la forêt Dzanga-Sangha développés.\nLimits: Photographies non examinées ; propos et allégations attribués aux sources."
+    },
+    {
+      "id": "SUP-06",
+      "itemType": "webpage",
+      "title": "Pom, The Red Elephant",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Andrea K.",
+          "lastName": "Turkalo"
+        }
+      ],
+      "date": "2015-08-19",
+      "url": "https://blog.wcs.org/photo/2015/08/19/red-elephant-andrea-turkalo-africa/",
+      "websiteTitle": "Wildlife Conservation Society",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-06\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Andrea K. Turkalo : texte et photographie\nReported type: Billet photographique WCS\nDSPA relevance: Suivi à Dzanga Bai/RCA explicitement nommé.\nLimits: Image non examinée ; copyright ne vaut pas licence de réutilisation."
+    },
+    {
+      "id": "SUP-11",
+      "itemType": "webpage",
+      "title": "Abenteuer Urwald - Unter Gorillas",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Stefanie",
+          "lastName": "Zeyn"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Behrend"
+        }
+      ],
+      "date": "2010",
+      "url": "https://www.br.de/fernsehen/ard-alpha/programmkalender/sendung-2517572.html",
+      "websiteTitle": "Bayerischer Rundfunk",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-11\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Stefanie Zeyn et Thomas Behrend : auteurs ; Gábor Toldy : rédaction\nReported type: Documentaire making-of ; fiche BR\nDSPA relevance: Makumba, Angelique Todd et Bai Hokou à Dzanga Sangha/RCA.\nLimits: Créneau non durée exacte ; langue film non explicitée ; film non visionné ; Crew United inaccessible."
+    },
+    {
+      "id": "SUP-13",
+      "itemType": "webpage",
+      "title": "Gorillas - Kings of the jungle",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Thomas",
+          "lastName": "Behrend"
+        }
+      ],
+      "date": "2018",
+      "url": "https://iwonder.com/titles/gorillas-kings-of-the-jungle-9abdc8ca6a774e649257613bc94fe1f0",
+      "websiteTitle": "iWonder",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-13\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Thomas Behrend : vidéaste présenté\nReported type: Fiche documentaire iWonder\nDSPA relevance: Makumba et sa famille à Dzanga-Sangha/RCA dans synopsis.\nLimits: Réalisation non explicitée ; langue vide ; film non visionné."
+    },
+    {
+      "id": "SUP-14",
+      "itemType": "webpage",
+      "title": "From Jersey to the jungle",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Susan",
+          "lastName": "Schulman"
+        }
+      ],
+      "date": "2016-01-20",
+      "url": "https://www.slow-journalism.com/from-the-archive/from-jersey-to-the-jungle",
+      "websiteTitle": "Delayed Gratification",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-14\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Susan Schulman : reporter et enregistrements audio\nReported type: Reportage ; reprise n°22 Delayed Gratification\nDSPA relevance: Dzanga-Sangha, Yandoumbe et Bayanga substantiellement développés.\nLimits: Chronologie voyage/publication à contrôler ; date/pages imprimées inconnues ; audio non écouté."
+    },
+    {
+      "id": "SUP-18",
+      "itemType": "webpage",
+      "title": "Researcher Studying Endangered Elephants Flees CAR",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Wildlife Conservation Society"
+        }
+      ],
+      "date": "2013-06-12",
+      "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/5597/Researcher-Studying-Endangered-Elephants-Flees-CAR.aspx",
+      "websiteTitle": "Wildlife Conservation Society",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-18\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: WCS : émetteur ; Andrea Turkalo : scientifique citée\nReported type: Communication WCS relayant Discover\nDSPA relevance: Départ Turkalo de Dzanga Bai et tuerie mai2013 au centre.\nLimits: Signature personnelle absente ; faits attribués à communication historique."
+    },
+    {
+      "id": "SUP-19",
+      "itemType": "webpage",
+      "title": "Statement on Violence in Central African Republic",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Wildlife Conservation Society"
+        }
+      ],
+      "date": "2013-05-10",
+      "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/6520/Statement-on-Violence-in-Central-African-Republic.aspx",
+      "websiteTitle": "Wildlife Conservation Society",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-19\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: WCS : émetteur ; Cristián Samper/Andrea Turkalo : cités ; Sautner/Delaney : contacts presse, pas auteurs\nReported type: Déclaration institutionnelle WCS\nDSPA relevance: Texte centré sur Dzanga Bai/RCA et menace de massacres ; action au Congo voisin distincte.\nLimits: Communication historique/chiffres non validés scientifiquement ; aucun contact effectué."
+    },
+    {
+      "id": "SUP-20",
+      "itemType": "webpage",
+      "title": "STUDY: A Lost Century for Forest Elephants ; A Lost Century",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Wildlife Conservation Society"
+        }
+      ],
+      "date": "2016-08-30",
+      "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/9235/STUDY-A-Lost-Century-for-Forest-Elephants.aspx",
+      "websiteTitle": "Wildlife Conservation Society",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-20\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: WCS : émetteur ; Turkalo : auteure d’étude citée, pas signature communiqué\nReported type: Communiqué et présentation institutionnelle abrégée\nDSPA relevance: Données de Dzanga Bai/RCA collectées1990–2013.\nLimits: Indexation Wildcards2022 non confirmée ; résultats non validés indépendamment."
+    },
+    {
+      "id": "SUP-21",
+      "itemType": "webpage",
+      "title": "Elephant Ingenuity",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Andrea K.",
+          "lastName": "Turkalo"
+        }
+      ],
+      "date": "2014-11-03",
+      "url": "https://blog.wcs.org/photo/2014/11/03/elephant-ingenuity/",
+      "websiteTitle": "Wildlife Conservation Society",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-21\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Andrea K. Turkalo : signature\nReported type: Billet photographique WCS\nDSPA relevance: Sappho I/IV à Dzanga Clearing/RCA dans corps.\nLimits: Image non examinée ; droits non établis."
+    },
+    {
+      "id": "SUP-22",
+      "itemType": "webpage",
+      "title": "Elephant Path / Njaia Njoku",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Todd",
+          "lastName": "McGrain"
+        }
+      ],
+      "date": "2018",
+      "url": "https://www.docnyc.net/film/elephant-path/",
+      "websiteTitle": "DOC NYC",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-22\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Todd McGrain : réalisation ; McGrain/Scott Anger/Natalie Ruiz Tofano : production ; Anger : image ; McGrain/Sara Khaki : montage ; Alexander Balanescu : musique\nReported type: Documentaire ; fiches festival/distributeur/réalisateur\nDSPA relevance: Turkalo, Sessely Bernard, Zephirine Mbele à Dzanga Bai/RCA.\nLimits: Film/bande-annonce non vus ; aucune licence/gratuité inférée ; Catapult/EatDrinkFilms non lus."
+    },
+    {
+      "id": "SUP-23",
+      "itemType": "webpage",
+      "title": "Elephant Watch",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Canby"
+        }
+      ],
+      "date": "2015-05-04",
+      "url": "https://www.newyorker.com/magazine/2015/05/11/elephant-watch",
+      "websiteTitle": "The New Yorker",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-23\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Peter Canby : auteur ; Luca Zanetti : photographie\nReported type: Reportage New Yorker\nDSPA relevance: Turkalo à Dzanga Bai et Bayanga/complexe APDS développés.\nLimits: Pagination absente ; photos non examinées ; Congo/RCA distingués."
+    },
+    {
+      "id": "SUP-24",
+      "itemType": "webpage",
+      "title": "The Forest Elephants",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "The New Yorker"
+        }
+      ],
+      "date": "",
+      "url": "https://www.newyorker.com/video/watch/notes-from-all-over-the-forest-elephants",
+      "websiteTitle": "The New Yorker",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-24\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: The New Yorker : éditeur ; Andrea Turkalo : intervenante/protagoniste\nReported type: Fiche vidéo ; Notes from All Over ; transcription\nDSPA relevance: Résumé situe Turkalo à Dzanga-Ndoki/RCA ; transcription substantielle sur clairière, familles et braconnage.\nLimits: Vidéo non visionnée ; durée/réalisation/image/montage non affichés ; format numérique non normalisé ; aucune licence inférée."
+    },
+    {
+      "id": "SUP-25",
+      "itemType": "webpage",
+      "title": "The Forest Elephants of the Central African Republic Are in Peril",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Peter",
+          "lastName": "Canby"
+        }
+      ],
+      "date": "2018-11-14",
+      "url": "https://www.newyorker.com/culture/culture-desk/the-forest-elephants-of-the-central-african-republic-are-in-peril",
+      "websiteTitle": "The New Yorker",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-25\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Peter Canby : auteur ; Elephant Path : crédit photographique\nReported type: Article New Yorker sur documentaire\nDSPA relevance: Turkalo/Dzanga Bai, Sessley et Bayanga développés.\nLimits: Film non vu ; assertions scientifiques attribuées, non validées."
+    },
+    {
+      "id": "SUP-28",
+      "itemType": "webpage",
+      "title": "Inside the Congo Basin's Dzanga-Sangha Protected Area",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Antoinette",
+          "lastName": "Hovor"
+        }
+      ],
+      "date": "2025-11-19",
+      "url": "https://www.worldwildlife.org/news/stories/inside-the-congo-basins-dzanga-sangha-protected-area/",
+      "websiteTitle": "World Wildlife Fund",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-28\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Antoinette Hovor : auteure ; Luis Arranz : interviewé ; Nuria Ortega : photographies\nReported type: Entretien institutionnel WWF\nDSPA relevance: Gestion APDS/RCA, BaAka, santé, éducation, tourisme au centre.\nLimits: Images non examinées ; chiffres et propos attribués, pas validation indépendante."
+    },
+    {
+      "id": "SUP-29",
+      "itemType": "webpage",
+      "title": "Dzanga-Sangha: Land of the Gorilla",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "World Wildlife Fund"
+        }
+      ],
+      "date": "",
+      "url": "https://www.worldwildlife.org/webinars/conservation-insiders-series/dzanga-sangha-land-of-the-gorilla",
+      "websiteTitle": "World Wildlife Fund",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-29\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Allard Blom : intervenant, Managing Director for the Congo Basin ; WWF : éditeur\nReported type: Fiche webinaire ; Conservation Insiders Series\nDSPA relevance: Présentation APDS/partenariat WWF-Gouvernement RCA-communautés et habituation gorilles.\nLimits: Aucun jour déduit de World Gorilla Day ; publication web/durée/langues audiovisuel inconnues ; pas visionné."
+    },
+    {
+      "id": "SUP-30",
+      "itemType": "webpage",
+      "title": "Dzanga-Sangha Day 2025",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Helmholtz Institute for One Health"
+        }
+      ],
+      "date": "",
+      "url": "https://www.helmholtz-hioh.de/en/newsroom/news/detail/news/dzanga-sangha-day-2025/",
+      "websiteTitle": "Helmholtz Institute for One Health",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-30\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: HIOH : éditeur ; Gouvernement RCA/WWF/HIOH : organisateurs\nReported type: Compte rendu institutionnel\nDSPA relevance: Bangui/Bayanga, APDS et inauguration laboratoire HIOH/WWF.\nLimits: Date d’index pas en-tête ; contacts presse non auteurs ; médias non vus."
+    },
+    {
+      "id": "SUP-31",
+      "itemType": "webpage",
+      "title": "HIOH launches the INFORBIO research project on forest management and zoonoses surveillance",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Helmholtz Institute for One Health"
+        }
+      ],
+      "date": "",
+      "url": "https://www.helmholtz-hioh.de/en/newsroom/news/detail/news/hioh-launches-the-inforbio-research-project-on-forest-management-and-zoonoses-surveillance/",
+      "websiteTitle": "Helmholtz Institute for One Health",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-31\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: HIOH : éditeur ; Lorenzo Lagostina/Livia V. Patrono : responsables ; WWF Allemagne : coordination\nReported type: Actualité projet multisite\nDSPA relevance: Prélèvements APDS, laboratoire Bayanga, assistants Yandoumbe.\nLimits: Date rapportée27juillet2026 non confirmée ; durée2024–2030 propre au projet."
+    },
+    {
+      "id": "SUP-33",
+      "itemType": "webpage",
+      "title": "Report in GEO magazine: Virus hunt in tropical rainforests",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jörn",
+          "lastName": "auf dem Kampe"
+        }
+      ],
+      "date": "",
+      "url": "https://www.helmholtz-hioh.de/en/newsroom/news/detail/news/report-in-geo-magazine-virus-hunt-in-tropical-rainforests/",
+      "websiteTitle": "Helmholtz Institute for One Health",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-33\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: HIOH : relais ; Jörn auf dem Kampe : texte GEO ; Adrienne Surprenant/Martin Pauer : images GEO\nReported type: Relais institutionnel de reportage\nDSPA relevance: Relais localise reportage aux APDS et chasse BaAka Bayanga.\nLimits: Originaux GEO/podcast non reconsultés dans lot ; date relais2026 rapportée non confirmée ; rapprochements DSC non audités."
+    },
+    {
+      "id": "SUP-34",
+      "itemType": "webpage",
+      "title": "The first rule of gorilla tracking? Listen well ; El primer consejo para rastrear gorilas: escuchar con atención",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Andy",
+          "lastName": "Isaacson"
+        }
+      ],
+      "date": "2020-05-05",
+      "url": "https://www.worldwildlife.org/stories/the-first-rule-of-gorilla-tracking-listen-well",
+      "websiteTitle": "World Wildlife Fund",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-34\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Andy Isaacson : auteur des versions ; Ossolo Dacko : interviewé\nReported type: Articles institutionnels WWF ; versions EN/ES\nDSPA relevance: Suivi gorilles par Dacko et pisteurs BaAka dans APDS/RCA au centre.\nLimits: Pas identité mot-à-mot ; crédits photos non restitués ; chiffres attribués."
+    },
+    {
+      "id": "SUP-37",
+      "itemType": "webpage",
+      "title": "One Health Exploratories gain momentum",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Helmholtz Institute for One Health"
+        }
+      ],
+      "date": "",
+      "url": "https://www.helmholtz-hioh.de/en/newsroom/news/detail/news/one-health-exploratories-gain-momentum/",
+      "websiteTitle": "Helmholtz Institute for One Health",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-37\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: HIOH : éditeur ; Markus Ulrich/Yanthe Nobel/Thomas Dangolho/Elangwe Milo Sarah-Matio : crédits images\nReported type: Actualité institutionnelle sanitaire\nDSPA relevance: Postes de santé autour APDS et transfert prélèvements à laboratoire Bayanga.\nLimits: Indexation9septembre2026 non confirmée ; résultats non validés scientifiquement."
+    },
+    {
+      "id": "SUP-48",
+      "itemType": "webpage",
+      "title": "Central African Republic: Logging companies destroy \"Pygmies’\" livelihoods",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "World Rainforest Movement"
+        }
+      ],
+      "date": "",
+      "url": "https://www.wrm.org.uy/bulletin-articles/central-african-republic-logging-companies-destroy-pygmies-livelihoods",
+      "websiteTitle": "World Rainforest Movement",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-48\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: WRM : éditeur ; Lucy Jones/BBC : source, non auteure réécriture\nReported type: Article de bulletin ; réécriture multisource\nDSPA relevance: BaAka/Dzanga Sangha, Bayanga Wood Company et exploitation forestière au centre.\nLimits: Date via sommaire, non en-tête article ; versionES intégrale non comparée ; allégations attribuées."
+    },
+    {
+      "id": "SUP-50",
+      "itemType": "webpage",
+      "title": "Study sheds light on unique social character of forest elephants",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "ScienceDaily"
+        }
+      ],
+      "date": "2021-02-25",
+      "url": "https://www.sciencedaily.com/releases/2021/02/210223121646.htm",
+      "websiteTitle": "ScienceDaily",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-50\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: San Diego Zoo Global : original ; ScienceDaily : relais\nReported type: Relais et communiqué scientifique\nDSPA relevance: Observations1995–2010 à Dzanga Bai/RCA.\nLimits: Contradiction7/8février conservée ; étude non lue ; droits médias non généraux."
+    },
+    {
+      "id": "SUP-52",
+      "itemType": "webpage",
+      "title": "New Jersey Native Is a Pygmy in Heart, Spirit",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ann M.",
+          "lastName": "Simmons"
+        }
+      ],
+      "date": "2000-02-25",
+      "url": "https://www.latimes.com/archives/la-xpm-2000-feb-25-mn-2463-story.html",
+      "websiteTitle": "Los Angeles Times",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-52\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Ann M. Simmons : auteure, Times Staff Writer\nReported type: Portrait journalistique\nDSPA relevance: DatelineBatali/RCA ; Sarno/BaAka et Turkalo au parc voisin Dzanga-Ndoki.\nLimits: Pertinence APDS de voisinage, pas sujet exclusif ; vocabulaire historique non adopté."
+    },
+    {
+      "id": "SUP-53",
+      "itemType": "webpage",
+      "title": "Giving the Forest Back to Pygmies",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ann M.",
+          "lastName": "Simmons"
+        }
+      ],
+      "date": "2000-02-25",
+      "url": "https://www.latimes.com/archives/la-xpm-2000-feb-25-mn-2448-story.html",
+      "websiteTitle": "Los Angeles Times",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-53\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Ann M. Simmons : auteure, Times Staff Writer\nReported type: Reportage journalistique\nDSPA relevance: Bayanga/projet Dzanga-Sangha, chasse/tourisme/Mossappoula substantiels.\nLimits: Pagination absente ; témoignages2000, pas état actuel."
+    },
+    {
+      "id": "SUP-54",
+      "itemType": "webpage",
+      "title": "Grand March of an American Misfit",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Patrick J.",
+          "lastName": "Kiger"
+        }
+      ],
+      "date": "2002-01-20",
+      "url": "https://www.latimes.com/archives/la-xpm-2002-jan-20-tm-23784-story.html",
+      "websiteTitle": "Los Angeles Times",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-54\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Patrick J. Kiger : auteur ; Mike Fay : sujet ; John Robinson : cité\nReported type: Portrait journalistique\nDSPA relevance: Création refuges et anti-braconnage de Fay à Dzanga-Sangha.\nLimits: APDS non sujet exclusif ; œuvres NG citées non assimilées ; pagination absente."
+    },
+    {
+      "id": "SUP-55",
+      "itemType": "webpage",
+      "title": "Logging threatens Pygmies' forest life",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Lucy",
+          "lastName": "Jones"
+        }
+      ],
+      "date": "2002-06-04",
+      "url": "https://newsimg.bbc.co.uk/1/hi/world/africa/2023663.stm",
+      "websiteTitle": "BBC News",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-55\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Lucy Jones : auteure, BBC Bangui reporter\nReported type: Reportage BBC\nDSPA relevance: Bayanga/Dzanga Sangha : vieBaAka/exploitation/conservation développées.\nLimits: Aucun audio/film établi ; données historiques non validées ; miroir officiel BBC."
+    },
+    {
+      "id": "SUP-59",
+      "itemType": "webpage",
+      "title": "30 Jahre Dzanga-Sangha",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "WWF Deutschland"
+        }
+      ],
+      "date": "2021",
+      "url": "https://www.wwf.de/fileadmin/fm-wwf/Publikationen-PDF/WWF_Magazin/WWF-Magazin-0221-Dzanga.pdf",
+      "websiteTitle": "WWF Deutschland",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-59\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: WWF Allemagne : éditeur ; A.Gudkov/M.Bellosta/D.S.García/T.Nicolon : photos visibles\nReported type: Dossier institutionnel ; extraitPDF\nDSPA relevance: GestionAPDS/BaAka/gorilles/Bayanga/santéOneHealth au centre.\nLimits: Signature/totalité crédits/bornes pages inconnues ; langue texte allemand observée."
+    },
+    {
+      "id": "SUP-60",
+      "itemType": "webpage",
+      "title": "Bulletin Décembre 2020 ; Newsletter December 2020",
+      "creators": [
+        {
+          "creatorType": "author",
+          "name": "Dzanga-Sangha Protected Areas"
+        }
+      ],
+      "date": "2020-12",
+      "url": "https://dzanga-sangha.org/wp-content/uploads/2021/02/12-Bulletin-Decembre-2020.pdf",
+      "websiteTitle": "Dzanga-Sangha Protected Areas",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-60\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: APDS/DSPA : éditeur ; Raymond Mbitikon/Richard Carroll/Ndagbino Pascal : contributions\nReported type: Bulletin institutionnel ; versionsFR/EN\nDSPA relevance: Ensemble APDS : histoire/conservation/santé/patrouilles/Bayanga/tourisme.\nLimits: Pagination/indexPDF absents ; jours mise en ligne inconnus ; loi98.017/1990 à contrôler ; médias non vus."
+    },
+    {
+      "id": "SUP-61",
+      "itemType": "webpage",
+      "title": "Studying the world’s largest gathering of forest elephants with sound and field observation",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rhett Ayers",
+          "lastName": "Butler"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Akana"
+        }
+      ],
+      "date": "2026-04-19",
+      "url": "https://news.mongabay.com/2026/04/studying-the-worlds-largest-gathering-of-forest-elephants-with-sound-and-field-observation/",
+      "websiteTitle": "Mongabay",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-61\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Rhett Ayers Butler/David Akana : auteurs/intervieweurs ; Ivonne Kienast : interviewée\nReported type: Entretien journalistique édité\nDSPA relevance: DFEP/DzangaBai/réseau acoustiqueAPDS au centre.\nLimits: Chiffres attribués et datés, pas validation indépendante ; images non vues."
+    },
+    {
+      "id": "SUP-62",
+      "itemType": "webpage",
+      "title": "A unique clearing in Central Africa draws elephants from the dense forests",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "David",
+          "lastName": "Akana"
+        }
+      ],
+      "date": "2026-04-06",
+      "url": "https://news.mongabay.com/2026/04/a-unique-clearing-in-central-africa-draws-elephants-from-the-dense-forests/",
+      "websiteTitle": "Mongabay",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-62\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: David Akana : auteur ; Rhett Butler : complément reportage/photos ; Ivonne Kienast : interviewée\nReported type: Reportage journalistique\nDSPA relevance: DatelineBayanga ; DzangaBai/suivi/tourismeAPDS au centre.\nLimits: Chiffres attribués ; photos non vues ; droits non établis."
+    },
+    {
+      "id": "SUP-63",
+      "itemType": "webpage",
+      "title": "Central African Republic’s Dzanga-Sangha tests the promise of wildlife tourism",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rhett Ayers",
+          "lastName": "Butler"
+        }
+      ],
+      "date": "2026-07-31",
+      "url": "https://news.mongabay.com/short-article/central-african-republics-dzanga-sangha-tests-the-promise-of-wildlife-tourism/",
+      "websiteTitle": "Mongabay",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-63\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Rhett Ayers Butler : auteur ; Shreya Dasgupta : éditrice ; Mongabay : source relais\nReported type: Analyse Founder’s Briefs et relais Changemakr\nDSPA relevance: Dzanga-Sangha/Bayanga, tourisme/services locaux au centre.\nLimits: Date relais2août non restituée ; reprise partielle comparée ; licence non inférée."
+    },
+    {
+      "id": "SUP-68",
+      "itemType": "webpage",
+      "title": "The wilderness and the war ; Wildlife in areas of armed conflict",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jürgen",
+          "lastName": "Schneider"
+        }
+      ],
+      "date": "2018-01-16",
+      "url": "https://www.dw.com/en/the-wilderness-and-the-war/a-42147354",
+      "websiteTitle": "Deutsche Welle",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-68\nDelegated source check: 2026-11-02\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Jürgen Schneider : film et image présentation ; DW : diffuseur\nReported type: Présentation de film et fiche vidéo\nDSPA relevance: LuisArranz et protectionAPDS/RCA au centre.\nLimits: 05:14 propre fiche, pas durée film entier ; aucun visionnage ; ajout ultérieur non date initiale."
+    },
+    {
+      "id": "SUP-51",
+      "itemType": "webpage",
+      "title": "Pygmy Elephants Called Product of Fertile Minds, Not of Mother Nature",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Donald J.",
+          "lastName": "Frederick"
+        }
+      ],
+      "date": "1994-10-23",
+      "url": "https://www.latimes.com/archives/la-xpm-1994-10-23-mn-53790-story.html",
+      "websiteTitle": "Los Angeles Times",
+      "tags": [
+        "TYPE:Communication",
+        "STATUS:Verified",
+        "ACCESS:Open",
+        "EVIDENCE:Perplexity-Delegated",
+        "SITE:Dzanga-Sangha"
+      ],
+      "extra": "Communication evidence ID: SUP-51\nDelegated source check: 2026-10-25\nEvidence provenance: Perplexity delivery received by Codex; no independent primary-source recheck by Codex.\nReported roles: Donald J. Frederick : auteur signé ; NATIONAL GEOGRAPHIC : attribution éditoriale sous l’en-tête ; Andrea Turkalo : biologiste WCS citée, non auteure\nReported type: Reportage journalistique\nDSPA relevance: Corps : recherches de Turkalo/WCS en RCA et observation des éléphants autour d’un point d’eau dans la réserve Dzanga-Sangha.\nLimits: Première diffusion National Geographic et modalités de syndication non établies ; interprétations scientifiques rapportées en 1994, non validées comme état actuel ; pagination imprimée absente."
+    }
+  ]
+}

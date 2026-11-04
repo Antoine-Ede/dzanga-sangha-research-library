@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-24T19:12:10.289784+00:00",
+  "version": "1017",
+  "pages": 5,
+  "top_level_objects": 459,
+  "references": 458,
+  "complete_pagination": true,
+  "method": "GET only; unauthenticated public endpoint"
+}

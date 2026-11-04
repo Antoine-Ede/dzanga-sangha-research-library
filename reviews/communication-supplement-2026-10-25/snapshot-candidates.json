@@ -1,0 +1,159 @@
+[
+  {
+    "id": "SUP-04",
+    "basis": "snapshot_url_overlap",
+    "targets": [
+      {
+        "key": "R8TV5B27",
+        "title": "Un biólogo español pide armamento para salvar la fauna africana",
+        "date": "2017-02-26",
+        "itemType": "newspaperArticle",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Manuel",
+            "lastName": "Ansede"
+          }
+        ],
+        "url": "https://elpais.com/elpais/2017/02/24/ciencia/1487964024_824686.html"
+      }
+    ]
+  },
+  {
+    "id": "SUP-05",
+    "basis": "snapshot_url_overlap",
+    "targets": [
+      {
+        "key": "SU7NQH5Z",
+        "title": "El nacimiento de unos gemelos de gorila, una pequeña esperanza para la especie",
+        "date": "2016-02-10",
+        "itemType": "newspaperArticle",
+        "creators": [
+          {
+            "creatorType": "author",
+            "name": "EFE"
+          }
+        ],
+        "url": "https://elpais.com/elpais/2016/02/10/ciencia/1455118661_969240.html"
+      }
+    ]
+  },
+  {
+    "id": "SUP-27",
+    "basis": "snapshot_url_overlap",
+    "targets": [
+      {
+        "key": "WFX86MVX",
+        "title": "How conservation in Dzanga-Sangha supports people",
+        "date": "2025-05-01",
+        "itemType": "magazineArticle",
+        "creators": [
+          {
+            "creatorType": "author",
+            "name": "World Wildlife Fund"
+          }
+        ],
+        "url": "https://www.worldwildlife.org/news/magazine/summer-2025/how-conservation-in-dzanga-sangha-supports-people/"
+      }
+    ]
+  },
+  {
+    "id": "SUP-28",
+    "basis": "snapshot_url_overlap",
+    "targets": [
+      {
+        "key": "RX62QNC5",
+        "title": "Inside the Congo Basin's Dzanga-Sangha Protected Area",
+        "date": "2025-11-19",
+        "itemType": "webpage",
+        "creators": [
+          {
+            "creatorType": "author",
+            "name": "World Wildlife Fund"
+          }
+        ],
+        "url": "https://www.worldwildlife.org/news/stories/inside-the-congo-basins-dzanga-sangha-protected-area/"
+      }
+    ]
+  },
+  {
+    "id": "SUP-57",
+    "basis": "snapshot_url_overlap",
+    "targets": [
+      {
+        "key": "W7CXSPNG",
+        "title": "World Wildlife Fund (WWF-US) Organizational Overview: Dzanga-Sangha Reserve, Central African Republic",
+        "date": "1998",
+        "itemType": "bookSection",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Richard",
+            "lastName": "Carroll"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Heather E.",
+            "lastName": "Eves"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Rebecca",
+            "lastName": "Hardin"
+          },
+          {
+            "creatorType": "editor",
+            "firstName": "Stephanie",
+            "lastName": "Rupp"
+          }
+        ],
+        "url": "https://public.websites.umich.edu/~infosrn/PDF_FILES/ENGLISH_.PDF/SEC._3/CARROLL.PDF"
+      }
+    ]
+  },
+  {
+    "id": "SUP-61",
+    "basis": "snapshot_url_overlap",
+    "targets": [
+      {
+        "key": "RXWSFJA9",
+        "title": "Studying the world’s largest gathering of forest elephants with sound and field observation",
+        "date": "2026-04-19",
+        "itemType": "newspaperArticle",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "Rhett Ayers",
+            "lastName": "Butler"
+          },
+          {
+            "creatorType": "author",
+            "firstName": "David",
+            "lastName": "Akana"
+          }
+        ],
+        "url": "https://news.mongabay.com/2026/04/studying-the-worlds-largest-gathering-of-forest-elephants-with-sound-and-field-observation/"
+      }
+    ]
+  },
+  {
+    "id": "SUP-62",
+    "basis": "snapshot_url_overlap",
+    "targets": [
+      {
+        "key": "PKXRBCJF",
+        "title": "A unique clearing in Central Africa draws elephants from the dense forests",
+        "date": "2026-04-06",
+        "itemType": "newspaperArticle",
+        "creators": [
+          {
+            "creatorType": "author",
+            "firstName": "David",
+            "lastName": "Akana"
+          }
+        ],
+        "url": "https://news.mongabay.com/2026/04/a-unique-clearing-in-central-africa-draws-elephants-from-the-dense-forests/"
+      }
+    ]
+  }
+]
