@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "received_by_codex_on": "2026-11-04",
+  "reported_last_source_consultation_on": "2026-11-02",
+  "reported_delivery_created_on": "2026-11-03",
+  "transport": "user_file_handoff",
+  "scope": "64 SUP entries excluding six previously consolidated priority entries",
+  "validation": {
+    "rows": 64,
+    "unique_ids": 64,
+    "excluded_ids_absent": true,
+    "exact_schema": true,
+    "independent_source_rechecks_by_codex": 0
+  },
+  "statuses_reported_by_delivery": {
+    "verified_delegated": 35,
+    "partial": 25,
+    "blocked": 4,
+    "duplicate_candidate": 0
+  },
+  "zotero_writes": 0,
+  "git_remote_writes": 0,
+  "deployed": false,
+  "limits": [
+    "Delegated claims are not independent primary-source verification by Codex.",
+    "Verified_delegated does not authorize imports, merges, public access classification or reuse rights.",
+    "The original SUP source register remains conversation_reported."
+  ]
+}

@@ -1,5 +1,9 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Livraison Perplexity des 64 entrées SUP — 4 novembre
+
+Deux fichiers transmis par le responsable sont préservés et [intégrés comme preuve déléguée](../reviews/communication-supplement-2026-10-25/perplexity-final-2026-11-03/INTEGRATION.md), sans écraser `reported-sources.tsv`. Le contrôle fail-closed valide 64/64 identifiants attendus, les six exclusions, le schéma à 12 colonnes et les statuts rapportés : 35 `verified_delegated`, 25 `partial`, 4 `blocked`. Codex n'a relu aucune URL : ces statuts ne sont pas une vérification primaire indépendante, ni une autorisation d'import, de fusion, de droits ou de classement scientifique. Les quatre blocages et la décision de pertinence de SUP-47 restent ouverts. Aucun import Zotero, push, fusion ou déploiement. Retour arrière : retirer seulement ce paquet reçu et son manifeste ; les registres sources et le catalogue restent inchangés.
+
 ## Mesure du recours à Perplexity — 29 octobre
 
 Le suivi local mesure six missions navigateur, 54 identifiants distincts demandés et six réponses conservées (56 640 octets, 54 952 caractères, 6 710 mots par séparation d'espaces). Une seule durée explicitement affichée est exploitable : 72 secondes ; les autres ne sont pas inférées. Les jetons et coûts du fournisseur, ainsi qu'une baseline de recherche directe comparable, ne sont pas disponibles : **aucune économie de jetons n'est mesurée ni revendiquée**. [Méthode et limites](PERPLEXITY_MEASUREMENT.md). Le script reproductible lit seulement les preuves privées locales ; aucun service, secret, import Zotero, push, fusion ou déploiement n'est sollicité. Retour arrière : retirer ce seul ajout documentaire et l'outil ; les preuves et registres restent inchangés.

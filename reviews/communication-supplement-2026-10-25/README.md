@@ -28,3 +28,7 @@ Voir le [bilan et ses limites](RECONCILIATION.md). Sept correspondances d'URL da
 ## Vérifications prioritaires consolidées le 29 octobre
 
 [Résultats et limites des six cas](PRIORITY-REVIEW.md) : une confirmation déléguée, quatre partiels, un blocage. Consultations Perplexity du 25 octobre, sans nouvelle lecture de source lors de la consolidation. Les alertes de date restent ouvertes ; les états de réception et rapprochement ci-dessus sont historiques. Aucun import ou déploiement.
+
+## Livraison finale déléguée reçue le 4 novembre
+
+La remise de 64 entrées hors six dossiers déjà consolidés est conservée dans [`perplexity-final-2026-11-03/`](perplexity-final-2026-11-03/). Son [intégration et ses limites](perplexity-final-2026-11-03/INTEGRATION.md) distinguent explicitement les assertions de lecture rapportées de toute vérification indépendante par Codex. Le contrôle local confirme l'ensemble exact des identifiants, le schéma et les statuts : 35 `verified_delegated`, 25 `partial`, 4 `blocked`. Aucun import Zotero, rapprochement automatique, push ou déploiement.

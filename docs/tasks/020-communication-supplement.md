@@ -28,3 +28,7 @@ Un outil local compte les missions, cas, artefacts, volumes textuels et seules d
 ## Paquet de reprise Perplexity — 2 novembre
 
 Le service externe ne voit pas les registres locaux. `PERPLEXITY-VERIFICATION-PACKET-64.md`, produit par `tools/build_perplexity_packet.py`, transmet les 64 blocs restants et les relations seulement candidates ; six dossiers déjà traités sont exclus. Aucun fichier n'est transmis automatiquement : le responsable l'envoie manuellement avec le mandat de vérification. Contrôle requis avant réception : 64 titres SUP, aucun des six identifiants exclus et aucun champ converti en métadonnée vérifiée.
+
+## Livraison de vérification reçue — 4 novembre
+
+Le responsable a remis le TSV et le README produits par Perplexity. Ils sont conservés dans `perplexity-final-2026-11-03/`, avec SHA-256, manifeste et validation structurelle fail-closed. Couverture 64/64, six exclusions absentes, 35 `verified_delegated`, 25 `partial`, 4 `blocked`. Les sources n'ont pas été relues par Codex : aucune promotion de `reported-sources.tsv`, fusion, écriture Zotero, publication ou décision de droits n'est permise par cette réception. Prochaine étape : arbitrage humain de SUP-47 et vérifications primaires ciblées autorisées pour les quatre blocages et les familles de versions, si ce travail devient nécessaire.
