@@ -32,3 +32,7 @@ Le service externe ne voit pas les registres locaux. `PERPLEXITY-VERIFICATION-PA
 ## Livraison de vérification reçue — 4 novembre
 
 Le responsable a remis le TSV et le README produits par Perplexity. Ils sont conservés dans `perplexity-final-2026-11-03/`, avec SHA-256, manifeste et validation structurelle fail-closed. Couverture 64/64, six exclusions absentes, 35 `verified_delegated`, 25 `partial`, 4 `blocked`. Les sources n'ont pas été relues par Codex : aucune promotion de `reported-sources.tsv`, fusion, écriture Zotero, publication ou décision de droits n'est permise par cette réception. Prochaine étape : arbitrage humain de SUP-47 et vérifications primaires ciblées autorisées pour les quatre blocages et les familles de versions, si ce travail devient nécessaire.
+
+## Décision et préparation d’import — 4 novembre
+
+SUP-47 est exclu par décision utilisateur : la source est Gabon-only et ne prouve pas une pertinence APDS. `communication-import-candidates.json` rassemble 33 œuvres individuelles `verified_delegated`, y compris SUP-51 ; les index/pages de contexte SUP-16, SUP-32 et SUP-35 ne sont pas assimilés à des œuvres. `import_verified_communication.ps1` effectue une prélecture par défaut, puis des créations batch seulement avec `-Apply`, contrôles de clé/groupe, déduplication URL/titre et vérification immédiate. Aucune clé n'est présente dans l’environnement Codex actuel, donc l’import attend le shell authentifié de l’utilisateur ; aucun import ni suppression n’a été effectué.
