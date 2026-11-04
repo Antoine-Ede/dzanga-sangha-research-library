@@ -20,12 +20,13 @@ function Stop-Safely([string]$Message) {
 
 function Normalize-Url([string]$Value) {
     if ([string]::IsNullOrWhiteSpace($Value)) { return '' }
-    return $Value.Trim().TrimEnd('/').ToLowerInvariant()
+    return $Value.Trim().Normalize([System.Text.NormalizationForm]::FormKC).TrimEnd('/').ToLowerInvariant()
 }
 
 function Normalize-Title([string]$Value) {
     if ([string]::IsNullOrWhiteSpace($Value)) { return '' }
-    return ([regex]::Replace($Value.ToLowerInvariant(), '[^\p{L}\p{N}]+', ''))
+    $normalized = $Value.Trim().Normalize([System.Text.NormalizationForm]::FormKC).ToLowerInvariant()
+    return ([regex]::Replace($normalized, '[^\p{L}\p{N}]+', ''))
 }
 
 function Invoke-ZoteroRequest([string]$Method, [string]$Uri, [byte[]]$Body = $null, [hashtable]$AdditionalHeaders = @{}) {
@@ -159,7 +160,11 @@ try {
             if ([string]::IsNullOrWhiteSpace($key)) { Stop-Safely ('Zotero returned an empty item key for batch index ' + $index + '.') }
             $candidate = $pending[$offset + $index]
             $check = (Read-ZoteroJson "https://api.zotero.org/groups/$ExpectedGroupId/items/$key").data
-            if ($check.data.title -ne $candidate.title -or (Normalize-Url $check.data.url) -ne (Normalize-Url $candidate.url)) { Stop-Safely ('Immediate Zotero verification failed for ' + $candidate.id + '.') }
+            $titleMatches = (Normalize-Title ([string]$check.data.title)) -eq (Normalize-Title ([string]$candidate.title))
+            $urlMatches = (Normalize-Url ([string]$check.data.url)) -eq (Normalize-Url ([string]$candidate.url))
+            if (-not $titleMatches -or -not $urlMatches) {
+                Stop-Safely ('Immediate Zotero verification mismatch for ' + $candidate.id + '; titleMatch=' + $titleMatches + '; urlMatch=' + $urlMatches + '.')
+            }
             [void]$created.Add([pscustomobject]@{ id = $candidate.id; key = $key })
             Write-Output ('Created Communication record: ' + $candidate.id)
         }
