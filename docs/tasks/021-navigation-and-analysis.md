@@ -1,6 +1,6 @@
 # Tâche 021 — Navigation du hub et analyses bibliographiques
 
-Statut : livré localement, contrôle final en cours. Date : 11 novembre 2026.
+Statut : livré et publié. Date : 11 novembre 2026.
 
 - Besoin : rendre les sections du hub plus lisibles et transformer l’onglet
   Analyse en parcours progressif, sans altérer le catalogue Zotero.
@@ -17,3 +17,5 @@ Statut : livré localement, contrôle final en cours. Date : 11 novembre 2026.
   Contribuer) ; analyses réparties entre Synthèse, Corpus et sujets, puis
   Couverture. Chaque vue conserve des chiffres, les barres chronologiques sont
   activables au clavier et l’URL retient la vue choisie.
+- Validation : analyse syntaxique JavaScript, tests synthétiques, test navigateur
+  desktop/mobile et vérification HTTP 200 du hub public après publication.
