@@ -26,13 +26,16 @@ ces traces ; elle indique ce qui mérite une décision ou un travail ultérieur.
 
 ## Priorités actives
 
-### 1. Décider du guide de bibliothèque restant
+### 1. Branche de guide examinée, à archiver ultérieurement
 
-La seule branche fonctionnelle non fusionnée est `feat/library-guide`
-(`f04245a`, worktree `hub-publication`). Elle ajoute un guide d’utilisation et
-de contribution. La comparer au guide déjà livré avant de créer une PR ; ne pas
-la fusionner par défaut. Critères : contenu non redondant, liens exacts,
-cohérence avec l’aide publiée et contrôle navigateur après intégration.
+`feat/library-guide` (`f04245a`, worktree `hub-publication`) a été comparée à
+`main` le 11 novembre. Son guide est déjà couvert, et enrichi, par le mode
+d’emploi publié : ouverture des PDF publics, onglet Communication et règles de
+contribution actuelles. Une fusion créerait des conflits dans `.gitignore`,
+`app.js`, `index.html` et `styles.css` sans apporter de contenu utile. Ne pas
+créer de PR ni fusionner cette branche ; la conserver jusqu’à confirmation que
+plus aucune session ne dépend de son worktree, puis l’archiver de manière
+récupérable.
 
 ### 2. Revue humaine des découvertes bibliographiques
 
@@ -95,6 +98,7 @@ utiliser ou demander de secret.
 
 ## Prochain petit pas recommandé
 
-Relire `feat/library-guide` contre l’aide actuelle du hub, puis décider si son
-unique commit mérite une PR. En parallèle, conserver la clé API temporaire
-révoquée ou la révoquer dès qu’aucune écriture authentifiée n’est nécessaire.
+Choisir un petit lot de candidats bibliographiques à revue humaine, en gardant
+les rapports, les données et les contenus Communication séparés. Conserver la
+clé API temporaire révoquée ou la révoquer dès qu’aucune écriture authentifiée
+n’est nécessaire.
