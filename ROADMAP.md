@@ -26,16 +26,14 @@ ces traces ; elle indique ce qui mérite une décision ou un travail ultérieur.
 
 ## Priorités actives
 
-### 1. Branche de guide examinée, à archiver ultérieurement
+### 1. Branche de guide clôturée
 
-`feat/library-guide` (`f04245a`, worktree `hub-publication`) a été comparée à
-`main` le 11 novembre. Son guide est déjà couvert, et enrichi, par le mode
-d’emploi publié : ouverture des PDF publics, onglet Communication et règles de
-contribution actuelles. Une fusion créerait des conflits dans `.gitignore`,
-`app.js`, `index.html` et `styles.css` sans apporter de contenu utile. Ne pas
-créer de PR ni fusionner cette branche ; la conserver jusqu’à confirmation que
-plus aucune session ne dépend de son worktree, puis l’archiver de manière
-récupérable.
+`feat/library-guide` a été comparée à `main` puis supprimée le 11 novembre.
+Son contenu était déjà couvert, et enrichi, par le mode d’emploi publié :
+ouverture des PDF publics, onglet Communication et règles de contribution
+actuelles. Le dossier `hub-publication` reste un worktree Git principal détaché
+sur l’état de `main` ; ne pas le supprimer, car il héberge les métadonnées des
+autres copies de travail.
 
 ### 2. Revue humaine des découvertes bibliographiques
 
@@ -100,7 +98,8 @@ utiliser ou demander de secret.
 - Aucune pull request n’est ouverte au moment de cette consolidation.
 - Les worktrees `library-guide-current` et `research-closeout` pointent vers
   des branches déjà fusionnées ; les conserver tant qu’une autre session peut
-  en avoir besoin, puis les archiver de manière récupérable.
+  en avoir besoin, puis les archiver de manière récupérable. Le worktree
+  `hub-publication` est technique : il ne doit pas être supprimé à la place.
 - Les branches historiques fusionnées peuvent être nettoyées après vérification
   qu’aucune preuve privée ou travail parallèle n’en dépend.
 - Les imports Zotero doivent toujours être précédés d’une prélecture, d’un

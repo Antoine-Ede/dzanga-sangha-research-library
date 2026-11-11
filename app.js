@@ -1,6 +1,6 @@
 const GROUP_ID = "6701789";
 const API = `https://api.zotero.org/groups/${GROUP_ID}`;
-const state = { items: [], collections: new Map(), filtered: [], selected: {}, optionValues: {}, authorLabels: new Map(), ready: false, section:'library' };
+const state = { items: [], collections: new Map(), filtered: [], selected: {}, optionValues: {}, authorLabels: new Map(), ready: false, section:'library', analysisView:'overview' };
 const FILTERS = {
   categoryFilter: {param:'category',label:'Catégorie'},
   collectionFilter: {param:'theme',label:'Thème',multi:true},
@@ -201,6 +201,7 @@ function searchUrl() {
   if($('groupYears').checked)url.searchParams.set('group','year');
   if(state.section!=='library')url.searchParams.set('section',state.section);
   if(state.section==='analysis'&&$('analysisCategory').value)url.searchParams.set('analysis_category',$('analysisCategory').value);
+  if(state.section==='analysis'&&state.analysisView!=='overview')url.searchParams.set('analysis_view',state.analysisView);
   if(state.section==='communication'){
     if($('communicationSearch').value.trim())url.searchParams.set('media_q',$('communicationSearch').value.trim());
     for(const [id,param] of Object.entries(COMMUNICATION_FILTERS))if($(id).value)url.searchParams.set(param,$(id).value);
@@ -226,6 +227,7 @@ function restoreSearch() {
     $(id).value=Array.from($(id).options||[]).some(o=>o.value===value)?value:'';
   }
   setSection(['analysis','communication','quality','help'].includes(params.get('section'))?params.get('section'):'library');
+  setAnalysisView(['overview','corpus','coverage'].includes(params.get('analysis_view'))?params.get('analysis_view'):'overview');
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -283,6 +285,15 @@ function setSection(section) {
   $('searchPanel').hidden=section!=='library';
   $('statsPanel').hidden=['help','communication'].includes(section);
   $('exportCsv').hidden=section==='help';
+}
+
+function setAnalysisView(view) {
+  state.analysisView=view;
+  for(const name of ['overview','corpus','coverage']){
+    $('analysis'+name[0].toUpperCase()+name.slice(1)).hidden=name!==view;
+    $('analysis'+name[0].toUpperCase()+name.slice(1)+'Tab').setAttribute('aria-pressed',String(name===view));
+  }
+  if(state.ready)applyFilters();
 }
 
 function mediaSource(item) {
@@ -442,6 +453,9 @@ $('libraryTab').addEventListener('click',()=>{setSection('library');applyFilters
 $('analysisTab').addEventListener('click',()=>{setSection('analysis');applyFilters();});
 $('qualityTab').addEventListener('click',()=>{setSection('quality');applyFilters();});
 $('communicationTab').addEventListener('click',()=>{setSection('communication');applyFilters();});
+$('analysisOverviewTab').addEventListener('click',()=>setAnalysisView('overview'));
+$('analysisCorpusTab').addEventListener('click',()=>setAnalysisView('corpus'));
+$('analysisCoverageTab').addEventListener('click',()=>setAnalysisView('coverage'));
 $('communicationSearch').addEventListener('input',applyFilters);
 for(const id of Object.keys(COMMUNICATION_FILTERS))$(id).addEventListener('change',applyFilters);
 $('communicationReset').addEventListener('click',()=>{$('communicationSearch').value='';for(const id of Object.keys(COMMUNICATION_FILTERS))$(id).value='';applyFilters();});

@@ -105,6 +105,16 @@ async function main(){
     await page.locator('#analysisTab').click();
     assert(await page.locator('#analysisPanel').isVisible());
     assert((await page.locator('#analysisSummary').innerText()).includes('Documents'));
+    assert(await page.locator('#analysisOverview').isVisible());
+    assert((await page.locator('#analysisInsight').innerText()).includes('Pic documentaire'));
+    await page.locator('#analysisCorpusTab').click();
+    assert(await page.locator('#analysisCorpus').isVisible());
+    assert(await page.locator('#analysisOverview').isHidden());
+    assert.equal(new URL(page.url()).searchParams.get('analysis_view'),'corpus');
+    await page.locator('#analysisCoverageTab').click();
+    assert(await page.locator('#analysisCoverage').isVisible());
+    assert.equal(await page.locator('#analysisCoverageTab').getAttribute('aria-pressed'),'true');
+    await page.screenshot({path:path.join(out,'analysis-desktop.png'),fullPage:true});
     await page.locator('#qualityTab').click();
     await page.locator('#qualityIssue').selectOption({label:'Nom/prénom à vérifier : nom réduit à des initiales (1)'});
     assert.match(await page.locator('#qualityCount').innerText(),/1 notices à examiner sur 3/);
@@ -121,6 +131,10 @@ async function main(){
     await page.setViewportSize({width:390,height:844});
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
     await page.screenshot({path:path.join(out,'help-mobile.png'),fullPage:true});
+    await page.locator('#analysisTab').click();
+    await page.locator('#analysisCorpusTab').click();
+    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+    await page.screenshot({path:path.join(out,'analysis-mobile.png'),fullPage:true});
     await page.locator('#libraryTab').click();
     assert.equal(await page.locator('#search').inputValue(),'texte libre');
     assert.match(await page.locator('#resultCount').innerText(),/1 résultat sur 3/);
