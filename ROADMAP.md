@@ -1,130 +1,100 @@
-# Suivi du projet et reprise de l’audit APDS
+# Feuille de route active — Dzanga-Sangha Research Library
 
-## État courant — 25 octobre 2026
+Dernière consolidation : **11 novembre 2026**. Les détails, preuves et
+compteurs historiques sont conservés dans [STATE.md](docs/STATE.md) et les
+fiches de lots dans [docs/tasks](docs/tasks/). Cette feuille ne remplace pas
+ces traces ; elle indique ce qui mérite une décision ou un travail ultérieur.
 
-- [Lot 020 — supplément Communication](docs/tasks/020-communication-supplement.md) : fichier parallèle reçu,70 pistes conservées séparément et rapprochement hors ligne livré. [Bilan](reviews/communication-supplement-2026-10-25/RECONCILIATION.md). Sept correspondances d'URL dans l'instantané du 24 octobre ne sont pas sept imports ou sept doublons ;63 sans correspondance exacte ne sont pas63absences. Vérification de sources encore ouverte, aucun accès web ni import/publication dans cette réception.
-- Lot019 : première passe de60 pistes terminée,15 métadonnées directes,25 déléguées et20 cas partiels. Ne pas mélanger ces compteurs avec les70 entrées SUP, qui incluent familles, index et enrichissements. Toute recherche web supplémentaire passe par Perplexity ; Computer exclu. Archives APDS toujours dans l'autre session.
+## État de référence
 
-## État précédent — 24 octobre 2026
+- `main` est le point de reprise du hub et du code. GitHub Pages publie depuis
+  cette branche ; le hub public est disponible.
+- La structure Zotero validée comprend 19 collections de premier niveau, une
+  seule collection `00 - A verifier`, une note de gouvernance et le livre de
+  Harris. Le dernier audit bibliographique complet documenté a contrôlé le
+  seed, les doublons DOI et les titres vides ; consulter STATE pour ses limites
+  et son horodatage.
+- Le corpus Communication préparé à partir de la livraison déléguée compte 33
+  œuvres individuelles : la prélecture finale du responsable les a toutes
+  reconnues dans Zotero (30 créations et 3 notices déjà présentes). Ce résultat
+  ne transforme pas les autres pistes Communication en sources validées.
+- Les jeux de données et les notices scientifiques déjà intégrés restent soumis
+  aux règles de portée DSPA-Core/DSPA-Relevant, de provenance et d’accès.
+- L’audit des archives APDS est maintenu **hors de ce checkout**, sur l’autre
+  ordinateur et dans l’autre session. Ne pas recopier ses fichiers privés, ses
+  compteurs ou ses scans ici.
 
-- Lot 018 clos : PR 15 fusionnée après accord utilisateur ; correctif des champs média intégré. Aucun nouvel import à effectuer. Nouvelles recherches Communication confiées à Perplexity sur les branches `research/communication-*`, préservées ; 22 pistes et quatre lacunes de métadonnées restent documentées. SHA final, contrôle et publication Pages dans `.local/media-review/integration-2026-10-24.json`. Les points du 22 octobre ci-dessous conservent l'historique avant fusion.
+## Priorités actives
 
-- [Lot 018 — sources médiatiques](docs/tasks/018-media-source-review.md) : 23 ajouts vérifiés et relance sans écriture, 458 références dont 24 Communication. [Bilan et 48 pistes](reviews/media-2026-10-22/README.md). Quatre nouvelles incertitudes explicites, pas de modification APDS. Correctif des champs/rôles média prêt à revoir avant fusion ; recherches complémentaires possibles parmi les 22 pistes en attente.
+### 1. Décider du guide de bibliothèque restant
 
-- Extension du 22 octobre : [lot 017 — Communication](docs/tasks/017-communication-tab.md), incluant journalisme et contenus institutionnels selon confirmation du responsable. Interface réalisée, testée et validée par l'utilisateur ; fusion des PR 13 et 14 et publication autorisées, aucun import. Preuve exacte de livraison dans `.local/communication-preview/integration.json`. [Conventions et limites](docs/COMMUNICATION.md). Une rubrique de couverture médiatique n'est pas une mesure d'impact. Prochain lot possible : découverte et revue d'un premier corpus de médias auprès de leurs sources originales, sans import massif.
+La seule branche fonctionnelle non fusionnée est `feat/library-guide`
+(`f04245a`, worktree `hub-publication`). Elle ajoute un guide d’utilisation et
+de contribution. La comparer au guide déjà livré avant de créer une PR ; ne pas
+la fusionner par défaut. Critères : contenu non redondant, liens exacts,
+cohérence avec l’aide publiée et contrôle navigateur après intégration.
 
-- [Lot 016](docs/tasks/016-official-source-links.md) : six liens officiels corrigés dans Zotero, dont HAL pour Diallo ; accès et compteur **122/435 inchangés**. Le correctif en revue rend les URL complémentaires visibles dans la vue Tableau comme dans Cartes/Liste ; aucun import ni audit APDS. [Bilan et preuves](reviews/official-source-links-2026-10-20/README.md). Revue utilisateur de l'affichage avant fusion.
+### 2. Revue humaine des découvertes bibliographiques
 
-- [Lot 015](docs/tasks/015-historical-access.md) : deux restrictions d'accès explicitement attestées et ajoutées à Zotero, sans changement de métadonnées bibliographiques. Compteur **122/435** : 110 archives réservées et [12 cas hors archives](reviews/historical-access-2026-10-20/remaining-nonarchive.csv). Relance sans écriture, autres notices inchangées. [Bilan et preuves](reviews/historical-access-2026-10-20/README.md). Restent neuf accès, deux URL de thèses et une date FTNS.
+Conserver une séparation stricte entre :
 
-## Livraisons précédentes — 19 octobre 2026
+- références scientifiques ;
+- rapports de gestion ou de développement communautaire ;
+- jeux de données ;
+- contenus Communication.
 
-- [Lot 014](docs/tasks/014-author-copies.md) : propre notice de thèse Goldsmith retrouvée, URL réparée ; accès indéterminé conservé. Compteur **124/435 inchangé**, liens manquants hors archives 3 → 2. Restent onze accès, deux URL de thèses et une date FTNS. [Bilan des pistes et limites](reviews/author-copies-2026-10-19/README.md). Priorité aux preuves des auteurs/organismes ; ne pas répéter les mêmes recherches sans piste nouvelle. Archives APDS réservées à l'autre session.
+Les candidats issus d’OpenAlex et des recherches complémentaires restent une
+file de revue, pas un corpus à importer. Avant toute création Zotero : confirmer
+l’identité, le DOI ou l’identifiant, la portée géographique, la classification
+DSPA et la collection cible ; dédupliquer contre le groupe en direct. Une
+mention de Dzanga-Sangha, de Shelly Masi, Klára Petrželková ou Lara Nellissen ne
+suffit pas à déclarer une source DSPA-Core.
 
-- Suite [lot 013](docs/tasks/013-quality-followup.md) : trois corrections, deux textes gratuits confirmés et organisme AfESG identifié ; relance zéro écriture. Compteur **124/435**, dont 110 archives réservées et [14 incertitudes hors archives](reviews/quality-followup-2026-10-19/remaining-nonarchive.csv). Aucun import, règles inchangées ; [bilan et preuves](reviews/quality-followup-2026-10-19/README.md).
+### 3. Terminer les cas Communication partiels ou bloqués à la demande
 
-## Livraisons précédentes — 17 octobre 2026
+La livraison Perplexity est préservée dans
+`reviews/communication-supplement-2026-10-25/`. Les statuts délégués, les
+limites et la décision d’exclusion SUP-47 doivent rester visibles. Toute
+nouvelle recherche web sur ces cas passe par Perplexity Recherche standard ; ne
+pas traiter les résultats comme une validation primaire automatique ni publier
+de contenu protégé.
 
-- Revue qualité [lot 012](docs/tasks/012-quality-review.md) terminée pour le tri de 144 alertes et les 34 notices hors archives : 23 corrigées, compteur réel **127/435** avec les mêmes règles. Restent 110 archives pour l'autre session et [17 incertitudes documentées](reviews/quality-2026-10-17/remaining-nonarchive.csv). Aucun import ni scan APDS ; sauvegarde, lecture publique et relance sans écriture contrôlées.
-- PR 4 livrée sur Pages : lien PDF et pilote Bayanga terminés, ne pas les rejouer. PR 5 fusionnée : bilan PubMed consigné, huit notices déjà importées. PR 6 fusionnée et publiée sur Pages le 17 octobre : Mode d'emploi accessible. Preuves du [lot 009](docs/tasks/009-integration-reconciliation.md) dans STATE.
-- Les six copies APDS publiques sont accessibles sans connexion et conformes au manifeste (contrôle du 16 octobre). Cela ne rend pas les autres originaux diffusables.
-- L'audit APDS continuera dans l'autre session : le responsable précise que les registres sont sur l'autre ordinateur, après avoir initialement demandé le transfert ici. Aucun compteur ni décision réinitialisé et aucune nouvelle page auditée dans cette session.
-- MCCPAMU3 corrigée et relance sans écriture vérifiée : treize auteurs et titre, sans toucher aux classifications ([lot 010](docs/tasks/010-source-closeout.md)). Le point Flahou est résolu : téléchargements institutionnels confirmés, URL PDF et accès gratuit dans Zotero, lien du hub vérifié dans les trois vues ([lot 011](docs/tasks/011-flahou-fulltext.md)). Restent distincts : audit APDS dans l'autre session, sources historiques/communautaires et future veille non activée.
+### 4. Maintenir le hub public
 
-Les paragraphes datés du 15/16 octobre ci-dessous sont l'historique de cadrage ; leurs formules « prochain lot », « localement » et « pas encore » ne remplacent pas cet état courant. Les chiffres des anciens audits ne sont pas présentés comme de nouveaux contrôles.
+Préserver recherche, tableau par défaut, vues alternatives, filtres,
+accessibilité, export CSV, onglets Analyse, Qualité, Communication et Aide.
+Tout changement d’interface doit avoir un contrôle syntaxique, un test local et
+une revue utilisateur avant fusion/publication. Le groupe Zotero public demeure
+la source de vérité ; aucune clé ne doit apparaître dans le site.
 
-## Priorité actuelle — système local de développement et propositions
+### 5. Reprendre séparément les archives APDS
 
-Mission initiale du 15 octobre : [socle de développement](docs/tasks/001-development.md), puis [file bibliographique locale](docs/tasks/002-bibliography.md). L'utilisateur a ensuite autorisé la fusion à main au moment opportun : [intégration et suites](docs/tasks/004-integration-and-follow-up.md). État vérifié : [STATE](docs/STATE.md). Aucun import Zotero ni lancement planifié dans ce lot ; valider le parcours manuel avant toute IA réelle ou automatisation.
+La prochaine reprise APDS se fait seulement depuis les registres privés de
+l’autre ordinateur. Appliquer la décision D005 : tri proportionné, contrôle
+ciblé des alertes et séparation entre original, notice, OCR et copie expurgée.
+Une notice publique ne donne jamais l’autorisation de diffuser un PDF.
 
-Les deux lots locaux et le premier tri de dix candidats sont réalisés : une référence contextuelle retenue avec accord utilisateur, quatre doublons d’instantané et cinq résultats hors périmètre identifiés par l’assistant. Exports et limites dans STATE ; aucune écriture Zotero. La couverture sans DOI, les nouvelles sources et la qualité des preuves restent à évaluer avant tout connecteur supplémentaire, interface ou fournisseur IA. Le prototype distingue la décision humaine du tri assistant, actuellement exporté séparément ; envisager son intégration native uniquement si le parcours se répète. Les chiffres APDS ci-dessous restent un bilan historique préservé.
+## Veille bibliographique
 
-## Demandes du responsable — suites priorisées du 15 octobre 2026
+La veille mensuelle est actuellement **en pause à la demande du responsable**.
+Lors de sa réactivation, elle doit seulement produire un fichier local de revue
+daté avec les sources, raisons de pertinence, décisions proposées et doublons
+possibles. Elle ne doit ni importer dans Zotero, ni publier des archives, ni
+utiliser ou demander de secret.
 
-Point actuel du 16 octobre : lot 005 livré par PR nº 3. [Lot 006](docs/tasks/006-pdf-access.md) prépare localement le lien PDF explicite dans les trois vues. Le téléchargement anonyme de la copie expurgée Bayanga est vérifié (empreinte identique au manifeste). Copie expurgée stockée dans Zotero (CM5RDMRW), retéléchargement authentifié conforme ; accès anonyme Zotero en 404, donc URL publique complémentaire conservée. Intégration autorisée par le responsable ; résultat de livraison et contrôles dans `.local/pdf-access-delivery.json`. Ce pilote ne généralise pas l'accès à tous les scans APDS ni aux pièces jointes réservées aux membres. Les priorités ci-dessous restent suivies.
+## Entretien Git
 
-Ces évolutions sont cadrées, **pas encore implémentées**. La fusion du socle ne les rend pas disponibles.
+- Aucune pull request n’est ouverte au moment de cette consolidation.
+- Les worktrees `library-guide-current` et `research-closeout` pointent vers
+  des branches déjà fusionnées ; les conserver tant qu’une autre session peut
+  en avoir besoin, puis les archiver de manière récupérable.
+- Les branches historiques fusionnées peuvent être nettoyées après vérification
+  qu’aucune preuve privée ou travail parallèle n’en dépend.
+- Les imports Zotero doivent toujours être précédés d’une prélecture, d’un
+  contrôle de version et d’une sauvegarde avant toute mise à jour ou suppression.
 
-Actualisation du 16 octobre : [lot 005](docs/tasks/005-notice-quality.md) réalise le résumé compact des archives et le signalement des noms suspects. Tests navigateur ajoutés au contrôle commun ; aperçu accepté par le responsable, intégration après contrôle final. Correction des treize auteurs préparée séparément, non appliquée. La prochaine priorité est le pilote PDF accessible depuis le site avec lien distinct de la notice : le code actuel n'exploite que DOI/URL, pas les pièces jointes Zotero. Les autres suites ci-dessous restent ouvertes. Audit APDS inchangé au lot 20 : cette amélioration d'interface ne compte aucune page supplémentaire.
+## Prochain petit pas recommandé
 
-1. **Tri APDS proportionné**, décision active [D005](docs/DECISIONS.md) : cesser d'imposer la lecture visuelle de toutes les pages pour le tri initial. Examiner identité, nature, OCR et passages ciblés ; approfondir les alertes et la mauvaise reconnaissance. Suivre séparément tri documentaire et pages effectivement relues. Préserver droits, originaux et expurgations existantes.
-2. **Auteurs et notices lisibles — prochain petit lot recommandé.** Exemple vérifié par GET : notice `MCCPAMU3`, DOI `10.1111/eva.12075`, les treize créateurs ont des initiales dans `lastName` et les patronymes dans `firstName`. Le filtre utilise le nom de famille et affiche donc « A » ; [PubMed](https://pubmed.ncbi.nlm.nih.gov/24062800/) confirme notamment J Pinto et A Egyir-Yawson. Préparer une correction sourcée dans Zotero, avec sauvegarde et comparaison de version, sans inversion automatique de tout le catalogue ni développement de prénoms inconnus. Signaler les autres anomalies à examiner ; préserver auteurs institutionnels et vrais noms courts. Vérifier aussi les espaces parasites du titre « A frican / A nopheles ». Critère : filtre par patronyme correct, sans perte des créateurs, après validation de la correction.
-
-   Pour l'exemple APDS-019, `archiveInfo()` affiche tout `extra` à partir de « Copie conservée » ; les paragraphes de conservation et la vérification d'accès en anglais se répètent sémantiquement. Prévoir un résumé français compact : provenance, lacunes exactes, accès à l'original, accès au PDF ; détails consultables à la demande. Préserver les preuves complètes dans Zotero et les avertissements utiles, sans simple suppression globale du texte. Absence de DOI seule ≠ défaut bloquant de notice. Tester cartes/liste/tableau, clavier et lecteur d'écran.
-3. **PDF APDS sans DOI conservés dans Zotero et accessibles depuis Pages.** Pour chaque candidat approprié : pièce jointe à la notice existante, empreinte et version (original/copie expurgée) identifiées, sans recréer la notice. Préférer une version complète en ligne vérifiée lorsqu'elle existe, avec provenance APDS conservée. Pilote sur un document à risque faible et droits clarifiés : accès depuis un navigateur non connecté, lien durable, téléchargement correct, aucun secret exposé, taille/quota vérifiés. Le groupe est `PublicClosed`, lecture publique et édition de fichiers membres activées au GET du 15 octobre. [Zotero décrit un partage des fichiers entre membres](https://www.zotero.org/support/groups) : stockage dans le groupe ne garantit pas téléchargement anonyme. Si celui-ci n'est pas possible, proposer un dépôt public durable autorisé en complément de Zotero. Ne pas promettre un hébergement illimité gratuit ni remplacer les originaux sensibles par des copies publiques.
-4. **Analyse de l'accès aux articles.** Afficher nombre et pourcentage sur un dénominateur explicite (articles du corpus filtré) : texte intégral gratuit vérifié, payant/restrictif vérifié, accès non déterminé. Distinguer consultation APDS et accès en ligne ; copie gratuite ≠ licence ouverte. Ne pas déduire « payant » d'un lien absent ou d'un DOI seul. Conserver URL/preuve/date de vérification ; gérer plusieurs versions et contradictions. Ajouter éventuellement une répartition tous documents séparée. Critères : totaux cohérents, catégorie inconnue visible, filtres respectés et tableau accessible accompagnant le graphique.
-5. **Récits historiques de la Sangha et navigation à vapeur.** Premières pistes ci-dessous ; rechercher variantes Sangha/Sanga, Ngoko/N'Goko, Dzimou/Ndzimou, Ouesso, Bayanga, Luxembourg et Commandant-Lamy. Distinguer récit contemporain, témoignage indirect, synthèse et inventaire d'archives. Une mention de la Sangha ou un combat en aval ne suffit pas à DSPA-Core ; garder DSPA-Relevant ou indéterminé jusqu'à preuve géographique. Vérifier éditions, auteurs, pages, droits et doublons avant ajout.
-6. **Veille semestrielle sans abonnement obligatoire.** Faisable comme évolution du prototype déterministe : tous les six mois, découvrir les publications depuis le dernier passage réussi, rapprocher du catalogue et produire une file de revue, puis ajouter seulement les références retenues via un parcours d'écriture distinct autorisé. Aucune activation ni insertion automatique dans Zotero ici. Les API de métadonnées ne donnent pas gratuitement les PDF payants. Conserver l'horodatage du dernier succès, borne haute figée, curseurs et décisions ; le faire avancer uniquement après succès complet. Une fenêtre de publication stricte peut manquer un article ancien indexé tardivement : garder la sélection demandée par date de publication et proposer un rattrapage séparé, explicitement signalé, des dépôts/mises à jour tardifs. [Crossref distingue publication, création et indexation](https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/). Tester échec/reprise, retard d'indexation, doublons, dates incomplètes et relance à résultat inchangé. Choisir ensuite l'ordonnanceur selon disponibilité et quotas, sans IA payante et sans secret dans Git.
-
-### Premières pistes historiques vérifiées le 15 octobre
-
-- [Chasses et voyages au Congo, chapitre XI](https://fr.wikisource.org/wiki/Chasses_et_voyages_au_Congo/11) : récit de voyage rapportant une plaque à bord du Luxembourg et des événements de 1914 sur la Sangha. Passage retrouvé dans l'index ; édition, auteur et fac-similé à vérifier avant notice. Récit rétrospectif et propos rapportés, pas journal de bord de la campagne ; contextualiser le point de vue colonial.
-- [AfricaMuseum, dossier Justin Malfeyt, juillet 1914–novembre 1915](https://archives.africamuseum.be/repositories/2/archival_objects/35422) : l'inventaire décrit une lettre du 17 novembre 1914 évoquant le Luxembourg dans la Sangha. Piste archivistique institutionnelle ; texte de la lettre non consulté, numérisation/accessibilité à vérifier. Ne pas attribuer à l'inventaire le contenu d'une lettre non lue.
-- [Documents parlementaires du Sénat, 1914, p. 668](https://www.senat.fr/comptes-rendus-seances/3eme/pdf/documents_parlementaires/1914/DP1914_614_726.pdf) : résultats de recherche mentionnant les études de navigation sur la Sangha jusqu'à Bayanga. Source administrative candidate pour le contexte de navigation ; contrôle du volume/page et métadonnées encore requis.
-
-## Reprise locale — lot 20 du 15 octobre 2026
-
-[Revue et lot limité](docs/tasks/003-review-and-apds-resumption.md) : deux rapports supplémentaires, neuf pages examinées en texte et en image ; deux pages partiellement illisibles, limites conservées. Notices existantes comparées par GET public ; propositions locales seulement. Aucun original, PDF public ou champ Zotero modifié. Pas de version complète équivalente en ligne confirmée par les deux recherches ciblées.
-
-Compteurs actuels des registres privés : **43 scans / 565 pages examinées en OCR** (334 lisibles, 231 insuffisantes), **54 scans / 800 pages examinées visuellement** (740 lisibles, 60 partiellement illisibles). Restent **127 scans / 5 447 pages dans le suivi OCR** et **5 212 pages dans le suivi visuel**. Couverture lisible unique : 745 pages, avec 329 pages communes aux deux lectures. Les compteurs historiques ci-dessous restent inchangés ; utiliser ces compteurs récents pour la prochaine reprise.
-
-La revue locale du socle et du prototype est consignée dans STATE ; leurs limites restent explicites. L'intégration Git est désormais autorisée après contrôles ; GitHub Pages publie depuis main. Le prochain lot APDS doit partir des statuts privés `pending`, selon le tri proportionné D005, sans réinitialisation ni import. Les deux nouveaux compléments restent soumis à validation et relecture de la notice actuelle avant application ; aucune autorisation de diffusion des scans n’en découle.
-
-Preuves locales : `outputs/verification-revue-ocr-2026-10-15-lot20.json` et sauvegarde privée `outputs/recovery-library-review-2026-10-15/`. Le bilan narratif `outputs/bilan-revue-ocr.md` reste historique au lot 19 ; les registres JSON et leurs rapports régénérés font foi pour les compteurs du lot 20.
-
-## Bilan historique APDS conservé
-
-État consigné le **15 octobre 2026** ; dernier contrôle documentaire détaillé : **14 octobre 2026, lot 19**. Ce document clôt le lot de travail `feature/apds-archive-catalogue` et prépare sa reprise après l’amélioration du développement souhaitée par le responsable du projet. **L’audit exhaustif des archives n’est pas terminé.**
-
-## Travail livré
-
-- **118 nouvelles notices Zotero** importées en deux passes (82 puis 36), dans les collections existantes. Elles indiquent la conservation d’une copie à la Bibliothèque des APDS et leur identifiant d’inventaire. Les fichiers d’import du [catalogue](catalogue/apds-2026-10-08/README.md) sont une trace historique, pas une file à réimporter.
-- Les documents pertinents ont une notice même lorsque des informations manquent ; les incertitudes restent explicites. Vingt-cinq originaux sensibles de la seconde passe sont représentés par des métadonnées minimales et un avertissement de consultation encadrée.
-- **Six plans historiques expurgés, 83 pages publiques**, avec présentation, provenance et empreintes dans le [manifeste](catalogue/apds-2026-10-08/plans-publics/manifest.json). Les diagnostics, bilans et propositions historiques sont conservés avec leur attribution. La copie de Yandoumbé a été renforcée le 13 octobre ; les six copies ont été recontrôlées au fil des derniers lots.
-- Affichage de la provenance, des lacunes et des avertissements de consultation dans les cartes, la liste et le tableau de la bibliothèque.
-- **13 notices existantes enrichies et vérifiées après rechargement** pendant la revue OCR : quatre pour la préférence de source en ligne/provenance et neuf pour les lacunes, limites ou plans. Ce ne sont pas 13 nouveaux imports. Les autres propositions de métadonnées ne sont pas toutes appliquées.
-- Les évolutions indépendantes déjà présentes sur `main` (catégories, analyses et qualité bibliographique) sont conservées lors de l’intégration.
-
-## Couverture réelle du contrôle
-
-Les chiffres portent sur les **fichiers scannés**, variantes comprises, et sur leurs pages PDF, pas sur un nombre de publications uniques.
-
-| Indicateur au point d’arrêt | Réalisé | Reste / limite |
-| --- | ---: | --- |
-| Inventaire local | 170 PDF, 6 012 pages | L’intégralité des originaux physiques n’est pas certifiée |
-| Transcriptions préparées en Markdown privé | 170 | Une conversion ne constitue pas une relecture |
-| Revue OCR détaillée, page par page | 41 scans, 556 pages | 129 scans, 5 456 pages à examiner dans ce suivi |
-| Lecture OCR suffisamment reconnue | 327 pages | 229 pages examinées nécessitent les images ou ont un OCR insuffisant ; certaines sont blanches |
-| Contrôle visuel cumulé | 52 fichiers dont toutes les pages ont été ouvertes ; 791 pages | 5 221 pages restent à contrôler visuellement |
-| Lisibilité des pages visuellement examinées | 733 pages contrôlées lisibles | 58 pages partiellement illisibles, sans certification de lecture intégrale |
-| Regroupement des 41 scans relus | 36 dossiers bibliographiques | 3 guides généraux hors périmètre ; 33 dossiers concernent le catalogue |
-
-Les contrôles OCR et visuels **se recoupent et ne doivent pas être additionnés**. Certaines variantes ont été relues sans que toutes les autres copies d’une même publication aient été comparées. Un scan ouvert n’est pas nécessairement lisible ni complet.
-
-## Travaux ouverts du bilan initial — actualisation ci-dessus
-
-1. **Mettre en place puis éprouver l’amélioration du développement** : périmètre désormais précisé dans les deux fiches ci-dessus ; résultats dans STATE. Conserver une procédure de validation avant publication et distinguer les changements Git des écritures dans Zotero, qui alimentent immédiatement le site public.
-2. **Poursuivre la revue documentaire depuis les registres privés**, sans réinitialiser les compteurs : utiliser les restes actualisés du lot 20 ci-dessus. Revenir aux images pour les tableaux, cartes, annotations et passages mal reconnus ; conserver les limites lorsqu’un original reste illisible.
-3. **Comparer les propositions restantes aux notices Zotero actuelles**, puis appliquer uniquement les compléments validés, sans écraser les enrichissements indépendants. Le lot de propositions de 36 dossiers est partiellement appliqué ; les 13 notices déjà enrichies ne signifient pas que tous leurs champs proposés ont été réconciliés. Vérifier la sauvegarde après rechargement et consigner les champs effectivement modifiés.
-4. **Poursuivre la recherche des versions en ligne identiques** : vérifier titre, auteurs, date, édition/langue et pagination ; privilégier le DOI confirmé ou le dépôt institutionnel. Conserver la provenance APDS et les lacunes du scan. La référence citée dans un rapport, sa traduction ou un article ultérieur ne lui donnent pas leur DOI. Certains liens institutionnels ont été confirmés sans audit visuel du volume en ligne entier ; le lien direct vers l’édition française d’un chapitre reste à confirmer.
-5. **Compléter les comparaisons de variantes et rechercher les pages manquantes**. Des scans préférables ont été identifiés, mais l’équivalence de toutes les copies et l’intégralité des originaux ne sont pas établies. Ne pas inventer les dates de rédaction à partir des périodes de terrain, ni les auteurs à partir des signataires.
-6. **Préparer les autres copies publiques pertinentes**, après examen des droits et, lorsque nécessaire, expurgation ciblée. Plusieurs documents relus pourraient être diffusés ; leurs copies finales n’ont pas été produites. Les détails des retraits restent dans l’audit privé. Adapter l'examen visuel au risque selon D005 ; pour les copies expurgées, vérifier les retraits, la lisibilité, l'empreinte et l'absence de contenu retiré récupérable dans le texte, les annotations ou pièces jointes avant diffusion.
-7. **Vérifier la cohérence des indicateurs de qualité avec les notices d’archives**. Le contrôle actuel de qualité reconnaît les tags d’accès `Open` et `Restricted` ; `Restricted-Original` peut encore déclencher « Accès à déterminer ». Distinguer accès à l’original et disponibilité d’une copie expurgée dans le prochain chantier, sans transformer l’avertissement en autorisation de diffusion.
-8. **Suivre les anciennes versions publiques** : la révision d’une copie et la mise à jour du lien préféré dans Zotero ne retirent pas ses versions antérieures de l’historique Git ou de leurs URL immuables. Évaluer séparément le besoin de retrait de l’ancienne révision de Yandoumbé ; aucune purge d’historique ni suppression des copies distantes n’a été réalisée.
-
-## Conditions à conserver lors de la reprise
-
-Une notice bibliographique publique ne vaut pas autorisation de publier son PDF. La présence en ligne ne règle pas les droits de redistribution. Conserver les originaux sensibles sous consultation encadrée ; ne pas publier le corpus OCR privé, les inventaires avec chemins locaux, les constatations personnelles ou les cartes détaillées non validées. Les propositions d’un plan ancien ne prouvent pas leur mise en œuvre et ses diagnostics ne décrivent pas automatiquement la situation actuelle.
-
-Les fichiers JSON de ce dépôt sont des **instantanés d’import d’octobre**, pas une sauvegarde exhaustive à jour du groupe Zotero. Les enrichissements ultérieurs sont tracés dans les journaux locaux. Avant tout import, comparer clés Zotero, DOI et identité bibliographique pour éviter les doublons.
-
-## Point de reprise local — hors dépôt public
-
-Les fichiers suivants sont conservés dans l’espace de travail local, à côté du checkout `work/dzanga-sangha-research-library`. Ils ne sont pas inclus dans le dépôt et doivent être sauvegardés séparément avant migration ou nettoyage de cet espace :
-
-- Inventaire et contrôle final du lot 19 : `outputs/inventaire-prive-apds-final.json`, `outputs/verification-revue-ocr-2026-10-14-lot19.json`.
-- Compteurs et bilan : `outputs/revue-ocr-progress.json`, `outputs/controle-visuel-progress.json`, `outputs/bilan-revue-ocr.md`.
-- Décisions par page et états de reprise : `outputs/revue-ocr-prive.*`, `outputs/controle-visuel-prive.*`, `work/text-audit/`, `work/visual-audit/`, `work/review-text/`.
-- Propositions et écritures Zotero : `outputs/enrichissements-notices-revue-ocr.json`, `work/zotero-online-preference-applied.json`, `work/zotero-ocr-notes-applied.json`, avec les preuves locales de vérification.
-
-Ces dossiers privés permettent de reprendre l’analyse ; ils ne doivent pas être téléversés en bloc dans GitHub ou Zotero. La fusion clôt la branche de ce lot, pas les tâches ouvertes de cette feuille de route.
+Relire `feat/library-guide` contre l’aide actuelle du hub, puis décider si son
+unique commit mérite une PR. En parallèle, conserver la clé API temporaire
+révoquée ou la révoquer dès qu’aucune écriture authentifiée n’est nécessaire.
