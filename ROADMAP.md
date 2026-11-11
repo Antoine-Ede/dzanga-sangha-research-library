@@ -53,6 +53,16 @@ DSPA et la collection cible ; dédupliquer contre le groupe en direct. Une
 mention de Dzanga-Sangha, de Shelly Masi, Klára Petrželková ou Lara Nellissen ne
 suffit pas à déclarer une source DSPA-Core.
 
+Le bilan local historique du 5 octobre, conservé dans l’autre copie de travail,
+atteste un tri déterministe de 1 207 candidats : 347 retenus pour revue, 594
+exclus et des relations d’alias, de composant ou de version documentées. Il ne
+constitue ni une vérification actuelle du groupe Zotero ni une autorisation
+d’import. Un seul cas reste en attente de source : l’abstract individuel AAPA
+2014 « Women, worms and work » (`10.1002/ajpa/22488`). Le DOI identifie les
+proceedings, pas nécessairement cet abstract ; conserver ce cas sans création
+Zotero jusqu’à obtention d’une source primaire ou d’une bibliographie d’auteur
+faisant autorité.
+
 ### 3. Terminer les cas Communication partiels ou bloqués à la demande
 
 La livraison Perplexity est préservée dans
