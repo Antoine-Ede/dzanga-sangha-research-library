@@ -1,5 +1,14 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Correction graphique et diagnostic carte — 12 novembre 2026
+
+Retour utilisateur : remplacer les types Zotero par trois classes dans
+l'histogramme. Corrigé avec couleurs fixes et total des trois classes ; autres
+catégories exclues explicitement. Lecture publique : 28 médias reconnus, aucun
+pays d'éditeur explicite. Le fond de carte vide est retiré lorsque les pays
+manquent ; l'enrichissement reste nécessaire avant carte exploitable. Tests
+synthétiques et navigateur passent. Modification locale seulement.
+
 ## Finalisation locale du lot 022 — 12 novembre 2026
 
 Navigation rapports persistante, transitions données/rapports corrigées et

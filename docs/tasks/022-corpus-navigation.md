@@ -35,3 +35,16 @@ Test reproductible : node tests/catalogue-loading.cjs --live.
 Sans --live, le test est hors ligne et contrôle complétude, ordre, concurrence
 maximale de trois et rejet d'un changement de version pendant la lecture.
 Aucune écriture Zotero ; aucune clé utilisée.
+
+Correction du 12 novembre après retour utilisateur : le graphique temporel
+comprend exactement trois classes fixes research / communication / reports.
+Les jeux de données et autres documents restent hors de leur total ; compteur
+d'exclusion affiché. Tests : article et thèse regroupés, rapport et média chacun
+dans leur classe, jeux de données et manuscrit exclus.
+
+Diagnostic public de la carte : 28 notices reconnues Communication, zéro champ
+PUBLISHER-COUNTRY ou Publisher country. Le fond vide n'est plus affiché :
+message d'indisponibilité et classement des sources conservé. Une carte
+effectivement peuplée nécessite toujours l'enrichissement sourcé des éditeurs ;
+ne pas présenter ce prérequis comme terminé. Tests sans pays et avec un pays
+fictif explicite ; aucune recherche documentaire ou écriture Zotero.

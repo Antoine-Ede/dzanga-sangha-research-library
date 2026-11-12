@@ -55,25 +55,29 @@ function renderAnalytics(items) {
   renderStackedTimeline(items);
   renderMediaGeography(items.filter(LibraryModel.isCommunication));
 }
-const CHART_COLORS=['#0072b2','#d55e00','#009e73','#cc79a7','#806300','#564a9b','#474747','#56b4e9','#8a4f20','#24847c','#a73866','#666f26'];
+const CHART_COLORS=['#0072b2','#009e73','#d55e00'];
+const TIMELINE_CLASSES=['research','communication','reports'];
+const TIMELINE_LABELS={research:'Publications scientifiques',communication:'Communication',reports:'Rapports'};
 function renderStackedTimeline(items) {
-  const types=[...new Set(items.map(i=>i.data.itemType))].sort();
+  const excluded=items.filter(i=>!TIMELINE_CLASSES.includes(LibraryModel.category(i))).length;
+  items=items.filter(i=>TIMELINE_CLASSES.includes(LibraryModel.category(i)));
+  const types=TIMELINE_CLASSES;
   const years=items.map(yearOf).filter(Boolean).map(Number);
   if(!years.length){$('publicationTimeline').innerHTML='<p>Aucune référence datée.</p>';return;}
   const rows=Array.from({length:Math.max(...years)-Math.min(...years)+1},(_,n)=>{
     const year=String(Math.min(...years)+n);
-    const counts=types.map(type=>items.filter(i=>yearOf(i)===year&&i.data.itemType===type).length);
+    const counts=types.map(type=>items.filter(i=>yearOf(i)===year&&LibraryModel.category(i)===type).length);
     return {year,counts,total:counts.reduce((a,b)=>a+b,0)};
   });
   const peak=Math.max(1,...rows.map(r=>r.total));
-  const label=type=>TYPE_LABELS[type]||type;
+  const label=type=>TIMELINE_LABELS[type];
   $('publicationTimeline').innerHTML=
-    '<p>Nombre de références par année — hauteur totale et répartition par type. Les notices sans année sont exclues du graphique.</p>'+
+    '<p>Total annuel des trois classes : publications scientifiques, communication et rapports. '+excluded+' notices hors de ces classes (dont données et documents non classés) exclues ; les notices sans année ne sont pas représentées.</p>'+
     '<ul class="chart-legend">'+types.map((type,n)=>'<li><span style="background:'+CHART_COLORS[n%CHART_COLORS.length]+'"></span>'+esc(label(type))+'</li>').join('')+'</ul>'+
     '<div class="timeline-scroll"><div class="timeline" style="--year-count:'+rows.length+'">'+rows.map(({year,counts,total},n)=>{
       const detail=counts.map((count,k)=>count?label(types[k])+': '+count:'').filter(Boolean).join(', ');
       return '<button class="year-bar" type="button" data-analysis-year="'+year+'" aria-label="'+esc(year+' : '+total+' références. '+detail)+'" title="'+esc(year+' — '+detail)+'"><span class="bar-count">'+total+'</span><span class="year-column stacked" style="height:'+total/peak*145+'px" aria-hidden="true">'+counts.map((count,k)=>count?'<span style="height:'+count/total*100+'%;background:'+CHART_COLORS[k%CHART_COLORS.length]+'"></span>':'').join('')+'</span><span class="year-tick">'+(n===0||n===rows.length-1||Number(year)%5===0?year:'·')+'</span></button>';
-    }).join('')+'</div></div><details class="chart-data"><summary>Valeurs par année, par type et total</summary><div class="table-scroll"><table><caption>Nombre de notices datées</caption><thead><tr><th>Année</th>'+types.map(t=>'<th>'+esc(label(t))+'</th>').join('')+'<th>Total</th></tr></thead><tbody>'+rows.map(r=>'<tr><th scope="row">'+r.year+'</th>'+r.counts.map(n=>'<td>'+n+'</td>').join('')+'<td>'+r.total+'</td></tr>').join('')+'</tbody></table></div></details>';
+    }).join('')+'</div></div><details class="chart-data"><summary>Valeurs par année, par classe et total</summary><div class="table-scroll"><table><caption>Nombre de notices datées</caption><thead><tr><th>Année</th>'+types.map(t=>'<th>'+esc(label(t))+'</th>').join('')+'<th>Total</th></tr></thead><tbody>'+rows.map(r=>'<tr><th scope="row">'+r.year+'</th>'+r.counts.map(n=>'<td>'+n+'</td>').join('')+'<td>'+r.total+'</td></tr>').join('')+'</tbody></table></div></details>';
 }
 // Explicit country metadata only. Coordinates are approximate country centres.
 const MEDIA_COUNTRIES={
@@ -105,6 +109,15 @@ function renderMediaGeography(items){
   $('countryCoverage').textContent=located+' notices localisées sur '+items.length+'. '+(countries.get('Non renseigné')||0)+' sans pays explicite. Carte schématique ; les valeurs exactes figurent ci-dessous.';
   $('countryAnalysis').innerHTML=analysisBars(sorted(countries),items.length,c=>MEDIA_COUNTRIES[c]?.[0]||c);
   $('publisherAnalysis').innerHTML=analysisBars(sorted(sources).slice(0,15),items.length);
+  if(!located){
+    $('countryCoverage').textContent=items.length
+      ?'Aucun pays d’origine exploitable pour les '+items.length+' contenus Communication sélectionnés.'
+      :'Aucun contenu Communication dans cette sélection.';
+    $('communicationMap').innerHTML=items.length
+      ?'<p class="analysis-empty">Carte indisponible : les pays des éditeurs ne sont pas encore renseignés. Le classement des médias ci-dessous reste disponible.</p>'
+      :'';
+    return;
+  }
   const x=lon=>(lon+180)*2,y=lat=>(90-lat)*2;
   // Generalised continental silhouettes for orientation, not political boundaries.
   const land=[
