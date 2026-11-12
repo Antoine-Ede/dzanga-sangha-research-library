@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Bibliothèque scientifique publique des Aires Protégées de Dzanga-Sangha.">
-  <title>Dzanga-Sangha Research Library</title>
+  <title>Dzanga Sangha Library</title>
   <link rel="icon" type="image/png" href="assets/ds-logo-transp-schwarz.png">
   <link rel="stylesheet" href="styles.css?v=20261022-communication">
 </head>
@@ -12,7 +12,7 @@
   <div class="brand-header"><div class="wrap"><a class="brand-name" href="https://dzanga-sangha.org/" target="_blank" rel="noopener"><img class="brand-logo" src="assets/ds-logo-transp-schwarz.png" alt="" width="147" height="157"><span class="brand-wordmark">Dzanga-Sangha <span>Aires protégées</span></span></a><span class="brand-context">Recherche & connaissances</span></div></div>
   <header class="hero">
     <div class="wrap">
-      <h1>Dzanga-Sangha Research Library</h1>
+      <h1>Dzanga Sangha Library</h1>
       <p class="lead">Bibliothèque centralisée des publications, thèses, rapports, jeux de données et contenus médiatiques sur Dzanga-Sangha ou directement utiles à sa gestion.</p>
       <div class="hero-links">
         <a href="https://www.zotero.org/groups/6701789/dzanga-sangha_research_library/library" target="_blank" rel="noopener">Voir la bibliothèque Zotero</a>
@@ -30,9 +30,11 @@
     </section>
 
     <nav class="section-nav" aria-label="Sections de la bibliothèque">
-      <div class="section-nav-group"><span class="section-nav-label">Explorer</span><button id="libraryTab" type="button" aria-controls="libraryPanel" aria-pressed="true">Bibliothèque</button></div>
-      <div class="section-nav-group"><span class="section-nav-label">Comprendre</span><button id="analysisTab" type="button" aria-controls="analysisPanel" aria-pressed="false">Analyses</button><button id="communicationTab" type="button" aria-controls="communicationPanel" aria-pressed="false">Communication</button></div>
-      <div class="section-nav-group"><span class="section-nav-label">Contribuer</span><button id="qualityTab" type="button" aria-controls="qualityPanel" aria-pressed="false">Qualité</button><button id="helpTab" type="button" aria-controls="helpPanel" aria-pressed="false">Guide</button></div>
+      <button id="libraryTab" type="button" aria-controls="libraryPanel" aria-pressed="true">Publications scientifiques</button>
+      <button id="reportsTab" type="button" aria-controls="libraryPanel" aria-pressed="false">Rapports techniques</button>
+      <button id="communicationTab" type="button" aria-controls="communicationPanel" aria-pressed="false">Communication</button>
+      <button id="analysisTab" type="button" aria-controls="analysisPanel" aria-pressed="false">Analyse bibliographique</button>
+      <button id="helpTab" type="button" aria-controls="helpPanel" aria-pressed="false">Guide</button>
     </nav>
     <section id="communicationPanel" class="communication-panel" hidden aria-labelledby="communicationHeading">
       <h2 id="communicationHeading">Médias et communication</h2>
@@ -158,17 +160,19 @@
     </div>
     <section id="analysisPanel" hidden aria-labelledby="analysisHeading">
       <div class="analysis-intro"><div><p class="section-eyebrow">Comprendre le corpus</p><h2 id="analysisHeading">Analyses bibliographiques</h2><p id="analysisCount" role="status"></p></div><button id="browseDatasets" type="button">Voir les jeux de données</button></div>
-      <div class="analysis-toolbar"><label class="analysis-selector">Corpus analysé <select id="analysisCategory"><option value="">Toute la bibliothèque</option><option value="research">Publications scientifiques et thèses</option><option value="reports">Rapports, gestion et développement</option><option value="datasets">Jeux de données et protocoles</option><option value="other">Autres documents</option></select></label><div class="analysis-view-switch" role="group" aria-label="Vue d’analyse"><button id="analysisOverviewTab" type="button" aria-controls="analysisOverview" aria-pressed="true">Synthèse</button><button id="analysisCorpusTab" type="button" aria-controls="analysisCorpus" aria-pressed="false">Corpus et sujets</button><button id="analysisCoverageTab" type="button" aria-controls="analysisCoverage" aria-pressed="false">Couverture</button></div></div>
+      <div class="analysis-toolbar"><label class="analysis-selector">Corpus analysé <select id="analysisCategory"><option value="">Toute la bibliothèque</option><option value="research">Publications scientifiques et thèses</option><option value="reports">Rapports techniques</option><option value="datasets">Jeux de données et protocoles</option><option value="communication">Communication</option><option value="other">Autres documents</option></select></label><nav aria-label="Sections des analyses"><a href="#analysisOverview">Chronologie</a> · <a href="#analysisCorpus">Sujets et auteurs</a> · <a href="#communicationAnalysisHeading">Médias et pays</a> · <a href="#qualityPanel">Qualité</a></nav></div>
+      <button id="qualityTab" type="button" aria-controls="qualityPanel" aria-pressed="false">Qualité des notices</button>
       <p class="analysis-note">Ces indicateurs décrivent les notices publiques Zotero, pas l’ensemble des recherches menées à Dzanga-Sangha. Les dates sont celles des documents, pas nécessairement celles du terrain.</p>
       <div id="analysisInsight" class="analysis-insight" role="status"></div>
       <section id="analysisOverview" class="analysis-view" aria-label="Synthèse des analyses">
         <div id="analysisSummary" class="analysis-summary"></div>
         <section class="analysis-card analysis-wide"><h3>Production documentée au fil du temps</h3><p>Chaque barre représente les documents du corpus sélectionné. Cliquez sur une année pour l’ouvrir dans la bibliothèque ; le tableau détaille les catégories.</p><div id="publicationTimeline"></div></section>
       </section>
-      <section id="analysisCorpus" class="analysis-view" hidden aria-label="Corpus et sujets">
+      <section id="analysisCorpus" class="analysis-view" aria-label="Corpus et sujets">
         <div class="analysis-grid"><section class="analysis-card"><h3>Thèmes les plus documentés</h3><p>Une notice peut relever de plusieurs thèmes : les pourcentages ne s’additionnent pas nécessairement à 100 %.</p><div id="themeAnalysis"></div></section><section class="analysis-card"><h3>Auteurs les plus représentés</h3><p>Chaque auteur est compté une fois par document ; ce décompte ne mesure pas l’impact scientifique.</p><div id="authorAnalysis"></div></section><section class="analysis-card"><h3>Types de documents</h3><div id="typeAnalysis"></div></section><section class="analysis-card"><h3>Sites documentés</h3><p>Sites renseignés dans les tags Zotero ; plusieurs sites peuvent figurer sur une notice.</p><div id="siteAnalysis"></div></section></div>
       </section>
-      <section id="analysisCoverage" class="analysis-view" hidden aria-label="Couverture des métadonnées">
+      <section class="analysis-card analysis-wide" aria-labelledby="communicationAnalysisHeading"><h3 id="communicationAnalysisHeading">Communication : médias et pays d’origine</h3><p>Origine de l’éditeur ou du diffuseur, distincte du lieu du reportage. Seuls les pays explicitement renseignés dans les notices sont placés sur la carte ; la langue et le domaine internet ne constituent pas une preuve.</p><p id="countryCoverage"></p><div id="communicationMap"></div><div class="analysis-grid"><section><h4>Pays des médias</h4><div id="countryAnalysis"></div></section><section><h4>Principaux journaux, diffuseurs et organismes</h4><p>Nombre de notices par source bibliographique ; ce classement ne mesure pas l’audience.</p><div id="publisherAnalysis"></div></section></div></section>
+      <section id="analysisCoverage" class="analysis-view" aria-label="Couverture des métadonnées">
         <div class="analysis-grid"><section class="analysis-card"><h3>Portée DSPA et accès</h3><p>Les classifications reflètent les tags du corpus sélectionné ; elles ne remplacent pas une revue scientifique.</p><div id="scopeAnalysis"></div><div id="accessAnalysis"></div></section><section class="analysis-card"><h3>Champs renseignés</h3><p>Un champ présent ne garantit pas à lui seul sa qualité. Les lacunes sont suivies dans l’onglet Qualité.</p><div id="metadataAnalysis"></div></section></div>
       </section>
     </section>

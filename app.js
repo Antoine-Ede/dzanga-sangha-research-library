@@ -32,15 +32,30 @@ function doiOf(item) {
 
 async function fetchAll(endpoint) {
   const out = [];
+  let libraryVersion=null;
+  async function pageAt(start){
+    const sep=endpoint.includes('?')?'&':'?';
+    const response=await fetch(`${endpoint}${sep}limit=100&start=${start}`,{headers:{'Zotero-API-Version':'3'},signal:AbortSignal.timeout(30000)});
+    if(!response.ok)throw new Error(`Zotero API ${response.status}`);
+    const version=response.headers.get('Last-Modified-Version');
+    if(libraryVersion&&version&&libraryVersion!==version)throw new Error('Le catalogue a changé pendant le chargement. Rechargez la page.');
+    if(version)libraryVersion=version;
+    const page=await response.json();
+    if(!Array.isArray(page))throw new Error('Réponse Zotero inattendue');
+    return {page,total:Number(response.headers.get('Total-Results'))};
+  }
   for (let start=0;;start+=100) {
-    const sep = endpoint.includes("?") ? "&" : "?";
-    const r = await fetch(`${endpoint}${sep}limit=100&start=${start}`, {
-      headers: {"Zotero-API-Version":"3"}, signal: AbortSignal.timeout(30000)
-    });
-    if (!r.ok) throw new Error(`Zotero API ${r.status}`);
-    const page = await r.json();
-    if (!Array.isArray(page)) throw new Error("Réponse Zotero inattendue");
+    const {page,total}=await pageAt(start);
     out.push(...page);
+    if(start===0&&Number.isInteger(total)&&total>=100&&total<=100000){
+      for(let next=100;next<total;next+=300){
+        const offsets=[next,next+100,next+200].filter(n=>n<total);
+        const pages=await Promise.all(offsets.map(pageAt));
+        pages.forEach(p=>out.push(...p.page));
+      }
+      if(out.length!==total)throw new Error('Catalogue incomplet : rechargez la page.');
+      return out;
+    }
     if (page.length < 100) break;
   }
   return out;
@@ -145,7 +160,7 @@ function populateFilters() {
   }
   for (const [id, config] of Object.entries(FILTERS)) {
     state.selected[id] = [];
-    const values = [...new Set(state.items.flatMap(i=>valuesOf(i,id)))];
+    const values = [...new Set([...state.items.flatMap(i=>valuesOf(i,id)),...(id==='categoryFilter'?Object.keys(LibraryModel.labels):id==='typeFilter'?['dataset']:[])])];
     values.sort((a,b)=>a===UNKNOWN?1:b===UNKNOWN?-1:id==='yearFilter'?Number(b)-Number(a):optionLabel(id,a).localeCompare(optionLabel(id,b),'fr',{numeric:true}));
     state.optionValues[id] = values;
     for (const value of values) {
@@ -156,6 +171,7 @@ function populateFilters() {
   if(years.length){$('yearFrom').placeholder=String(Math.min(...years));$('yearTo').placeholder=String(Math.max(...years));}
 }
 function currentCriteria() {
+  if(state.section==='reports')$('categoryFilter').value='reports';
   for (const [id,config] of Object.entries(FILTERS)) {
     const value=$(id).value;
     if(config.multi){if(value&&!state.selected[id].includes(value))state.selected[id].push(value);$(id).value='';}
@@ -201,7 +217,6 @@ function searchUrl() {
   if($('groupYears').checked)url.searchParams.set('group','year');
   if(state.section!=='library')url.searchParams.set('section',state.section);
   if(state.section==='analysis'&&$('analysisCategory').value)url.searchParams.set('analysis_category',$('analysisCategory').value);
-  if(state.section==='analysis'&&state.analysisView!=='overview')url.searchParams.set('analysis_view',state.analysisView);
   if(state.section==='communication'){
     if($('communicationSearch').value.trim())url.searchParams.set('media_q',$('communicationSearch').value.trim());
     for(const [id,param] of Object.entries(COMMUNICATION_FILTERS))if($(id).value)url.searchParams.set(param,$(id).value);
@@ -220,14 +235,16 @@ function restoreSearch() {
   $('sortOrder').value=['newest','oldest','title','author'].includes(params.get('sort'))?params.get('sort'):'newest';
   $('resultView').value=['cards','list','table'].includes(params.get('view'))?params.get('view'):'table';
   $('groupYears').checked=params.get('group')==='year';
-  $('analysisCategory').value=['research','reports','datasets','other'].includes(params.get('analysis_category'))?params.get('analysis_category'):'';
+  $('analysisCategory').value=['research','reports','datasets','communication','other'].includes(params.get('analysis_category'))?params.get('analysis_category'):'';
   $('communicationSearch').value=params.get('media_q')||'';
   for(const [id,param] of Object.entries(COMMUNICATION_FILTERS)){
     const value=params.get(param)||'';
     $(id).value=Array.from($(id).options||[]).some(o=>o.value===value)?value:'';
   }
-  setSection(['analysis','communication','quality','help'].includes(params.get('section'))?params.get('section'):'library');
+  setSection(['reports','analysis','communication','quality','help'].includes(params.get('section'))?params.get('section'):params.get('category')==='reports'?'reports':'library');
+  if(state.section==='library'&&!params.has('category'))$('categoryFilter').value='research';
   setAnalysisView(['overview','corpus','coverage'].includes(params.get('analysis_view'))?params.get('analysis_view'):'overview');
+  if(params.get('section')==='quality')setSection('quality');
 }
 function renderActiveFilters() {
   const buttons=[];
@@ -268,30 +285,38 @@ function applyFilters() {
   updateFacets(criteria);renderActiveFilters();
   const url=searchUrl();$('searchLink').href=url;history.replaceState(null,'',url);
   $('shareStatus').textContent='';
-  $('exportCsv').disabled=!(state.section==='communication'?communicationSelection():state.section==='library'?state.filtered:state.items).length;
-  $('exportCsv').textContent=state.section==='communication'?'Exporter les médias en CSV':state.section==='library'?'Exporter les résultats en CSV':'Exporter la bibliothèque en CSV';
-  render();
-  renderCommunication();
-  if(typeof renderAnalytics==='function')renderAnalytics(state.items);
-  if(typeof renderQuality==='function')renderQuality(state.items);
+  $('exportCsv').disabled=!(state.section==='communication'?communicationSelection():['library','reports'].includes(state.section)?state.filtered:state.items).length;
+  $('exportCsv').textContent=state.section==='communication'?'Exporter les médias en CSV':['library','reports'].includes(state.section)?'Exporter les résultats en CSV':'Exporter la bibliothèque en CSV';
+  if(['library','reports'].includes(state.section))render();
+  if(state.section==='communication')renderCommunication();
+  if(state.section==='analysis'&&typeof renderAnalytics==='function')renderAnalytics(state.items);
+  if(['analysis','quality'].includes(state.section)&&typeof renderQuality==='function')renderQuality(state.items);
 }
 
 function setSection(section) {
+  const reports=section==='reports', catalogue=reports||section==='library';
+  if(section==='quality')section='analysis';
   state.section=section;
   for(const name of ['library','analysis','communication','quality','help']){
     $(name+'Panel').hidden=name!==section;
     $(name+'Tab').setAttribute('aria-pressed',String(name===section));
   }
-  $('searchPanel').hidden=section!=='library';
+  $('libraryPanel').hidden=!catalogue;
+  $('searchPanel').hidden=!catalogue;
   $('statsPanel').hidden=['help','communication'].includes(section);
   $('exportCsv').hidden=section==='help';
+  $('qualityPanel').hidden=section!=='analysis';
+  if(section==='analysis')for(const name of ['overview','corpus','coverage'])$('analysis'+name[0].toUpperCase()+name.slice(1)).hidden=false;
+  $('reportsTab').setAttribute('aria-pressed',String(reports));
+  if(reports)$('libraryTab').setAttribute('aria-pressed','false');
+  if(reports)$('categoryFilter').value='reports';
+  $('categoryFilter').disabled=reports;
 }
 
 function setAnalysisView(view) {
-  state.analysisView=view;
+  state.analysisView='overview';
   for(const name of ['overview','corpus','coverage']){
-    $('analysis'+name[0].toUpperCase()+name.slice(1)).hidden=name!==view;
-    $('analysis'+name[0].toUpperCase()+name.slice(1)+'Tab').setAttribute('aria-pressed',String(name===view));
+    $('analysis'+name[0].toUpperCase()+name.slice(1)).hidden=false;
   }
   if(state.ready)applyFilters();
 }
@@ -402,7 +427,7 @@ function csvCell(v) {
 function exportCsv() {
   const media=state.section==='communication';
   const rows=[media?['Title','Creators','Year','Format','Media','Origin','Language','Document URL','Zotero URL']:["Title","Authors","Year","Document type","Source","DOI","Collections","Tags","Zotero URL"]];
-  for (const i of media?communicationSelection():state.section==='library'?state.filtered:state.items) rows.push(media?[
+  for (const i of media?communicationSelection():['library','reports'].includes(state.section)?state.filtered:state.items) rows.push(media?[
     i.data.title,mediaCreators(i),yearOf(i),LibraryModel.mediaFormat(i),mediaSource(i),LibraryModel.mediaOrigin(i),i.data.language||'',articleUrl(i),canonicalUrl(i)
   ]:[
     i.data.title,authorNames(i).join('; '),yearOf(i),TYPE_LABELS[i.data.itemType]||i.data.itemType,sourceOf(i),doiOf(i),
@@ -418,15 +443,14 @@ function exportCsv() {
 async function init() {
   try {
     $("status").textContent="Chargement des collections…";
-    const cols=await fetchAll(`${API}/collections`);
+    const [cols,raw]=await Promise.all([fetchAll(`${API}/collections`),fetchAll(`${API}/items/top?format=json`)]);
     cols.forEach(c=>state.collections.set(c.key,c.data.name));
 
     $("status").textContent="Chargement des références…";
-    const raw=await fetchAll(`${API}/items/top?format=json`);
     state.items=raw.filter(i=>!["note","attachment","annotation"].includes(i.data.itemType));
 
     updateStats(); populateFilters();populateCommunicationFilters();restoreSearch();state.ready=true;
-    for(const section of ['library','analysis','communication','quality'])$(section+'Tab').disabled=false;
+    for(const section of ['library','reports','analysis','communication','quality'])$(section+'Tab').disabled=false;
     applyFilters();
     $("status").style.display="none";
   } catch (e) {
@@ -440,6 +464,7 @@ $("resetFilters").addEventListener("click",()=>{
   $("search").value="";
   Object.keys(FILTERS).forEach(id=>{$(id).value="";state.selected[id]=[];});
   $('yearFrom').value='';$('yearTo').value='';$('sortOrder').value='newest';
+  if(state.section==='reports')$('categoryFilter').value='reports';
   applyFilters();
 });
 $('activeFilters').addEventListener('click',e=>{const button=e.target.closest('button[data-filter]');if(button){const id=button.dataset.filter;clearFilter(id,button.dataset.value);$(id).focus();}});
@@ -449,13 +474,11 @@ $('copySearch').addEventListener('click',async()=>{
 });
 window.addEventListener('popstate',()=>{if(state.ready){restoreSearch();applyFilters();}});
 $("exportCsv").addEventListener("click",exportCsv);
-$('libraryTab').addEventListener('click',()=>{setSection('library');applyFilters();});
+$('libraryTab').addEventListener('click',()=>{setSection('library');$('categoryFilter').value='research';$('typeFilter').value='';applyFilters();});
+$('reportsTab').addEventListener('click',()=>{setSection('reports');$('typeFilter').value='';applyFilters();});
 $('analysisTab').addEventListener('click',()=>{setSection('analysis');applyFilters();});
-$('qualityTab').addEventListener('click',()=>{setSection('quality');applyFilters();});
+$('qualityTab').addEventListener('click',()=>{setSection('analysis');applyFilters();$('qualityPanel').scrollIntoView({behavior:'smooth'});});
 $('communicationTab').addEventListener('click',()=>{setSection('communication');applyFilters();});
-$('analysisOverviewTab').addEventListener('click',()=>setAnalysisView('overview'));
-$('analysisCorpusTab').addEventListener('click',()=>setAnalysisView('corpus'));
-$('analysisCoverageTab').addEventListener('click',()=>setAnalysisView('coverage'));
 $('communicationSearch').addEventListener('input',applyFilters);
 for(const id of Object.keys(COMMUNICATION_FILTERS))$(id).addEventListener('change',applyFilters);
 $('communicationReset').addEventListener('click',()=>{$('communicationSearch').value='';for(const id of Object.keys(COMMUNICATION_FILTERS))$(id).value='';applyFilters();});
@@ -468,10 +491,10 @@ $('qualityIssue').addEventListener('change',()=>renderQuality(state.items));
 $('qualityExport').addEventListener('click',exportQualityCsv);
 $('analysisCategory').addEventListener('change',applyFilters);
 $('browseDatasets').addEventListener('click',()=>{
-  $('resetFilters').click();$('typeFilter').value='dataset';setSection('library');applyFilters();
+  setSection('library');$('resetFilters').click();$('categoryFilter').value='datasets';$('typeFilter').value='dataset';applyFilters();
   $('results').scrollIntoView({behavior:'smooth',block:'start'});
 });
-for(const section of ['library','analysis','communication','quality'])$(section+'Tab').disabled=true;
+for(const section of ['library','reports','analysis','communication','quality'])$(section+'Tab').disabled=true;
 const initialSection=new URL(location.href).searchParams.get('section');
-setSection(['analysis','communication','quality','help'].includes(initialSection)?initialSection:'library');
+setSection(['reports','analysis','communication','quality','help'].includes(initialSection)?initialSection:'library');
 init();

@@ -73,7 +73,12 @@ de contenu protégé.
 ### 4. Maintenir le hub public
 
 Préserver recherche, tableau par défaut, vues alternatives, filtres,
-accessibilité, export CSV, onglets Analyse, Qualité, Communication et Aide.
+accessibilité et export CSV. Navigation demandée : Publications scientifiques,
+Rapports techniques, Communication, Analyse bibliographique et Guide.
+Les analyses forment une page unique : chronologie empilée par type et total,
+sujets/auteurs, géographie, médias et qualité des notices.
+Le lot 022 est préparé localement ; enrichir les pays des médias avec preuves
+avant de considérer la carte comme une couverture complète du corpus.
 Tout changement d’interface doit avoir un contrôle syntaxique, un test local et
 une revue utilisateur avant fusion/publication. Le groupe Zotero public demeure
 la source de vérité ; aucune clé ne doit apparaître dans le site.

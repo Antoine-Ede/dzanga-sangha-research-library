@@ -1,5 +1,27 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Finalisation locale du lot 022 — 12 novembre 2026
+
+Navigation rapports persistante, transitions données/rapports corrigées et
+analyses en page unique validées sur fixtures desktop/mobile. Pagination publique
+limitée à trois requêtes simultanées, contrôle de version et de complétude.
+Benchmark 501 éléments top-level : 16 302 ms séquentiel contre 10 405 ms en lots,
+une comparaison avec mêmes identités ; variabilité réseau/cache non isolée.
+Fiche 022 et roadmap actualisées. Pas de push ni déploiement ni écriture Zotero.
+Suite : revue de l'aperçu, puis accord de publication ; pays des médias à enrichir
+sur preuves via Perplexity. Retour arrière : revert du commit local du lot.
+
+## Révision locale des analyses — 11 novembre 2026
+
+À la demande du responsable, le lot 022 remplace les sous-vues analytiques par
+une page à sections visibles. Histogramme annuel empilé par type Zotero et
+tableau avec total ; Communication incluse. Classement des sources médiatiques,
+carte schématique alimentée uniquement par pays d'éditeur explicites et décompte
+des inconnus. Qualité reste visible au bas des analyses. Tests synthétiques et
+navigateur passés ; enrichissement documentaire des pays non réalisé.
+Modifications locales, aucune publication ni écriture Zotero. Retour arrière :
+retirer le diff du lot 022 après sauvegarde, sans toucher aux registres.
+
 ## Correctif de prélecture Zotero Communication — 4 novembre
 
 La prélecture de `import_verified_communication.ps1` a refusé une clé chargée localement avant tout appel d’écriture, car elle ne reconnaissait que l’ancienne forme `access.group`. Le script accepte maintenant le schéma courant `access.groups`, en privilégiant la règle spécifique au groupe `6701789`, puis `all`, tout en conservant une compatibilité avec l’ancienne forme. Un test de non-régression et l’analyse syntaxique PowerShell couvrent ce chemin. Aucune clé, réponse d’API ou donnée Zotero n’est enregistrée par cette correction ; l’import reste en attente d’une nouvelle prélecture réussie dans le shell authentifié de l’utilisateur.

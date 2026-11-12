@@ -83,7 +83,9 @@ for(const itemType of ['radioBroadcast','film']){
 }
 const mediaFixtures=JSON.parse(require('node:fs').readFileSync('tests/fixtures/communication-items.json','utf8'));
 assert.equal(mediaFixtures.filter(LibraryModel.isCommunication).length,3);
-assert.equal(researchMetrics(mediaFixtures).total,1);
+assert.equal(researchMetrics(mediaFixtures).total,4);
+assert.equal(mediaCountry({data:{tags:[{tag:'PUBLISHER-COUNTRY:FR'}]}}),'FR');
+assert.equal(mediaCountry({data:{tags:[],language:'fr',url:'https://example.fr'}}),'');
 state.items=mediaFixtures;renderCommunication();
 assert($('communicationCount').textContent.includes('3 contenus sur 3'));
 assert(!$('communicationResults').innerHTML.includes('<img'));
