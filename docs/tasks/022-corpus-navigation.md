@@ -1,6 +1,6 @@
 # Navigation par corpus et performances
 
-Statut : implémentation locale contrôlée, en attente de revue avant publication.
+Statut : revue utilisateur acceptée le 12 novembre 2026 ; intégration et publication autorisées.
 
 Demande : cinq onglets Publications scientifiques, Rapports techniques,
 Communication, Analyse bibliographique et Guide ; qualité intégrée aux analyses.

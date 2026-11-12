@@ -1,5 +1,13 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Accord de publication du lot 022 — 12 novembre 2026
+
+Le responsable demande la fusion après les corrections des trois classes et de
+la carte vide. Les commits f28702b et 9ba2fe9 sont sur main local, deux commits
+devant origin/main sans divergence au contrôle. Publication autorisée ; le pays
+des médias reste un enrichissement ouvert et la carte ne doit pas être annoncée
+comme opérationnelle. Pas d'écriture Zotero ni de reprise de la veille mensuelle.
+
 ## Correction graphique et diagnostic carte — 12 novembre 2026
 
 Retour utilisateur : remplacer les types Zotero par trois classes dans
