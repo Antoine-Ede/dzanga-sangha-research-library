@@ -1,5 +1,15 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Périmètre de l’onglet scientifique — 18 novembre 2026
+
+La remise à zéro laissait l’onglet scientifique actif tout en réaffichant le
+catalogue entier. Le corpus est désormais imposé dans la recherche, les
+facettes, le compteur et l’export de cet onglet. Les jeux de données et les
+années tous corpus ouvrent la vue Explorer le catalogue. Correctif local.
+Lecture publique : 302 notices classées scientifiques par la règle existante,
+dont 9 livres et 17 chapitres. Leur nature documentaire reste à contrôler.
+Aucune reclassification Zotero. Retour arrière : annuler le diff de ce lot.
+
 ## Simplification des analyses Communication — 18 novembre 2026
 
 La carte des pays des éditeurs et le message d'indisponibilité sont retirés

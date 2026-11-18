@@ -48,7 +48,7 @@ async function main(){
     });
     const page=await context.newPage();page.on('pageerror',error=>errors.push(error.message));
     page.on('dialog',async dialog=>{errors.push('Unexpected dialog');await dialog.dismiss();});
-    await page.goto(origin+'/?category=');await page.waitForLoadState('networkidle');
+    await page.goto(origin+'/?section=browse');await page.waitForLoadState('networkidle');
     await page.locator('#libraryTab:enabled').waitFor();
     assert.match(await page.locator('#resultCount').innerText(),/3 résultats sur 3/);
     const out=path.join(root,'.local/browser');fs.mkdirSync(out,{recursive:true});
@@ -138,6 +138,10 @@ async function main(){
     assert.equal(await page.locator('#search').inputValue(),'texte libre');
     assert.equal(await page.locator('#categoryFilter').inputValue(),'research');
     await page.locator('#resetFilters').click();
+    assert.equal(await page.locator('#categoryFilter').inputValue(),'research');
+    assert(!((await page.locator('#results').innerText()).includes('Rapport synthétique')));
+    assert.match(await page.locator('#resultCount').innerText(),/1 résultat sur 1/);
+    assert(await page.locator('#categoryFilter').isDisabled());
     await page.locator('#resultView').selectOption('list');
     await page.setViewportSize({width:390,height:844});
     await page.locator('#results').screenshot({path:path.join(out,'mobile-list.png')});
@@ -156,6 +160,8 @@ async function main(){
     await page.locator('#browseDatasets').click();
     assert.equal(await page.locator('#categoryFilter').inputValue(),'datasets');
     assert.equal(await page.locator('#typeFilter').inputValue(),'dataset');
+    assert.equal(await page.locator('#libraryTab').getAttribute('aria-pressed'),'false');
+    assert(await page.locator('#browseHeading').isVisible());
     await page.locator('#reportsTab').click();
     assert.equal(await page.locator('#typeFilter').inputValue(),'');
     // Communication uses its own filters and exports, with no invented audience.

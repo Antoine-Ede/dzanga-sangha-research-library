@@ -98,7 +98,18 @@ function renderPublisherAnalysis(items) {
 }
 document.getElementById('publicationTimeline').addEventListener('click',event=>{
   const button=event.target.closest('button[data-analysis-year]');if(!button)return;
-  setSection('library');document.getElementById('resetFilters').click();
+  const category = $('analysisCategory').value;
+  if (category === 'communication') {
+    setSection('communication');
+    $('communicationSearch').value = '';
+    for (const id of Object.keys(COMMUNICATION_FILTERS)) $(id).value = '';
+    $('communicationYear').value = button.dataset.analysisYear;
+    applyFilters();
+    $('communicationYear').focus();
+    return;
+  }
+  setSection(category==='research'?'library':category==='reports'?'reports':'browse');
+  document.getElementById('resetFilters').click();
   document.getElementById('categoryFilter').value=document.getElementById('analysisCategory').value;
   document.getElementById('yearFilter').value='';
   document.getElementById('yearFrom').value=button.dataset.analysisYear;
