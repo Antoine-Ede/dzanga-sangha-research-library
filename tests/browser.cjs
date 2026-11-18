@@ -111,7 +111,7 @@ async function main(){
     assert(await page.locator('#analysisOverview').isVisible());
     assert(await page.locator('#analysisCoverage').isVisible());
     assert(await page.locator('#qualityPanel').isVisible());
-    assert.equal(await page.locator('.country-map').count(),0);
+    assert(await page.locator('#publisherAnalysis').isVisible());
     assert.equal(await page.locator('.chart-legend li').count(),3);
     assert(await page.locator('.year-column.stacked').count()>0);
     await page.screenshot({path:path.join(out,'analysis-desktop.png'),fullPage:true});

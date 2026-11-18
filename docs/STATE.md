@@ -1,5 +1,13 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Simplification des analyses Communication — 18 novembre 2026
+
+La carte des pays des éditeurs et le message d'indisponibilité sont retirés
+de l'aperçu local. Les analyses conservent les 15 sources les plus représentées,
+avec le nombre de contenus dont la source est renseignée, ainsi que les trois
+classes du graphique annuel et les sites documentés. Revue de l'aperçu avant
+publication. Retour arrière possible en annulant ce seul correctif d'interface.
+
 ## Accord de publication du lot 022 — 12 novembre 2026
 
 Le responsable demande la fusion après les corrections des trois classes et de

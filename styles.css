@@ -50,8 +50,6 @@
 .chart-legend { display:flex; flex-wrap:wrap; gap:10px 20px; list-style:none; padding:0; font-size:.85rem; }
 .chart-legend li { display:flex; align-items:center; gap:7px; }
 .chart-legend li>span { width:12px; height:12px; display:inline-block; }
-.country-map { display:block; width:100%; height:auto; margin:20px 0; border:1px solid var(--line); }
-.country-map text { font-size:12px; fill:var(--ink); stroke:none; fill-opacity:1; }
 #qualityPanel { margin-top:36px; padding-top:24px; border-top:1px solid var(--line); }
 .year-bar:hover .year-column { background:#397c9a; }
 .bar-count { font-size:.75rem; margin-bottom:5px; font-variant-numeric:tabular-nums; }
