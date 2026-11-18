@@ -1,6 +1,6 @@
 # Revue des livres et chapitres classés scientifiques
 
-Relevé du catalogue public du 18 novembre 2026. Les 26 notices comprennent 9 livres et 17 chapitres. Le hub applique 7 corrections de corpus par clé Zotero. 10 maintiens sont proposés d’après les métadonnées et preuves déjà disponibles. 9 cas nécessitent une vérification complémentaire. Les décisions portent sur la présentation du hub. Une éventuelle correction des notices Zotero relève d’un lot séparé.
+Relevé du catalogue public du 18 novembre 2026. Les 26 notices comprennent 9 livres et 17 chapitres. Le tableau conserve la première passe. Le bilan final ci-dessous clôt la décision de corpus pour les 26 notices avec 9 reclassements dans le hub et 17 maintiens, dont 10 sur les preuves de la première passe. Une éventuelle correction des notices Zotero relève d’un lot séparé.
 
 | Notice | Titre | Type et date | Publication, identifiant et lien | Décision ou contrôle |
 | --- | --- | --- | --- | --- |
@@ -33,6 +33,18 @@ Relevé du catalogue public du 18 novembre 2026. Les 26 notices comprennent 9 li
 
 Les liens bibliographiques proviennent du catalogue public. Leur présence ne constitue pas une nouvelle vérification. Les notices classées Autres documents restent accessibles dans Explorer le catalogue depuis les analyses. Les textes d’archives et leurs droits restent hors périmètre.
 
-## Vérification déléguée
+## Clôture des neuf cas de la première passe
 
-Pour les 9 lignes « À vérifier », identifier le document auprès de l’éditeur ou du dépôt officiel et fournir la clé, le titre attesté, l’année, l’URL de preuve, le type proposé et une justification brève. Signaler les incertitudes sans compléter les champs par déduction. Pour les versions de Blom, établir le lien éditorial sans fusion automatique. Chaque décision doit être tracée jusqu’à la source qui la soutient.
+Cinq cas utilisent les preuves du catalogue historique, rapprochement par clé dans [le registre d’import](../catalogue/apds-2026-10-08/imported-items.json) puis par titre dans [les notices vérifiées](../catalogue/apds-2026-10-08/notices.json). Quatre cas ont fait l’objet d’une [recherche ciblée dans Perplexity](https://www.perplexity.ai/session/12016744-b773-4a3a-b5f5-d4c5a8dad5a8). Les constatations de lecture web ci-dessous sont déléguées. La revue locale a contrôlé leur cohérence avec les identifiants et métadonnées disponibles.
+
+| Notice | Décision de corpus | Preuve et limite |
+| --- | --- | --- |
+| KGQ73PRY | Maintien scientifique | Jackson, chapitre comparatif sur les populations forestières et le manioc, UNESCO 1996, p. 511–536. Titre et introduction contrôlés lors de l’audit antérieur. Portée pertinente enregistrée. [PDF référencé par l’IRD](https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf). |
+| 2YAXZP3L | Maintien scientifique | Hladik et Dounias, chapitre sur les ignames et leur gestion, UNESCO 1996, p. 275–294. Titre et introduction contrôlés lors de l’audit antérieur. Les données primaires DSPA restent à établir. [PDF référencé par l’IRD](https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009725.pdf). |
+| 2E2V2XAG | Maintien scientifique | Mialoundama, chapitre sur les ressources forestières alimentaires et le genre Gnetum, UNESCO 1996, p. 295–300. Titre et introduction contrôlés lors de l’audit antérieur. Portée régionale. [PDF référencé par l’IRD](https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf). |
+| 9QX29B6G | Maintien scientifique | McKey et Beckerman, chapitre sur l’écologie et la culture du manioc, UNESCO 1996, p. 165–202. Titre et introduction contrôlés lors de l’audit antérieur. Pertinence comparative. [PDF référencé par l’IRD](https://horizon.documentation.ird.fr/exl-doc/pleins_textes/divers09-03/010009721.pdf). |
+| 6FYKKIWS | Autres documents | Le relevé d’archive identifie Caughley et Sinclair, Blackwell Scientific Publications, 1994. Manuel général de méthodes de gestion de la faune, conservé comme ressource de référence. Le lien disponible avec Dzanga-Sangha est méthodologique. Une URL stable reste à établir. |
+| 3CRKNCWH | Maintien scientifique | Crayne et Haenlein analysent la relation entre trafic d’espèces et conflit. Le cas Dzanga Bai étaye cette analyse d’après la lecture déléguée. L’année d’édition signalée (2018) diffère de la date Zotero (2017). La date reste inchangée jusqu’à qualification des deux dates. [Page de l’éditeur](https://doi.org/10.4324/9781315149332-3). |
+| 6CBS4WBB | Rapports techniques | Le chapitre constitue une contribution analytique au bilan institutionnel Cirad–OFAC-COMIFAC *Aires protégées d’Afrique centrale – État 2020*. HAL indique une publication en 2021, p. 311–353, et un dépôt en 2025. La décision de corpus suit la fonction du volume. [Notice HAL](https://hal.science/hal-05177371). |
+| JHEJSZVZ | Maintien scientifique | Goué et Kana, Springer 2023, p. 69–81. Le chapitre documente la gestion transfrontalière de la TNS et mentionne Dzanga Bai. La preuve déléguée porte sur le résumé et la notice éditeur. [Page Springer](https://link.springer.com/chapter/10.1007/978-3-030-80910-2_7). |
+| HWDUNR9W | Maintien scientifique et rapprochement avec KKP6M5D2 | Blom, Bulletin Yale 102, 1998. La version française (p. 225–233) et la version anglaise (p. 208–215) ont le même auteur et une structure parallèle. La relation de traduction est probable. La mention éditoriale explicite reste à établir. Les deux notices sont conservées et comptées individuellement. [Copie française](https://websites.umich.edu/~infosrn/PDF_FILES/FRENCH_.PDF/3SECTION/BLOM.PDF) et [copie anglaise](https://public.websites.umich.edu/~infosrn/PDF_FILES/ENGLISH_.PDF/SEC._3/BLOM.PDF). |

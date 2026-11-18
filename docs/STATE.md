@@ -1,5 +1,15 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Clôture du classement des livres et chapitres — 18 novembre 2026
+
+Les neuf dernières décisions de corpus sont documentées dans la
+[revue des 26 notices](../reviews/2026-11-18-books-and-chapters.md).
+Le hub local comporte neuf reclassements au total et 17 maintiens. Les
+versions française et anglaise de Blom sont conservées. La date du chapitre
+de Crayne et Haenlein et le lien externe du manuel Caughley restent à préciser.
+Contrôle de quatre cas via Perplexity standard et cinq sur preuves archivées.
+Retour arrière par annulation du correctif local. Aucun changement Zotero.
+
 ## Revue des livres et chapitres — 18 novembre 2026
 
 Les 26 notices du relevé public figurent dans la [revue](../reviews/2026-11-18-books-and-chapters.md).

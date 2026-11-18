@@ -14,6 +14,8 @@ const sampleBook={data:{itemType:'book',tags:[]}};
 assert.equal(LibraryModel.category(sampleBook),'research');
 assert.equal(LibraryModel.category({...sampleBook,key:'XW29ZRPQ'}),'other');
 assert.equal(LibraryModel.category({...sampleBook,key:'W7CXSPNG'}),'reports');
+assert.equal(LibraryModel.category({...sampleBook,key:'6CBS4WBB',data:{...sampleBook.data,itemType:'bookSection'}}),'reports');
+assert.equal(LibraryModel.category({...sampleBook,key:'6FYKKIWS'}),'other');
 assert.equal(LibraryModel.category({...sampleBook,key:'NC8HZD28'}),'communication');
 assert.equal(LibraryModel.isCommunication({...sampleBook,key:'NC8HZD28'}),true);
 const context = vm.createContext({document, URL, console, assert, LibraryModel, require});

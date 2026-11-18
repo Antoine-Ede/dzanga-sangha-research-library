@@ -7,11 +7,13 @@
   const reviewedCorpora = new Map([
     ['NC8HZD28','communication'],
     ['W7CXSPNG','reports'],
+    ['6CBS4WBB','reports'],
     ['XW29ZRPQ','other'],
     ['NIUXV3VN','other'],
     ['UK44H2TH','other'],
     ['IHDFAGY7','other'],
-    ['8P2HDJE9','other']
+    ['8P2HDJE9','other'],
+    ['6FYKKIWS','other']
   ]);
   function canonicalTag(tag){return aliases[tag]||tag;}
   function tags(item){return [...new Set((item.data.tags||[]).map(t=>canonicalTag(t.tag)).filter(Boolean))];}
