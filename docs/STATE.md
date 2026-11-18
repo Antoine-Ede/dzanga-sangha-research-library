@@ -1,5 +1,15 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Tri ciblé des conférences et prépublications — 18 novembre 2026
+
+Le [registre de suivi](../reviews/2026-11-18-scientific-corpus-followup.md)
+consigne le tri de métadonnées de 276 notices scientifiques hors livres et
+chapitres et la revue de 12 signaux. Perplexity standard a vérifié sept cas,
+dont deux compléments sur les ouvrages. Les décisions du hub sont conservées.
+Une prépublication bioRxiv apparentée est absente du relevé public. Le
+rapprochement des versions et la portée de deux notices restent à préciser.
+Aucune écriture Zotero ni publication. Retour arrière : retirer ce lot documentaire.
+
 ## Clôture du classement des livres et chapitres — 18 novembre 2026
 
 Les neuf dernières décisions de corpus sont documentées dans la

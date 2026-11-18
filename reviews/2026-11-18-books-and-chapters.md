@@ -35,6 +35,11 @@ Les liens bibliographiques proviennent du catalogue public. Leur présence ne co
 
 ## Clôture des neuf cas de la première passe
 
+Le [contrôle complémentaire](2026-11-18-scientific-corpus-followup.md)
+distingue les deux dates de Crayne et Haenlein, signale la preuve insuffisante
+sur le passage Dzanga Bai et relève un lien bibliographique pour le manuel
+de Caughley et Sinclair.
+
 Cinq cas utilisent les preuves du catalogue historique, rapprochement par clé dans [le registre d’import](../catalogue/apds-2026-10-08/imported-items.json) puis par titre dans [les notices vérifiées](../catalogue/apds-2026-10-08/notices.json). Quatre cas ont fait l’objet d’une [recherche ciblée dans Perplexity](https://www.perplexity.ai/session/12016744-b773-4a3a-b5f5-d4c5a8dad5a8). Les constatations de lecture web ci-dessous sont déléguées. La revue locale a contrôlé leur cohérence avec les identifiants et métadonnées disponibles.
 
 | Notice | Décision de corpus | Preuve et limite |
