@@ -160,7 +160,10 @@
     <section id="results" class="results" aria-live="polite"></section>
     </div>
     <section id="analysisPanel" hidden aria-labelledby="analysisHeading">
-      <div class="analysis-intro"><div><p class="section-eyebrow">Comprendre le corpus</p><h2 id="analysisHeading">Analyses bibliographiques</h2><p id="analysisCount" role="status"></p></div><button id="browseDatasets" type="button">Voir les jeux de données</button></div>
+      <div class="analysis-intro">
+        <div><p class="section-eyebrow">Comprendre le corpus</p><h2 id="analysisHeading">Analyses bibliographiques</h2><p id="analysisCount" role="status"></p></div>
+        <div><button id="browseDatasets" type="button">Voir les jeux de données</button> <a href="?section=browse&amp;category=other">Voir les autres documents</a></div>
+      </div>
       <div class="analysis-toolbar"><label class="analysis-selector">Corpus analysé <select id="analysisCategory"><option value="">Toute la bibliothèque</option><option value="research">Publications scientifiques et thèses</option><option value="reports">Rapports techniques</option><option value="datasets">Jeux de données et protocoles</option><option value="communication">Communication</option><option value="other">Autres documents</option></select></label><nav aria-label="Sections des analyses"><a href="#analysisOverview">Chronologie</a> · <a href="#analysisCorpus">Sujets et auteurs</a> · <a href="#communicationAnalysisHeading">Médias</a> · <a href="#qualityPanel">Qualité</a></nav></div>
       <button id="qualityTab" type="button" aria-controls="qualityPanel" aria-pressed="false">Qualité des notices</button>
       <p class="analysis-note">Ces indicateurs décrivent les notices publiques Zotero, pas l’ensemble des recherches menées à Dzanga-Sangha. Les dates sont celles des documents, pas nécessairement celles du terrain.</p>
@@ -196,7 +199,7 @@
     </div>
   </footer>
 
-  <script src="library-model.js?v=20261022-communication"></script>
+  <script src="library-model.js?v=20261118-editorial-review"></script>
   <script src="quality.js?v=20261009-curation"></script>
   <script src="analytics.js?v=20261118-corpus"></script>
   <script src="app.js?v=20261118-corpus"></script>

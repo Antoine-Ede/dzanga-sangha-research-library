@@ -1,5 +1,13 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Revue des livres et chapitres — 18 novembre 2026
+
+Les 26 notices du relevé public figurent dans la [revue](../reviews/2026-11-18-books-and-chapters.md).
+Sept décisions sont appliquées au classement local du hub, dix maintiens
+sont proposés et neuf identités ou types demandent un contrôle de source.
+Les décisions partagent la règle du catalogue et des analyses. Aperçu local.
+Retour arrière : annuler ce lot du hub. Aucun changement dans Zotero.
+
 ## Périmètre de l’onglet scientifique — 18 novembre 2026
 
 La remise à zéro laissait l’onglet scientifique actif tout en réaffichant le
