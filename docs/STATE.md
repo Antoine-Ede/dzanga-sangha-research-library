@@ -1,5 +1,13 @@
 # État vérifié — clôture du 24 octobre 2026
 
+## Rapprochement des prépublications sur les gorilles — 18 novembre 2026
+
+La [comparaison](../reviews/2026-11-18-gorilla-preprint-versions.md) documente
+une filiation probable entre les dépôts Research Square 2022 et bioRxiv 2026,
+sur la base d’une lecture déléguée avec preuves distinctes par version.
+Proposition de conserver une seule notice et de signaler le second DOI
+dans une note de version. Aucune écriture Zotero effectuée.
+
 ## Tri ciblé des conférences et prépublications — 18 novembre 2026
 
 Le [registre de suivi](../reviews/2026-11-18-scientific-corpus-followup.md)
